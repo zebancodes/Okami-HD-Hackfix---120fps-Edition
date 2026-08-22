@@ -1,0 +1,55 @@
+[workspace]
+authors = ["Enaium"]
+channels = ["conda-forge"]
+description = "Okami HD high-FPS unlock patch (Windows only)"
+name = "okami_hd_hackfix"
+platforms = ["win-64"]
+
+[dependencies]
+python = ">=3.11,<4"
+
+[feature.analysis.dependencies]
+pefile = ">=2023.2.7"
+capstone = ">=5.0.1"
+
+[feature.build.dependencies]
+ninja = ">=1.12.1,<2"
+cmake = ">=3.31.6,<4"
+
+# Windows-only toolchain: native MinGW GCC (no Visual Studio on this machine)
+[feature.build.target.win-64.dependencies]
+gcc_win-64 = "13.2.0.*"
+gxx_win-64 = "13.2.0.*"
+libgcc = "13.2.0.*"
+libstdcxx = "13.2.0.*"
+
+[feature.build.tasks.configure]
+cmd = [
+  "cmake",
+  "-GNinja",
+  "-S.",
+  "-B.build",
+]
+# conda-forge's gcc_win-64 only ships .sh activation scripts, so pixi never
+# exports CC/CXX on Windows. Point CMake at the MinGW compilers directly.
+env = {
+  CC = "x86_64-w64-mingw32-gcc.exe",
+  CXX = "x86_64-w64-mingw32-g++.exe",
+}
+inputs = ["CMakeLists.txt"]
+outputs = [".build/CMakeFiles/"]
+
+[feature.build.tasks.build]
+cmd = ["cmake", "--build", ".build"]
+depends-on = ["configure"]
+inputs = ["CMakeLists.txt", "src/*", "okami.ini"]
+outputs = [".build/bin/dinput8*"]
+
+# Deploy the proxy + ini into the game directory (idempotent).
+[feature.build.tasks.deploy]
+cmd = ["python", "tools/deploy.py"]
+depends-on = ["build"]
+
+[environments]
+default = ["analysis"]
+build = ["analysis", "build"]
