@@ -1,0 +1,2 @@
+fixed | Eight animal slot-34 handlers: one locally scaled factor feeds all three D20/D24/D28 scale additions, and each channel retains its clamp to one | 1D69FC 1D6A1F 1D6A42 1D9DE7 1D9E0A 1D9E2D 1DE1B1 1DE1D4 1DE1F7 1E17F8 1E181B 1E183E 1E4435 1E4458 1E447B 1F17E6 1F1809 1F182C 1F8011 1F8034 1F8057 1FF1E3 1FF206 1FF229
+stock | Animal Y probe helpers 202A30 and 484A20: +20 temporarily raises the actor Y for a collision probe, and -20 restores it immediately after the probe; these two writes are balanced offsets within one call | 202AE5 202B03 484B91 484BAF

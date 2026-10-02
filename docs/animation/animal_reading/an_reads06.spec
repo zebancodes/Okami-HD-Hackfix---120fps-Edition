@@ -1,0 +1,2 @@
+fixed | an00 an04/an0d/an0e an06/an08 an07 an09 an19 an1e an02/an1b/an1f/an20 slot 25: +1170's stored decrement is gated and the old-zero reload branch is suppressed between stock ticks, so the associated +E37 action-count increment fires only at stock cadence | 1D60E1 1D6110 1DD683 1DD6B2 1E0F36 1E0F65 1E3B73 1E3BA2 1E7403 1E7432 1F4D43 1F4D72 1FB14E 1FB17D 1FEA54 1FEA83
+fixed | an0b and an0c slot 25: the same +1170 random wait now decrements and reloads only on stock ticks, with its old-zero test gated between them | 1EA349 1ED649

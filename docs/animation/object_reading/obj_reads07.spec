@@ -1,0 +1,1 @@
+fixed | utb7 states 1/3/5/7/9 (570890): 2DE0A0 returns bounded angular changes for +B0 and +B4; the ten caller-local limits are scaled at 570A9B/570AA7, 570C88/570C94, 570EE9/570EF5, 57110A/571116 and 571229/571235 before these wrapped phase stores | 570AFE 570B1F 570CEB 570D0C 570F4C 570F6D 57116A 57118F 57128C 5712A9

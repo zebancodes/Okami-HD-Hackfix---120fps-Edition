@@ -1,0 +1,15 @@
+fixed | Camera 32-sample transition: entire coupled update is paced by the stock-cadence gate at 475E60. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 475ECF 475EE3 475F04 475F28 475F46 475F67 475F8B 475FA7 475FB4
+fixed | Coupled model tether: entire coupled update is paced by the stock-cadence gate at 4A8B50. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 4A8C36 4A8C45 4A8C53 4A8CA4 4A8CBA 4A8CC3
+fixed | Custom root-motion program: entire coupled update is paced by the stock-cadence gate at 330B90. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 330C7C 330C90 330D2B 330DB9
+fixed | Paired sliding panels: entire coupled update is paced by the stock-cadence gate at 5ADF40. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 5ADF9C 5ADFBC 5AE061 5AE081
+fixed | Paired sliding panels: entire coupled update is paced by the stock-cadence gate at 5FD490. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 5FD4EC 5FD50D 5FD5B4 5FD5D5
+fixed | Linked sweeping beam: entire coupled update is paced by the stock-cadence gate at 221190. Caller return-value proof, patch overlap audit, installed DLL checks and N=1/2/4 focused window emulation pass. | 221223 22124B 221266 2212E8 22133E 22135E 22154D
+fixed | uta9 X/Z approach stores consume the shared half-unit step corrected at 566409, preserving the 20-unit dead zone and spatial clamps. | 56642B 566454 56647F 56649E
+fixed | uta9 alpha output follows the already corrected 5666C2 fade step; the duplicate inventory function header 566160 ends at interior entry 566200 but refers to the same physical instruction. | 5666EB
+fixed | Camera six-coordinate approach consumes the shared 0.2 coefficient corrected at 46CF46. | 46CF5D 46CF89 46CFA5 46D033 46D052 46D06C
+fixed | Camera target XYZ approach consumes the shared 0.2 coefficient corrected at 46D174. | 46D1A7 46D1D3 46D1EF
+fixed | Camera target XYZ and camera XY consume the shared 0.2 coefficient corrected at 46D378; camera Z consumes the 0.3 coefficient corrected at 46D507. | 46D38C 46D3B4 46D3D4 46D4D1 46D4FF 46D513
+stock | Camera orientation is recomputed by 472CC0 from current target and camera positions, copied into B0/B4, and normalized with 13F2E0. These stores normalize a fresh spatial direction rather than accumulating an angular clock. | 46D096 46D0AE 46D219 46D22E 46D3FE 46D41A
+fixed | Camera pitch velocity threshold branches consume the shared damping factor corrected at 482E83 before their magnitude comparisons. | 482E98 482EC2 482EE6
+fixed | Appearance alpha D20/D24/D28 channels consume the same 0.2 increment corrected at 36763A before the unit clamps. | 36766D 367675 36767D
+fixed | Linked alpha outputs consume corrected appearance coefficients at 567A83,5682CB,568EF9,56AFF4,56B6A1,56889C,56A949; their motion-frame thresholds are unchanged. | 567A8F 5682D7 568F05 56B000 56B6AD 5688A8 56A955

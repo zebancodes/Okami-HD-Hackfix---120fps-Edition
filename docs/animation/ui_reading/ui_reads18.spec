@@ -1,0 +1,1 @@
+fixed | cSubScrFilesInfo 41E170/41EE90: each complete transition helper now runs on stock UI ticks, pacing its sprite offset and +334 countdown together; the +51 state change occurs only after the 15-tick wait | 41E1E4 41E1F2 41EEFE 41EF0C 41EF7D

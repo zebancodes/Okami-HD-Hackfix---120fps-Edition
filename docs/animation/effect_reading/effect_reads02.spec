@@ -1,0 +1,4 @@
+once | esp05 19E3B0 is vtable slot 2, the effect setup callback: it first replaces +2C0/+2C4/+2C8 from 18C980, then adds the three +138 configuration offsets once; its per-frame callback is a different slot | 19E3F3 19E40B 19E425
+stock | es60 360AD0 copies a matrix, then iterates its child transforms and calls the stock wrap-angle helper on each existing +B0/+B4/+B8 angle without advancing any angle; these three stores are normalization only | 360B5D 360B72 360B9C
+once | esp17 1A3B50 is vtable slot 2, its setup callback: it initializes factors and +2C4..+2D4 from config, then applies initial scaling to the three color channels once; slot 1 is the separate update callback | 1A3C62 1A3C7D 1A3C8A
+stock | 18FE40 overwrites +1C4..+1D0 from 1921A0 and 191F40 on this call, then applies static byte color coefficients; the three multiplies are derived color conversion, not accumulating fades | 18FF0C 18FF14 18FF45

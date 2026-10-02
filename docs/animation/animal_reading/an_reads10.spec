@@ -1,0 +1,2 @@
+once | Animal slot-26 actions: +E54 is freshly seeded from RNG after a fixed base and immediately advances the +E37 action stage; it is a target for that stage, not an accumulated per-tick step | 1D73D7 1DA85A 1DEB1F 1E2167 1E86E4 1EB8F8 1EE7A0 1EE8D1 1F20DB 1F6027 1F8989 1FC182 1FFB62
+once | an1a slot-26: +E37 advances after play motion and a half-turn target are set up, selecting the next stage on the following update | 1F8CA3

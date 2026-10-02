@@ -1,0 +1,1 @@
+stock | pl00 action handlers 3C73B0/3C7480/3C7590/3C77B0: +B8 is multiplied by the port's mode table 7A8240 on every update; mode_constants.h already rewrites that damping for the current rate | 3C73E0 3C74B0 3C75C8 3C77E0

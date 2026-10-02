@@ -1,0 +1,1 @@
+fixed | cBallObj 33ABC0: 33ACE5 supplies the only xmm6 value until its restore, and its nine uses multiply persistent +E48/+E20/+E28 by the compounded 0.1 factor | 33AD99 33ADAD 33ADB5 33AFB1 33AFC5 33AFCD 33B1E9 33B1FD 33B205

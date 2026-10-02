@@ -1,0 +1,3 @@
+once | cOptionScreenSetting 14B970 is its vtable slot 1 setup: it clears state, builds the menu elements, then offsets four element coordinates once for aspect ratio 3 | 14BC6B 14BC87 14BCA3 14BCBF
+stock | 1B97E0 computes the union of two integer bounding boxes into the first box. All six stores are derived from its two input boxes in this call and contain no elapsed-time step | 1B98FE 1B990B 1B9910 1B9938 1B994E 1B9965
+stock | cCockAirGauge 3F64B0 copies all four color channels from the +138 source to +1C4..+1D0 immediately before multiplying by the input color bytes, so these are derived color values on each call | 3F656C 3F6574 3F6593 3F65AE

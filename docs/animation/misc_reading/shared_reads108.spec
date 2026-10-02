@@ -1,0 +1,7 @@
+once | Sound resource +60 counts completion of initialization: after the masked resource flags reach F3 each path writes state 2, leaving the initialization state 0/1. It is a resource completion total. | 450637 4507DA 450867 4508BB 450D85 450E43
+stock | 452650 traverses sound handles backward and removes completed/null handles. The decrement updates the last occupied handle index when a slot is removed, rather than measuring elapsed time. | 4526BC
+stock | 454940 maps the freshly supplied sound record's volume through a request-dependent bank volume/127. 445540 and 4457C0 receive that record from 444DE0's fresh 454F00 copy; it is not a persistent fade. | 4549C7
+once | 458840 increments the outer scene stage only in inner phase 2 after camera setup, then resets inner phase to zero. | 45897A
+once | 458F70 increments the outer scene stage on either camera-completion path, then resets the inner phase; its inner phase-zero increment follows successful scene readiness and switches to phase one. | 459080 4590CF 459106
+stock | 4753C0 constructs the output vector from a constant every call, scales its fresh Z by collision-distance ratios, and rotates it by the player's matrix. These are geometric offsets. | 47544A 4754A2
+stock | 4754E0 constructs and transforms the output vector, divides by its fresh homogeneous W, then adds the viewport origin. These stores are projection calculations. | 47552B 47552F 47554F 475576

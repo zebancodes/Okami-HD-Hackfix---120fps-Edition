@@ -1,0 +1,2 @@
+follows | utd7 231510: D20/D24/D28 all use the patched 0.2 source at 2315C5 for their approach to 1.6; the target-position XYZ stores all use the patched 0.3 source at 23164C for their approach to indexed targets | 2315F0 231618 231628 23168B 2316AD 2316D0
+follows | utd2 230760: the patched 2307CA and 2307D6 state-selected xmm7 phase speed feeds all submodel B8 angle advances and the +1070 phase add; 2308C2 conditionally wraps that advanced +1070 phase | 230826 23085F 2308A8 2308C2 23090B 230943 230987

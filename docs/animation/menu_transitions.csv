@@ -1,0 +1,13 @@
+site,kind,instruction,reason,function,status,proof,window,stub,temp
+439A79,src,"addss xmm0, dword ptr [rbx + 0x18]",scene transition slide (439A50): model x += v(+18) a tick until x <= 25; v = -4.25 from 439910,439A50,selected,xmm5 dead after the site on every path,439A79,2B0,xmm5
+4397D9,src,"addss xmm0, dword ptr [rbx + 0x18]",scene transition glide (4397B0): model x += v(+18) a tick while v decays,4397B0,selected,xmm5 dead after the site on every path,4397D9,210,xmm5
+43983E,dst,"movaps xmm1, xmm2","glide: +8 += +1C a tick (680 falling to 0); xmm1 is that step only, xmm2 goes on to the decay",4397B0,selected,the copy's first reader is its accumulation,43983E,230,
+4397FC,lin,"mulss xmm1, dword ptr [rip + 0x278bec]",glide: model animation rate(+F54) -= v * 0.024 a tick,4397B0,selected,K*s = -0.024 at 6B23F0,slot 80,,
+439884,exp,"mulss xmm2, dword ptr [rip + 0x278b60]",glide: +1C *= 0.936 a tick (its sibling +18 is decay_factors 43987C),4397B0,selected,K**s = 0.936 at 6B23EC,slot 84,,
+439855,count,inc word ptr [rbx + 0x20],"glide length: 28 ticks (> 0x1B); F1 refuses it alone because the glide's displacement was unscaled, and this family scales it",4397B0,selected,arithmetic flags overwritten before use,439855,250,
+439AFE,lin,"addss xmm0, dword ptr [rip + 0x23bf82]",scene transition fade (439AD0 state 3): +C += 14 a tick to 64,439A50,selected,K*s = 14 at 675A88,slot 88,,
+439BE5,lin,"addss xmm0, dword ptr [rip + 0x23be9b]",the same step in 439BE0,439A50,selected,K*s = 14 at 675A88,slot 8C,,
+415B30,gatefn,"mov rax, qword ptr [rcx + 8]","pause menu drop (415B30, state 1 of 415A60): v(+90) += 6, p(+8C) += 2v, bounce -0.43 at p > 0, settles below |v| = 3 and switches the menu to its 60 Hz context; runs whole on stock ticks (scaled: 21 ticks and 4 bounces against stock 18 and 3)",415B30,selected,entry; callers 415A93 ignore rax,415B30,1C0,
+412867,lin,"addss xmm6, dword ptr [rip + 0x265c59]","pause menu page-icon pulse (4127F0, called every tick by the menu): phase(+88) += 0.15 through the angle wrap 13F2E0, scale 1 + 0.1 sin",41284D,selected,K*s = 0.15 at 6784C8,slot 90,,
+3F66A2,count,inc ax,HUD fade in (3F6660): fade(+5A) += 1 a tick up to its length(+58); every element's position is lerped by fade / length,3F6686,selected,arithmetic flags overwritten before use; load 3F6693 and store 3F66A5 one field,3F66A0,100,
+3F66BD,count,dec ax,HUD fade out (3F6660): fade(+5A) -= 1 a tick down to 0,3F6686,selected,arithmetic flags overwritten before use; load 3F6693 and store 3F66C0 one field,3F66BB,160,

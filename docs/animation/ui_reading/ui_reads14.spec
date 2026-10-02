@@ -1,0 +1,2 @@
+stock | Options menus: these +88, +54 and +8C fields are selected settings rows, changed only on tested controller LargeBitElement navigation actions and clamped or wrapped against the available choices | 14B3A4 14B447 153DAD 153E2A 156BA6 156C66 158C48 158CC5 15AB68 15ABE5 15D8D8 15D955
+stock | UI resource helper 1AD580: these byte stores copy the return value of tolower while normalizing two local strings for comparison, once per character | 1AD770 1AD8B0

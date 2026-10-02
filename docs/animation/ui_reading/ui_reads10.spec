@@ -1,0 +1,1 @@
+stock | cOptionKeyAssign 155C10: +54 and +8C are selection indices changed only after the corresponding controller LargeBitElement action test, with bounds checks and a navigation sound | 155F55 155FCE 1560BD 156182

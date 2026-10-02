@@ -1,0 +1,1 @@
+fixed | pl00 state 3BDCB0, sub-state 3: vertical speed +E54's conditional stock 0.119 decrease and 0.255 increase are both converted to current-rate steps at lin 3BDE41/3BDE4B before the common store | 3BDE53

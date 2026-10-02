@@ -1,0 +1,1 @@
+stock | shared pl00/et6b collision resolution (464FE0): the x/z stores separate overlapping shapes by their current geometric penetration, using the contact radii and positions; this is a full spatial correction on each collision query, not a displacement integrated over elapsed ticks | 465481 465496 46551D 4655C2 4655E6

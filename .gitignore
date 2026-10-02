@@ -1,9 +1,22 @@
-.build/
-.build-trace/
+# build trees (any .build, .build-trace, .build-msvc, ...)
+.build*/
+# offline suite runs: tools/run_suite.sh SEED .suite-NAME
+.suite*
+# player package built by tools/make_release.py
+.release/
+.vs/
 .pixi/
+.venv/
 tools/.disasm_cache/
 tools/__pycache__/
+__pycache__/
 tools/fk_stubmap.txt
 tools/frame_xrefs.txt
 *.log
 screen.png
+# regenerate with tools/gen_tracer.py (needs the game's main.dll)
+src/generated/
+# private working notes (kept locally, not published)
+docs/animation/PLAN.md
+docs/animation/NEXT_PLAYTEST.md
+docs/overview.md

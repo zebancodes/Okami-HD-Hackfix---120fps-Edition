@@ -1,0 +1,1 @@
+once | 5FF830 screen initialization: its only caller 602C90 is the entry callback at table 7AE5E8 slot zero; that callback replaces the active screen function with 602D20 after laying out this screen, so these offsets and colors are setup values | 5FFA3D 5FFA56 5FFA6F 5FFA88 5FFAA5 5FFB4A 5FFB69 5FFB88 5FFBA7 5FFC06 5FFC0B 5FFC49 5FFC4E 5FFCB5 5FFCC7

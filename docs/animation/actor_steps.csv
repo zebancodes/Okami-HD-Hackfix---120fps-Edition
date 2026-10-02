@@ -1,0 +1,670 @@
+site,function,decision,kind,field,stores,why
+24674E,2462C0,step,step,+115C,246775,
+24C82F,24C7D0,step,srcx,+4,24C837,
+24C86A,24C7D0,step,srcx,+4,24C872,
+24C8DD,24C7D0,step,step,+4,24C8EA,
+24C8EF,24C7D0,step,step,+14C0,24C911,
+256267,255ED0,step,step,+115C,25627E,
+25881B,258700,step,step,+4,258828,
+25882D,258700,step,step,+142C,25884A,
+25E589,25E4C0,step,step,+1380,25E5DA,
+25E5AE,25E4C0,step,step,+1380,25E5DA,
+2611DF,261160,step,srcx,+12C0,2611E7,
+2621CE,2621C0,step,step,+12C8,2621E5,
+26678C,2664F0,step,step,+1CB4,2667B7,
+269907,269760,step,step,+1CB4,26991B,
+26B186,26B160,step,step,+C,26B19F,
+26F98B,26F930,step,srcx,+141C,26F99E,
+2728BC,272860,step,srcx,+4,2728C4,
+2728F8,272860,step,srcx,+4,272900,
+272969,272860,step,step,+4,272976,
+27297B,272860,step,step,+13F0,27299D,
+272F92,272EC0,step,step,+1410,272FE3,
+272FB7,272EC0,step,step,+1410,272FE3,
+2766FA,276400,step,step,+E14,276719,
+27B869,27AD50,step,step,+248C,27B879,
+281B18,281AE0,step,step,+C,281B3A,
+282744,281AE0,step,step,+C,282752,
+28653C,2860D0,step,step,+B0,286559,
+286B07,2865B0,step,step,+B4,286B29,
+286BBC,2865B0,step,step,+1258,286BDB,
+2870F4,286E80,step,step,+4,287101,
+287106,286E80,step,step,+1258,287123,
+28D27F,28D1A0,step,step,+4,28D28C,
+28D291,28D1A0,step,step,+1258,28D2AE,
+28D758,28D320,step,step,+4,28D765,
+28D76A,28D320,step,step,+1258,28D787,
+28DB80,28D810,step,step,+4,28DB8D,
+28DB92,28D810,step,step,+1258,28DBB2,
+291225,290EC0,step,step,+4,291232,
+291237,290EC0,step,step,+1258,291254,
+29B31F,29B300,step,step,+C,29B330,
+2A25E7,2A2270,step,step,+115C,2A260E,
+2A2A57,2A2940,step,step,+4,2A2A64,
+2A2A69,2A2940,step,step,+139C,2A2A89,
+2A2D61,2A2B40,step,step,+4,2A2D6E,
+2A2D73,2A2B40,step,step,+139C,2A2D90,
+2A7CED,2A7C00,step,step,+4,2A7CFA,
+2A7CFF,2A7C00,step,step,+139C,2A7D1C,
+2A8101,2A8030,step,step,+4,2A810E,
+2A8113,2A8030,step,step,+139C,2A8133,
+2A8306,2A8030,step,step,+4,2A8313,
+2A8318,2A8030,step,step,+139C,2A8338,
+2A8C4E,2A8820,step,srcx,+1530,2A8C56,
+2ACC68,2AC940,step,step,+1594,2ACC93,
+2AD83B,2ACCF0,step,step,+1594,2AD866,
+2AF535,2AF240,step,step,+1670,2AF54D,
+2AF67E,2AF240,step,step,+1594,2AF692,
+2AFF4D,2AFB70,step,step,+1594,2AFF61,
+2B31A7,2B2FE0,step,step,+1594,2B31BB,
+2B4827,2B4800,step,step,+C,2B4845,
+2B8C01,2B82B0,step,step,+115C,2B8C20,
+2BCFD3,2BC840,step,step,+1440,2BCFE3,
+2BF322,2BF0F0,step,step,+E18,2BF341,
+2C1ABA,2C0A60,step,step,+16B8,2C1AD6,
+2C5D0A,2C5770,step,step,+4,2C5D26,
+2CB022,2CB000,step,srcx,+1250,2CB042,
+2CD5D4,2CD270,step,step,+1260,2CD5F8,
+2D49C4,2D48E0,step,step,+11A0,2D49E8,
+5CC4F5,5CC3E0,step,step,+C,5CC507,
+5CE992,5CE810,step,step,+53F4,5CE9A8,
+5D3DA9,5D3D70,step,step,+C,5D3DBE,
+5D413F,5D4090,step,srcx,+-14,5D414F,
+5DBBA0,5DBA90,step,step,+C,5DBBB2,
+5E0687,5DF660,step,srcx,+38F8,5E068F,
+5E10BE,5E1090,step,step,+38A8,5E10E7,
+5E9593,5E9480,step,step,+C,5E95A5,
+5EC1DC,5EC0F0,step,step,+5030,5EC1EC,
+5ECCCF,5ECC90,step,step,+5004,5ECCF0,
+5EFAA3,5EF560,step,srcx,+5078,5EFAB2,
+5F31D8,5F3190,step,step,+C,5F31E9,
+23826B,238230,other,,,,mov reads the speed
+23829D,238230,other,,,,not a read of the speed into a register
+239439,239420,rate,,,,"a step stored to another place at 239441 movss dword ptr [rcx + 0xf54], xmm0"
+239AC6,239AA0,rate,,,,"a step stored to another place at 239ACE movss dword ptr [rcx + 0xf54], xmm0"
+23A2F6,23A2E0,steer,,,,"xmm3 live at the call at 23A317, which reads it"
+2413EB,241180,move,step,,,moves by x * speed(+1080) in 241180: falls through 20EA30 at 241405
+242AE8,242A20,steer,,,,"xmm3 live at the call at 242B0E, which reads it"
+2435D8,2433F0,motion,,,,"the step read by 2435E8 movss dword ptr [rsi + 0xe54], xmm0"
+243726,243630,approach,,,,"xmm0 live at the call at 243753, which reads it"
+24383D,243630,approach,,,,"xmm0 live at the call at 243878, which reads it"
+2439E5,243630,approach,,,,"xmm0 live at the call at 243A12, which reads it"
+243B32,243630,motion,,,,its function reads 243B12 time scale
+243F7B,243EE0,approach,,,,"xmm0 live at the call at 243FAF, which reads it"
+244089,243EE0,approach,,,,"xmm0 live at the call at 2440B6, which reads it"
+244AFE,244740,motion,,,,its function reads 244ADC time scale
+246B6D,2469A0,steer,,,,"xmm3 live at the call at 246B93, which reads it"
+246BA7,2469A0,steer,,,,"xmm3 live at the call at 246BCD, which reads it"
+247610,2474E0,steer,,,,"xmm3 live at the call at 247642, which reads it"
+247AAE,247900,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+247F2E,247CF0,steer,,,,"xmm3 live at the call at 247F54, which reads it"
+248826,248780,steer,,,,"xmm3 live at the call at 24884C, which reads it"
+248AE4,2488B0,other,,,,"xmm2 live at the call at 248B60, which reads it"
+248B6C,2488B0,steer,,,,"xmm3 live at the call at 248B92, which reads it"
+248E9B,248DE0,motion,,,,"the step read by 248EAE movss dword ptr [rbx + 0xe54], xmm0"
+248FDB,248DE0,steer,,,,"xmm3 live at the call at 249001, which reads it"
+249013,248DE0,other,,,,"a step stored to another place at 249036 movss dword ptr [rsp + 0x4c], xmm1"
+24933D,249100,steer,,,,"xmm3 live at the call at 249366, which reads it"
+24966A,2495E0,steer,,,,"xmm3 live at the call at 24969F, which reads it"
+2496E2,2495E0,steer,,,,"xmm3 live at the call at 249708, which reads it"
+249A44,249960,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+249A5C,249960,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+249CBC,249A90,steer,,,,"xmm2 live at the call at 249D25, which reads it"
+249CFF,249A90,steer,,,,"xmm3 live at the call at 249D25, which reads it"
+24B221,24B120,motion,,,,"the step read by 24B23F addss xmm0, dword ptr [rsi + 0xe54]"
+24B254,24B120,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+24B47D,24B3A0,steer,,,,"xmm3 live at the call at 24B4A9, which reads it"
+24B514,24B3A0,steer,,,,"xmm3 live at the call at 24B53A, which reads it"
+24C60E,24C380,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+24CD42,24CC60,steer,,,,"xmm3 live at the call at 24CD68, which reads it"
+24CDC2,24CC60,steer,,,,"xmm3 live at the call at 24CDE8, which reads it"
+24E4F6,24E230,steer,,,,"xmm3 live at the call at 24E51C, which reads it"
+24EACD,24E8E0,steer,,,,"xmm3 live at the call at 24EAF3, which reads it"
+24EB07,24E8E0,steer,,,,"xmm3 live at the call at 24EB2D, which reads it"
+24F479,24F370,steer,,,,"xmm3 live at the call at 24F49F, which reads it"
+24F4FC,24F370,steer,,,,"xmm3 live at the call at 24F522, which reads it"
+2514FF,2512E0,move,step,,,moves by x * speed(+1080) in 2512E0: falls through 20EA30 at 251519
+254314,254010,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+254329,254010,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+255DFE,255D50,steer,,,,"xmm3 live at the call at 255E24, which reads it"
+255FEF,255ED0,steer,,,,"xmm3 live at the call at 256019, which reads it"
+25608A,255ED0,steer,,,,"xmm3 live at the call at 2560AC, which reads it"
+256971,2566F0,motion,,,,"the step read by 25697C subss xmm0, xmm1"
+256AE6,2566F0,motion,,,,"+E18 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+256E24,256C00,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2571D8,257060,motion,,,,"+E18 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+257C39,2579F0,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+257C4E,2579F0,motion,,,,"the step read by 257C5E subss xmm0, xmm1"
+258351,258290,motion,,,,"+E18 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+258E69,258C80,other,,,,lea reads the speed
+259133,258C80,other,,,,lea reads the speed
+259C9D,259B00,motion,,,,"the step read by 259CAD subss xmm1, xmm0"
+25A027,259F20,move,step,,,moves by x * speed(+1080) in 259F20: falls through 20EA30 at 25A041
+25BA1C,25B7A0,move,step,,,moves by x * speed(+1080) in 25B7A0: falls through 20EA30 at 25BA36
+25D322,25D260,steer,,,,"xmm3 live at the call at 25D340, which reads it"
+25D46B,25D3D0,steer,,,,"xmm3 live at the call at 25D489, which reads it"
+25E259,25E160,steer,,,,"xmm3 live at the call at 25E29E, which reads it"
+25E2C3,25E160,steer,,,,"xmm3 live at the call at 25E36C, which reads it"
+25E2EB,25E160,steer,,,,"xmm3 live at the call at 25E321, which reads it"
+25E346,25E160,steer,,,,"xmm3 live at the call at 25E36C, which reads it"
+25F546,25F300,move,step,,,moves by x * speed(+1080) in 25F300: falls through 20EA30 at 25F560
+2615B8,2614E0,steer,,,,"xmm3 live at the call at 2615DE, which reads it"
+261DA2,261CD0,steer,,,,"xmm3 live at the call at 261DC8, which reads it"
+262F40,262AE0,steer,,,,"xmm3 live at the call at 262F61, which reads it"
+26528D,264280,clock,,,,the actor clock at 265295 scales it already
+2652D0,264280,move,step,,,moves by x * speed(+1080) in 264280: falls through 20EA30 at 2652F9
+266633,2664F0,turn,,,,"xmm2 live at the call at 26667C, which reads it"
+26664F,2664F0,turn,,,,"xmm2 live at the call at 26667C, which reads it"
+266747,2664F0,move,step,,,moves by x * speed(+1080) in 2664F0: moves the model at 26677F
+2668A7,266810,turn,,,,"xmm2 live at the call at 2668E7, which reads it"
+266988,266810,turn,,,,"xmm2 live at the call at 2669C8, which reads it"
+266F55,266ED0,turn,,,,"xmm2 live at the call at 266F95, which reads it"
+2672C1,267230,turn,,,,"xmm2 live at the call at 2672FA, which reads it"
+267F2F,267CC0,turn,,,,"xmm2 live at the call at 267F59, which reads it"
+26828F,2680F0,turn,,,,"xmm2 live at the call at 2682BC, which reads it"
+268359,2680F0,turn,,,,"xmm2 live at the call at 268386, which reads it"
+2684A0,2680F0,turn,,,,"xmm2 live at the call at 2684CD, which reads it"
+268541,2680F0,turn,,,,"xmm2 live at the call at 26856E, which reads it"
+268618,2680F0,turn,,,,"xmm2 live at the call at 268645, which reads it"
+2688E5,268720,turn,,,,"xmm2 live at the call at 26892E, which reads it"
+268901,268720,turn,,,,"xmm2 live at the call at 26892E, which reads it"
+2689C9,268720,move,step,,,moves by x * speed(+1080) in 268720: moves the model at 2689FF
+268B02,268720,turn,,,,"xmm2 live at the call at 268B4B, which reads it"
+268B1E,268720,turn,,,,"xmm2 live at the call at 268B4B, which reads it"
+268C4F,268720,turn,,,,"xmm2 live at the call at 268C98, which reads it"
+268C6B,268720,turn,,,,"xmm2 live at the call at 268C98, which reads it"
+268CAA,268720,turn,,,,"xmm2 live at the call at 268CD7, which reads it"
+268E33,268720,turn,,,,"xmm2 live at the call at 268E7C, which reads it"
+268E4F,268720,turn,,,,"xmm2 live at the call at 268E7C, which reads it"
+269006,268720,move,step,,,moves by x * speed(+1080) in 268720: moves the model at 26903C
+26905B,268720,turn,,,,"xmm2 live at the call at 2690A4, which reads it"
+269077,268720,turn,,,,"xmm2 live at the call at 2690A4, which reads it"
+269642,269510,turn,,,,"xmm2 live at the call at 269664, which reads it"
+2696C0,269510,move,step,,,moves by x * speed(+1080) in 269510: moves the model at 2696F6
+2698C2,269760,move,step,,,moves by x * speed(+1080) in 269760: moves the model at 2698FA
+269A28,269950,turn,,,,"xmm2 live at the call at 269A4A, which reads it"
+269B38,269A60,turn,,,,"xmm2 live at the call at 269B5A, which reads it"
+269C43,269B70,turn,,,,"xmm2 live at the call at 269C65, which reads it"
+269D58,269C80,turn,,,,"xmm2 live at the call at 269D7A, which reads it"
+269E3F,269D90,turn,,,,"xmm2 live at the call at 269E7F, which reads it"
+269EBF,269D90,turn,,,,"xmm2 live at the call at 269EE8, which reads it"
+26A2EF,26A200,turn,,,,"xmm2 live at the call at 26A302, which reads it"
+26A44C,26A370,turn,,,,"xmm2 live at the call at 26A46E, which reads it"
+26A5AC,26A4D0,turn,,,,"xmm2 live at the call at 26A5CE, which reads it"
+26A6FC,26A620,turn,,,,"xmm2 live at the call at 26A71E, which reads it"
+26A888,26A7B0,turn,,,,"xmm2 live at the call at 26A8AA, which reads it"
+26A999,26A8C0,turn,,,,"xmm2 live at the call at 26A9BB, which reads it"
+26AAB3,26AA10,turn,,,,"xmm2 live at the call at 26AAC6, which reads it"
+26B252,26B160,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: 26B2AB sits between two moves that use the velocity
+26B27E,26B160,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: 26B2AB sits between two moves that use the velocity
+26B2B1,26B160,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: 26B2AB sits between two moves that use the velocity
+26B777,26B160,motion,,,,"xmm2/xmm3 live at the call at 26B7DC, which reads it"
+26B80C,26B160,motion,,,,a factor from global 79FA20
+26F1D3,26F030,move,step,,,moves by x * speed(+1080) in 26F030: falls through 20EA30 at 26F1ED
+270F10,270DB0,steer,,,,"xmm3 live at the call at 270F3B, which reads it"
+272ABC,2729B0,steer,,,,"xmm3 live at the call at 272AFF, which reads it"
+272B24,2729B0,steer,,,,"xmm3 live at the call at 272BCC, which reads it"
+272B4B,2729B0,steer,,,,"xmm3 live at the call at 272B81, which reads it"
+272BA6,2729B0,steer,,,,"xmm3 live at the call at 272BCC, which reads it"
+27425C,273FF0,move,step,,,moves by x * speed(+1080) in 273FF0: falls through 20EA30 at 274276
+27B68F,27AD50,other,,,,accumulates into 2 fields
+27BE9A,27AD50,move,step,,,moves by x * speed(+1080) in 27AD50: falls through 20EA30 at 27BEC3
+27C1F6,27C1F0,rate,,,,"a step stored to another place at 27C210 movss dword ptr [rax + 0xf54], xmm0"
+27C6C6,27C240,turn,,,,"xmm2 live at the call at 27C6E4, which reads it"
+27D1EC,27D0F0,rate,,,,"a step stored to another place at 27D203 movss dword ptr [rax + 0xf54], xmm0"
+27D3CD,27D2C0,rate,,,,"a step stored to another place at 27D3E4 movss dword ptr [rax + 0xf54], xmm0"
+27D58D,27D480,rate,,,,"a step stored to another place at 27D5A4 movss dword ptr [rax + 0xf54], xmm0"
+27D74B,27D480,rate,,,,"a step stored to another place at 27D762 movss dword ptr [rax + 0xf54], xmm0"
+27D7F1,27D7C0,rate,,,,"a step stored to another place at 27D808 movss dword ptr [rax + 0xf54], xmm0"
+27D980,27D840,rate,,,,"a step stored to another place at 27D997 movss dword ptr [rax + 0xf54], xmm0"
+27DC9D,27D840,rate,,,,"a step stored to another place at 27DCB4 movss dword ptr [rax + 0xf54], xmm0"
+27DD86,27DD50,turn,,,,"xmm2 live at the call at 27DDAF, which reads it"
+27DF4B,27DD50,rate,,,,"a step stored to another place at 27DF62 movss dword ptr [rax + 0xf54], xmm0"
+27E037,27E000,turn,,,,"xmm2 live at the call at 27E060, which reads it"
+27E2E4,27E000,other,,,,"the step or sum modified at 27E315 addss xmm0, xmm1"
+27E44D,27E000,motion,,,,a factor rcx at 27E447
+27E64A,27E5E0,turn,,,,"xmm2 live at the call at 27E68B, which reads it"
+27E7EE,27E5E0,rate,,,,"a step stored to another place at 27E805 movss dword ptr [rax + 0xf54], xmm0"
+27EAD5,27E5E0,rate,,,,"a step stored to another place at 27EAEC movss dword ptr [rax + 0xf54], xmm0"
+27EC0E,27EBD0,turn,,,,"xmm2 live at the call at 27EC37, which reads it"
+27F42E,27EBD0,rate,,,,"a step stored to another place at 27F445 movss dword ptr [rax + 0xf54], xmm0"
+27F5F2,27F4B0,turn,,,,"xmm2 live at the call at 27F62D, which reads it"
+27FAB6,27FA80,turn,,,,"xmm2 live at the call at 27FADF, which reads it"
+27FD9A,27FA80,rate,,,,"a step stored to another place at 27FDB1 movss dword ptr [rax + 0xf54], xmm0"
+27FE37,27FE00,turn,,,,"xmm2 live at the call at 27FE59, which reads it"
+27FF38,27FE00,rate,,,,"a step stored to another place at 27FF4F movss dword ptr [rax + 0xf54], xmm0"
+28008C,27FE00,rate,,,,"a step stored to another place at 2800A3 movss dword ptr [rax + 0xf54], xmm0"
+280201,280100,rate,,,,"a step stored to another place at 280218 movss dword ptr [rax + 0xf54], xmm0"
+28027F,280260,turn,,,,"xmm2 live at the call at 2802A8, which reads it"
+2803B4,280260,rate,,,,"a step stored to another place at 2803CB movss dword ptr [rax + 0xf54], xmm0"
+28042A,280400,turn,,,,"xmm2 live at the call at 280453, which reads it"
+28055C,280400,rate,,,,"a step stored to another place at 280573 movss dword ptr [rax + 0xf54], xmm0"
+280731,280610,turn,,,,"xmm2 live at the call at 280753, which reads it"
+280758,280610,rate,,,,"a step stored to another place at 28076F movss dword ptr [rax + 0xf54], xmm0"
+2807C8,2807A0,turn,,,,"xmm2 live at the call at 2807F1, which reads it"
+2808FD,2807A0,rate,,,,"a step stored to another place at 280914 movss dword ptr [rax + 0xf54], xmm0"
+280967,280950,turn,,,,"xmm2 live at the call at 280995, which reads it"
+280B5C,280950,rate,,,,"a step stored to another place at 280B73 movss dword ptr [rax + 0xf54], xmm0"
+2816CD,281470,motion,,,,"+2450 is updated from itself at 2815DC, 281696, which nothing scales"
+281E2F,281AE0,motion,,,,"xmm1/xmm2/xmm3 live at the call at 281E73, which reads it"
+281E99,281AE0,motion,,,,a factor from global 79FBFC
+282109,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 282127
+28212D,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 28214B), after the move that uses it: on the last tick of each stock period"
+282397,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 2823B4
+2823BA,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 2823D8), after the move that uses it: on the last tick of each stock period"
+282637,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 282655
+28265B,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 282679), after the move that uses it: on the last tick of each stock period"
+282757,281AE0,motion,,,,addss is not a load
+282765,281AE0,motion,,,,addss is not a load
+282D1D,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 282D3A
+282D40,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 282D5E), after the move that uses it: on the last tick of each stock period"
+28321C,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 283239
+28323F,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 28325D), after the move that uses it: on the last tick of each stock period"
+28354E,281AE0,move,step,,,moves by x * speed(+1080) in 281AE0: +10 of rsi += at 28356B
+283571,281AE0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 281AE0 (+20 of rsi += at 28358F), after the move that uses it: on the last tick of each stock period"
+285A0E,285870,move,step,,,moves by x * speed(+1080) in 285870: falls through 20ED50 at 285A28
+28650F,2860D0,motion,,,,"+E10 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+286691,2865B0,motion,,,,"+E10 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+28687D,2865B0,steer,,,,"xmm3 live at the call at 2868AE, which reads it"
+286B73,2865B0,other,,,,accumulates into 2 fields
+28770F,287690,other,,,,"xmm0 read by 287717 cvtps2pd xmm0, xmm0"
+288FB0,288D90,move,step,,,moves by x * speed(+1080) in 288D90: falls through 20EA30 at 288FCA
+2890F5,288D90,steer,,,,"xmm3 live at the call at 289147, which reads it"
+28916C,288D90,steer,,,,"xmm3 live at the call at 2891F0, which reads it"
+2891CD,288D90,steer,,,,"xmm3 live at the call at 2891F0, which reads it"
+28921C,288D90,steer,,,,"xmm3 live at the call at 28931B, which reads it"
+28924F,288D90,steer,,,,"xmm3 live at the call at 28928B, which reads it"
+2892B0,288D90,steer,,,,"xmm3 live at the call at 2892D3, which reads it"
+2892F8,288D90,steer,,,,"xmm3 live at the call at 28931B, which reads it"
+28C103,28C0F0,steer,,,,"xmm3 live at the call at 28C129, which reads it"
+28C493,28C480,steer,,,,"xmm3 live at the call at 28C4B9, which reads it"
+28C7DE,28C7D0,steer,,,,"xmm3 live at the call at 28C804, which reads it"
+28E78D,28E710,steer,,,,"xmm3 live at the call at 28E7B3, which reads it"
+291568,2913B0,move,step,,,moves by x * speed(+1080) in 2913B0: falls through 20EA30 at 291588
+291EA2,291CB0,other,,,,accumulates into 2 fields
+291FB4,291F00,steer,,,,"xmm3 live at the call at 291FC4, which reads it"
+291FC9,291F00,steer,,,,"xmm3 live at the call at 291FF2, which reads it"
+2935DE,2930F0,clock,,,,the actor clock at 2935E6 scales it already
+293686,2930F0,move,step,,,moves by x * speed(+1080) in 2930F0: falls through 20EA30 at 29369E
+294121,2940C0,motion,,,,"+12B8 is updated from itself at 2996A6, 299B20, which nothing scales"
+29416B,2940C0,motion,,,,a factor from global 79FD58
+2942AB,2940C0,motion,,,,a factor from global 79FD48
+2942F0,2940C0,motion,,,,a factor from global 79FD58
+294810,2940C0,motion,,,,"+1278 is updated from itself at 298201, 2984F1, 2993EE, 29965A, which nothing scales"
+294B50,2949E0,approach,,,,"xmm0 live at the call at 294B7D, which reads it"
+296B2F,296700,motion,,,,"+1254 is updated from itself at 287D98, 287DB2, 2897D7, 2897F1, which nothing scales"
+2974A1,297090,turn,,,,"xmm2 live at the call at 2974D2, which reads it"
+2974FC,297090,motion,,,,a vector step's slot address is stored to memory (call at 297524)
+2977BD,297720,motion,,,,indirect jump at 297835
+297970,297720,motion,,,,a factor #-A
+297DF8,297D50,motion,,,,"+A8 is also what it moves (a pull toward something, a blend)"
+29839E,2981B0,other,,,,"xmm0/xmm2 read by 2983BB mulss xmm2, xmm0"
+2983FB,2981B0,motion,,,,"+1278 is updated from itself at 298201, 2984F1, 2993EE, 29965A, which nothing scales"
+29867C,2984A0,other,,,,"xmm0/xmm2 read by 298699 mulss xmm2, xmm0"
+2986D9,2984A0,motion,,,,a factor from global 79FD4C
+298D76,298CC0,turn,,,,"xmm2 live at the call at 298DA4, which reads it"
+298DCA,298CC0,turn,,,,"xmm2 live at the call at 298DFC, which reads it"
+298E90,298CC0,turn,,,,"xmm2 live at the call at 298EA0, which reads it"
+298ED4,298CC0,move,step,,,moves by x * speed(+1080) in 298CC0: moves the model at 298F0A
+2993F6,2990A0,other,,,,"xmm0/xmm2 read by 299413 mulss xmm2, xmm0"
+299453,2990A0,motion,,,,a factor from global 79FD4C
+2994DE,2994C0,other,,,,the base of +12B0 changed before the store at 299511
+2996E8,2994C0,motion,,,,"+12B8 is updated from itself at 2996A6, 299B20, which nothing scales"
+2998D4,2994C0,other,,,,"xmm0/xmm2 read by 2998F1 mulss xmm2, xmm0"
+299929,2994C0,motion,,,,a factor from global 79FD4C
+299AE2,299AC0,other,,,,"xmm1 live at the call at 299B6E, which reads it"
+299B9B,299AC0,other,,,,"xmm0/xmm2 read by 299BB8 mulss xmm2, xmm0"
+299C79,299AC0,motion,,,,"+1278 is updated from itself at 298201, 2984F1, 2993EE, 29965A, which nothing scales"
+299E50,299D40,motion,,,,"+1254 is updated from itself at 287D98, 287DB2, 2897D7, 2897F1, which nothing scales"
+299FC9,299EC0,motion,,,,"+1254 is updated from itself at 287D98, 287DB2, 2897D7, 2897F1, which nothing scales"
+29A165,29A030,other,,,,"xmm0/xmm2 read by 29A171 mulss xmm2, xmm0"
+29A1A9,29A030,motion,,,,a factor from global 79FD4C
+29A54A,29A380,other,,,,"xmm0/xmm2 read by 29A567 mulss xmm2, xmm0"
+29A59F,29A380,motion,,,,a factor from global 79FD4C
+29B524,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29B5F0,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29B7CF,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29B7F2,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29BA24,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29BA47,29B300,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rdi: the change added at 29BBD0 is not operator*(float)'s result
+29C6B6,29C620,turn,,,,"xmm2 live at the call at 29C6D8, which reads it"
+29C793,29C6F0,turn,,,,"xmm2 live at the call at 29C7B5, which reads it"
+29C873,29C7D0,turn,,,,"xmm2 live at the call at 29C895, which reads it"
+29F009,29EE50,move,step,,,moves by x * speed(+1080) in 29EE50: falls through 20EA30 at 29F023
+2A13A0,2A1260,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A1444,2A1260,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A166E,2A1570,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A17C4,2A1710,approach,,,,"xmm0 live at the call at 2A17F1, which reads it"
+2A18F0,2A1710,approach,,,,"xmm0 live at the call at 2A192B, which reads it"
+2A1A69,2A1710,approach,,,,"xmm0 live at the call at 2A1A96, which reads it"
+2A1BC6,2A1710,motion,,,,its function reads 2A1BAB time scale
+2A1F31,2A1E90,approach,,,,"xmm0 live at the call at 2A1F6C, which reads it"
+2A1FFB,2A1E90,approach,,,,"xmm0 live at the call at 2A2028, which reads it"
+2A2CFE,2A2B40,steer,,,,"xmm3 live at the call at 2A2D23, which reads it"
+2A559D,2A53F0,steer,,,,"xmm3 live at the call at 2A55C3, which reads it"
+2A55DD,2A53F0,approach,,,,"xmm2 live at the call at 2A55FD, which reads it"
+2A585A,2A5730,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A5872,2A5730,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A7279,2A7150,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A733F,2A7150,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2A863A,2A8630,motion,,,,a factor the source at 2A8650
+2A8AD4,2A8820,other,,,,xmm0 live at the return at 2A8C6B
+2A9335,2A8D20,turn,,,,"xmm2 live at the call at 2A9353, which reads it"
+2AAA9F,2A8D20,clock,,,,the actor clock at 2AAAA7 scales it already
+2AAAF3,2A8D20,move,step,,,moves by x * speed(+1080) in 2A8D20: falls through 20EA30 at 2AAB17
+2AB719,2AB080,turn,,,,"xmm2 live at the call at 2AB73B, which reads it"
+2ABD25,2ABBE0,turn,,,,"xmm2 live at the call at 2ABD47, which reads it"
+2ABF95,2ABE50,turn,,,,"xmm2 live at the call at 2ABFB7, which reads it"
+2AC138,2AC070,turn,,,,"xmm2 live at the call at 2AC15A, which reads it"
+2AC185,2AC070,turn,,,,"xmm2 live at the call at 2AC1A7, which reads it"
+2AC1CB,2AC070,move,step,,,moves by x * speed(+1080) in 2AC070: moves the model at 2AC201
+2ACA4A,2AC940,turn,,,,"xmm2 live at the call at 2ACA83, which reads it"
+2ACA61,2AC940,turn,,,,"xmm2 live at the call at 2ACA83, which reads it"
+2ACC23,2AC940,move,step,,,moves by x * speed(+1080) in 2AC940: moves the model at 2ACC5B
+2ACDD9,2ACCF0,turn,,,,"xmm2 live at the call at 2ACE0B, which reads it"
+2AD0BD,2ACCF0,turn,,,,"xmm2 live at the call at 2AD0DF, which reads it"
+2AD1B0,2ACCF0,turn,,,,"xmm2 live at the call at 2AD1D2, which reads it"
+2AD721,2ACCF0,turn,,,,"xmm2 live at the call at 2AD743, which reads it"
+2AD8FF,2ACCF0,turn,,,,"xmm2 live at the call at 2AD921, which reads it"
+2AD9FB,2ACCF0,turn,,,,"xmm2 live at the call at 2ADA1D, which reads it"
+2ADC79,2ADB10,turn,,,,"xmm2 live at the call at 2ADC98, which reads it"
+2ADCD2,2ADB10,turn,,,,"xmm2 live at the call at 2ADD1D, which reads it"
+2ADCFE,2ADB10,turn,,,,"xmm2 live at the call at 2ADD1D, which reads it"
+2AE7C1,2AE680,turn,,,,"xmm2 live at the call at 2AE7F3, which reads it"
+2AE829,2AE680,turn,,,,"xmm2 live at the call at 2AE84B, which reads it"
+2AE8E9,2AE680,turn,,,,"xmm2 live at the call at 2AE90B, which reads it"
+2AE96A,2AE680,move,step,,,moves by x * speed(+1080) in 2AE680: moves the model at 2AE9A0
+2AEAD1,2AE680,move,step,,,moves by x * speed(+1080) in 2AE680: moves the model at 2AEB4F
+2AEB19,2AE680,move,step,,,moves by x * speed(+1080) in 2AE680: moves the model at 2AEB4F
+2AED5F,2AE680,turn,,,,"xmm2 live at the call at 2AED81, which reads it"
+2AF342,2AF240,turn,,,,"xmm2 live at the call at 2AF364, which reads it"
+2AF4CC,2AF240,turn,,,,"xmm2 live at the call at 2AF4EE, which reads it"
+2AF639,2AF240,move,step,,,moves by x * speed(+1080) in 2AF240: moves the model at 2AF671
+2AFB04,2AF870,turn,,,,"xmm2 live at the call at 2AFB26, which reads it"
+2AFE9B,2AFB70,turn,,,,"xmm2 live at the call at 2AFEBD, which reads it"
+2AFF05,2AFB70,move,step,,,moves by x * speed(+1080) in 2AFB70: moves the model at 2AFF40
+2B01D8,2AFF90,turn,,,,"xmm2 live at the call at 2B01FA, which reads it"
+2B025D,2AFF90,move,step,,,moves by x * speed(+1080) in 2AFF90: moves the model at 2B0293
+2B0385,2AFF90,turn,,,,"xmm2 live at the call at 2B03A7, which reads it"
+2B0482,2AFF90,turn,,,,"xmm2 live at the call at 2B04B4, which reads it"
+2B051D,2AFF90,turn,,,,"xmm2 live at the call at 2B053F, which reads it"
+2B0561,2AFF90,turn,,,,"xmm2 live at the call at 2B0583, which reads it"
+2B0990,2B0720,turn,,,,"xmm2 live at the call at 2B09B2, which reads it"
+2B0A00,2B0720,move,step,,,moves by x * speed(+1080) in 2B0720: moves the model at 2B0A32
+2B0B7C,2B0720,turn,,,,"xmm2 live at the call at 2B0B9E, which reads it"
+2B0CE7,2B0720,turn,,,,"xmm2 live at the call at 2B0D09, which reads it"
+2B0D78,2B0720,move,step,,,moves by x * speed(+1080) in 2B0720: moves the model at 2B0DAA
+2B0DAF,2B0720,turn,,,,"xmm2 live at the call at 2B0DD1, which reads it"
+2B1039,2B0720,turn,,,,"xmm2 live at the call at 2B105B, which reads it"
+2B10FC,2B0720,move,step,,,moves by x * speed(+1080) in 2B0720: moves the model at 2B112E
+2B1249,2B0720,turn,,,,"xmm2 live at the call at 2B126B, which reads it"
+2B1297,2B0720,turn,,,,"xmm2 live at the call at 2B12B9, which reads it"
+2B1442,2B0720,move,step,,,moves by x * speed(+1080) in 2B0720: moves the model at 2B1474
+2B1C70,2B1910,turn,,,,"xmm2 live at the call at 2B1C92, which reads it"
+2B2438,2B22F0,turn,,,,"xmm2 live at the call at 2B244B, which reads it"
+2B2C9E,2B2BA0,turn,,,,"xmm2 live at the call at 2B2CC0, which reads it"
+2B2D1C,2B2BA0,move,step,,,moves by x * speed(+1080) in 2B2BA0: moves the model at 2B2D52
+2B3162,2B2FE0,move,step,,,moves by x * speed(+1080) in 2B2FE0: moves the model at 2B319A
+2B3290,2B31F0,turn,,,,"xmm2 live at the call at 2B32B2, which reads it"
+2B3370,2B32D0,turn,,,,"xmm2 live at the call at 2B3392, which reads it"
+2B344F,2B33B0,turn,,,,"xmm2 live at the call at 2B3471, which reads it"
+2B3530,2B3490,turn,,,,"xmm2 live at the call at 2B3552, which reads it"
+2B366F,2B3570,turn,,,,"xmm2 live at the call at 2B3682, which reads it"
+2B374F,2B36C0,turn,,,,"xmm2 live at the call at 2B3781, which reads it"
+2B389F,2B3810,turn,,,,"xmm2 live at the call at 2B38D1, which reads it"
+2B3A59,2B3960,turn,,,,"xmm2 live at the call at 2B3A8B, which reads it"
+2B3C4E,2B3B90,turn,,,,"xmm2 live at the call at 2B3C70, which reads it"
+2B3D35,2B3C90,turn,,,,"xmm2 live at the call at 2B3D5A, which reads it"
+2B3D6F,2B3C90,turn,,,,"xmm2 live at the call at 2B3D91, which reads it"
+2B3DAE,2B3C90,turn,,,,"xmm2 live at the call at 2B3DD0, which reads it"
+2B3FA1,2B3EF0,turn,,,,"xmm2 live at the call at 2B3FB4, which reads it"
+2B4AD6,2B4800,motion,,,,"xmm1/xmm2/xmm3 live at the call at 2B4B19, which reads it"
+2B4B40,2B4800,motion,,,,a factor from global 79FE8C
+2B4CFD,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B4D21,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B4D54,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B4FB1,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B4FD5,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B5008,2B4800,motion,,,,a velocity it uses or changes is not scaled whole: +20 of rsi: 2B4D4E sits between two moves that use the velocity
+2B5593,2B5550,turn,,,,"xmm2 live at the call at 2B55B5, which reads it"
+2B7023,2B6EF0,move,step,,,moves by x * speed(+1080) in 2B6EF0: falls through 20EA30 at 2B703D
+2BD1F5,2BD0B0,steer,,,,"xmm3 live at the call at 2BD23C, which reads it"
+2BD261,2BD0B0,steer,,,,"xmm3 live at the call at 2BD2E5, which reads it"
+2BD2C2,2BD0B0,steer,,,,"xmm3 live at the call at 2BD2E5, which reads it"
+2BD311,2BD0B0,steer,,,,"xmm3 live at the call at 2BD410, which reads it"
+2BD344,2BD0B0,steer,,,,"xmm3 live at the call at 2BD380, which reads it"
+2BD3A5,2BD0B0,steer,,,,"xmm3 live at the call at 2BD3C8, which reads it"
+2BD3ED,2BD0B0,steer,,,,"xmm3 live at the call at 2BD410, which reads it"
+2BEFAC,2BEF00,move,step,,,moves by x * speed(+1080) in 2BEF00: falls through 20EA30 at 2BEFC6
+2BF30A,2BF0F0,motion,,,,"+E18 is updated from itself at 242E04, 2455A6, 2455AE, 245843, which nothing scales"
+2C06E4,2C06D0,other,,,,movzx reads the speed
+2C077C,2C06D0,other,,,,not a read of the speed into a register
+2C0786,2C06D0,other,,,,not a read of the speed into a register
+2C078D,2C06D0,other,,,,movzx reads the speed
+2C1B06,2C0A60,move,step,,,moves by x * speed(+1080) in 2C0A60: falls through 20EA30 at 2C1B1B
+2C2191,2C0A60,rate,,,,"a step stored to another place at 2C2225 movss dword ptr [rax + 0xf54], xmm2"
+2C2CC1,2C2550,turn,,,,"xmm2 live at the call at 2C2CE3, which reads it"
+2C3F86,2C3CA0,turn,,,,"xmm2 live at the call at 2C3FA8, which reads it"
+2C41DA,2C40A0,turn,,,,"xmm2 live at the call at 2C41FC, which reads it"
+2C42A1,2C40A0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C42B4)"
+2C42D9,2C40A0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C42ED)"
+2C438A,2C40A0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C439D)"
+2C43C2,2C40A0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C43D6)"
+2C4485,2C40A0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C4498)"
+2C44BD,2C40A0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C44D1)"
+2C4578,2C40A0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C458E)"
+2C45B3,2C40A0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C40A0, a float step (store 2C45C7)"
+2C4A10,2C48D0,turn,,,,"xmm2 live at the call at 2C4A32, which reads it"
+2C4AC4,2C48D0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4AD7)"
+2C4AFC,2C48D0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4B10)"
+2C4B9F,2C48D0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4BB2)"
+2C4BD7,2C48D0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4BEB)"
+2C4C8C,2C48D0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4C9F)"
+2C4CAB,2C48D0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4CBF)"
+2C4DB7,2C48D0,move,step,,,"moves the model's position x (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4DCA)"
+2C4DEF,2C48D0,move,step,,,"moves the model's position z (through +A8) by x * speed(+1080) in 2C48D0, a float step (store 2C4E03)"
+2C52CD,2C5200,turn,,,,"xmm2 live at the call at 2C52EF, which reads it"
+2C541D,2C5200,turn,,,,"xmm2 live at the call at 2C543F, which reads it"
+2C5983,2C5770,turn,,,,"xmm2 live at the call at 2C59A5, which reads it"
+2C5A85,2C5770,turn,,,,"xmm2 live at the call at 2C5AA7, which reads it"
+2C5F2F,2C5D60,turn,,,,"xmm2 live at the call at 2C5F51, which reads it"
+2C65C4,2C64C0,turn,,,,"xmm2 live at the call at 2C65E4, which reads it"
+2C68BA,2C66F0,turn,,,,"xmm2 live at the call at 2C68DC, which reads it"
+2C6D71,2C66F0,turn,,,,"xmm2 live at the call at 2C6D93, which reads it"
+2C6F4C,2C66F0,turn,,,,"xmm2 live at the call at 2C6F6E, which reads it"
+2C71EF,2C7020,turn,,,,"xmm2 live at the call at 2C7211, which reads it"
+2C73F5,2C7020,turn,,,,"xmm2 live at the call at 2C7417, which reads it"
+2C758C,2C7460,turn,,,,"xmm2 live at the call at 2C75AA, which reads it"
+2C7658,2C7460,turn,,,,"xmm2 live at the call at 2C767A, which reads it"
+2C76CD,2C7460,turn,,,,"xmm2 live at the call at 2C7730, which reads it"
+2C770E,2C7460,turn,,,,"xmm2 live at the call at 2C7730, which reads it"
+2C7BDC,2C7AB0,turn,,,,"xmm2 live at the call at 2C7C15, which reads it"
+2C7BF3,2C7AB0,turn,,,,"xmm2 live at the call at 2C7C15, which reads it"
+2C7DD9,2C7CC0,turn,,,,"xmm2 live at the call at 2C7E12, which reads it"
+2C7DF0,2C7CC0,turn,,,,"xmm2 live at the call at 2C7E12, which reads it"
+2C7F91,2C7E70,turn,,,,"xmm2 live at the call at 2C7FB3, which reads it"
+2C7FD9,2C7E70,turn,,,,"xmm2 live at the call at 2C8012, which reads it"
+2C7FF0,2C7E70,turn,,,,"xmm2 live at the call at 2C8012, which reads it"
+2C8057,2C7E70,turn,,,,"xmm2 live at the call at 2C8079, which reads it"
+2C80AA,2C7E70,turn,,,,"xmm2 live at the call at 2C80E3, which reads it"
+2C80C1,2C7E70,turn,,,,"xmm2 live at the call at 2C80E3, which reads it"
+2C8241,2C8120,turn,,,,"xmm2 live at the call at 2C8263, which reads it"
+2C8289,2C8120,turn,,,,"xmm2 live at the call at 2C82C2, which reads it"
+2C82A0,2C8120,turn,,,,"xmm2 live at the call at 2C82C2, which reads it"
+2C8307,2C8120,turn,,,,"xmm2 live at the call at 2C8329, which reads it"
+2C835A,2C8120,turn,,,,"xmm2 live at the call at 2C8393, which reads it"
+2C8371,2C8120,turn,,,,"xmm2 live at the call at 2C8393, which reads it"
+2C882D,2C8760,turn,,,,"xmm2 live at the call at 2C8866, which reads it"
+2C8844,2C8760,turn,,,,"xmm2 live at the call at 2C8866, which reads it"
+2C8953,2C88A0,turn,,,,"xmm2 live at the call at 2C8966, which reads it"
+2CABEF,2CA9C0,other,,,,"xmm1 live at the call at 2CAC3D, which reads it"
+2CC770,2CC370,other,,,,xmm0 live at the return at 2CC3ED
+2D4C1C,2D4AA0,motion,,,,+E48 is written from the time scale (24706F): the port compensates it
+2D521A,2D4F60,motion,,,,"the step read by 2D5222 subss xmm0, xmm1"
+5C6BE9,5C6450,motion,,,,"+343C is updated from itself at 5CBD4F, 5CBEA0, 5CBF3E, which nothing scales"
+5C6C2F,5C6450,clock,,,,the actor clock at 5C6C37 scales it already
+5C6CD1,5C6450,move,step,,,"moves by x * speed(+1080) in 5C6450: falls through 20EA30 at 5C6CF9, falls through 20EA30 at 5C6D1E"
+5C6D09,5C6450,move,step,,,moves by x * speed(+1080) in 5C6450: falls through 20EA30 at 5C6D1E
+5C8282,5C8160,turn,,,,"xmm2 live at the call at 5C82A4, which reads it"
+5C88A7,5C85F0,turn,,,,"xmm2 live at the call at 5C88C5, which reads it"
+5C88DA,5C85F0,turn,,,,"xmm2 live at the call at 5C88F8, which reads it"
+5C8DA7,5C8C60,turn,,,,"xmm2 live at the call at 5C8DC9, which reads it"
+5C919B,5C8FC0,turn,,,,"xmm2 live at the call at 5C91BD, which reads it"
+5C9ED2,5C9C20,turn,,,,"xmm2 live at the call at 5C9EF4, which reads it"
+5C9F06,5C9C20,turn,,,,"xmm2 live at the call at 5C9F28, which reads it"
+5CBEB1,5CBAD0,turn,,,,"xmm2 live at the call at 5CBED3, which reads it"
+5CBFB6,5CBAD0,motion,,,,"+343C is updated from itself at 5CBD4F, 5CBEA0, 5CBF3E, which nothing scales"
+5CC8F4,5CC3E0,move,step,,,moves by x * speed(+1080) in 5CC3E0: +10 of rsi += at 5CC916
+5CC91C,5CC3E0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5CC3E0 (+20 of rsi += at 5CC93B), after the move that uses it: on the last tick of each stock period"
+5CCC31,5CC3E0,move,step,,,moves by x * speed(+1080) in 5CC3E0: +10 of rsi += at 5CCC50
+5CCC56,5CC3E0,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5CC3E0 (+20 of rsi += at 5CCC75), after the move that uses it: on the last tick of each stock period"
+5CEF9C,5CE810,clock,,,,the actor clock at 5CEFA4 scales it already
+5CEFEB,5CE810,move,step,,,moves by x * speed(+1080) in 5CE810: falls through 20EA30 at 5CF013
+5CFECD,5CFC80,turn,,,,"xmm2 live at the call at 5CFEFF, which reads it"
+5D002E,5CFFA0,turn,,,,"xmm2 live at the call at 5D0060, which reads it"
+5D0931,5D07D0,turn,,,,"xmm2 live at the call at 5D0953, which reads it"
+5D1166,5D1080,turn,,,,"xmm2 live at the call at 5D1188, which reads it"
+5D14A7,5D1080,turn,,,,"xmm2 live at the call at 5D1564, which reads it"
+5D1542,5D1080,turn,,,,"xmm2 live at the call at 5D1564, which reads it"
+5D15AE,5D1080,motion,,,,a factor ret@5D1577
+5D16F7,5D1080,turn,,,,"xmm2 live at the call at 5D1719, which reads it"
+5D18EE,5D1810,turn,,,,"xmm2 live at the call at 5D191C, which reads it"
+5D1D96,5D1810,turn,,,,"xmm2 live at the call at 5D1DA6, which reads it"
+5D1DF6,5D1810,motion,,,,a factor deep@5D1D0B
+5D1F25,5D1810,turn,,,,"xmm2 live at the call at 5D1F47, which reads it"
+5D22EC,5D2050,turn,,,,"xmm2 live at the call at 5D231B, which reads it"
+5D2349,5D2050,motion,,,,a factor from global 7CDAB4
+5D2485,5D2050,turn,,,,"xmm2 live at the call at 5D24BD, which reads it"
+5D2693,5D24F0,turn,,,,"xmm2 live at the call at 5D26B5, which reads it"
+5D3488,5D3390,turn,,,,"xmm2 live at the call at 5D34A6, which reads it"
+5D393A,5D3600,motion,,,,a factor from global 7CDAB4
+5D3E65,5D3D70,move,step,,,moves by x * speed(+1080) in 5D3D70: +10 of rdi += at 5D3E8B
+5D3E91,5D3D70,vchange,zlast,,,"velocity +20 of rdi += x * speed(+1080) in 5D3D70 (+20 of rdi += at 5D3EAF), after the move that uses it: on the last tick of each stock period"
+5D41CF,5D4090,motion,,,,a factor the source at 5D41DF
+5D41F2,5D4090,motion,,,,a vector step added into something unknown at 5D420F
+5D5B9C,5D5780,clock,,,,the actor clock at 5D5BA4 scales it already
+5D5BEB,5D5780,move,step,,,moves by x * speed(+1080) in 5D5780: falls through 20EA30 at 5D5C05
+5D67FF,5D67D0,turn,,,,"xmm2 live at the call at 5D683A, which reads it"
+5D6E32,5D6DC0,turn,,,,"xmm2 live at the call at 5D6E73, which reads it"
+5D7231,5D6DC0,turn,,,,"xmm2 live at the call at 5D7253, which reads it"
+5D73A8,5D6DC0,turn,,,,"xmm2 live at the call at 5D73D0, which reads it"
+5D7E7C,5D6DC0,turn,,,,"xmm2 live at the call at 5D7E9E, which reads it"
+5D8D0C,5D8CE0,turn,,,,"xmm2 live at the call at 5D8D46, which reads it"
+5D8E51,5D8CE0,turn,,,,"xmm2 live at the call at 5D8E73, which reads it"
+5D9884,5D9650,turn,,,,"xmm2 live at the call at 5D98A6, which reads it"
+5DA6C2,5DA630,turn,,,,"xmm2 live at the call at 5DA6E4, which reads it"
+5DAC2C,5DA9A0,motion,,,,a factor from global 7CDAD4
+5DB5C4,5DB470,turn,,,,"xmm2 live at the call at 5DB5E6, which reads it"
+5DB74B,5DB470,turn,,,,"xmm2 live at the call at 5DB76D, which reads it"
+5DBE01,5DBA90,motion,,,,"xmm1/xmm2/xmm3 live at the call at 5DBE45, which reads it"
+5DBE6C,5DBA90,motion,,,,a factor from global 7CDB10
+5DBEB4,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DBED6
+5DBEDC,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DBEFB), after the move that uses it: on the last tick of each stock period"
+5DC204,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DC223
+5DC229,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DC248), after the move that uses it: on the last tick of each stock period"
+5DC35A,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DC37C
+5DC396,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DC3B4), after the move that uses it: on the last tick of each stock period"
+5DC68E,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DC6AD
+5DC6B3,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DC6D2), after the move that uses it: on the last tick of each stock period"
+5DC86C,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DC88A
+5DC981,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DC9A0), after the move that uses it: on the last tick of each stock period"
+5DCB6C,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DCB8A
+5DCBA4,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DCBC2), after the move that uses it: on the last tick of each stock period"
+5DCE7B,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DCE9A
+5DCEA0,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DCEBF), after the move that uses it: on the last tick of each stock period"
+5DCFD4,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DCFF6
+5DD010,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DD02E), after the move that uses it: on the last tick of each stock period"
+5DD3D8,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DD3F7
+5DD3FD,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DD41C), after the move that uses it: on the last tick of each stock period"
+5DD631,5DBA90,move,step,,,moves by x * speed(+1080) in 5DBA90: +10 of rsi += at 5DD653
+5DD659,5DBA90,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5DBA90 (+20 of rsi += at 5DD678), after the move that uses it: on the last tick of each stock period"
+5E0A6B,5DF660,clock,,,,the actor clock at 5E0A73 scales it already
+5E0AC0,5DF660,move,step,,,moves by x * speed(+1080) in 5DF660: falls through 20EA30 at 5E0AD3
+5E1460,5E1440,rate,,,,"a step stored to another place at 5E1468 movss dword ptr [rcx + 0xf54], xmm0"
+5E25BF,5E2590,turn,,,,"xmm2 live at the call at 5E25FA, which reads it"
+5E3365,5E3190,turn,,,,"xmm2 live at the call at 5E3387, which reads it"
+5E339C,5E3190,turn,,,,"xmm2 live at the call at 5E33BE, which reads it"
+5E3860,5E3720,turn,,,,"xmm2 live at the call at 5E3882, which reads it"
+5E3982,5E3720,move,step,,,moves by x * speed(+1080) in 5E3720: forward at 5E399D
+5E39AF,5E3720,turn,,,,"xmm2 live at the call at 5E39D1, which reads it"
+5E43F2,5E41D0,turn,,,,"xmm2 live at the call at 5E4414, which reads it"
+5E4A6F,5E4900,turn,,,,"xmm2 live at the call at 5E4A91, which reads it"
+5E4AA3,5E4900,turn,,,,"xmm2 live at the call at 5E4AC5, which reads it"
+5E4D85,5E4BF0,turn,,,,"xmm2 live at the call at 5E4DA7, which reads it"
+5E4DB9,5E4BF0,turn,,,,"xmm2 live at the call at 5E4DDB, which reads it"
+5E52D8,5E5150,turn,,,,"xmm2 live at the call at 5E52FA, which reads it"
+5E574B,5E5510,turn,,,,"xmm2 live at the call at 5E576D, which reads it"
+5E577F,5E5510,turn,,,,"xmm2 live at the call at 5E57A1, which reads it"
+5E5BDA,5E5A80,turn,,,,"xmm2 live at the call at 5E5C06, which reads it"
+5E631B,5E61A0,turn,,,,"xmm2 live at the call at 5E6347, which reads it"
+5E6A80,5E6920,turn,,,,"xmm2 live at the call at 5E6AAC, which reads it"
+5E77A0,5E7620,turn,,,,"xmm2 live at the call at 5E77C2, which reads it"
+5E77D7,5E7620,turn,,,,"xmm2 live at the call at 5E77F9, which reads it"
+5E809C,5E7F60,turn,,,,"xmm2 live at the call at 5E80C8, which reads it"
+5E80CD,5E7F60,turn,,,,"xmm2 live at the call at 5E80EF, which reads it"
+5E8D16,5E8B90,turn,,,,"xmm2 live at the call at 5E8D38, which reads it"
+5E8E63,5E8B90,turn,,,,"xmm2 live at the call at 5E8E8F, which reads it"
+5E96E5,5E9480,move,step,,,moves by x * speed(+1080) in 5E9480: +10 of rsi += at 5E9734
+5E9715,5E9480,motion,,,,a factor the source at 5E9727
+5E973A,5E9480,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5E9480 (+20 of rsi += at 5E9759), after the move that uses it: on the last tick of each stock period"
+5E9959,5E9480,move,step,,,moves by x * speed(+1080) in 5E9480: +10 of rsi += at 5E9978
+5E997E,5E9480,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5E9480 (+20 of rsi += at 5E999D), after the move that uses it: on the last tick of each stock period"
+5E9D0A,5E9480,motion,,,,"xmm1/xmm2/xmm3 live at the call at 5E9D4E, which reads it"
+5E9D75,5E9480,motion,,,,a factor from global 7CDBE0
+5E9DBD,5E9480,move,step,,,moves by x * speed(+1080) in 5E9480: +10 of rsi += at 5E9DDF
+5E9DE5,5E9480,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5E9480 (+20 of rsi += at 5E9E04), after the move that uses it: on the last tick of each stock period"
+5EA11F,5E9480,move,step,,,moves by x * speed(+1080) in 5E9480: +10 of rsi += at 5EA13E
+5EA144,5E9480,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5E9480 (+20 of rsi += at 5EA163), after the move that uses it: on the last tick of each stock period"
+5ECB2C,5EC0F0,clock,,,,the actor clock at 5ECB34 scales it already
+5ECB7B,5EC0F0,move,step,,,moves by x * speed(+1080) in 5EC0F0: falls through 20EA30 at 5ECBA4
+5ED620,5ED0C0,turn,,,,"xmm2 live at the call at 5ED642, which reads it"
+5EDB79,5EDA40,turn,,,,"xmm2 live at the call at 5EDB9B, which reads it"
+5EDEAF,5EDE30,turn,,,,"xmm2 live at the call at 5EDEF8, which reads it"
+5EDFF0,5EDE30,turn,,,,"xmm2 live at the call at 5EE012, which reads it"
+5EE1D9,5EE150,turn,,,,"xmm2 live at the call at 5EE20B, which reads it"
+5EE2E0,5EE150,turn,,,,"xmm2 live at the call at 5EE302, which reads it"
+5EE93E,5EE760,turn,,,,"xmm2 live at the call at 5EE95D, which reads it"
+5EEACC,5EE760,turn,,,,"xmm2 live at the call at 5EEAEE, which reads it"
+5EEC36,5EE760,turn,,,,"xmm2 live at the call at 5EEC58, which reads it"
+5EED88,5EE760,turn,,,,"xmm2 live at the call at 5EEDAA, which reads it"
+5EEE4C,5EE760,turn,,,,"xmm2 live at the call at 5EEE6E, which reads it"
+5EF05A,5EEEE0,turn,,,,"xmm2 live at the call at 5EF07C, which reads it"
+5EF3A6,5EEEE0,turn,,,,"xmm2 live at the call at 5EF3C8, which reads it"
+5EF701,5EF560,turn,,,,"xmm2 live at the call at 5EF720, which reads it"
+5EF7EC,5EF560,turn,,,,"xmm2 live at the call at 5EF80E, which reads it"
+5EF85A,5EF560,motion,,,,+5074 is a rate (read by 5EF90F into another field's step or a move): its change is a velocity's
+5EF87C,5EF560,motion,,,,+5074 is a rate (read by 5EF90F into another field's step or a move): its change is a velocity's
+5EF90F,5EF560,motion,,,,"+5074 is updated from itself at 5EF89C, which nothing scales"
+5EFA52,5EF560,other,,,,mov reads the speed
+5EFD9C,5EFBF0,turn,,,,"xmm2 live at the call at 5EFDBE, which reads it"
+5F00CE,5EFEA0,turn,,,,"xmm2 live at the call at 5F00F0, which reads it"
+5F0124,5EFEA0,turn,,,,"xmm2 live at the call at 5F0146, which reads it"
+5F037F,5F01A0,turn,,,,"xmm2 live at the call at 5F039E, which reads it"
+5F03A3,5F01A0,turn,,,,"xmm2 live at the call at 5F03C5, which reads it"
+5F053D,5F01A0,turn,,,,"xmm2 live at the call at 5F055F, which reads it"
+5F099A,5F08E0,turn,,,,"xmm2 live at the call at 5F09BC, which reads it"
+5F0DCA,5F0D10,turn,,,,"xmm2 live at the call at 5F0DEC, which reads it"
+5F1105,5F1030,turn,,,,"xmm2 live at the call at 5F1127, which reads it"
+5F15E5,5F1470,turn,,,,"xmm2 live at the call at 5F1607, which reads it"
+5F162E,5F1470,turn,,,,"xmm2 live at the call at 5F1650, which reads it"
+5F180A,5F1750,turn,,,,"xmm2 live at the call at 5F182C, which reads it"
+5F1FC0,5F1DF0,turn,,,,"xmm2 live at the call at 5F1FE2, which reads it"
+5F21E9,5F1DF0,turn,,,,"xmm2 live at the call at 5F220B, which reads it"
+5F2242,5F1DF0,turn,,,,"xmm2 live at the call at 5F2252, which reads it"
+5F2535,5F2340,turn,,,,"xmm2 live at the call at 5F255B, which reads it"
+5F2586,5F2340,turn,,,,"xmm2 live at the call at 5F25A4, which reads it"
+5F2590,5F2340,turn,,,,"xmm2 live at the call at 5F25A4, which reads it"
+5F2D83,5F2A60,motion,,,,a factor from global 7CDBF4
+5F334C,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F336B
+5F3371,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F3390), after the move that uses it: on the last tick of each stock period"
+5F371E,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F373D
+5F3743,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F3762), after the move that uses it: on the last tick of each stock period"
+5F3A15,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F3A34
+5F3A3A,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F3A59), after the move that uses it: on the last tick of each stock period"
+5F4127,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F4146
+5F414C,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F416B), after the move that uses it: on the last tick of each stock period"
+5F4301,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F4352
+5F4333,5F3190,motion,,,,a factor the source at 5F4345
+5F4358,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F4377), after the move that uses it: on the last tick of each stock period"
+5F45F1,5F3190,move,step,,,moves by x * speed(+1080) in 5F3190: +10 of rsi += at 5F4610
+5F4616,5F3190,vchange,zlast,,,"velocity +20 of rsi += x * speed(+1080) in 5F3190 (+20 of rsi += at 5F4635), after the move that uses it: on the last tick of each stock period"

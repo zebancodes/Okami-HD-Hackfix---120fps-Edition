@@ -1,0 +1,4 @@
+stock | cSubScrStatus 434A60: +29E changes only after the controller action test and caps at 3, selecting one of the four resource meters; this is an input event | 434E71
+fixed | cSubScrStatus 434A60: the four transfer helper calls now run only on stock UI ticks and return false between them, so their matching +284 resource subtraction also occurs only on stock ticks | 434FD5 435178 43531A 4354BE
+fixed | cSubScrStatus 434A60: the resource transfer progress and four wait flags now advance only on stock UI ticks | 434F19 43500D 4351B0 435352 4354F6
+fixed | cSubScrStatus 4331D0 433250 4332E0 433360: each resource meter helper has one caller, a newly gated call from 434A60, so its internal transfer and stage counters now share the stock UI cadence | 4331E4 433219 433221 433269 433292 4332F4 433329 433331 433372 4333AA 4333B1

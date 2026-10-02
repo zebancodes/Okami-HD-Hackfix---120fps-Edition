@@ -1,0 +1,1 @@
+once | Animal 206000 stage zero: normalize the new target vector, scale or flip its E10/E18 components for the chosen action, then increment E37 before the next tick; these four multiplications are action setup | 20615F 206181 2061A1 2061B5

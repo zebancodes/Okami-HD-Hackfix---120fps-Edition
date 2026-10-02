@@ -1,0 +1,2 @@
+fixed | pl00's held-input selected-subactor helper 459D90: +E3E gains state-derived 2 or 6 and +E3C gains 20 times that step on stock ticks; the helper executed on all 372 of 372 traced updates, and its 0x384 clamp remains active | 459DA1 459DBE
+fixed | pl00 state 3D1330: the optional held-input two-count +E3C decrease and ordinary one-count decrease both commit on stock ticks, and the zero-time cleanup waits at notyet 3D145C | 3D13F4 3D1492

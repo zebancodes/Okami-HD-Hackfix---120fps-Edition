@@ -1,0 +1,455 @@
+site,kind,target,function,limit,status,evidence
+1D5CAC,call,20E210,1D5B40,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1D6128,call,20E210,1D5DD0,0.244346@679C10,stock,constants
+1D6F20,call,20E210,1D6DA0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1D7A90,call,20E210,1D7990,0.139626@679C08,stock,constants
+1D7EE4,call,20E210,1D7E10,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1D8383,call,20E210,1D8200,0.139626@679C08,stock,constants
+1D8635,call,20E210,1D8560,0.0349066@679C00,stock,constants
+1D8FF0,call,20E210,1D8E70,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1D92CF,call,20E210,1D9100,0.20944@679C38,stock,constants
+1DA360,call,20E210,1DA1E0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1DB321,call,20E210,1DB240,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1DBA98,call,20E210,1DB9C0,0.0698132@679C34,stock,constants
+1DC735,call,20E210,1DC600,0.0349066@679C00,stock,constants
+1DC8AA,call,20E210,1DC780,0.0698132@679C34,stock,constants
+1DD3B0,call,20E210,1DD230,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1DD6CA,call,20E210,1DD4E0,0.20944@679C38,stock,constants
+1DE640,call,20E210,1DE4C0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1DF3EC,call,20E210,1DF330,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1DF806,call,20E210,1DF730,0.174533@679C0C,stock,constants
+1DF93C,call,20E210,1DF730,0.0349066@679C00,stock,constants
+1DFD1F,call,20E210,1DFC70,0.0698132@679C34,stock,constants
+1E0C57,call,20E210,1E0AA0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E0F7D,call,20E210,1E0D60,0.20944@679C38,stock,constants
+1E1D47,call,20E210,1E1B90,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E2A81,call,20E210,1E29C0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E308F,call,20E210,1E2FE0,0.0698132@679C34,stock,constants
+1E3BBA,call,20E210,1E39D0,0.20944@679C38,stock,constants
+1E5548,call,20E210,1E5480,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E5905,call,20E210,1E5820,0.174533@679C0C,stock,constants
+1E5B05,call,20E210,1E5820,0.139626@679C08,stock,constants
+1E606F,call,20E210,1E5FC0,0.0698132@679C34,stock,constants
+1E716B,call,20E210,1E7000,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E744A,call,20E210,1E7260,0.20944@679C38,stock,constants
+1E816B,call,20E210,1E8000,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E8F61,call,20E210,1E8EA0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1E93EF,call,20E210,1E9340,0.0698132@679C34,stock,constants
+1EA00D,call,20E210,1E9E90,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1EA376,call,20E210,1EA100,0.20944@679C38,stock,constants
+1EB32D,call,20E210,1EB1B0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1EC21D,call,20E210,1EC110,0.0349066@679C00,stock,constants
+1EC49F,call,20E210,1EC2C0,0.261799@679C14,stock,constants
+1ED676,call,20E210,1ED4C0,0.20944@679C38,stock,constants
+1ED846,call,20E210,1ED4C0,0.0523599@679C90,stock,constants
+1EF0D3,call,20E210,1EEF50,0.0523599@679C90,stock,constants
+1EF2B1,call,20E210,1EF120,0.0523599@679C90,stock,constants
+1EF67E,call,20E210,1EF560,0.0523599@679C90,stock,constants
+1F0CC0,call,20E210,1F0B40,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F1055,call,20E210,1F0DB0,0.20944@679C38,stock,constants
+1F1C90,call,20E210,1F1B10,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F2640,call,20E210,1F2540,0.139626@679C08,stock,constants
+1F278F,call,20E210,1F2770,0.0698132@679C34,stock,constants
+1F299F,call,20E210,1F2980,0.139626@679C08,stock,constants
+1F31DD,call,20E210,1F3140,0.0698132@679C34,stock,constants
+1F39A3,call,20E210,1F38D0,0.139626@679C08,stock,constants
+1F3CEB,call,20E210,1F38D0,0.139626@679C08,stock,constants
+1F4A6D,call,20E210,1F48F0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F4D8A,call,20E210,1F4BA0,0.20944@679C38,stock,constants
+1F5ADD,call,20E210,1F5960,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F68F1,call,20E210,1F6830,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F6DBF,call,20E210,1F6D10,0.0698132@679C34,stock,constants
+1F75D0,call,20E210,1F7450,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F8490,call,20E210,1F8310,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F8DC4,call,20E210,1F8D20,0.279253@679CC0,stock,constants
+1F9208,call,20E210,1F9140,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1F9616,call,20E210,1F9530,0.174533@679C0C,stock,constants
+1F9719,call,20E210,1F9530,0.139626@679C08,stock,constants
+1F9823,call,20E210,1F9530,0.0349066@679C00,stock,constants
+1F9EFF,call,20E210,1F9E50,0.0698132@679C34,stock,constants
+1FAE70,call,20E210,1FACF0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1FB195,call,20E210,1FAF80,0.20944@679C38,stock,constants
+1FBD30,call,20E210,1FBBB0,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1FCCE9,call,20E210,1FCC10,0.10472@679C80,stock,constants
+1FD8C5,call,20E210,1FD6F0,0.0698132@679C34,stock,constants
+1FE780,call,20E210,1FE600,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+1FEA9B,call,20E210,1FE8A0,0.20944@679C38,stock,constants
+1FF6E0,call,20E210,1FF560,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+2003E9,call,20E210,200320,phi(0.139626@679C08 | 0.261799@679C14),stock,constants
+2008EF,call,20E210,200840,0.0698132@679C34,stock,constants
+20F5EB,call,20E210,20F550,[rbx+1060]@20F5D9,stock,constants and reviewed fields +1060
+22FF2A,call,20E210,22FE00,0.0261799@67C078,stock,constants
+26667C,call,20E210,2664F0,"mulss(phi(mulss([rbx+1080]@26664F, 0.436332@679EF4) | mulss([rbx+1080]@266633, 0.0872665@679C04)), [rbx+F54]@26665F)",stock,"constants and reviewed fields +F54, +1080"
+2668E7,call,20E210,266810,"mulss(mulss([rbx+1080]@2668A7, 0.314159@6800D8), [rbx+F54]@2668D1)",stock,"constants and reviewed fields +F54, +1080"
+2669C8,call,20E210,266810,"mulss(mulss([rbx+1080]@266988, 0.314159@6800D8), [rbx+F54]@2669B2)",stock,"constants and reviewed fields +F54, +1080"
+266F95,call,20E210,266ED0,"mulss(mulss([rbx+1080]@266F55, 3.14159@671E7C), [rbx+F54]@266F7F)",stock,"constants and reviewed fields +F54, +1080"
+2672FA,call,20E210,267230,"mulss(mulss([rbx+1080]@2672C1, 0.279253@679CC0), [rbx+F54]@2672EB)",stock,"constants and reviewed fields +F54, +1080"
+267F59,call,20E210,267CC0,"mulss(mulss([rbx+1080]@267F2F, 0.279253@679CC0), [rbx+F54]@267F3F)",stock,"constants and reviewed fields +F54, +1080"
+2682BC,call,20E210,2680F0,"mulss(mulss([rbx+1080]@26828F, 0.279253@679CC0), [rbx+F54]@2682A2)",stock,"constants and reviewed fields +F54, +1080"
+268386,call,20E210,2680F0,"mulss(mulss([rbx+1080]@268359, 0.279253@679CC0), [rbx+F54]@26836C)",stock,"constants and reviewed fields +F54, +1080"
+2684CD,call,20E210,2680F0,"mulss(mulss([rbx+1080]@2684A0, 0.279253@679CC0), [rbx+F54]@2684B3)",stock,"constants and reviewed fields +F54, +1080"
+26856E,call,20E210,2680F0,"mulss(mulss([rbx+1080]@268541, 0.0523599@679C90), [rbx+F54]@268554)",stock,"constants and reviewed fields +F54, +1080"
+268645,call,20E210,2680F0,"mulss(mulss([rbx+1080]@268618, 0.0523599@679C90), [rbx+F54]@26862B)",stock,"constants and reviewed fields +F54, +1080"
+26892E,call,20E210,268720,"mulss(phi(mulss([rbx+1080]@268901, 0.0872665@679C04) | mulss([rbx+1080]@2688E5, 0.279253@679CC0)), [rbx+F54]@268911)",stock,"constants and reviewed fields +F54, +1080"
+268B4B,call,20E210,268720,"mulss(phi(mulss([rbx+1080]@268B1E, 0.0872665@679C04) | mulss([rbx+1080]@268B02, 0.279253@679CC0)), [rbx+F54]@268B2E)",stock,"constants and reviewed fields +F54, +1080"
+268C98,call,20E210,268720,"mulss(phi(mulss([rbx+1080]@268C6B, 0.0872665@679C04) | mulss([rbx+1080]@268C4F, 0.279253@679CC0)), [rbx+F54]@268C7B)",stock,"constants and reviewed fields +F54, +1080"
+268CD7,call,20E210,268720,"mulss(mulss([rbx+1080]@268CAA, 0.0523599@679C90), [rbx+F54]@268CBD)",stock,"constants and reviewed fields +F54, +1080"
+268E7C,call,20E210,268720,"mulss(phi(mulss([rbx+1080]@268E4F, 0.0872665@679C04) | mulss([rbx+1080]@268E33, 0.628319@679914)), [rbx+F54]@268E5F)",stock,"constants and reviewed fields +F54, +1080"
+2690A4,call,20E210,268720,"mulss(phi(mulss([rbx+1080]@269077, 0.0872665@679C04) | mulss([rbx+1080]@26905B, 0.20944@679C38)), [rbx+F54]@269087)",stock,"constants and reviewed fields +F54, +1080"
+269664,call,20E210,269510,"mulss(mulss([rbx+1080]@269642, 0.279253@679CC0), [rbx+F54]@26965C)",stock,"constants and reviewed fields +F54, +1080"
+269A4A,call,20E210,269950,"mulss(mulss([rbx+1080]@269A28, 0.0523599@679C90), [rbx+F54]@269A42)",stock,"constants and reviewed fields +F54, +1080"
+269B5A,call,20E210,269A60,"mulss(mulss([rbx+1080]@269B38, 0.0523599@679C90), [rbx+F54]@269B52)",stock,"constants and reviewed fields +F54, +1080"
+269C65,call,20E210,269B70,"mulss(mulss([rbx+1080]@269C43, 0.0523599@679C90), [rbx+F54]@269C5D)",stock,"constants and reviewed fields +F54, +1080"
+269D7A,call,20E210,269C80,"mulss(mulss([rbx+1080]@269D58, 0.0523599@679C90), [rbx+F54]@269D72)",stock,"constants and reviewed fields +F54, +1080"
+269E7F,call,20E210,269D90,"mulss(mulss([rbx+1080]@269E3F, 6.28319@671E80), [rbx+F54]@269E69)",stock,"constants and reviewed fields +F54, +1080"
+269EE8,call,20E210,269D90,"mulss(mulss([rbx+1080]@269EBF, 0.0523599@679C90), [rbx+F54]@269ED9)",stock,"constants and reviewed fields +F54, +1080"
+26A302,call,20E210,26A200,"mulss(mulss([rdi+1CA0]@26A2E0, [rdi+1080]@26A2EF), [rdi+F54]@26A2FA)",stock,"constants and reviewed fields +F54, +1080, +1CA0"
+26A46E,call,20E210,26A370,"mulss(mulss([rbx+1080]@26A44C, 0.279253@679CC0), [rbx+F54]@26A466)",stock,"constants and reviewed fields +F54, +1080"
+26A5CE,call,20E210,26A4D0,"mulss(mulss([rbx+1080]@26A5AC, 0.279253@679CC0), [rbx+F54]@26A5C6)",stock,"constants and reviewed fields +F54, +1080"
+26A71E,call,20E210,26A620,"mulss(mulss([rbx+1080]@26A6FC, 0.279253@679CC0), [rbx+F54]@26A716)",stock,"constants and reviewed fields +F54, +1080"
+26A8AA,call,20E210,26A7B0,"mulss(mulss([rbx+1080]@26A888, 0.0523599@679C90), [rbx+F54]@26A8A2)",stock,"constants and reviewed fields +F54, +1080"
+26A9BB,call,20E210,26A8C0,"mulss(mulss([rbx+1080]@26A999, 0.0523599@679C90), [rbx+F54]@26A9B3)",stock,"constants and reviewed fields +F54, +1080"
+26AAC6,call,20E210,26AA10,"mulss(mulss([rdi+1CA0]@26AAA4, [rdi+1080]@26AAB3), [rdi+F54]@26AABE)",stock,"constants and reviewed fields +F54, +1080, +1CA0"
+27C6E4,call,20E210,27C240,"mulss(mulss([rdi+1080]@27C6C6, 3.14159@671E7C), [rdi+F54]@27C6DC)",stock,"constants and reviewed fields +F54, +1080"
+27DDAF,call,20E210,27DD50,"mulss(mulss([rbx+1080]@27DD86, 0.0261799@67C078), [rbx+F54]@27DDA0)",stock,"constants and reviewed fields +F54, +1080"
+27E060,call,20E210,27E000,"mulss(mulss([rbx+1080]@27E037, 0.0261799@67C078), [rbx+F54]@27E051)",stock,"constants and reviewed fields +F54, +1080"
+27E68B,call,20E210,27E5E0,"mulss(mulss([rbx+1080]@27E64A, 0.0261799@67C078), [rbx+F54]@27E674)",stock,"constants and reviewed fields +F54, +1080"
+27EC37,call,20E210,27EBD0,"mulss(mulss([rbx+1080]@27EC0E, 0.0436332@680E80), [rbx+F54]@27EC28)",stock,"constants and reviewed fields +F54, +1080"
+27F62D,call,20E210,27F4B0,"mulss(mulss([rdi+1080]@27F5F2, 0.0785398@680E88), [rdi+F54]@27F60D)",stock,"constants and reviewed fields +F54, +1080"
+27FADF,call,20E210,27FA80,"mulss(mulss([rbx+1080]@27FAB6, 0.0436332@680E80), [rbx+F54]@27FAD0)",stock,"constants and reviewed fields +F54, +1080"
+27FE59,call,20E210,27FE00,"mulss(mulss([rdi+1080]@27FE37, 0.0174533@672928), [rdi+F54]@27FE51)",stock,"constants and reviewed fields +F54, +1080"
+2802A8,call,20E210,280260,"mulss(mulss([rbx+1080]@28027F, 0.0261799@67C078), [rbx+F54]@280299)",stock,"constants and reviewed fields +F54, +1080"
+280453,call,20E210,280400,"mulss(mulss([rbx+1080]@28042A, 0.0261799@67C078), [rbx+F54]@280444)",stock,"constants and reviewed fields +F54, +1080"
+280753,call,20E210,280610,"mulss(mulss([rbx+1080]@280731, 0.0349066@679C00), [rbx+F54]@28074B)",stock,"constants and reviewed fields +F54, +1080"
+2807F1,call,20E210,2807A0,"mulss(mulss([rbx+1080]@2807C8, 0.0261799@67C078), [rbx+F54]@2807E2)",stock,"constants and reviewed fields +F54, +1080"
+280995,call,20E210,280950,"mulss(mulss([rbx+1080]@280967, 0.0261799@67C078), [rbx+F54]@28098D)",stock,"constants and reviewed fields +F54, +1080"
+29683E,call,20E290,296700,0.261799@679C14,stock,constants
+296AB1,call,20E290,296700,0.261799@679C14,stock,constants
+296D24,call,20E290,296BB0,0.139626@679C08,stock,constants
+296DDB,call,20E290,296BB0,0.0349066@679C00,stock,constants
+2974D2,call,20E210,297090,"mulss(mulss(addss(mulss(cvtpd2ps(andps(mulss(deep@29743A, 0.3@675A30), nan@671E30)), 0.0872665@679C04), addss(addss(mulss(cvtpd2ps(deep@297449), 0.0872665@679C04), 0.0174533@672928), mulss(subss(1@671C08, cvtpd2ps(andps(deep@297442, nan@671E30))), 0.0349066@679C00))), [rbx+1080]@2974A1), [rbx+F54]@2974BE)",manual,"a limit built each tick from the angle and distance to the target, times constants: geometry in stock units; the function reads no rate global"
+2983C7,call,20E210,2981B0,"mulss(mulss(mulss([rbx+1080]@29839E, 5@675A78), [rbx+1080]@29839E), [rbx+F54]@2983BF)",stock,"constants and reviewed fields +F54, +1080"
+2986A5,call,20E210,2984A0,"mulss(mulss(mulss([rdi+1080]@29867C, 5@675A78), [rdi+1080]@29867C), [rdi+F54]@29869D)",stock,"constants and reviewed fields +F54, +1080"
+298DA4,call,20E210,298CC0,"mulss(mulss([rbx+1080]@298D76, 1.0472@679CA4), [rbx+F54]@298D9C)",stock,"constants and reviewed fields +F54, +1080"
+298DFC,call,20E210,298CC0,"mulss(mulss([rbx+1080]@298DCA, 1.0472@679CA4), [rbx+F54]@298DEB)",stock,"constants and reviewed fields +F54, +1080"
+298EA0,call,20E210,298CC0,"mulss(mulss(addss(mulss(cvtpd2ps(andps(mulss(ret(xmm0 @298E25), 0.3@675A30), nan@671E30)), 0.0872665@679C04), addss(addss(mulss(cvtpd2ps(andps(deep@298E43, nan@671E30)), 0.0872665@679C04), 0.0174533@672928), mulss(subss(1@671C08, cvtpd2ps(andps(deep@298E34, nan@671E30))), 0.0349066@679C00))), [rbx+1080]@298E90), [rbx+F54]@298E98)",manual,as 2974D2 (the same class's other state)
+29911F,call,20E290,2990A0,0.0523599@679C90,stock,constants
+29941F,call,20E210,2990A0,"mulss(mulss(mulss([rbx+1080]@2993F6, [rbx+1270]@29940B), [rbx+1080]@2993F6), [rbx+F54]@299417)",stock,"constants and reviewed fields +F54, +1080, +1270"
+2998FD,call,20E210,2994C0,"mulss(mulss(mulss([rbx+1080]@2998D4, [rbx+1270]@2998E9), [rbx+1080]@2998D4), [rbx+F54]@2998F5)",stock,"constants and reviewed fields +F54, +1080, +1270"
+299BC4,call,20E210,299AC0,"mulss(mulss(mulss([rbx+1080]@299B9B, [rbx+1270]@299BB0), [rbx+1080]@299B9B), [rbx+F54]@299BBC)",stock,"constants and reviewed fields +F54, +1080, +1270"
+29A17D,call,20E210,29A030,"mulss(mulss(mulss(mulss([rbx+1270]@29A149, 0.1@671E04), [rbx+1080]@29A165), [rbx+1080]@29A165), [rbx+F54]@29A175)",stock,"constants and reviewed fields +F54, +1080, +1270"
+29A2EA,call,20E290,29A290,0.0523599@679C90,stock,constants
+29A573,call,20E210,29A380,"mulss(mulss(mulss([rbx+1080]@29A54A, [rbx+1270]@29A55F), [rbx+1080]@29A54A), [rbx+F54]@29A56B)",stock,"constants and reviewed fields +F54, +1080, +1270"
+29BFE2,call,20E290,29BEF0,0.523599@679C4C,stock,constants
+29C161,call,20E290,29C080,0.523599@679C4C,stock,constants
+29C6D8,call,20E210,29C620,"mulss(mulss([rbx+1080]@29C6B6, 1.0472@679CA4), [rbx+F54]@29C6D0)",stock,"constants and reviewed fields +F54, +1080"
+29C7B5,call,20E210,29C6F0,"mulss(mulss([rbx+1080]@29C793, 1.0472@679CA4), [rbx+F54]@29C7AD)",stock,"constants and reviewed fields +F54, +1080"
+29C895,call,20E210,29C7D0,"mulss(mulss([rbx+1080]@29C873, 1.0472@679CA4), [rbx+F54]@29C88D)",stock,"constants and reviewed fields +F54, +1080"
+2A9353,call,20E210,2A8D20,"mulss(mulss([rbx+1080]@2A9335, 1.39626@67C084), [rbx+F54]@2A934B)",stock,"constants and reviewed fields +F54, +1080"
+2AB73B,call,20E210,2AB080,"mulss(mulss([rsi+1080]@2AB719, 3.14159@671E7C), [rsi+F54]@2AB733)",stock,"constants and reviewed fields +F54, +1080"
+2ABD47,call,20E210,2ABBE0,"mulss(mulss([rdi+1080]@2ABD25, 0.523599@679C4C), [rdi+F54]@2ABD3F)",stock,"constants and reviewed fields +F54, +1080"
+2ABFB7,call,20E210,2ABE50,"mulss(mulss([rdi+1080]@2ABF95, 0.523599@679C4C), [rdi+F54]@2ABFAF)",stock,"constants and reviewed fields +F54, +1080"
+2AC15A,call,20E210,2AC070,"mulss(mulss([rdi+1080]@2AC138, 0.523599@679C4C), [rdi+F54]@2AC152)",stock,"constants and reviewed fields +F54, +1080"
+2AC1A7,call,20E210,2AC070,"mulss(mulss([rdi+1080]@2AC185, 0.0523599@679C90), [rdi+F54]@2AC19F)",stock,"constants and reviewed fields +F54, +1080"
+2ACA83,call,20E210,2AC940,"mulss(phi(mulss([rdi+1080]@2ACA61, 0.436332@679EF4) | mulss([rdi+1080]@2ACA4A, 0.0872665@679C04)), [rdi+F54]@2ACA71)",stock,"constants and reviewed fields +F54, +1080"
+2ACE0B,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2ACDD9, 3.14159@671E7C), [rdi+F54]@2ACE03)",stock,"constants and reviewed fields +F54, +1080"
+2AD0DF,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2AD0BD, 3.14159@671E7C), [rdi+F54]@2AD0D7)",stock,"constants and reviewed fields +F54, +1080"
+2AD1D2,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2AD1B0, 0.523599@679C4C), [rdi+F54]@2AD1CA)",stock,"constants and reviewed fields +F54, +1080"
+2AD743,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2AD721, 3.14159@671E7C), [rdi+F54]@2AD73B)",stock,"constants and reviewed fields +F54, +1080"
+2AD921,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2AD8FF, 3.14159@671E7C), [rdi+F54]@2AD919)",stock,"constants and reviewed fields +F54, +1080"
+2ADA1D,call,20E210,2ACCF0,"mulss(mulss([rdi+1080]@2AD9FB, 3.14159@671E7C), [rdi+F54]@2ADA15)",stock,"constants and reviewed fields +F54, +1080"
+2ADC98,call,20E210,2ADB10,"mulss(mulss([rdi+1080]@2ADC79, 1.39626@67C084), [rdi+F54]@2ADC90)",stock,"constants and reviewed fields +F54, +1080"
+2ADD1D,call,20E210,2ADB10,"mulss(phi(mulss([rdi+1080]@2ADCFE, 0.0314159@6827B8) | mulss([rdi+1080]@2ADCD2, 0.261799@679C14)), [rdi+F54]@2ADD0E)",stock,"constants and reviewed fields +F54, +1080"
+2AE7F3,call,20E210,2AE680,"mulss(mulss([rdi+1080]@2AE7C1, 1.0472@679CA4), [rdi+F54]@2AE7EB)",stock,"constants and reviewed fields +F54, +1080"
+2AE84B,call,20E210,2AE680,"mulss(mulss([rdi+1080]@2AE829, 2.61799@6827DC), [rdi+F54]@2AE843)",stock,"constants and reviewed fields +F54, +1080"
+2AE90B,call,20E210,2AE680,"mulss(mulss([rdi+1080]@2AE8E9, 0.122173@6827C0), [rdi+F54]@2AE903)",stock,"constants and reviewed fields +F54, +1080"
+2AED81,call,20E210,2AE680,"mulss(mulss([rdi+1080]@2AED5F, 1.91986@6827CC), [rdi+F54]@2AED79)",stock,"constants and reviewed fields +F54, +1080"
+2AF364,call,20E210,2AF240,"mulss(mulss([rdi+1080]@2AF342, 0.0698132@679C34), [rdi+F54]@2AF35C)",stock,"constants and reviewed fields +F54, +1080"
+2AF4EE,call,20E210,2AF240,"mulss(mulss([rdi+1080]@2AF4CC, 0.20944@679C38), [rdi+F54]@2AF4E6)",stock,"constants and reviewed fields +F54, +1080"
+2AFB26,call,20E210,2AF870,"mulss(mulss([rdi+1080]@2AFB04, 0.279253@679CC0), [rdi+F54]@2AFB1E)",stock,"constants and reviewed fields +F54, +1080"
+2AFEBD,call,20E210,2AFB70,"mulss(mulss([rdi+1080]@2AFE9B, 0.279253@679CC0), [rdi+F54]@2AFEB5)",stock,"constants and reviewed fields +F54, +1080"
+2B01FA,call,20E210,2AFF90,"mulss(mulss([rdi+1080]@2B01D8, 0.279253@679CC0), [rdi+F54]@2B01F2)",stock,"constants and reviewed fields +F54, +1080"
+2B03A7,call,20E210,2AFF90,"mulss(mulss([rdi+1080]@2B0385, 0.279253@679CC0), [rdi+F54]@2B039F)",stock,"constants and reviewed fields +F54, +1080"
+2B04B4,call,20E210,2AFF90,"mulss(mulss([rdi+1080]@2B0482, 0.698132@679CA0), [rdi+F54]@2B04AC)",stock,"constants and reviewed fields +F54, +1080"
+2B053F,call,20E210,2AFF90,"mulss(mulss([rdi+1080]@2B051D, 0.279253@679CC0), [rdi+F54]@2B0537)",stock,"constants and reviewed fields +F54, +1080"
+2B0583,call,20E210,2AFF90,"mulss(mulss([rdi+1080]@2B0561, 0.0523599@679C90), [rdi+F54]@2B057B)",stock,"constants and reviewed fields +F54, +1080"
+2B09B2,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B0990, 0.279253@679CC0), [rdi+F54]@2B09AA)",stock,"constants and reviewed fields +F54, +1080"
+2B0B9E,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B0B7C, 0.279253@679CC0), [rdi+F54]@2B0B96)",stock,"constants and reviewed fields +F54, +1080"
+2B0D09,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B0CE7, 0.279253@679CC0), [rdi+F54]@2B0D01)",stock,"constants and reviewed fields +F54, +1080"
+2B0DD1,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B0DAF, 0.0523599@679C90), [rdi+F54]@2B0DC9)",stock,"constants and reviewed fields +F54, +1080"
+2B105B,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B1039, 0.628319@679914), [rdi+F54]@2B1053)",stock,"constants and reviewed fields +F54, +1080"
+2B126B,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B1249, 0.523599@679C4C), [rdi+F54]@2B1263)",stock,"constants and reviewed fields +F54, +1080"
+2B12B9,call,20E210,2B0720,"mulss(mulss([rdi+1080]@2B1297, 0.139626@679C08), [rdi+F54]@2B12B1)",stock,"constants and reviewed fields +F54, +1080"
+2B1C92,call,20E210,2B1910,"mulss(mulss([rdi+1080]@2B1C70, 0.279253@679CC0), [rdi+F54]@2B1C8A)",stock,"constants and reviewed fields +F54, +1080"
+2B244B,call,20E210,2B22F0,"mulss(mulss([rdi+1580]@2B2429, [rdi+1080]@2B2438), [rdi+F54]@2B2443)",stock,"constants and reviewed fields +F54, +1080, +1580"
+2B253A,call,20E210,2B22F0,0.558505@6827C4,stock,constants
+2B2CC0,call,20E210,2B2BA0,"mulss(mulss([rdi+1080]@2B2C9E, 0.279253@679CC0), [rdi+F54]@2B2CB8)",stock,"constants and reviewed fields +F54, +1080"
+2B32B2,call,20E210,2B31F0,"mulss(mulss([rdi+1080]@2B3290, 0.0698132@679C34), [rdi+F54]@2B32AA)",stock,"constants and reviewed fields +F54, +1080"
+2B3392,call,20E210,2B32D0,"mulss(mulss([rdi+1080]@2B3370, 0.0523599@679C90), [rdi+F54]@2B338A)",stock,"constants and reviewed fields +F54, +1080"
+2B3471,call,20E210,2B33B0,"mulss(mulss([rdi+1080]@2B344F, 0.0523599@679C90), [rdi+F54]@2B3469)",stock,"constants and reviewed fields +F54, +1080"
+2B3552,call,20E210,2B3490,"mulss(mulss([rdi+1080]@2B3530, 0.0523599@679C90), [rdi+F54]@2B354A)",stock,"constants and reviewed fields +F54, +1080"
+2B3682,call,20E210,2B3570,"mulss(mulss([rdi+1580]@2B3660, [rdi+1080]@2B366F), [rdi+F54]@2B367A)",stock,"constants and reviewed fields +F54, +1080, +1580"
+2B3781,call,20E210,2B36C0,"mulss(mulss([rdi+1080]@2B374F, 0.279253@679CC0), [rdi+F54]@2B3779)",stock,"constants and reviewed fields +F54, +1080"
+2B38D1,call,20E210,2B3810,"mulss(mulss([rdi+1080]@2B389F, 0.279253@679CC0), [rdi+F54]@2B38C9)",stock,"constants and reviewed fields +F54, +1080"
+2B3A8B,call,20E210,2B3960,"mulss(mulss([rdi+1080]@2B3A59, 0.279253@679CC0), [rdi+F54]@2B3A83)",stock,"constants and reviewed fields +F54, +1080"
+2B3C70,call,20E210,2B3B90,"mulss(mulss([rdi+1080]@2B3C4E, 0.00872665@6827A8), [rdi+F54]@2B3C68)",stock,"constants and reviewed fields +F54, +1080"
+2B3D5A,call,20E210,2B3C90,"mulss(mulss([rdi+1080]@2B3D35, 0.0174533@672928), [rdi+F54]@2B3D52)",stock,"constants and reviewed fields +F54, +1080"
+2B3D91,call,20E210,2B3C90,"mulss(mulss([rdi+1080]@2B3D6F, 0.436332@679EF4), [rdi+F54]@2B3D89)",stock,"constants and reviewed fields +F54, +1080"
+2B3DD0,call,20E210,2B3C90,"mulss(mulss([rdi+1080]@2B3DAE, 0.174533@679C0C), [rdi+F54]@2B3DC8)",stock,"constants and reviewed fields +F54, +1080"
+2B3FB4,call,20E210,2B3EF0,"mulss(mulss([rdi+1580]@2B3F92, [rdi+1080]@2B3FA1), [rdi+F54]@2B3FAC)",stock,"constants and reviewed fields +F54, +1080, +1580"
+2B55B5,call,20E210,2B5550,"mulss(mulss([rbx+1080]@2B5593, 3.14159@671E7C), [rbx+F54]@2B55AD)",stock,"constants and reviewed fields +F54, +1080"
+2C2CE3,call,20E210,2C2550,"mulss(mulss([rsi+1080]@2C2CC1, 2.0944@67B6A4), [rsi+F54]@2C2CDB)",stock,"constants and reviewed fields +F54, +1080"
+2C3FA8,call,20E210,2C3CA0,"mulss(mulss([rbx+1080]@2C3F86, 0.0610865@67EC68), [rbx+F54]@2C3FA0)",stock,"constants and reviewed fields +F54, +1080"
+2C41FC,call,20E210,2C40A0,"mulss(mulss([rbx+1080]@2C41DA, 0.0261799@67C078), [rbx+F54]@2C41F4)",stock,"constants and reviewed fields +F54, +1080"
+2C4A32,call,20E210,2C48D0,"mulss(mulss([rbx+1080]@2C4A10, 0.0261799@67C078), [rbx+F54]@2C4A2A)",stock,"constants and reviewed fields +F54, +1080"
+2C52EF,call,20E210,2C5200,"mulss(mulss([rdi+1080]@2C52CD, 0.0610865@67EC68), [rdi+F54]@2C52E7)",stock,"constants and reviewed fields +F54, +1080"
+2C543F,call,20E210,2C5200,"mulss(mulss([rdi+1080]@2C541D, 0.00523599@683178), [rdi+F54]@2C5437)",stock,"constants and reviewed fields +F54, +1080"
+2C59A5,call,20E210,2C5770,"mulss(mulss([rbx+1080]@2C5983, 0.0959931@6816FC), [rbx+F54]@2C599D)",stock,"constants and reviewed fields +F54, +1080"
+2C5AA7,call,20E210,2C5770,"mulss(mulss([rbx+1080]@2C5A85, 0.00872665@6827A8), [rbx+F54]@2C5A9F)",stock,"constants and reviewed fields +F54, +1080"
+2C5F51,call,20E210,2C5D60,"mulss(mulss([rdi+1080]@2C5F2F, 0.0610865@67EC68), [rdi+F54]@2C5F49)",stock,"constants and reviewed fields +F54, +1080"
+2C65E4,call,20E210,2C64C0,"mulss(mulss([rbx+1080]@2C65C4, 0.0610865@67EC68), [rbx+F54]@2C65DC)",stock,"constants and reviewed fields +F54, +1080"
+2C68DC,call,20E210,2C66F0,"mulss(mulss([rdi+1080]@2C68BA, 0.0218166@683180), [rdi+F54]@2C68D4)",stock,"constants and reviewed fields +F54, +1080"
+2C6D93,call,20E210,2C66F0,"mulss(mulss([rdi+1080]@2C6D71, 0.0191986@68317C), [rdi+F54]@2C6D8B)",stock,"constants and reviewed fields +F54, +1080"
+2C6F6E,call,20E210,2C66F0,"mulss(mulss([rdi+1080]@2C6F4C, 0.0698132@679C34), [rdi+F54]@2C6F66)",stock,"constants and reviewed fields +F54, +1080"
+2C7211,call,20E210,2C7020,"mulss(mulss([rdi+1080]@2C71EF, 0.00872665@6827A8), [rdi+F54]@2C7209)",stock,"constants and reviewed fields +F54, +1080"
+2C7417,call,20E210,2C7020,"mulss(mulss([rdi+1080]@2C73F5, 0.0698132@679C34), [rdi+F54]@2C740F)",stock,"constants and reviewed fields +F54, +1080"
+2C75AA,call,20E210,2C7460,"mulss(mulss([rbx+1080]@2C758C, 0.0436332@680E80), [rbx+F54]@2C75A2)",stock,"constants and reviewed fields +F54, +1080"
+2C767A,call,20E210,2C7460,"mulss(mulss([rbx+1080]@2C7658, 0.0261799@67C078), [rbx+F54]@2C7672)",stock,"constants and reviewed fields +F54, +1080"
+2C7730,call,20E210,2C7460,"mulss(phi(mulss([rbx+1080]@2C770E, 0.0436332@680E80) | mulss([rbx+1080]@2C76CD, 0.0436332@680E80)), [rbx+F54]@2C771E)",stock,"constants and reviewed fields +F54, +1080"
+2C7C15,call,20E210,2C7AB0,"mulss(phi(mulss([rbx+1080]@2C7BF3, 0.0349066@679C00) | mulss([rbx+1080]@2C7BDC, 0.0261799@67C078)), [rbx+F54]@2C7C03)",stock,"constants and reviewed fields +F54, +1080"
+2C7E12,call,20E210,2C7CC0,"mulss(phi(mulss([rbx+1080]@2C7DF0, 0.0610865@67EC68) | mulss([rbx+1080]@2C7DD9, 0.139626@679C08)), [rbx+F54]@2C7E00)",stock,"constants and reviewed fields +F54, +1080"
+2C7FB3,call,20E210,2C7E70,"mulss(mulss([rbx+1080]@2C7F91, 0.261799@679C14), [rbx+F54]@2C7FAB)",stock,"constants and reviewed fields +F54, +1080"
+2C8012,call,20E210,2C7E70,"mulss(phi(mulss([rbx+1080]@2C7FF0, 0.0174533@672928) | mulss([rbx+1080]@2C7FD9, 0.0698132@679C34)), [rbx+F54]@2C8000)",stock,"constants and reviewed fields +F54, +1080"
+2C8079,call,20E210,2C7E70,"mulss(mulss([rbx+1080]@2C8057, 0.0174533@672928), [rbx+F54]@2C8071)",stock,"constants and reviewed fields +F54, +1080"
+2C80E3,call,20E210,2C7E70,"mulss(phi(mulss([rbx+1080]@2C80C1, 0.0174533@672928) | mulss([rbx+1080]@2C80AA, 0.0349066@679C00)), [rbx+F54]@2C80D1)",stock,"constants and reviewed fields +F54, +1080"
+2C8263,call,20E210,2C8120,"mulss(mulss([rbx+1080]@2C8241, 0.261799@679C14), [rbx+F54]@2C825B)",stock,"constants and reviewed fields +F54, +1080"
+2C82C2,call,20E210,2C8120,"mulss(phi(mulss([rbx+1080]@2C82A0, 0.0174533@672928) | mulss([rbx+1080]@2C8289, 0.0698132@679C34)), [rbx+F54]@2C82B0)",stock,"constants and reviewed fields +F54, +1080"
+2C8329,call,20E210,2C8120,"mulss(mulss([rbx+1080]@2C8307, 0.0174533@672928), [rbx+F54]@2C8321)",stock,"constants and reviewed fields +F54, +1080"
+2C8393,call,20E210,2C8120,"mulss(phi(mulss([rbx+1080]@2C8371, 0.0174533@672928) | mulss([rbx+1080]@2C835A, 0.0349066@679C00)), [rbx+F54]@2C8381)",stock,"constants and reviewed fields +F54, +1080"
+2C8866,call,20E210,2C8760,"mulss(phi(mulss([rbx+1080]@2C8844, 0.0314159@6827B8) | mulss([rbx+1080]@2C882D, 0.0261799@67C078)), [rbx+F54]@2C8854)",stock,"constants and reviewed fields +F54, +1080"
+2C8966,call,20E210,2C88A0,"mulss(mulss([rdi+16E0]@2C8944, [rdi+1080]@2C8953), [rdi+F54]@2C895E)",stock,"constants and reviewed fields +F54, +1080, +16E0"
+303C1A,call,20E210,303BC0,0.261799@679C14,stock,constants
+303C55,call,20E210,303BC0,0.261799@679C14,stock,constants
+303C7E,call,20E210,303BC0,0.261799@679C14,stock,constants
+303CA6,jmp,20E210,303BC0,0.261799@679C14,stock,constants
+303CD1,jmp,20E290,303BC0,0.261799@679C14,stock,constants
+303CF2,call,20E290,303BC0,0.261799@679C14,stock,constants
+304AA7,jmp,20E210,,,manual,"no .pdata function holds it; the waypoint follower 3049D0 (a leaf: no .pdata): limit = min(its argument + (ticks stuck - 30) * 0.017, pi); its callers pass the constants 679C14 and 679C04, and the stuck count (+1272) is on stock ticks in world_anims.h"
+3072FA,call,20E210,3071A0,0.261799@679C14,stock,constants
+3074E1,call,20E210,307340,0.261799@679C14,stock,constants
+3074F3,call,20E210,307340,0.261799@679C14,stock,constants
+307E4E,call,20E210,307B90,3.14159@671E7C,stock,constants
+308068,call,20E210,308030,0.261799@679C14,stock,constants
+308138,call,20E210,308100,0.261799@679C14,stock,constants
+3082C9,call,20E210,308280,0.261799@679C14,stock,constants
+308664,call,20E210,308340,3.14159@671E7C,stock,constants
+30885A,call,20E210,3087E0,3.14159@671E7C,stock,constants
+30891D,call,20E210,3088F0,0.261799@679C14,stock,constants
+30A69D,call,20E210,30A670,0.261799@679C14,stock,constants
+30ABEC,call,20E210,30AB90,0.261799@679C14,stock,constants
+30AC90,call,20E210,30AC50,0.261799@679C14,stock,constants
+30AD7B,call,20E210,30AD10,0.261799@679C14,stock,constants
+30B7DB,call,20E210,30B720,3.14159@671E7C,stock,constants
+30B90A,call,20E210,30B840,3.14159@671E7C,stock,constants
+30B9C8,call,20E210,30B970,3.14159@671E7C,stock,constants
+30BB97,call,20E210,30BA30,3.14159@671E7C,stock,constants
+30BC5C,call,20E210,30BA30,3.14159@671E7C,stock,constants
+30BC85,call,20E210,30BA30,0.0872665@679C04,stock,constants
+30BF77,call,20E210,30BDC0,3.14159@671E7C,stock,constants
+30C07F,call,20E210,30C020,3.14159@671E7C,stock,constants
+30C217,jmp,20E210,30C180,0.261799@679C14,stock,constants
+30C2CD,jmp,20E210,30C220,0.261799@679C14,stock,constants
+30C448,call,20E210,30C410,0.261799@679C14,stock,constants
+30C4D8,call,20E210,30C4A0,0.261799@679C14,stock,constants
+30C629,call,20E210,30C5E0,0.261799@679C14,stock,constants
+30D110,call,20E290,30CF50,0.261799@679C14,stock,constants
+30D1AB,call,20E290,30CF50,0.261799@679C14,stock,constants
+30D324,call,20E290,30D250,0.261799@679C14,stock,constants
+30D4A6,call,20E290,30D380,0.261799@679C14,stock,constants
+30D4C2,call,20E210,30D380,0.0872665@679C04,stock,constants
+30D52C,call,20E210,30D380,0.261799@679C14,stock,constants
+30D99F,call,20E210,30D650,0.0872665@679C04,stock,constants
+30FCAB,call,20E210,30FC70,0.261799@679C14,stock,constants
+30FCD3,call,20E210,30FC70,0.261799@679C14,stock,constants
+310DF1,call,20E210,310DA0,0.261799@679C14,stock,constants
+3129AB,call,20E210,312790,0.0872665@679C04,stock,constants
+3129DD,call,20E210,312790,0.0872665@679C04,stock,constants
+3150B2,jmp,20E290,315070,0.20944@679C38,stock,constants
+319B12,call,20E210,3199B0,0.261799@679C14,stock,constants
+319BCE,call,20E210,3199B0,0.261799@679C14,stock,constants
+31A0CD,call,20E210,319F00,0.261799@679C14,stock,constants
+31A189,call,20E210,319F00,0.261799@679C14,stock,constants
+31A2A1,call,20E210,31A200,0.261799@679C14,stock,constants
+31A3C7,call,20E210,31A200,0.261799@679C14,stock,constants
+31B6C2,call,20E210,31B600,3.14159@671E7C,stock,constants
+31B835,call,20E210,31B600,3.14159@671E7C,stock,constants
+31D27A,jmp,20E210,31D250,0.261799@679C14,stock,constants
+31D2CC,jmp,20E210,31D280,0.261799@679C14,stock,constants
+31EB7F,call,20E210,31EA20,0.174533@679C0C,stock,constants
+31ECE1,call,20E210,31EC70,3.14159@671E7C,stock,constants
+31F05B,call,20E210,31EDD0,0.174533@679C0C,stock,constants
+321031,call,20E210,320FE0,3.14159@671E7C,stock,constants
+32321D,call,20E210,323160,0.261799@679C14,stock,constants
+323479,call,20E210,323430,0.261799@679C14,stock,constants
+3238FB,call,20E210,323820,0.261799@679C14,stock,constants
+323962,call,20E210,323820,0.261799@679C14,stock,constants
+323C73,call,20E210,323B60,3.14159@671E7C,stock,constants
+32786B,jmp,20E210,327810,0.261799@679C14,stock,constants
+3293C0,call,20E210,329320,3.14159@671E7C,stock,constants
+3294A6,call,20E210,329430,3.14159@671E7C,stock,constants
+329A24,call,20E210,329930,0.261799@679C14,stock,constants
+329DA4,call,20E210,329CB0,0.261799@679C14,stock,constants
+32A0E2,call,20E210,32A020,3.14159@671E7C,stock,constants
+32A25A,call,20E210,32A020,3.14159@671E7C,stock,constants
+32E08E,call,20E210,32DF10,0.261799@679C14,stock,constants
+32E163,call,20E210,32DF10,0.261799@679C14,stock,constants
+32E43C,call,20E210,32E210,3.14159@671E7C,stock,constants
+32E48D,call,20E210,32E210,3.14159@671E7C,stock,constants
+32E4E7,call,20E210,32E210,3.14159@671E7C,stock,constants
+32F4DC,call,20E210,32F2A0,3.14159@671E7C,stock,constants
+32FFCA,call,20E210,32FF30,3.14159@671E7C,stock,constants
+3302DC,call,20E210,330270,3.14159@671E7C,stock,constants
+330431,call,20E210,3303B0,0.174533@679C0C,stock,constants
+3355E6,call,20E210,335530,3.14159@671E7C,stock,constants
+3357AA,call,20E210,335740,0.261799@679C14,stock,constants
+33658B,call,20E210,336270,0.261799@679C14,stock,constants
+336F6C,call,20E210,336C30,0.261799@679C14,stock,constants
+336FF1,call,20E210,336C30,0.261799@679C14,stock,constants
+337453,call,20E210,337280,0.261799@679C14,stock,constants
+337519,call,20E210,337280,0.261799@679C14,stock,constants
+337544,call,20E210,337280,0.261799@679C14,stock,constants
+338353,call,20E210,337FF0,0.261799@679C14,stock,constants
+3383D7,call,20E210,337FF0,0.261799@679C14,stock,constants
+33860E,call,20E210,338490,0.261799@679C14,stock,constants
+3386E3,call,20E210,338490,0.261799@679C14,stock,constants
+338D70,call,20E210,338A10,0.261799@679C14,stock,constants
+338DF4,call,20E210,338A10,0.261799@679C14,stock,constants
+33902E,call,20E210,338EB0,0.261799@679C14,stock,constants
+339103,call,20E210,338EB0,0.261799@679C14,stock,constants
+3392C3,call,20E210,3391B0,3.14159@671E7C,stock,constants
+339D15,call,20E210,339C40,3.14159@671E7C,stock,constants
+362922,call,20E210,362820,3.14159@671E7C,stock,constants
+362E58,call,20E210,362E20,0.0698132@679C34,stock,constants
+3632F0,call,20E210,363210,3.14159@671E7C,stock,constants
+3633DB,call,20E210,363210,0.0698132@679C34,stock,constants
+363469,call,20E210,363210,0.0698132@679C34,stock,constants
+3638CB,call,20E210,363790,3.14159@671E7C,stock,constants
+48572A,call,20E210,485390,0.4@679C74,stock,"constants; its function reads 485875 time scale: its one time-scale read (485875) is gravity on +E54, after the turn; the limit is the constant 679C74"
+4862DB,call,20E210,4860D0,0.261799@679C14,stock,constants
+4862ED,call,20E210,4860D0,0.261799@679C14,stock,constants
+486BC8,call,20E210,4867F0,0.654498@6B3868,stock,constants
+486BDA,call,20E210,4867F0,0.654498@6B3868,stock,constants
+4885E3,call,20E210,488310,0.261799@679C14,stock,constants
+4885F5,call,20E210,488310,0.261799@679C14,stock,constants
+4AA4DC,call,20E210,4AA370,0.261799@679C14,stock,constants
+4AA523,call,20E210,4AA370,0.261799@679C14,stock,constants
+4AA574,call,20E210,4AA370,0.261799@679C14,stock,constants
+4AA69E,call,20E210,4AA370,0.261799@679C14,stock,constants
+54EB45,call,20E210,54E6B0,0.3@675A30,stock,constants
+5BB4B9,call,20E210,5BB450,0.174533@679C0C,stock,constants
+5BB4DA,jmp,20E210,5BB450,0.174533@679C0C,stock,constants
+5BB547,jmp,20E210,5BB4E0,0.174533@679C0C,stock,constants
+5BB5B2,call,20E210,5BB550,3.14159@671E7C,stock,constants
+5BEFEC,call,20E210,5BEDD0,3.14159@671E7C,stock,constants
+5C82A4,call,20E210,5C8160,"mulss(mulss([rbx+1080]@5C8282, 0.270526@6BC478), [rbx+F54]@5C829C)",stock,"constants and reviewed fields +F54, +1080"
+5C88C5,call,20E210,5C85F0,"mulss(mulss([rdi+1080]@5C88A7, 0.174533@679C0C), [rdi+F54]@5C88BD)",stock,"constants and reviewed fields +F54, +1080"
+5C88F8,call,20E210,5C85F0,"mulss(mulss([rdi+1080]@5C88DA, 0.174533@679C0C), [rdi+F54]@5C88F0)",stock,"constants and reviewed fields +F54, +1080"
+5C8DC9,call,20E210,5C8C60,"mulss(mulss([rbx+1080]@5C8DA7, 0.349066@67E504), [rbx+F54]@5C8DC1)",stock,"constants and reviewed fields +F54, +1080"
+5C91BD,call,20E210,5C8FC0,"mulss(mulss([rdi+1080]@5C919B, 0.349066@67E504), [rdi+F54]@5C91B5)",stock,"constants and reviewed fields +F54, +1080"
+5C9EF4,call,20E210,5C9C20,"mulss(mulss([rbx+1080]@5C9ED2, 0.261799@679C14), [rbx+F54]@5C9EEC)",stock,"constants and reviewed fields +F54, +1080"
+5C9F28,call,20E210,5C9C20,"mulss(mulss([rbx+1080]@5C9F06, 0.0523599@679C90), [rbx+F54]@5C9F20)",stock,"constants and reviewed fields +F54, +1080"
+5CBED3,call,20E210,5CBAD0,"mulss(mulss([rdi+1080]@5CBEB1, 0.0872665@679C04), [rdi+F54]@5CBECB)",stock,"constants and reviewed fields +F54, +1080"
+5CFEFF,call,20E210,5CFC80,"mulss(mulss([rbx+1080]@5CFECD, 3.14159@671E7C), [rbx+F54]@5CFEF7)",stock,"constants and reviewed fields +F54, +1080"
+5D0060,call,20E210,5CFFA0,"mulss(mulss([rbx+1080]@5D002E, 3.14159@671E7C), [rbx+F54]@5D0058)",stock,"constants and reviewed fields +F54, +1080"
+5D0953,call,20E210,5D07D0,"mulss(mulss([rbx+1080]@5D0931, 3.14159@671E7C), [rbx+F54]@5D094B)",stock,"constants and reviewed fields +F54, +1080"
+5D1188,call,20E210,5D1080,"mulss(mulss([rbx+1080]@5D1166, 0.0872665@679C04), [rbx+F54]@5D1180)",stock,"constants and reviewed fields +F54, +1080"
+5D1564,call,20E210,5D1080,"mulss(phi(mulss([rbx+1080]@5D1542, 0.0174533@672928) | mulss([rbx+1080]@5D14A7, 0.00523599@683178)), [rbx+F54]@5D1552)",stock,"constants and reviewed fields +F54, +1080"
+5D1719,call,20E210,5D1080,"mulss(mulss([rbx+1080]@5D16F7, 0.0436332@680E80), [rbx+F54]@5D1711)",stock,"constants and reviewed fields +F54, +1080"
+5D191C,call,20E210,5D1810,"mulss(mulss([rbx+1080]@5D18EE, 0.139626@679C08), [rbx+F54]@5D1905)",stock,"constants and reviewed fields +F54, +1080"
+5D1DA6,call,20E210,5D1810,"mulss(mulss(mulss(phi(minss(10@672ED8, addss(divss(mulss(subss(deep@5D1D61, deep@5D1D61), 0.1@671E04), 10@672ED8), phi(maxss(0, mulss(divss(deep@5D1D12, deep@5D1D12), 0.1@671E04)) | 0.1@671E04 | 1@671C08 | 0.1@671E04 | minss(1@671C08, divss(cvtdq2ps(deep@5D190D), 15@67832C))))) | maxss(0, mulss(divss(subss(deep@5D1D04, cvtdq2ps(deep@5D1D0B)), 60@671E18), 0.1@671E04)) | 0.1@671E04 | 1@671C08 | 0.1@671E04 | minss(1@671C08, divss(cvtdq2ps(cvttss2si([rbx+53A4]@5D18DC)), 15@67832C))), 0.0174533@672928), [rbx+1080]@5D1D96), [rbx+F54]@5D1D9E)",manual,a limit that ramps with its own tick count (+53A4) and the distance: stock units at every tick (the count itself is an unconverted enemy timer)
+5D1F47,call,20E210,5D1810,"mulss(mulss([rbx+1080]@5D1F25, 0.0436332@680E80), [rbx+F54]@5D1F3F)",stock,"constants and reviewed fields +F54, +1080"
+5D231B,call,20E210,5D2050,"mulss(mulss([rbx+1080]@5D22EC, 0.0122173@67D688), [rbx+F54]@5D2304)",stock,"constants and reviewed fields +F54, +1080"
+5D24BD,call,20E210,5D2050,"mulss(mulss([rbx+1080]@5D2485, 0.174533@679C0C), [rbx+F54]@5D24A6)",stock,"constants and reviewed fields +F54, +1080"
+5D26B5,call,20E210,5D24F0,"mulss(mulss([rdi+1080]@5D2693, 0.139626@679C08), [rdi+F54]@5D26AD)",stock,"constants and reviewed fields +F54, +1080"
+5D34A6,call,20E210,5D3390,"mulss(mulss([rbx+1080]@5D3488, 0.0349066@679C00), [rbx+F54]@5D349E)",stock,"constants and reviewed fields +F54, +1080"
+5D683A,call,20E210,5D67D0,"mulss(mulss([rbx+1080]@5D67FF, 3.14159@671E7C), [rbx+F54]@5D682D)",stock,"constants and reviewed fields +F54, +1080"
+5D6E73,call,20E210,5D6DC0,"mulss([rbx+1080]@5D6E32, 0.00174533@6B8E04)",stock,constants and reviewed fields +1080
+5D7253,call,20E210,5D6DC0,"mulss(mulss([rbx+1080]@5D7231, 0.0698132@679C34), [rbx+F54]@5D724B)",stock,"constants and reviewed fields +F54, +1080"
+5D73D0,call,20E210,5D6DC0,"mulss(mulss([rbx+1080]@5D73A8, 0.0174533@672928), [rbx+F54]@5D73C8)",stock,"constants and reviewed fields +F54, +1080"
+5D7E9E,call,20E210,5D6DC0,"mulss(mulss([rbx+1080]@5D7E7C, 0.0523599@679C90), [rbx+F54]@5D7E96)",stock,"constants and reviewed fields +F54, +1080"
+5D8D46,call,20E210,5D8CE0,"mulss(mulss([rbx+1080]@5D8D0C, 0.00174533@6B8E04), [rbx+F54]@5D8D37)",stock,"constants and reviewed fields +F54, +1080"
+5D8E73,call,20E210,5D8CE0,"mulss(mulss([rbx+1080]@5D8E51, 0.0174533@672928), [rbx+F54]@5D8E6B)",stock,"constants and reviewed fields +F54, +1080"
+5D98A6,call,20E210,5D9650,"mulss(mulss([rbx+1080]@5D9884, 0.0523599@679C90), [rbx+F54]@5D989E)",stock,"constants and reviewed fields +F54, +1080"
+5DA6E4,call,20E210,5DA630,"mulss(mulss([rbx+1080]@5DA6C2, 0.0523599@679C90), [rbx+F54]@5DA6DC)",stock,"constants and reviewed fields +F54, +1080"
+5DB5E6,call,20E210,5DB470,"mulss(mulss([rsi+1080]@5DB5C4, 0.0436332@680E80), [rsi+F54]@5DB5DE)",stock,"constants and reviewed fields +F54, +1080"
+5DB76D,call,20E210,5DB470,"mulss(mulss([rsi+1080]@5DB74B, 0.0174533@672928), [rsi+F54]@5DB765)",stock,"constants and reviewed fields +F54, +1080"
+5E25FA,call,20E210,5E2590,"mulss(mulss([rbx+1080]@5E25BF, 3.14159@671E7C), [rbx+F54]@5E25ED)",stock,"constants and reviewed fields +F54, +1080"
+5E3387,call,20E210,5E3190,"mulss(mulss([rbx+1080]@5E3365, 0.20944@679C38), [rbx+F54]@5E337F)",stock,"constants and reviewed fields +F54, +1080"
+5E33BE,call,20E210,5E3190,"mulss(mulss([rbx+1080]@5E339C, 0.0488692@6BCA98), [rbx+F54]@5E33B6)",stock,"constants and reviewed fields +F54, +1080"
+5E3882,call,20E210,5E3720,"mulss(mulss([rbx+1080]@5E3860, 0.349066@67E504), [rbx+F54]@5E387A)",stock,"constants and reviewed fields +F54, +1080"
+5E39D1,call,20E210,5E3720,"mulss(mulss([rbx+1080]@5E39AF, 0.0523599@679C90), [rbx+F54]@5E39C9)",stock,"constants and reviewed fields +F54, +1080"
+5E4414,call,20E210,5E41D0,"mulss(mulss([rdi+1080]@5E43F2, 0.15708@67F8A8), [rdi+F54]@5E440C)",stock,"constants and reviewed fields +F54, +1080"
+5E4A91,call,20E210,5E4900,"mulss(mulss([rbx+1080]@5E4A6F, 0.261799@679C14), [rbx+F54]@5E4A89)",stock,"constants and reviewed fields +F54, +1080"
+5E4AC5,call,20E210,5E4900,"mulss(mulss([rbx+1080]@5E4AA3, 0.0523599@679C90), [rbx+F54]@5E4ABD)",stock,"constants and reviewed fields +F54, +1080"
+5E4DA7,call,20E210,5E4BF0,"mulss(mulss([rsi+1080]@5E4D85, 0.261799@679C14), [rsi+F54]@5E4D9F)",stock,"constants and reviewed fields +F54, +1080"
+5E4DDB,call,20E210,5E4BF0,"mulss(mulss([rsi+1080]@5E4DB9, 0.0523599@679C90), [rsi+F54]@5E4DD3)",stock,"constants and reviewed fields +F54, +1080"
+5E52FA,call,20E210,5E5150,"mulss(mulss([rbx+1080]@5E52D8, 0.261799@679C14), [rbx+F54]@5E52F2)",stock,"constants and reviewed fields +F54, +1080"
+5E576D,call,20E210,5E5510,"mulss(mulss([rbx+1080]@5E574B, 0.261799@679C14), [rbx+F54]@5E5765)",stock,"constants and reviewed fields +F54, +1080"
+5E57A1,call,20E210,5E5510,"mulss(mulss([rbx+1080]@5E577F, 0.0523599@679C90), [rbx+F54]@5E5799)",stock,"constants and reviewed fields +F54, +1080"
+5E5C06,call,20E210,5E5A80,"mulss(mulss([rbx+1080]@5E5BDA, 0.15708@67F8A8), [rbx+F54]@5E5BFE)",stock,"constants and reviewed fields +F54, +1080"
+5E6347,call,20E210,5E61A0,"mulss(mulss([rbx+1080]@5E631B, 0.20944@679C38), [rbx+F54]@5E633F)",stock,"constants and reviewed fields +F54, +1080"
+5E6AAC,call,20E210,5E6920,"mulss(mulss([rbx+1080]@5E6A80, 0.314159@6800D8), [rbx+F54]@5E6AA4)",stock,"constants and reviewed fields +F54, +1080"
+5E77C2,call,20E210,5E7620,"mulss(mulss([rbx+1080]@5E77A0, 0.20944@679C38), [rbx+F54]@5E77BA)",stock,"constants and reviewed fields +F54, +1080"
+5E77F9,call,20E210,5E7620,"mulss(mulss([rbx+1080]@5E77D7, 0.0488692@6BCA98), [rbx+F54]@5E77F1)",stock,"constants and reviewed fields +F54, +1080"
+5E80C8,call,20E210,5E7F60,"mulss(mulss([rbx+1080]@5E809C, 0.139626@679C08), [rbx+F54]@5E80C0)",stock,"constants and reviewed fields +F54, +1080"
+5E80EF,call,20E210,5E7F60,"mulss(mulss([rbx+1080]@5E80CD, 0.0523599@679C90), [rbx+F54]@5E80E7)",stock,"constants and reviewed fields +F54, +1080"
+5E8D38,call,20E210,5E8B90,"mulss(mulss([rbx+1080]@5E8D16, 0.0872665@679C04), [rbx+F54]@5E8D30)",stock,"constants and reviewed fields +F54, +1080"
+5E8E8F,call,20E210,5E8B90,"mulss(mulss([rbx+1080]@5E8E63, 0.0872665@679C04), [rbx+F54]@5E8E87)",stock,"constants and reviewed fields +F54, +1080"
+5ED642,call,20E210,5ED0C0,"mulss(mulss([rsi+1080]@5ED620, 3.14159@671E7C), [rsi+F54]@5ED63A)",stock,"constants and reviewed fields +F54, +1080"
+5EDB9B,call,20E210,5EDA40,"mulss(mulss([rbx+1080]@5EDB79, 0.174533@679C0C), [rbx+F54]@5EDB93)",stock,"constants and reviewed fields +F54, +1080"
+5EDEF8,call,20E210,5EDE30,"mulss(mulss([rsi+1080]@5EDEAF, 0.619592@6BCC84), [rsi+F54]@5EDED9)",stock,"constants and reviewed fields +F54, +1080"
+5EE012,call,20E210,5EDE30,"mulss(mulss([rsi+1080]@5EDFF0, 0.174533@679C0C), [rsi+F54]@5EE00A)",stock,"constants and reviewed fields +F54, +1080"
+5EE20B,call,20E210,5EE150,"mulss(mulss([rsi+1080]@5EE1D9, 0.270526@6BC478), [rsi+F54]@5EE203)",stock,"constants and reviewed fields +F54, +1080"
+5EE302,call,20E210,5EE150,"mulss(mulss([rsi+1080]@5EE2E0, 0.0959931@6816FC), [rsi+F54]@5EE2FA)",stock,"constants and reviewed fields +F54, +1080"
+5EE95D,call,20E210,5EE760,"mulss(mulss([rsi+1080]@5EE93E, 0.0523599@679C90), [rsi+F54]@5EE955)",stock,"constants and reviewed fields +F54, +1080"
+5EEAEE,call,20E210,5EE760,"mulss(mulss([rsi+1080]@5EEACC, 0.0959931@6816FC), [rsi+F54]@5EEAE6)",stock,"constants and reviewed fields +F54, +1080"
+5EEC58,call,20E210,5EE760,"mulss(mulss([rsi+1080]@5EEC36, 0.174533@679C0C), [rsi+F54]@5EEC50)",stock,"constants and reviewed fields +F54, +1080"
+5EEDAA,call,20E210,5EE760,"mulss(mulss([rsi+1080]@5EED88, 0.20944@679C38), [rsi+F54]@5EEDA2)",stock,"constants and reviewed fields +F54, +1080"
+5EEE6E,call,20E210,5EE760,"mulss(mulss([rsi+1080]@5EEE4C, 0.20944@679C38), [rsi+F54]@5EEE66)",stock,"constants and reviewed fields +F54, +1080"
+5EF07C,call,20E210,5EEEE0,"mulss(mulss([rdi+1080]@5EF05A, 0.270526@6BC478), [rdi+F54]@5EF074)",stock,"constants and reviewed fields +F54, +1080"
+5EF3C8,call,20E210,5EEEE0,"mulss(mulss([rdi+1080]@5EF3A6, 0.0959931@6816FC), [rdi+F54]@5EF3C0)",stock,"constants and reviewed fields +F54, +1080"
+5EF720,call,20E210,5EF560,"mulss(mulss([rsi+1080]@5EF701, 0.0523599@679C90), [rsi+F54]@5EF718)",stock,"constants and reviewed fields +F54, +1080"
+5EF80E,call,20E210,5EF560,"mulss(mulss([rsi+1080]@5EF7EC, 0.0174533@672928), [rsi+F54]@5EF806)",stock,"constants and reviewed fields +F54, +1080"
+5EFDBE,call,20E210,5EFBF0,"mulss(mulss([rdi+1080]@5EFD9C, 0.270526@6BC478), [rdi+F54]@5EFDB6)",stock,"constants and reviewed fields +F54, +1080"
+5F00F0,call,20E210,5EFEA0,"mulss(mulss([rsi+1080]@5F00CE, 0.0349066@679C00), [rsi+F54]@5F00E8)",stock,"constants and reviewed fields +F54, +1080"
+5F0146,call,20E210,5EFEA0,"mulss(mulss([rsi+1080]@5F0124, 0.0523599@679C90), [rsi+F54]@5F013E)",stock,"constants and reviewed fields +F54, +1080"
+5F039E,call,20E210,5F01A0,"mulss(mulss([rdi+1080]@5F037F, 0.0523599@679C90), [rdi+F54]@5F0396)",stock,"constants and reviewed fields +F54, +1080"
+5F03C5,call,20E210,5F01A0,"mulss(mulss([rdi+1080]@5F03A3, 0.0959931@6816FC), [rdi+F54]@5F03BD)",stock,"constants and reviewed fields +F54, +1080"
+5F055F,call,20E210,5F01A0,"mulss(mulss([rdi+1080]@5F053D, 0.0959931@6816FC), [rdi+F54]@5F0557)",stock,"constants and reviewed fields +F54, +1080"
+5F09BC,call,20E210,5F08E0,"mulss(mulss([rdi+1080]@5F099A, 0.270526@6BC478), [rdi+F54]@5F09B4)",stock,"constants and reviewed fields +F54, +1080"
+5F0DEC,call,20E210,5F0D10,"mulss(mulss([rdi+1080]@5F0DCA, 0.270526@6BC478), [rdi+F54]@5F0DE4)",stock,"constants and reviewed fields +F54, +1080"
+5F1127,call,20E210,5F1030,"mulss(mulss([rdi+1080]@5F1105, 0.270526@6BC478), [rdi+F54]@5F111F)",stock,"constants and reviewed fields +F54, +1080"
+5F1607,call,20E210,5F1470,"mulss(mulss([rsi+1080]@5F15E5, 0.174533@679C0C), [rsi+F54]@5F15FF)",stock,"constants and reviewed fields +F54, +1080"
+5F1650,call,20E210,5F1470,"mulss(mulss([rsi+1080]@5F162E, 0.270526@6BC478), [rsi+F54]@5F1648)",stock,"constants and reviewed fields +F54, +1080"
+5F182C,call,20E210,5F1750,"mulss(mulss([rdi+1080]@5F180A, 0.270526@6BC478), [rdi+F54]@5F1824)",stock,"constants and reviewed fields +F54, +1080"
+5F1FE2,call,20E210,5F1DF0,"mulss(mulss([rdi+1080]@5F1FC0, 0.0436332@680E80), [rdi+F54]@5F1FDA)",stock,"constants and reviewed fields +F54, +1080"
+5F220B,call,20E210,5F1DF0,"mulss(mulss([rdi+1080]@5F21E9, 0.0174533@672928), [rdi+F54]@5F2203)",stock,"constants and reviewed fields +F54, +1080"
+5F2252,call,20E210,5F1DF0,"mulss(mulss(mulss(mulss(cvtdq2ps(cvttss2si([rdi+4FA8]@5F2210)), 0.5@671E08), 0.0174533@672928), [rdi+1080]@5F2242), [rdi+F54]@5F224A)",stock,"constants and reviewed fields +F54, +1080, +4FA8"
+5F255B,call,20E210,5F2340,"mulss(mulss([rbx+1080]@5F2535, 0.00872665@6827A8), [rbx+F54]@5F2553)",stock,"constants and reviewed fields +F54, +1080"
+5F25A4,call,20E210,5F2340,"mulss(phi(mulss([rbx+1080]@5F2590, 0.00872665@6827A8) | mulss(mulss(cvtdq2ps(cvttss2si([rbx+4FA8]@5F2560)), 0.0174533@672928), [rbx+1080]@5F2586)), [rbx+F54]@5F259C)",stock,"constants and reviewed fields +F54, +1080, +4FA8"
+62DE61,jmp,20E210,62DD70,0.20944@679C38,stock,constants
+62E64C,call,20E210,62E560,[rbp+4]@62E643,manual,the limit is a .data table (7D26C4) indexed by the type: data
+62E870,call,20E210,62E7A0,[rdx+0]@62E861,manual,as 62E64C: the same .data table (7D26C4)
+62EA0B,call,20E210,62E9A0,3.14159@671E7C,stock,constants
+62EDCC,call,20E210,62EC80,3.14159@671E7C,stock,constants
+62F287,call,20E210,62F1C0,3.14159@671E7C,stock,constants
+62F442,call,20E210,62F380,3.14159@671E7C,stock,constants
+62F5DD,call,20E210,62F4A0,3.14159@671E7C,stock,constants
+62F80A,call,20E210,62F700,3.14159@671E7C,stock,constants
+6303DE,jmp,20E210,630300,0.20944@679C38,stock,constants
+63140B,call,20E210,6313A0,3.14159@671E7C,stock,constants
+63188C,call,20E210,631700,3.14159@671E7C,stock,constants
+631D9D,call,20E210,631CA0,3.14159@671E7C,stock,constants
+631FD8,call,20E210,631EE0,3.14159@671E7C,stock,constants
+63210D,call,20E210,632040,3.14159@671E7C,stock,constants
+632349,call,20E210,632230,3.14159@671E7C,stock,constants

@@ -6,7 +6,7 @@ import sys
 
 import pefile
 
-GAME = r"D:\SteamLibrary\steamapps\common\Okami"
+from gamedir import GAME  # auto-detected Steam install (or OKAMI_DIR)
 
 
 def analyze(path):

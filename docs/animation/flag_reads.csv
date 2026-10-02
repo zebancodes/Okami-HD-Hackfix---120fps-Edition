@@ -1,0 +1,398 @@
+site,function,what,instruction,class,evidence
+13B379,13B250,flag,"mov ecx, dword ptr [rip + 0xa2f8c1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+13B3C1,13B250,flag,"mov ecx, dword ptr [rip + 0xa2f879]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+13B3EC,13B250,flag,"mov ecx, dword ptr [rip + 0xa2f84e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+13B414,13B250,flag,"mov ecx, dword ptr [rip + 0xa2f826]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+14B948,14B870,fps,"movzx eax, byte ptr [rip + 0xa1f2f5]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14B951, the value stored times N"
+14BC24,14B970,fps,"movzx eax, byte ptr [rip + 0xa1f019]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14BC2D, the value stored times N"
+14BF48,14BEA0,fps,"movzx eax, byte ptr [rip + 0xa1ecf5]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14BF51, the value stored times N"
+14BFE6,14BEA0,fps,"movzx eax, byte ptr [rip + 0xa1ec57]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14BFEF, the value stored times N"
+14C0ED,14C010,fps,"movzx eax, byte ptr [rip + 0xa1eb50]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14C0F6, the value stored times N"
+14C202,14C170,fps,"movzx eax, byte ptr [rip + 0xa1ea3b]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14C20B, the value stored times N"
+14C5EF,14C450,fps,"movzx eax, byte ptr [rip + 0xa1e64e]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14C5F8, the value stored times N"
+14C65E,14C620,fps,"movzx eax, byte ptr [rip + 0xa1e5df]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14C667, the value stored times N"
+14C8BC,14C620,fps,"movzx eax, byte ptr [rip + 0xa1e381]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14C8C5, the value stored times N"
+14CFD6,,fps,"movzx eax, byte ptr [rip + 0xa1dc67]",F7,"the options screen's wait (cOptionScreenSetting: +B0): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 14CFDF, the value stored times N"
+16FE84,16C7E0,flag,"mov ecx, dword ptr [rip + 0x9fadb6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+188315,1882B0,flag,"mov ecx, dword ptr [rip + 0x9e2925]",F7,"rumble track waveform and small-motor PWM: gatefn 1882A0 runs the complete wave sample, pulse accumulator and phase advance at N60, the same cadence as Actuater's stock flag-sized request durations"
+188367,1882B0,flag,"mov ecx, dword ptr [rip + 0x9e28d3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+1BE621,1BE520,fps,"movzx eax, byte ptr [rip + 0x9ac61c]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE62A, the value stored times N"
+1BE717,1BE6D0,fps,"movzx eax, byte ptr [rip + 0x9ac526]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE720, the value stored times N"
+1BE732,1BE6D0,fps,"movzx eax, byte ptr [rip + 0x9ac50b]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE73B, the value stored times N"
+1BE7D0,1BE750,fps,"movzx eax, byte ptr [rip + 0x9ac46d]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE7D9, the value stored times N"
+1BE826,1BE750,fps,"movzx eax, byte ptr [rip + 0x9ac417]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE82F, the value stored times N"
+1BE8B1,1BE750,fps,"movzx eax, byte ptr [rip + 0x9ac38c]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BE8BA, the value stored times N"
+1BEC8C,1BEB90,fps,"movzx eax, byte ptr [rip + 0x9abfb1]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BEC95, the value stored times N"
+1BECBC,1BECA0,fps,"movzx eax, byte ptr [rip + 0x9abf81]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BECC5, the value stored times N"
+1BED6C,1BECA0,fps,"movzx eax, byte ptr [rip + 0x9abed1]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BED75, the value stored times N"
+1BEDB6,1BED90,fps,"movzx eax, byte ptr [rip + 0x9abe87]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BEDBF, the value stored times N"
+1BEF43,1BED90,fps,"movzx eax, byte ptr [rip + 0x9abcfa]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BEF4C, the value stored times N"
+1BEFB7,1BEF70,fps,"movzx eax, byte ptr [rip + 0x9abc86]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BEFC0, the value stored times N"
+1BEFDE,1BEF70,fps,"movzx eax, byte ptr [rip + 0x9abc5f]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BEFE7, the value stored times N"
+1BF01B,1BEFF0,fps,"movzx eax, byte ptr [rip + 0x9abc22]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF024, the value stored times N"
+1BF0B5,1BEFF0,fps,"movzx eax, byte ptr [rip + 0x9abb88]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF0BE, the value stored times N"
+1BF117,1BF0D0,fps,"movzx eax, byte ptr [rip + 0x9abb26]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF120, the value stored times N"
+1BF134,1BF0D0,fps,"movzx eax, byte ptr [rip + 0x9abb09]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF13D, the value stored times N"
+1BF197,1BF150,fps,"movzx eax, byte ptr [rip + 0x9abaa6]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF1A0, the value stored times N"
+1BF1B4,1BF150,fps,"movzx eax, byte ptr [rip + 0x9aba89]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF1BD, the value stored times N"
+1BF28C,1BF1D0,fps,"movzx eax, byte ptr [rip + 0x9ab9b1]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF29C, the value stored times N"
+1BF463,1BF1D0,fps,"movzx eax, byte ptr [rip + 0x9ab7da]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF46C, the value stored times N"
+1BF55E,1BF490,fps,"movzx eax, byte ptr [rip + 0x9ab6df]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF56E, the value stored times N"
+1BF6C3,1BF490,fps,"movzx eax, byte ptr [rip + 0x9ab57a]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BF6CC, the value stored times N"
+1BFB21,1BF7E0,fps,"movzx eax, byte ptr [rip + 0x9ab11c]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1BFB2A, the value stored times N"
+1C0127,1C00E0,fps,"movzx eax, byte ptr [rip + 0x9aab16]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0130, the value stored times N"
+1C014E,1C00E0,fps,"movzx eax, byte ptr [rip + 0x9aaaef]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0157, the value stored times N"
+1C020A,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aaa33]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0213, the value stored times N"
+1C0263,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aa9da]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C026C, the value stored times N"
+1C02EF,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aa94e]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C02F8, the value stored times N"
+1C0A86,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aa1b7]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0A8F, the value stored times N"
+1C0AF0,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aa14d]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0AF9, the value stored times N"
+1C0B7F,1C0160,fps,"movzx eax, byte ptr [rip + 0x9aa0be]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0B8B, the value stored times N"
+1C0D38,1C0C90,fps,"movzx eax, byte ptr [rip + 0x9a9f05]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C0D41, the value stored times N"
+1C1063,1C0C90,fps,"movzx eax, byte ptr [rip + 0x9a9bda]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C106C, the value stored times N"
+1C1301,1C10F0,fps,"movzx eax, byte ptr [rip + 0x9a993c]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C1311, the value stored times N"
+1C15B0,1C10F0,fps,"movzx eax, byte ptr [rip + 0x9a968d]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C15B9, the value stored times N"
+1C162D,,fps,"movzx eax, byte ptr [rip + 0x9a9610]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C1636, the value stored times N"
+1C1646,,fps,"movzx eax, byte ptr [rip + 0x9a95f7]",F7,"the memory-card screens' wait (cMcLoad, cMcSave, cMcBoot: +6C): fps / 2 ticks, counted down once a tick; half a second at 30 and 60, a quarter at 120: mulstore 1C164F, the value stored times N"
+222E98,222E10,flag,"mov ecx, dword ptr [rip + 0x947da2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+222EB8,222E10,flag,"mov ecx, dword ptr [rip + 0x947d82]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+222F04,222E10,flag,"mov ecx, dword ptr [rip + 0x947d36]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+222F29,222E10,flag,"mov ecx, dword ptr [rip + 0x947d11]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+243BF3,243630,flag,"mov ecx, dword ptr [rip + 0x927047]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+243C1D,243630,flag,"mov ecx, dword ptr [rip + 0x92701d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+256316,255ED0,flag,"mov ecx, dword ptr [rip + 0x914924]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+25633B,255ED0,flag,"mov ecx, dword ptr [rip + 0x9148ff]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+27545A,275280,flag,"mov ecx, dword ptr [rip + 0x8f57e0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+27547F,275280,flag,"mov ecx, dword ptr [rip + 0x8f57bb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2758F0,2757A0,flag,"mov ecx, dword ptr [rip + 0x8f534a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+275915,2757A0,flag,"mov ecx, dword ptr [rip + 0x8f5325]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+27657D,276400,flag,"mov ecx, dword ptr [rip + 0x8f46bd]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2765DD,276400,flag,"mov ecx, dword ptr [rip + 0x8f465d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+27728E,2771B0,flag,"mov ecx, dword ptr [rip + 0x8f39ac]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2772F0,2771B0,flag,"mov ecx, dword ptr [rip + 0x8f394a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+27762F,2774E0,flag,"mov ecx, dword ptr [rip + 0x8f360b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+277654,2774E0,flag,"mov ecx, dword ptr [rip + 0x8f35e6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+277E59,2779A0,flag,"mov ecx, dword ptr [rip + 0x8f2de1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+277E7E,2779A0,flag,"mov ecx, dword ptr [rip + 0x8f2dbc]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+278087,277F00,flag,"mov ecx, dword ptr [rip + 0x8f2bb3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2780B1,277F00,flag,"mov ecx, dword ptr [rip + 0x8f2b89]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+278681,278590,flag,"mov ecx, dword ptr [rip + 0x8f25b9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2786DF,278590,flag,"mov ecx, dword ptr [rip + 0x8f255b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8391,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b28a9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B83B1,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b2889]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B84B6,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b2784]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B84DB,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b275f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8A6C,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b21ce]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8A91,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b21a9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8AFF,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b213b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8B24,2B82B0,flag,"mov ecx, dword ptr [rip + 0x8b2116]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8DEB,2B8D10,flag,"mov ecx, dword ptr [rip + 0x8b1e4f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8E0D,2B8D10,flag,"mov ecx, dword ptr [rip + 0x8b1e2d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B8FE4,2B8D10,flag,"mov ecx, dword ptr [rip + 0x8b1c56]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B9004,2B8D10,flag,"mov ecx, dword ptr [rip + 0x8b1c36]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B9F44,2B9C30,flag,"mov ecx, dword ptr [rip + 0x8b0cf6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2B9F64,2B9C30,flag,"mov ecx, dword ptr [rip + 0x8b0cd6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA0D6,2B9FF0,flag,"mov ecx, dword ptr [rip + 0x8b0b64]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA0FB,2B9FF0,flag,"mov ecx, dword ptr [rip + 0x8b0b3f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA263,2BA180,flag,"mov ecx, dword ptr [rip + 0x8b09d7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA288,2BA180,flag,"mov ecx, dword ptr [rip + 0x8b09b2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA436,2BA310,flag,"mov ecx, dword ptr [rip + 0x8b0804]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BA45B,2BA310,flag,"mov ecx, dword ptr [rip + 0x8b07df]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BAF6F,2BAE40,flag,"mov ecx, dword ptr [rip + 0x8afccb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BAF94,2BAE40,flag,"mov ecx, dword ptr [rip + 0x8afca6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BB37F,2BB250,flag,"mov ecx, dword ptr [rip + 0x8af8bb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BB3A4,2BB250,flag,"mov ecx, dword ptr [rip + 0x8af896]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BBBE0,2BBAB0,flag,"mov ecx, dword ptr [rip + 0x8af05a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BBC05,2BBAB0,flag,"mov ecx, dword ptr [rip + 0x8af035]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BCE48,2BC840,flag,"mov ecx, dword ptr [rip + 0x8addf2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BCE6D,2BC840,flag,"mov ecx, dword ptr [rip + 0x8addcd]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BF435,2BF370,flag,"mov ecx, dword ptr [rip + 0x8ab805]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2BF455,2BF370,flag,"mov ecx, dword ptr [rip + 0x8ab7e5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CC7DD,2CC370,flag,"mov ecx, dword ptr [rip + 0x89e45d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CC83B,2CC370,flag,"mov ecx, dword ptr [rip + 0x89e3ff]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CC936,2CC370,flag,"mov ecx, dword ptr [rip + 0x89e304]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CC95B,2CC370,flag,"mov ecx, dword ptr [rip + 0x89e2df]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CF5EE,2CF3D0,flag,"mov ecx, dword ptr [rip + 0x89b64c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CF610,2CF3D0,flag,"mov ecx, dword ptr [rip + 0x89b62a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CF655,2CF3D0,flag,"mov ecx, dword ptr [rip + 0x89b5e5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CF675,2CF3D0,flag,"mov ecx, dword ptr [rip + 0x89b5c5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CFD1A,2CF9E0,flag,"mov ecx, dword ptr [rip + 0x89af20]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2CFD3F,2CF9E0,flag,"mov ecx, dword ptr [rip + 0x89aefb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D09DF,2D07D0,flag,"mov ecx, dword ptr [rip + 0x89a25b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D09FF,2D07D0,flag,"mov ecx, dword ptr [rip + 0x89a23b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0E55,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899de5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0E77,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899dc3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0EBC,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899d7e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0EDE,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899d5c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0F27,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899d13]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D0F47,2D0C50,flag,"mov ecx, dword ptr [rip + 0x899cf3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D161C,2D14F0,flag,"mov ecx, dword ptr [rip + 0x89961e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D1641,2D14F0,flag,"mov ecx, dword ptr [rip + 0x8995f9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D35C1,2D3420,flag,"mov ecx, dword ptr [rip + 0x897679]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D35E6,2D3420,flag,"mov ecx, dword ptr [rip + 0x897654]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D3FBA,2D3E60,flag,"mov ecx, dword ptr [rip + 0x896c80]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D3FDF,2D3E60,flag,"mov ecx, dword ptr [rip + 0x896c5b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D415F,2D3E60,flag,"mov ecx, dword ptr [rip + 0x896adb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+2D4184,2D3E60,flag,"mov ecx, dword ptr [rip + 0x896ab6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+364CBE,364B00,fps,"movzx ecx, byte ptr [rip + 0x805f7f]",notyet,"the fps byte (60 at 60 and 120) as a quantity: (fps / 30) x 15 stored to the byte B663D8, a length in ticks of a quake-like global (B663C8..D8 in the block at B66380, set by about 60 places, most with constant tick counts; read through a pointer to B66380, the reader not found yet: the scenery's 364B00 and 370280, the player's 3C1A80 and 3C5EA0), half its stock time at 120; not converted yet"
+370026,36FEA0,fps,"movzx ecx, byte ptr [rip + 0x7fac17]",notyet,"the fps byte (60 at 60 and 120) as a quantity: (fps / 30) x 15 stored to the byte B663D8, a length in ticks of a quake-like global (B663C8..D8 in the block at B66380, set by about 60 places, most with constant tick counts; read through a pointer to B66380, the reader not found yet: the scenery's 364B00 and 370280, the player's 3C1A80 and 3C5EA0), half its stock time at 120; not converted yet"
+3703FF,370280,fps,"movzx ecx, byte ptr [rip + 0x7fa83e]",notyet,"the fps byte (60 at 60 and 120) as a quantity: (fps / 30) x 15 stored to the byte B663D8, a length in ticks of a quake-like global (B663C8..D8 in the block at B66380, set by about 60 places, most with constant tick counts; read through a pointer to B66380, the reader not found yet: the scenery's 364B00 and 370280, the player's 3C1A80 and 3C5EA0), half its stock time at 120; not converted yet"
+380F70,380A30,flag,"mov ecx, dword ptr [rip + 0x7e9cca]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+380F7B,380A30,flag,"mov ecx, dword ptr [rip + 0x7e9cbf]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+381698,380A30,flag,"mov ecx, dword ptr [rip + 0x7e95a2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3816C0,380A30,flag,"mov ecx, dword ptr [rip + 0x7e957a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+381B1F,3817D0,flag,"mov ecx, dword ptr [rip + 0x7e911b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+381B3F,3817D0,flag,"mov ecx, dword ptr [rip + 0x7e90fb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+381B69,3817D0,flag,"mov ecx, dword ptr [rip + 0x7e90d1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+381F6D,381DB0,flag,"mov ecx, dword ptr [rip + 0x7e8ccd]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3820F7,381DB0,flag,"mov ecx, dword ptr [rip + 0x7e8b43]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+38211F,381DB0,flag,"mov ecx, dword ptr [rip + 0x7e8b1b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3829B0,382340,flag,"mov ecx, dword ptr [rip + 0x7e828a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3829D0,382340,flag,"mov ecx, dword ptr [rip + 0x7e826a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+382A03,382340,flag,"mov ecx, dword ptr [rip + 0x7e8237]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+382E73,382340,flag,"mov ecx, dword ptr [rip + 0x7e7dc7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3849A6,384930,flag,"mov ecx, dword ptr [rip + 0x7e6294]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3849CB,384930,flag,"mov ecx, dword ptr [rip + 0x7e626f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+384B33,384A80,flag,"mov ecx, dword ptr [rip + 0x7e6107]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+384B53,384A80,flag,"mov ecx, dword ptr [rip + 0x7e60e7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+386795,3866C0,flag,"mov ecx, dword ptr [rip + 0x7e44a5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3867EE,3866C0,flag,"mov ecx, dword ptr [rip + 0x7e444c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+392C27,392990,flag,"mov ecx, dword ptr [rip + 0x7d8013]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+392C47,392990,flag,"mov ecx, dword ptr [rip + 0x7d7ff3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+393D04,393C10,flag,"mov ecx, dword ptr [rip + 0x7d6f36]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+393D2B,393C10,flag,"mov ecx, dword ptr [rip + 0x7d6f0f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3944FC,393FB0,flag,"mov ecx, dword ptr [rip + 0x7d673e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+394507,393FB0,flag,"mov ecx, dword ptr [rip + 0x7d6733]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+394C1D,393FB0,flag,"mov ecx, dword ptr [rip + 0x7d601d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+394C45,393FB0,flag,"mov ecx, dword ptr [rip + 0x7d5ff5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+39509F,394D50,flag,"mov ecx, dword ptr [rip + 0x7d5b9b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3950BF,394D50,flag,"mov ecx, dword ptr [rip + 0x7d5b7b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3950E9,394D50,flag,"mov ecx, dword ptr [rip + 0x7d5b51]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3954ED,395330,flag,"mov ecx, dword ptr [rip + 0x7d574d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+395677,395330,flag,"mov ecx, dword ptr [rip + 0x7d55c3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+39569F,395330,flag,"mov ecx, dword ptr [rip + 0x7d559b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+395DD2,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d4e68]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+395DF4,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d4e46]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+395E73,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d4dc7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3961AE,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d4a8c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3961CE,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d4a6c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+396678,3958C0,flag,"mov ecx, dword ptr [rip + 0x7d45c2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3977AE,3976C0,flag,"mov ecx, dword ptr [rip + 0x7d348c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3977D5,3976C0,flag,"mov ecx, dword ptr [rip + 0x7d3465]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+39C2CF,39C0B0,flag,"mov ecx, dword ptr [rip + 0x7ce96b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+39C2F4,39C0B0,flag,"mov ecx, dword ptr [rip + 0x7ce946]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A7DDA,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2e60]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A7E01,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2e39]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A7E23,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2e17]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A7FD2,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2c68]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A7FF2,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2c48]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A8014,3A79F0,flag,"mov ecx, dword ptr [rip + 0x7c2c26]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A854F,3A80F0,flag,"mov ecx, dword ptr [rip + 0x7c26eb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A8574,3A80F0,flag,"mov ecx, dword ptr [rip + 0x7c26c6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A948D,3A9390,flag,"mov ecx, dword ptr [rip + 0x7c17ad]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3A94BB,3A9390,flag,"mov ecx, dword ptr [rip + 0x7c177f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AA305,3A9630,flag,"mov ecx, dword ptr [rip + 0x7c0935]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AA325,3A9630,flag,"mov ecx, dword ptr [rip + 0x7c0915]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AA34A,3A9630,flag,"mov ecx, dword ptr [rip + 0x7c08f0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AAD07,3A9630,fps,"movzx eax, byte ptr [rip + 0x7bff36]",notyet,"the fps byte (60 at 60 and 120) as a quantity: the player's 3A9630 and 3B9A70: fps (x 2) stored to +1144, half its stock time at 120; not converted yet"
+3AAD75,3A9630,fps,"movzx eax, byte ptr [rip + 0x7bfec8]",notyet,"the fps byte (60 at 60 and 120) as a quantity: the player's 3A9630 and 3B9A70: fps (x 2) stored to +1144, half its stock time at 120; not converted yet"
+3AFC10,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7bb02a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AFC30,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7bb00a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AFFD6,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7bac64]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3AFFFB,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7bac3f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B00A3,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7bab97]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B04DD,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7ba75d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B04FD,3AFA90,flag,"mov ecx, dword ptr [rip + 0x7ba73d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B0828,3B06F0,flag,"mov ecx, dword ptr [rip + 0x7ba412]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B084D,3B06F0,flag,"mov ecx, dword ptr [rip + 0x7ba3ed]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B0C55,3B0AF0,flag,"mov ecx, dword ptr [rip + 0x7b9fe5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B0C75,3B0AF0,flag,"mov ecx, dword ptr [rip + 0x7b9fc5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B0EF5,3B0E30,flag,"mov ecx, dword ptr [rip + 0x7b9d45]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B0F15,3B0E30,flag,"mov ecx, dword ptr [rip + 0x7b9d25]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B10E0,3B1040,flag,"mov ecx, dword ptr [rip + 0x7b9b5a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B1100,3B1040,flag,"mov ecx, dword ptr [rip + 0x7b9b3a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B12AA,3B1250,flag,"mov ecx, dword ptr [rip + 0x7b9990]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B12CA,3B1250,flag,"mov ecx, dword ptr [rip + 0x7b9970]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B161B,3B1560,flag,"mov ecx, dword ptr [rip + 0x7b961f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B163B,3B1560,flag,"mov ecx, dword ptr [rip + 0x7b95ff]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B35EA,3B2CF0,fps,"movzx ecx, byte ptr [rip + 0x7b7653]",notyet,"the fps byte (60 at 60 and 120) as a quantity: fps / 2 as a count of ticks: a period fc % (fps / 2) in the player's 3B2CF0 (a sound every half second; the value stays live in ecx up to a call that takes rcx, so a scaled divisor needs its own kind), half its stock time at 120; not converted yet"
+3B3943,3B2CF0,fps,"movzx ecx, byte ptr [rip + 0x7b72fa]",notyet,"the fps byte (60 at 60 and 120) as a quantity: fps / 2 as a count of ticks: a period fc % (fps / 2) in the player's 3B2CF0 (a sound every half second; the value stays live in ecx up to a call that takes rcx, so a scaled divisor needs its own kind), half its stock time at 120; not converted yet"
+3B4286,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b69b4]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B42A6,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b6994]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B4463,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b67d7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B4483,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b67b7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B516D,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b5acd]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B5192,3B3FF0,flag,"mov ecx, dword ptr [rip + 0x7b5aa8]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B5A78,3B5710,flag,"mov ecx, dword ptr [rip + 0x7b51c2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B5A9B,3B5710,flag,"mov ecx, dword ptr [rip + 0x7b519f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B5FB5,3B5D40,flag,"mov ecx, dword ptr [rip + 0x7b4c85]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B5FDC,3B5D40,flag,"mov ecx, dword ptr [rip + 0x7b4c5e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B64F8,3B6310,flag,"mov ecx, dword ptr [rip + 0x7b4742]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B651F,3B6310,flag,"mov ecx, dword ptr [rip + 0x7b471b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B6AAE,3B68C0,flag,"mov ecx, dword ptr [rip + 0x7b418c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B6AD5,3B68C0,flag,"mov ecx, dword ptr [rip + 0x7b4165]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B706E,3B6E80,flag,"mov ecx, dword ptr [rip + 0x7b3bcc]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B7095,3B6E80,flag,"mov ecx, dword ptr [rip + 0x7b3ba5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3B9BCB,3B9A70,fps,"movzx ecx, byte ptr [rip + 0x7b1072]",notyet,"the fps byte (60 at 60 and 120) as a quantity: the player's 3A9630 and 3B9A70: fps (x 2) stored to +1144, half its stock time at 120; not converted yet"
+3BBD8D,3BBC90,flag,"mov ecx, dword ptr [rip + 0x7aeead]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BBDB2,3BBC90,flag,"mov ecx, dword ptr [rip + 0x7aee88]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BC1A8,3BBC90,flag,"mov ecx, dword ptr [rip + 0x7aea92]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BC1CD,3BBC90,flag,"mov ecx, dword ptr [rip + 0x7aea6d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD0B9,3BC710,flag,"mov ecx, dword ptr [rip + 0x7adb81]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD0DB,3BC710,flag,"mov ecx, dword ptr [rip + 0x7adb5f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD229,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ada11]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD24C,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ad9ee]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD468,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ad7d2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD488,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ad7b2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD6AD,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ad58d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BD6CD,3BC710,flag,"mov ecx, dword ptr [rip + 0x7ad56d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BDBC0,3BDB40,flag,"mov ecx, dword ptr [rip + 0x7ad07a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BDBE0,3BDB40,flag,"mov ecx, dword ptr [rip + 0x7ad05a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BDFB4,3BDCB0,flag,"mov ecx, dword ptr [rip + 0x7acc86]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BDFD9,3BDCB0,flag,"mov ecx, dword ptr [rip + 0x7acc61]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BE7B1,3BE480,flag,"mov ecx, dword ptr [rip + 0x7ac489]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BE7D1,3BE480,flag,"mov ecx, dword ptr [rip + 0x7ac469]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BF2B9,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7ab981]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BF2DC,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7ab95e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BF6F9,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7ab541]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BF71C,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7ab51e]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BFD74,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7aaec6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3BFD97,3BEEE0,flag,"mov ecx, dword ptr [rip + 0x7aaea3]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C0A6F,3C05C0,flag,"mov ecx, dword ptr [rip + 0x7aa1cb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C0A99,3C05C0,flag,"mov ecx, dword ptr [rip + 0x7aa1a1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C0C41,3C05C0,flag,"mov ecx, dword ptr [rip + 0x7a9ff9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C0C6B,3C05C0,flag,"mov ecx, dword ptr [rip + 0x7a9fcf]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1B86,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a90b7]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1B94,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a90a6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1BBA,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a9083]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1BC8,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a9072]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1C51,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8fec]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1C5A,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8fe0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1C80,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8fbd]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1C8E,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8fac]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1CB6,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8f87]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1CC4,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8f76]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1CEC,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8f51]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1CFA,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8f40]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1D62,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8edb]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1D70,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8eca]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1D96,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8ea7]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C1DA4,3C1A80,flag,"mov ecx, dword ptr [rip + 0x7a8e96]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C1DE8,3C1A80,fps,"movzx ecx, byte ptr [rip + 0x7a8e55]",notyet,"the fps byte (60 at 60 and 120) as a quantity: (fps / 30) x 15 stored to the byte B663D8, a length in ticks of a quake-like global (B663C8..D8 in the block at B66380, set by about 60 places, most with constant tick counts; read through a pointer to B66380, the reader not found yet: the scenery's 364B00 and 370280, the player's 3C1A80 and 3C5EA0), half its stock time at 120; not converted yet"
+3C2562,3C2430,flag,"mov ecx, dword ptr [rip + 0x7a86d8]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C2582,3C2430,flag,"mov ecx, dword ptr [rip + 0x7a86b8]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C3113,3C2E80,flag,"mov ecx, dword ptr [rip + 0x7a7b27]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C3138,3C2E80,flag,"mov ecx, dword ptr [rip + 0x7a7b02]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C3F98,3C3C70,flag,"mov ecx, dword ptr [rip + 0x7a6ca2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C44A2,3C43C0,flag,"mov ecx, dword ptr [rip + 0x7a6798]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C469D,3C43C0,flag,"mov ecx, dword ptr [rip + 0x7a659d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C46C0,3C43C0,flag,"mov ecx, dword ptr [rip + 0x7a657a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C47A0,3C43C0,flag,"mov ecx, dword ptr [rip + 0x7a649a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C4E8B,3C4D90,flag,"mov ecx, dword ptr [rip + 0x7a5daf]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C4EAD,3C4D90,flag,"mov ecx, dword ptr [rip + 0x7a5d8d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C5F3E,3C5EA0,fps,"movzx ecx, byte ptr [rip + 0x7a4cff]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C5F4C,3C5EA0,flag,"mov ecx, dword ptr [rip + 0x7a4cee]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C5F72,3C5EA0,fps,"movzx ecx, byte ptr [rip + 0x7a4ccb]",rumble,"a rumble length for cPad::ActSet from the fps byte, (fps / 30) x n ticks: the gate on cPad::Actuater 1825A0 counts it at 60 Hz, its stock time"
+3C5F80,3C5EA0,flag,"mov ecx, dword ptr [rip + 0x7a4cba]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C5FE6,3C5EA0,fps,"movzx ecx, byte ptr [rip + 0x7a4c57]",notyet,"the fps byte (60 at 60 and 120) as a quantity: (fps / 30) x 15 stored to the byte B663D8, a length in ticks of a quake-like global (B663C8..D8 in the block at B66380, set by about 60 places, most with constant tick counts; read through a pointer to B66380, the reader not found yet: the scenery's 364B00 and 370280, the player's 3C1A80 and 3C5EA0), half its stock time at 120; not converted yet"
+3C69DD,3C68C0,flag,"mov ecx, dword ptr [rip + 0x7a425d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C6A02,3C68C0,flag,"mov ecx, dword ptr [rip + 0x7a4238]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C6FC8,3C6E40,flag,"mov ecx, dword ptr [rip + 0x7a3c72]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C82DB,3C7880,flag,"mov ecx, dword ptr [rip + 0x7a295f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C8304,3C7880,flag,"mov ecx, dword ptr [rip + 0x7a2936]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9135,3C84B0,flag,"mov ecx, dword ptr [rip + 0x7a1b05]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C915A,3C84B0,flag,"mov ecx, dword ptr [rip + 0x7a1ae0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9301,3C84B0,flag,"mov ecx, dword ptr [rip + 0x7a1939]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9330,3C84B0,flag,"mov ecx, dword ptr [rip + 0x7a190a]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C975F,3C96A0,flag,"mov ecx, dword ptr [rip + 0x7a14db]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C977F,3C96A0,flag,"mov ecx, dword ptr [rip + 0x7a14bb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C99DD,3C9940,flag,"mov ecx, dword ptr [rip + 0x7a125d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9A75,3C9940,flag,"mov ecx, dword ptr [rip + 0x7a11c5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9A9A,3C9940,flag,"mov ecx, dword ptr [rip + 0x7a11a0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9B0B,3C9940,flag,"mov ecx, dword ptr [rip + 0x7a112f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3C9B2D,3C9940,flag,"mov ecx, dword ptr [rip + 0x7a110d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CAC39,3CA320,flag,"mov ecx, dword ptr [rip + 0x7a0001]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CAC66,3CA320,flag,"mov ecx, dword ptr [rip + 0x79ffd4]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CAF54,3CAE60,flag,"mov ecx, dword ptr [rip + 0x79fce6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CB717,3CB300,flag,"mov ecx, dword ptr [rip + 0x79f523]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CB737,3CB300,flag,"mov ecx, dword ptr [rip + 0x79f503]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CBD23,3CBC50,flag,"mov ecx, dword ptr [rip + 0x79ef17]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CBD43,3CBC50,flag,"mov ecx, dword ptr [rip + 0x79eef7]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD279,3CD1A0,flag,"mov ecx, dword ptr [rip + 0x79d9c1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD29E,3CD1A0,flag,"mov ecx, dword ptr [rip + 0x79d99c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD386,3CD1A0,flag,"mov ecx, dword ptr [rip + 0x79d8b4]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD3A6,3CD1A0,flag,"mov ecx, dword ptr [rip + 0x79d894]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD7D1,3CD7A0,flag,"mov ecx, dword ptr [rip + 0x79d469]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD7F6,3CD7A0,flag,"mov ecx, dword ptr [rip + 0x79d444]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD874,3CD7A0,flag,"mov ecx, dword ptr [rip + 0x79d3c6]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CD899,3CD7A0,flag,"mov ecx, dword ptr [rip + 0x79d3a1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CEF14,3CEED0,flag,"mov ecx, dword ptr [rip + 0x79bd26]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3CEF36,3CEED0,flag,"mov ecx, dword ptr [rip + 0x79bd04]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0282,3D01F0,flag,"mov ecx, dword ptr [rip + 0x79a9b8]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D02A7,3D01F0,flag,"mov ecx, dword ptr [rip + 0x79a993]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D05E4,3D0440,flag,"mov ecx, dword ptr [rip + 0x79a656]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0604,3D0440,flag,"mov ecx, dword ptr [rip + 0x79a636]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0925,3D08E0,flag,"mov ecx, dword ptr [rip + 0x79a315]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0945,3D08E0,flag,"mov ecx, dword ptr [rip + 0x79a2f5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0B25,3D0AA0,flag,"mov ecx, dword ptr [rip + 0x79a115]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3D0B45,3D0AA0,flag,"mov ecx, dword ptr [rip + 0x79a0f5]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+3E2ABB,,flag,"mov ecx, dword ptr [rip + 0x78817f]",F7,"the screen fade at 9CED58 (3E2A90, 68 callers: a colour flash or fade over n ticks, drawn and stepped by 3E2B60): its length +C = (1 << flag) x n, the elapsed count +E counting up to it a tick: mulflag 3E2ACE"
+48D527,48D450,flag,"mov ecx, dword ptr [rip + 0x6dd713]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+48DE91,48DE00,flag,"mov ecx, dword ptr [rip + 0x6dcda9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+48E325,48DED0,flag,"mov ecx, dword ptr [rip + 0x6dc915]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+48FB89,48FAA0,flag,"mov ecx, dword ptr [rip + 0x6db0b1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+48FD7F,48FAA0,flag,"mov ecx, dword ptr [rip + 0x6daebb]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+4B1FE2,4B1D80,fps,"movzx ecx, byte ptr [rip + 0x6b8c5b]",notyet,"the fps byte (60 at 60 and 120) as a quantity: a count of ticks / fps as seconds (4B1D80, 4FBCB0, 5381A0), half its stock time at 120; not converted yet"
+4B6476,4B63B0,flag,"mov qword ptr [rip + 0x6b47bb], 4",engine,"flower_tick: B6AC3C = 4 and the flag = 0, one qword store, at 30 fps"
+4B6481,4B63B0,fps,"mov byte ptr [rip + 0x6b47bc], 0x1e",engine,flower_tick: fps byte = 30
+4B6491,4B63B0,fps,"mov byte ptr [rip + 0x6b47ac], 0x3c",engine,flower_tick: fps byte = 60 when the mode byte is 1
+4B64AC,4B63B0,flag,"mov dword ptr [rip + 0x6b478a], 1",engine,flower_tick: the flag = 1 when the mode byte is 1
+4BD9DC,4BD900,flag,"mov ecx, dword ptr [rip + 0x6ad25e]",F7,"movie continuous small-motor PWM: count 4BDA0A advances the phase at N60, matching Actuater's flag-sized requests. The phase starts at zero, adds a byte intensity (or its bounded interpolation), and subtracts 255 on crossing, so a held phase stays below 255 and cannot repeat a pulse; external-playhead keyframes remain live"
+4BDA24,4BD900,flag,"mov ecx, dword ptr [rip + 0x6ad216]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+4BDA46,4BD900,flag,"mov ecx, dword ptr [rip + 0x6ad1f4]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+4BDA6E,4BD900,flag,"mov ecx, dword ptr [rip + 0x6ad1cc]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+4FBD8B,4FBCB0,fps,"movzx ecx, byte ptr [rip + 0x66eeb2]",notyet,"the fps byte (60 at 60 and 120) as a quantity: a count of ticks / fps as seconds (4B1D80, 4FBCB0, 5381A0), half its stock time at 120; not converted yet"
+538422,5381A0,fps,"movzx ecx, byte ptr [rip + 0x63281b]",notyet,"the fps byte (60 at 60 and 120) as a quantity: a count of ticks / fps as seconds (4B1D80, 4FBCB0, 5381A0), half its stock time at 120; not converted yet"
+55629E,556260,flag,"mov ecx, dword ptr [rip + 0x61499c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+556305,556260,flag,"mov ecx, dword ptr [rip + 0x614935]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+55D2B9,55D010,flag,"mov ecx, dword ptr [rip + 0x60d981]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+55D312,55D010,flag,"mov ecx, dword ptr [rip + 0x60d928]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+55EAB2,55E520,flag,"mov ecx, dword ptr [rip + 0x60c188]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+562F70,562D30,flag,"mov ecx, dword ptr [rip + 0x607cca]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+562FBD,562D30,flag,"mov ecx, dword ptr [rip + 0x607c7d]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56347B,563360,flag,"mov ecx, dword ptr [rip + 0x6077bf]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5634D8,563360,flag,"mov ecx, dword ptr [rip + 0x607762]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+563633,563360,flag,"mov ecx, dword ptr [rip + 0x607607]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+563690,563360,flag,"mov ecx, dword ptr [rip + 0x6075aa]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56627E,566200,flag,"mov ecx, dword ptr [rip + 0x6049bc]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5662D7,566200,flag,"mov ecx, dword ptr [rip + 0x604963]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5678F2,5677C0,flag,"mov ecx, dword ptr [rip + 0x603348]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+567AC1,5677C0,flag,"mov ecx, dword ptr [rip + 0x603179]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+567B1A,5677C0,flag,"mov ecx, dword ptr [rip + 0x603120]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+567FF8,567ED0,flag,"mov ecx, dword ptr [rip + 0x602c42]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+568189,567ED0,flag,"mov ecx, dword ptr [rip + 0x602ab1]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5681DF,567ED0,flag,"mov ecx, dword ptr [rip + 0x602a5b]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+568DAB,568B70,flag,"mov ecx, dword ptr [rip + 0x601e8f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+568E0B,568B70,flag,"mov ecx, dword ptr [rip + 0x601e2f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5692DA,569190,flag,"mov ecx, dword ptr [rip + 0x601960]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56A34A,56A240,flag,"mov ecx, dword ptr [rip + 0x6008f0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56A36C,56A240,flag,"mov ecx, dword ptr [rip + 0x6008ce]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56A450,56A240,flag,"mov ecx, dword ptr [rip + 0x6007ea]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56A4A7,56A240,flag,"mov ecx, dword ptr [rip + 0x600793]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56A4CE,56A240,flag,"mov ecx, dword ptr [rip + 0x60076c]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56AD32,56AC20,flag,"mov ecx, dword ptr [rip + 0x5fff08]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56AEB5,56AC20,flag,"mov ecx, dword ptr [rip + 0x5ffd85]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56AF0B,56AC20,flag,"mov ecx, dword ptr [rip + 0x5ffd2f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56B391,56B280,flag,"mov ecx, dword ptr [rip + 0x5ff8a9]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56B514,56B280,flag,"mov ecx, dword ptr [rip + 0x5ff726]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56B56A,56B280,flag,"mov ecx, dword ptr [rip + 0x5ff6d0]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56C152,56BED0,flag,"mov ecx, dword ptr [rip + 0x5feae8]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+56C1AB,56BED0,flag,"mov ecx, dword ptr [rip + 0x5fea8f]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+5709F3,570890,flag,"mov ecx, dword ptr [rip + 0x5fa247]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+570A1A,570890,flag,"mov ecx, dword ptr [rip + 0x5fa220]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+570A3A,570890,flag,"mov ecx, dword ptr [rip + 0x5fa200]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+570A68,570890,flag,"mov ecx, dword ptr [rip + 0x5fa1d2]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+57DAE1,57D950,flag,"mov ecx, dword ptr [rip + 0x5ed159]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+57DB01,57D950,flag,"mov ecx, dword ptr [rip + 0x5ed139]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+6373F1,637340,flag,"mov ecx, dword ptr [rip + 0x533849]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0
+637411,637340,flag,"mov ecx, dword ptr [rip + 0x533829]",rumble,a rumble length for cPad::ActSet: the gate on cPad::Actuater 1825A0

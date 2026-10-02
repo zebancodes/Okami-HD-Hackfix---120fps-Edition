@@ -1,0 +1,2 @@
+stock | cItemObj 499C30 subtracts +E54 and a fixed 0.5 from object Y before 45E610 and 45FC40 collision queries, then adds back the same two values before testing and clamping the resolved Y; these four stores only move the query coordinate frame | 499C94 499CA9 499CF9 499D0E
+once | et04 2E1970 enters this increment only when +E35 is zero, plays the initial motion, then increments +E35 to one; later calls enter the state-one motion advance or other paths | 2E19C7

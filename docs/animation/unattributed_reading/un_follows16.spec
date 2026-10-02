@@ -1,0 +1,2 @@
+fixed | The gatefn row at 20AE00 runs the complete detached-submodel update only on stock ticks: position and velocity, drag and gravity, rotations, collision bounce, sound, sixty-tick flight timeout and ninety-tick rest are all inside that void helper | 20AEE3 20AF3E 20AF56 20AF5E 20AF76 20AF7E 20AF8A 20AFE0 20AFF0 20AFFC 20B060
+fixed | The lin row at 601E7E scales the shared sine-based rate before both layout scale decrements at 601E9B and 601E9F; the separate phase and alpha timers are paced by their count rows | 601EA3

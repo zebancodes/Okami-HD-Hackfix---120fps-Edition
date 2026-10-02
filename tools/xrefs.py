@@ -8,7 +8,7 @@ import sys
 import capstone
 import pefile
 
-GAME = r"D:\SteamLibrary\steamapps\common\Okami"
+from gamedir import GAME  # auto-detected Steam install (or OKAMI_DIR)
 CACHE = os.path.join(os.path.dirname(__file__), ".disasm_cache")
 RIP_RE = re.compile(r"\[rip ([+-]) 0x([0-9a-f]+)\]")
 

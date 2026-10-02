@@ -1,0 +1,5 @@
+# Recomputed outputs and normalization. These writes do not advance persistent state.
+stock | 2DF550 normalizes two 3D basis vectors by their measured lengths and derives the cross product; the six stores are unit-vector projection, independent of elapsed ticks | 2DF5C4 2DF5D0 2DF5E9 2DF626 2DF62B 2DF631
+stock | 3E5A80 copies the input pair of screen-space vertices into param_2 then offsets, transforms, and projects that copy; all eight stores build the current output geometry | 3E5AC8 3E5AEE 3E5B03 3E5B18 3E5B9F 3E5BB0 3E5BC0 3E5BC5
+stock | 3E22D0 constructs quad vertices from the current parameters and param_14, then scales their coordinates for rendering; each call overwrites the output quad before the eight apparent lerp and multiplier writes | 3E26FF 3E271C 3E2724 3E2747 3E2750 3E275D 3E2789 3E27CC
+stock | 445CE0 changes short intensity fields in the current light record; 444DE0 first fills its stack local_48 with 454F00 before passing that fresh record through either 445540 or 4457C0 to this helper | 445D1A 445D42 445D67 445D87 445DAC 445DCC 445E19 445E39 445E61 445E81 445EA9 445EC9 445EF1 445F11

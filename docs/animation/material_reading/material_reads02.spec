@@ -1,0 +1,5 @@
+fixed | et08 update 2E2FA0: the six signed V scroll increments come from the lin rows at 2E2FBD, 2E300D, 2E304D, 2E308D, 2E30CD and 2E310D; each load feeds its material's first +64 store | 2E2FDD 2E301D 2E305D 2E309D 2E30DD 2E311D
+follows | et08 update: these stores add or subtract a whole unit only after the corresponding scaled V offset crosses -1 or +1; they normalize the scroll phase rather than advancing it | 2E2FE8 2E2FFB 2E3028 2E303B 2E3068 2E307B 2E30A8 2E30BB 2E30E8 2E30FB 2E3128 2E313B
+fixed | ut1d update 532BC0: five U/V scroll steps come from the lin rows at 532C5F, 532CA2, 532CE2, 532D18 and 532DB7 before these first material stores | 532C7F 532CB2 532CF5 532D28 532DC7
+follows | ut1d update: these stores only add or subtract a whole unit after the corresponding scaled U/V offset crosses -1 or +1 | 532C8A 532C9D 532CBD 532CD0 532D00 532D13 532D33 532D46 532DD2 532DE5
+stock | ut1d material 2 V: its increment literal at 532DEA is zero; the three stores only normalize an already out-of-range offset and do not advance it | 532DFA 532E05 532E18

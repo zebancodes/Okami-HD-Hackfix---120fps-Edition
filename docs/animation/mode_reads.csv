@@ -1,0 +1,245 @@
+site,function,instruction,class,evidence
+13F679,13F410,"sub al, byte ptr [rip + 0xa2b5c6]",F6,"menu repeat counter -= mode: smode 13F679, notyet 13F675"
+13F6F4,13F410,"sub al, byte ptr [rip + 0xa2b54b]",F6,"menu repeat counter -= mode: smode 13F6F4, notyet 13F6F0"
+14A044,149F50,"movzx eax, byte ptr [rip + 0xa20bfa]",save,"shadow family: stored to INT_ADD(in:(register, 0x8, 8),ca88) at 14A04B, read back by the restore(s) at 14A2EA"
+14A051,149F50,"mov byte ptr [rip + 0xa20bed], 2",write,shadow family: writes 2
+14A190,149F50,"mov byte ptr [rip + 0xa20aae], 1",write,shadow family: writes 1
+14A1F6,149F50,"mov byte ptr [rip + 0xa20a48], 2",write,shadow family: writes 2
+14A2EA,149F50,"mov byte ptr [rip + 0xa20955], al",restore,"shadow family: restores the value loaded from INT_ADD(in:(register, 0x8, 8),ca88) at 14A2D9"
+14A63F,14A500,"movzx eax, byte ptr [rip + 0xa205ff]",save,"shadow family: stored to INT_ADD(in:(register, 0x8, 8),ca88) at 14A646, read back by the restore(s) at 14A2EA"
+14A64C,14A500,"mov byte ptr [rip + 0xa205f2], 2",write,shadow family: writes 2
+153F91,153F30,"cmp byte ptr [rip + 0xa16cad], 1",F6,"options slider: held ticks / (60 or 30 by mode) is seconds held; the held count steps on stock ticks and the step is x s: count 153F8B, lin 153FD4"
+154051,153F30,"cmp byte ptr [rip + 0xa16bed], 1",F6,"the same slider the other way: count 15404B, lin 154088"
+1541C1,154160,"cmp byte ptr [rip + 0xa16a7d], 1",F6,"the second slider: count 1541BB, lin 154204"
+154281,154160,"cmp byte ptr [rip + 0xa169bd], 1",F6,"the second slider the other way: count 15427B, lin 1542B8"
+1826CA,182654,"movzx eax, byte ptr [rip + 0x9e8574]",F6,cPad held time += mode: count 1826D4 (the store)
+184BED,1843A0,"sub al, byte ptr [rip + 0x9e6052]",F6,"pad repeat counter -= mode: smode 184BED, notyet 184BE9"
+184C22,1843A0,"sub al, byte ptr [rip + 0x9e601d]",F6,"pad repeat counter -= mode: smode 184C22, notyet 184C1E"
+187F47,187DC0,"movzx r8d, byte ptr [rip + 0x9e2cf6]",excluded,"ControllerManager::Update(0, mode): flower_kernel hands it to each input device's slot 2, and none uses it (XInput 29C20 never reads r8d; the DirectInput devices pass it on to InputDevice::Update 21170, which returns 1)"
+19E10B,19E060,"cmp byte ptr [rip + 0x9ccb33], 1",select,"picks the 0.5 at 19E121, retargeted"
+19E4A8,19E469,"cmp byte ptr [rip + 0x9cc796], 1",select,"picks the 0.5 at 19E4BA, retargeted"
+1A401F,1A3E9E,"cmp byte ptr [rip + 0x9c6c1f], 1",select,"picks the 0.5 at 1A4028, retargeted"
+1B2AA7,1B2A74,"cmp byte ptr [rip + 0x9b8197], 1",F6,layout flipbook: hold += 1 on ticks of one parity in mode 1: count2 1B2AC3
+1B475D,1B4740,"cmp byte ptr [rip + 0x9b64e1], 1",multiplier,mode_multipliers.h guard
+1B47CB,1B47C0,"cmp byte ptr [rip + 0x9b6473], 1",multiplier,mode_multipliers.h guard
+1B5427,1B5380,"cmp byte ptr [rip + 0x9b5817], 1",excluded,"the flipbook's parity seed, phase = fc & 1 in mode 1 (1B5380): kept, so the phase stays 0 or 1 and count2 1B2AC3 composes with the parity at any N"
+1B8C29,,"cmp byte ptr [rip + 0x9b2015], 1",multiplier,mode_multipliers.h guard
+1B8C5D,,"cmp byte ptr [rip + 0x9b1fe1], 1",multiplier,mode_multipliers.h guard
+1B8C89,,"cmp byte ptr [rip + 0x9b1fb5], 1",multiplier,mode_multipliers.h guard
+1B8CC0,,"cmp byte ptr [rip + 0x9b1f7e], 1",multiplier,mode_multipliers.h guard
+1BFD93,1BFD11,"mov byte ptr [rip + 0x9aaeab], 1",write,shadow family: writes 1
+1BFDD1,1BFD11,"mov byte ptr [rip + 0x9aae6e], al",restore,"shadow family: restores the value loaded from INT_ADD(in:(register, 0x8, 8),cd8) at 1BFDC3"
+1BFFB6,1BFFA0,"mov byte ptr [rip + 0x9aac88], 1",write,shadow family: writes 1
+1BFFEC,1BFFA0,"mov byte ptr [rip + 0x9aac53], al",restore,"shadow family: restores the value loaded from INT_ADD(in:(register, 0x8, 8),cd8) at 1BFFDE"
+1C0A6D,1C0A3A,"movzx ecx, byte ptr [rip + 0x9aa1d1]",F6,memory card: 8 / mode ticks: imuln 1C0A74
+1C1597,1C1584,"movzx ecx, byte ptr [rip + 0x9a96a7]",F6,memory card: 6 / mode ticks: imuln 1C159E
+1C5464,1C5430,"movzx eax, byte ptr [rip + 0x9a57da]",save,"shadow family: stored to INT_ADD(in:(register, 0x8, 8),cd8) at 1C546B, read back by the restore(s) at 1BFDD1,1BFFEC,5FE4F7"
+1C640C,1C612A,"movzx ecx, byte ptr [rip + 0x9a4832]",F6,memory card: 210 / mode ticks: imuln 1C6415
+1C801F,1C7FF6,"movzx ecx, byte ptr [rip + 0x9a2c1f]",F6,memory card: 210 / mode ticks: imuln 1C8051
+20F270,,"cmp byte ptr [rip + 0x95b9ce], 1",select,"picks the 0.5 at 20F279, retargeted"
+2BD8AE,2BD880,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+364C82,364BF6,"movzx eax, byte ptr [rip + 0x805fbc]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+36FFDF,36FF96,"movzx eax, byte ptr [rip + 0x7fac5f]",table,"(mode - 1) * 4 into the pair at 7A81E8 (base lea at the read), rewritten to k**timeScale"
+3703B8,370376,"movzx eax, byte ptr [rip + 0x7fa886]",table,"(mode - 1) * 4 into the pair at 7A81E8 (base lea at the read), rewritten to k**timeScale"
+3AC050,3AAC90,"movzx eax, byte ptr [rip + 0x7bebee]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base lea at the read), rewritten to k**timeScale"
+3AF666,3AF101,"movzx eax, byte ptr [rip + 0x7bb5d8]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3B0A7E,3B094A,"movzx eax, byte ptr [rip + 0x7ba1c0]",table,"(mode - 1) * 4 into the pair at 7A8248 (base rdx's last lea before 3B0A8A), rewritten to k**timeScale"
+3B0AA3,3B094A,"movzx eax, byte ptr [rip + 0x7ba19b]",table,"(mode - 1) * 4 into the pair at 7A8248 (base rdx's last lea before 3B0AAF), rewritten to k**timeScale"
+3B172E,3B1710,"movzx eax, byte ptr [rip + 0x7b9510]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+3B1767,3B1710,"movzx eax, byte ptr [rip + 0x7b94d7]",table,"(mode - 1) * 4 into the pair at 7A8170 (image-base-relative), rewritten to k**timeScale"
+3B1784,3B1710,"movzx eax, byte ptr [rip + 0x7b94ba]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+3B17B1,3B1710,"movzx eax, byte ptr [rip + 0x7b948d]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+3B2064,3B205A,"movzx eax, byte ptr [rip + 0x7b8bda]",table,"(mode - 1) * 4 into the pair at 7A8238 (image-base-relative), rewritten to k**timeScale"
+3B214E,3B205A,"movzx eax, byte ptr [rip + 0x7b8af0]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3B2185,3B205A,"movzx eax, byte ptr [rip + 0x7b8ab9]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3B2800,3B2620,"movzx eax, byte ptr [rip + 0x7b843e]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B28D6,3B2620,"movzx eax, byte ptr [rip + 0x7b8368]",table,"(mode - 1) * 4 into the pair at 7A82F0 (image-base-relative), rewritten to k**timeScale"
+3B294B,3B2620,"movzx eax, byte ptr [rip + 0x7b82f3]",table,"(mode - 1) * 4 into the pair at 7A8238 (image-base-relative), rewritten to k**timeScale"
+3B3322,3B2D55,"movzx eax, byte ptr [rip + 0x7b791c]",table,"(mode - 1) * 4 into the pair at 7A81B8 (image-base-relative), rewritten to k**timeScale"
+3B36AE,3B2D55,"movzx eax, byte ptr [rip + 0x7b7590]",table,"(mode - 1) * 4 into the pair at 7A8198 (image-base-relative), rewritten to k**timeScale"
+3B39DC,3B39A7,"movzx eax, byte ptr [rip + 0x7b7262]",table,"(mode - 1) * 4 into the pair at 7A82F8 (image-base-relative), rewritten to k**timeScale"
+3B3A32,3B39A7,"movzx eax, byte ptr [rip + 0x7b720c]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+3B4041,3B400A,"movzx eax, byte ptr [rip + 0x7b6bfd]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3B5498,3B53CC,"movzx eax, byte ptr [rip + 0x7b57a6]",table,"(mode - 1) * 4 into the pair at 7A81B8 (image-base-relative), rewritten to k**timeScale"
+3B54C4,3B53CC,"movzx eax, byte ptr [rip + 0x7b577a]",table,"(mode - 1) * 4 into the pair at 7A81B8 (image-base-relative), rewritten to k**timeScale"
+3B5518,3B53CC,"movzx eax, byte ptr [rip + 0x7b5726]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3B5B56,3B5B50,"movzx eax, byte ptr [rip + 0x7b50e8]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B6096,3B6090,"movzx eax, byte ptr [rip + 0x7b4ba8]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B6636,3B6630,"movzx eax, byte ptr [rip + 0x7b4608]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B6BF6,3B6BF0,"movzx eax, byte ptr [rip + 0x7b4048]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B7281,3B71B0,"movzx eax, byte ptr [rip + 0x7b39bd]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B7330,3B7320,"movzx eax, byte ptr [rip + 0x7b390e]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3B74B5,3B738A,"movzx eax, byte ptr [rip + 0x7b3789]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3B7850,3B738A,"movzx eax, byte ptr [rip + 0x7b33ee]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3B7B2D,3B738A,"movzx eax, byte ptr [rip + 0x7b3111]",table,"(mode - 1) * 4 into the pair at 7A8308 (image-base-relative), rewritten to k**timeScale"
+3B7DDF,3B738A,"movzx eax, byte ptr [rip + 0x7b2e5f]",table,"(mode - 1) * 4 into the pair at 7A8308 (image-base-relative), rewritten to k**timeScale"
+3B80AD,3B738A,"movzx eax, byte ptr [rip + 0x7b2b91]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3B8596,3B8563,"movzx eax, byte ptr [rip + 0x7b26a8]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3B9A92,3B9A70,"movzx eax, byte ptr [rip + 0x7b11ac]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BA029,3B9A70,"movzx eax, byte ptr [rip + 0x7b0c15]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BA348,3B9A70,"movzx eax, byte ptr [rip + 0x7b08f6]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BA67B,3B9A70,"movzx eax, byte ptr [rip + 0x7b05c3]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BA963,3B9A70,"movzx eax, byte ptr [rip + 0x7b02db]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BAC3E,3B9A70,"movzx eax, byte ptr [rip + 0x7b0000]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BAF1E,3B9A70,"movzx eax, byte ptr [rip + 0x7afd20]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BB199,3B9A70,"movzx eax, byte ptr [rip + 0x7afaa5]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BB45B,3B9A70,"movzx eax, byte ptr [rip + 0x7af7e3]",table,"(mode - 1) * 4 into the pair at 7A8308 (base lea at the read), rewritten to k**timeScale"
+3BC327,3BC300,"movzx eax, byte ptr [rip + 0x7ae917]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3BC412,3BC300,"movzx eax, byte ptr [rip + 0x7ae82c]",table,"(mode - 1) * 4 into the pair at 7A8218 (image-base-relative), rewritten to k**timeScale"
+3BC763,3BC710,"movzx eax, byte ptr [rip + 0x7ae4db]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BD89A,3BD890,"movzx eax, byte ptr [rip + 0x7ad3a4]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BDCF4,3BDCB0,"movzx eax, byte ptr [rip + 0x7acf4a]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BE20C,3BDCB0,"movzx eax, byte ptr [rip + 0x7aca32]",table,"(mode - 1) * 4 into the pair at 7A8218 (image-base-relative), rewritten to k**timeScale"
+3BE815,3BE815,"movzx eax, byte ptr [rip + 0x7ac429]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BE9BF,3BE8F0,"movzx eax, byte ptr [rip + 0x7ac27f]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BECC6,3BECA4,"movzx eax, byte ptr [rip + 0x7abf78]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base lea at the read), rewritten to k**timeScale"
+3BEF17,3BEEE0,"movzx eax, byte ptr [rip + 0x7abd27]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3BFBA4,3BEEE0,"movzx eax, byte ptr [rip + 0x7ab09a]",table,"(mode - 1) * 4 into the pair at 7A8218 (base lea at the read), rewritten to k**timeScale"
+3BFECF,3BFEC0,"movzx eax, byte ptr [rip + 0x7aad6f]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C006C,3BFEC0,"movzx eax, byte ptr [rip + 0x7aabd2]",table,"[rdi + idx*4 + C8], rdi = 7A8150 (lea at 3BFED6): the pair at 7A8218"
+3C034A,3C0340,"movzx eax, byte ptr [rip + 0x7aa8f4]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C05D6,3C05C0,"movzx eax, byte ptr [rip + 0x7aa668]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C0B29,3C05C0,"movzx eax, byte ptr [rip + 0x7aa115]",table,"(mode - 1) * 4 into the pair at 7A8218 (image-base-relative), rewritten to k**timeScale"
+3C0DB8,3C0DA0,"movzx eax, byte ptr [rip + 0x7a9e86]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C1021,3C1010,"movzx eax, byte ptr [rip + 0x7a9c1d]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C1DCA,3C1AD9,"movzx ecx, byte ptr [rip + 0x7a8e74]",table,"(mode - 1) * 4 into the pair at 7A81E8 (base lea at the read), rewritten to k**timeScale"
+3C210C,3C20E0,"movzx eax, byte ptr [rip + 0x7a8b32]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C22D3,3C20E0,"movzx eax, byte ptr [rip + 0x7a896b]",table,"(mode - 1) * 4 into the pair at 7A81B8 (base rsi's last lea before 3C22DF), rewritten to k**timeScale"
+3C22FD,3C20E0,"movzx eax, byte ptr [rip + 0x7a8941]",table,"(mode - 1) * 4 into the pair at 7A81B8 (base rsi's last lea before 3C230C), rewritten to k**timeScale"
+3C244E,3C2430,"movzx eax, byte ptr [rip + 0x7a87f0]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C288F,3C25BF,"movzx eax, byte ptr [rip + 0x7a83af]",table,"(mode - 1) * 4 into the pair at 7A81B8 (base r15's last lea before 3C289B), rewritten to k**timeScale"
+3C28B5,3C25BF,"movzx eax, byte ptr [rip + 0x7a8389]",table,"(mode - 1) * 4 into the pair at 7A81B8 (base r15's last lea before 3C28C1), rewritten to k**timeScale"
+3C2EAF,3C2E92,"movzx eax, byte ptr [rip + 0x7a7d8f]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3C330D,3C32BA,"movzx eax, byte ptr [rip + 0x7a7931]",table,"(mode - 1) * 4 into the pair at 7A81B8 (image-base-relative), rewritten to k**timeScale"
+3C333F,3C333F,"movzx eax, byte ptr [rip + 0x7a78ff]",table,"(mode - 1) * 4 into the pair at 7A81B8 (image-base-relative), rewritten to k**timeScale"
+3C3389,3C333F,"movzx eax, byte ptr [rip + 0x7a78b5]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C373F,3C3660,"movzx eax, byte ptr [rip + 0x7a74ff]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C378E,3C3660,"movzx eax, byte ptr [rip + 0x7a74b0]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C3A5F,3C3A3A,"movzx eax, byte ptr [rip + 0x7a71df]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+3C3FC9,3C3C70,"movzx eax, byte ptr [rip + 0x7a6c75]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+3C3FF5,3C3C70,"movzx eax, byte ptr [rip + 0x7a6c49]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3C4064,3C3C70,"movzx eax, byte ptr [rip + 0x7a6bda]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C409A,3C3C70,"movzx eax, byte ptr [rip + 0x7a6ba4]",table,"(mode - 1) * 4 into the pair at 7A8330 (image-base-relative), rewritten to k**timeScale"
+3C47F6,3C43C0,"movzx eax, byte ptr [rip + 0x7a6448]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+3C482F,3C43C0,"movzx eax, byte ptr [rip + 0x7a640f]",table,"(mode - 1) * 4 into the pair at 7A8170 (image-base-relative), rewritten to k**timeScale"
+3C484C,3C43C0,"movzx eax, byte ptr [rip + 0x7a63f2]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+3C488C,3C43C0,"movzx eax, byte ptr [rip + 0x7a63b2]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C48F7,3C43C0,"movzx eax, byte ptr [rip + 0x7a6347]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+3C4FB0,3C4F34,"movzx eax, byte ptr [rip + 0x7a5c8e]",table,"(mode - 1) * 4 into the pair at 7A8178 (base lea at the read), rewritten to k**timeScale"
+3C4FE9,3C4F34,"movzx eax, byte ptr [rip + 0x7a5c55]",table,"(mode - 1) * 4 into the pair at 7A8198 (image-base-relative), rewritten to k**timeScale"
+3C5006,3C4F34,"movzx eax, byte ptr [rip + 0x7a5c38]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3C503D,3C4F34,"movzx eax, byte ptr [rip + 0x7a5c01]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C5077,3C4F34,"movzx eax, byte ptr [rip + 0x7a5bc7]",table,"(mode - 1) * 4 into the pair at 7A8330 (image-base-relative), rewritten to k**timeScale"
+3C535A,3C5350,"movzx eax, byte ptr [rip + 0x7a58e4]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C568C,3C555C,"movzx eax, byte ptr [rip + 0x7a55b2]",table,"[rsi + idx*4 + 20] or [+8], rsi = 7A8150 (lea at 3C5361): 7A8170 or 7A8158"
+3C57DB,3C57BD,"movzx eax, byte ptr [rip + 0x7a5463]",table,"(mode - 1) * 4 into the pair at 7A8240 (base rbp's last lea before 3C57E7), rewritten to k**timeScale"
+3C5AD0,3C57BD,"movzx eax, byte ptr [rip + 0x7a516e]",table,"(mode - 1) * 4 into the pair at 7A8158 (base rbp's last lea before 3C5ADC), rewritten to k**timeScale"
+3C5DAF,3C5DAF,"movzx eax, byte ptr [rip + 0x7a4e8f]",table,"(mode - 1) * 4 into the pair at 7A8238 (base rbp's last lea before 3C5DC2), rewritten to k**timeScale"
+3C5FA6,3C5EA0,"movzx ecx, byte ptr [rip + 0x7a4c98]",table,"(mode - 1) * 4 into the pair at 7A81E8 (base lea at the read), rewritten to k**timeScale"
+3C608A,3C6080,"movzx eax, byte ptr [rip + 0x7a4bb4]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C6710,,"movzx eax, byte ptr [rip + 0x7a452e]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C6756,3C6750,"movzx eax, byte ptr [rip + 0x7a44e8]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C71EA,3C71DD,"movzx eax, byte ptr [rip + 0x7a3a54]",table,"(mode - 1) * 4 into the pair at 7A81B8 (base lea at the read), rewritten to k**timeScale"
+3C73B6,3C73B0,"movzx eax, byte ptr [rip + 0x7a3888]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C7486,3C7480,"movzx eax, byte ptr [rip + 0x7a37b8]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C7596,3C7590,"movzx eax, byte ptr [rip + 0x7a36a8]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C77B6,3C77B0,"movzx eax, byte ptr [rip + 0x7a3488]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C78A2,3C7880,"movzx eax, byte ptr [rip + 0x7a339c]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3C8091,3C7880,"movzx eax, byte ptr [rip + 0x7a2bad]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+3C84F2,3C84B0,"movzx eax, byte ptr [rip + 0x7a274c]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+3C9BF8,3C9940,"movzx eax, byte ptr [rip + 0x7a1046]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+3C9C31,3C9940,"movzx eax, byte ptr [rip + 0x7a100d]",table,"(mode - 1) * 4 into the pair at 7A8170 (image-base-relative), rewritten to k**timeScale"
+3C9C4E,3C9940,"movzx eax, byte ptr [rip + 0x7a0ff0]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+3C9C8E,3C9940,"movzx eax, byte ptr [rip + 0x7a0fb0]",table,"(mode - 1) * 4 into the pair at 7A82C0 (image-base-relative), rewritten to k**timeScale"
+3C9CD5,3C9940,"movzx eax, byte ptr [rip + 0x7a0f69]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+3CA352,3CA320,"movzx eax, byte ptr [rip + 0x7a08ec]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3CA72C,3CA461,"movzx eax, byte ptr [rip + 0x7a0512]",table,"(mode - 1) * 4 into the pair at 7A8158 (image-base-relative), rewritten to k**timeScale"
+3CC27F,3CC270,"movzx eax, byte ptr [rip + 0x79e9bf]",table,"(mode - 1) * 4 into the pair at 7A8240 (base lea at the read), rewritten to k**timeScale"
+3F2CB4,3F2C50,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+3FB48B,3FB410,"movzx eax, byte ptr [rip + 0x76f7b3]",F6,cCockCtrlWnd pulse += mode * 0.15: lin 3FB499
+400B56,400A50,"cmp byte ptr [rip + 0x76a0e8], 2",F5,"loading screen fade length ((mode != 2) + 1) * n against 437120's elapsed count, which frame_clocks.h reads in 60 Hz-configuration ticks (U)"
+407BAB,,"movzx eax, byte ptr [rip + 0x763093]",F6,HUD timer -= mode a tick: count 407BB2
+407D46,407CAB,"movzx eax, byte ptr [rip + 0x762ef8]",F6,HUD timer pulse += mode * 0.15: lin 407D54
+40905A,,"mov byte ptr [rip + 0x761be4], 2",write,shadow family: writes 2
+414825,4147F0,"mov byte ptr [rip + 0x756419], 2",write,shadow family: writes 2
+415C0E,,"mov byte ptr [rip + 0x755030], 1",write,shadow family: writes 1
+43715B,437130,"movzx ecx, byte ptr [rip + 0x733ae3]",F5,"(fc - t0) < 480 / mode, its fc read as U by frame_clocks.h"
+4376E8,,"movzx ecx, byte ptr [rip + 0x733556]",F5,"(fc - t0) < 480 / mode, its fc read as U by frame_clocks.h"
+4680B8,468070,"movzx r9d, byte ptr [rip + 0x702b85]",table,"camera: [rdx + idx*4 + 28] after a loop, rdx = 7A8150 (lea at 4680B1): 7A8178"
+46845C,,"movzx eax, byte ptr [rip + 0x7027e2]",table,"(mode - 1) * 4 into the pair at 7A8178 (base lea at the read), rewritten to k**timeScale"
+468774,468750,"movzx edx, byte ptr [rip + 0x7024ca]",table,"camera: [r8 + idx*4 + 28], r8 = 7A8150 (lea at 46876D): 7A8178"
+468ABF,468AA0,"movzx r8d, byte ptr [rip + 0x70217e]",table,"camera: [r9 + idx*4 + 28], r9 = 7A8150 (lea at 468AB8): 7A8178"
+468D56,468D10,"movzx eax, byte ptr [rip + 0x701ee8]",table,"(mode - 1) * 4 into the pair at 7A8178 (base lea at the read), rewritten to k**timeScale"
+46B761,46B36F,"movzx eax, byte ptr [rip + 0x6ff4dd]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+475BF0,,"cmp byte ptr [rip + 0x6f504e], 1",select,"picks the 0.5 at 475BF9, retargeted"
+4769E3,4763F0,"movzx eax, byte ptr [rip + 0x6f425b]",F6,event camera playhead += mode * speed * 0.5: dst 476A12
+476A9B,4763F0,"movzx eax, byte ptr [rip + 0x6f41a3]",F6,the same step taken back at the path's end: dst 476AB5
+4790C3,47908E,"movzx eax, byte ptr [rip + 0x6f1b7b]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+479196,47908E,"movzx eax, byte ptr [rip + 0x6f1aa8]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+47946E,479421,"movzx eax, byte ptr [rip + 0x6f17d0]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+4799C2,479985,"movzx eax, byte ptr [rip + 0x6f127c]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+47A61F,47A575,"movzx eax, byte ptr [rip + 0x6f061f]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+47A757,47A575,"movzx eax, byte ptr [rip + 0x6f04e7]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+47AA25,47A575,"movzx eax, byte ptr [rip + 0x6f0219]",table,"(mode - 1) * 4 into the pair at 7A8330 (base lea at the read), rewritten to k**timeScale"
+47AA8B,47A575,"movzx eax, byte ptr [rip + 0x6f01b3]",table,"(mode - 1) * 4 into the pair at 7A8330 (base lea at the read), rewritten to k**timeScale"
+47AAE0,47A575,"movzx eax, byte ptr [rip + 0x6f015e]",table,"(mode - 1) * 4 into the pair at 7A8330 (base lea at the read), rewritten to k**timeScale"
+47AC74,47A575,"movzx eax, byte ptr [rip + 0x6effca]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+47AE05,47A575,"movzx eax, byte ptr [rip + 0x6efe39]",table,"(mode - 1) * 4 into the pair at 7A8178 (base lea at the read), rewritten to k**timeScale"
+47BCD0,47BC9E,"movzx eax, byte ptr [rip + 0x6eef6e]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+47BD84,47BC9E,"movzx eax, byte ptr [rip + 0x6eeeba]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+47BF0C,47BEC8,"movzx eax, byte ptr [rip + 0x6eed32]",table,"(mode - 1) * 4 into the pair at 7A8330 (base lea at the read), rewritten to k**timeScale"
+47BF7B,47BF2C,"movzx eax, byte ptr [rip + 0x6eecc3]",table,"(mode - 1) * 4 into the pair at 7A8330 (base lea at the read), rewritten to k**timeScale"
+47BFEF,47BFEF,"movzx eax, byte ptr [rip + 0x6eec4f]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+47C167,47C107,"movzx eax, byte ptr [rip + 0x6eead7]",table,"(mode - 1) * 4 into the pair at 7A8178 (base lea at the read), rewritten to k**timeScale"
+47D062,47D062,"movzx eax, byte ptr [rip + 0x6edbdc]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+47E1BF,47E1BF,"movzx eax, byte ptr [rip + 0x6eca7f]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base lea at the read), rewritten to k**timeScale"
+481836,481810,"movzx eax, byte ptr [rip + 0x6e9408]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+481906,4818E0,"movzx eax, byte ptr [rip + 0x6e9338]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+482A40,4829A0,"movzx eax, byte ptr [rip + 0x6e81fe]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base r8's last lea before 482A5C), rewritten to k**timeScale"
+482A79,4829A0,"movzx eax, byte ptr [rip + 0x6e81c5]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base r8's last lea before 482A9B), rewritten to k**timeScale"
+482AB9,4829A0,"movzx eax, byte ptr [rip + 0x6e8185]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base r8's last lea before 482AD5), rewritten to k**timeScale"
+482ADD,4829A0,"movzx ecx, byte ptr [rip + 0x6e8161]",table,"(mode - 1) * 4 into the pair at 7A82C0 (base lea at the read), rewritten to k**timeScale"
+482C58,482BD7,"movzx eax, byte ptr [rip + 0x6e7fe6]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base rsi's last lea before 482C67), rewritten to k**timeScale"
+482FC2,482BD7,"movzx eax, byte ptr [rip + 0x6e7c7c]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base rsi's last lea before 482FE6), rewritten to k**timeScale"
+48303D,48303D,"movzx eax, byte ptr [rip + 0x6e7c01]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base rsi's last lea before 483061), rewritten to k**timeScale"
+4830B4,4830B0,"movzx eax, byte ptr [rip + 0x6e7b8a]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base rsi's last lea before 4830D4), rewritten to k**timeScale"
+483108,4830B0,"movzx eax, byte ptr [rip + 0x6e7b36]",table,"(mode - 1) * 4 into the pair at 7A82D8 (base rsi's last lea before 48312C), rewritten to k**timeScale"
+483153,483153,"movzx ecx, byte ptr [rip + 0x6e7aeb]",table,"(mode - 1) * 4 into the pair at 7A82D0 (base rsi's last lea before 48317B), rewritten to k**timeScale"
+4919DD,4919B0,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+4948E1,494490,"mov byte ptr [rip + 0x6d635d], 2",write,shadow family: writes 2
+4A4113,4A4100,lea (pointer into the block),pointer,shadow family: consume: r8 left over at a call to one-parameter FUN_180481b20
+4A42DE,4A4280,lea (pointer into the block),pointer,shadow family: consume: r8 left over at a tail jump to one-parameter FUN_1804561d0
+4A4BE5,4A4730,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+4A509E,4A5081,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+4B541B,4B540F,lea (pointer into the block),pointer,shadow family: consume: out-parameter &main+B6AC28 (8 bytes) for FUN_1801afc90
+4B5465,4B540F,lea (pointer into the block),pointer,shadow family: consume: out-parameter &main+B6AC30 (8 bytes) for FUN_1801afe30
+4B5C92,4B5B20,"mov byte ptr [rip + 0x6b4fac], 2",write,shadow family: writes 2
+4B63ED,4B63B0,lea (pointer into the block),pointer,shadow family: consume: limiter callback 4B52B0 reads [&frameCounter+0x25]
+4B6488,4B63B0,"cmp byte ptr [rip + 0x6b47b6], 1",engine,"flower_tick: fps 60, time scale 0.5 and the frame divider when the byte is 1"
+4B6684,4B63B0,"movzx eax, byte ptr [rip + 0x6b45ba]",F6,total play time += mode a tick: count 4B668B
+4B6708,4B63B0,"cmp byte ptr [rip + 0x6b4536], 1",engine,flower_tick: a second update of B69928 (4A3840) in the 30 fps configuration only; at 60 and 120 the port's own path
+4B6869,4B6850,lea (pointer into the block),zero,"shadow family: memset0: memset(&frameCounter, 0, 0x700) at 4B6876"
+4B9C89,4B9C80,"cmp byte ptr [rip + 0x6b0fb5], 1",select,"picks the 0.5 at 4B9CA9, retargeted"
+4BA11D,4BA0AA,"cmp byte ptr [rip + 0x6b0b21], 1",multiplier,mode_multipliers.h guard
+50B286,50B27B,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+50B97A,50B8B0,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte
+5FE4F7,,"mov byte ptr [rip + 0x56c748], al",restore,"shadow family: restores the value loaded from INT_ADD(in:(register, 0x8, 8),cd8) at 5FE4F0"
+5FE5ED,5FE540,"mov byte ptr [rip + 0x56c651], 1",write,shadow family: writes 1
+5FF8B8,5FF848,"mov byte ptr [rip + 0x56b386], 2",write,shadow family: writes 2
+6033A1,603190,"mov byte ptr [rip + 0x56789d], 2",write,shadow family: writes 2
+605B8B,605A13,"mov byte ptr [rip + 0x5650b3], 2",write,shadow family: writes 2
+605BBC,605A13,"mov byte ptr [rip + 0x565082], 1",write,shadow family: writes 1
+608F4E,608F20,"mov byte ptr [rip + 0x561cf0], 2",write,shadow family: writes 2
+6097B7,,"mov byte ptr [rip + 0x561487], 1",write,shadow family: writes 1
+6519DC,6518E0,"movzx eax, byte ptr [rip + 0x519262]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+651A08,6518E0,"movzx eax, byte ptr [rip + 0x519236]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+651A48,6518E0,"movzx eax, byte ptr [rip + 0x5191f6]",table,"(mode - 1) * 4 into the pair at 7A8320 (image-base-relative), rewritten to k**timeScale"
+651A8F,6518E0,"movzx eax, byte ptr [rip + 0x5191af]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+651C3C,651B40,"movzx eax, byte ptr [rip + 0x519002]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+651C68,651B40,"movzx eax, byte ptr [rip + 0x518fd6]",table,"(mode - 1) * 4 into the pair at 7A81E8 (image-base-relative), rewritten to k**timeScale"
+651D04,651B40,"movzx eax, byte ptr [rip + 0x518f3a]",table,"(mode - 1) * 4 into the pair at 7A8328 (image-base-relative), rewritten to k**timeScale"
+651D3A,651B40,"movzx eax, byte ptr [rip + 0x518f04]",table,"(mode - 1) * 4 into the pair at 7A82D0 (image-base-relative), rewritten to k**timeScale"
+651E62,651E49,"movzx eax, byte ptr [rip + 0x518ddc]",table,"(mode - 1) * 4 into the pair at 7A8160 (base lea at the read), rewritten to k**timeScale"
+651E8E,651E49,"movzx eax, byte ptr [rip + 0x518db0]",table,"(mode - 1) * 4 into the pair at 7A8240 (image-base-relative), rewritten to k**timeScale"
+651ED7,651E49,"movzx eax, byte ptr [rip + 0x518d67]",table,"(mode - 1) * 4 into the pair at 7A8330 (image-base-relative), rewritten to k**timeScale"
+66F1A0,000000,lea (pointer into the block),pointer,shadow family: stays in its function; no access reaches the mode byte

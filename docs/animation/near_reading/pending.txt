@@ -1,0 +1,1 @@
+# resolved 2026-10-02: the unsigned spawner tests are notyetb rows (near_rows01)

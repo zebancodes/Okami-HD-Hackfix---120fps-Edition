@@ -1,0 +1,1 @@
+stock | 1BB040 called by the swing update 1BAA20: these nine products normalize three matrix basis vectors to unit length by their current magnitudes; they are a projection, not a per-tick rate | 1BB199 1BB1A3 1BB1AE 1BB1B9 1BB1C4 1BB1CF 1BB1D4 1BB1DA 1BB1DF

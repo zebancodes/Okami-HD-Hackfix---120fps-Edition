@@ -1,0 +1,4 @@
+stock | 4B7700 samples fresh translation/rotation tracks at the already-scaled +F48 motion frame; mirror negations and angle normalization apply to freshly assigned channels, without accumulating a phase. | 4B786E 4B7931 4B7950 4B7978
+follows | 4B7700 interpolates channels using 1/remaining(+F50); 4BA141 in mode_multipliers.h expands the initial blend duration for the configured FPS, and 4B9D73 consumes one unit per tick, reaching the target over that expanded span. | 4B79DF 4B7A34 4B7A9B 4B7BB5 4B7C18 4B7C80 4B7FF0 4B804C 4B80A8 4B9D73
+fixed | Motion frame integration and reverse-loop reconstruction use the mode-selected half-step at 4B9CA9, retargeted by mode_constants.h to the active stock-frame fraction; +F54 remains stock-unit playback speed. | 4B9F22 4B9FFF
+fixed | ut35 +E48 damping reads the mode-indexed 7A8160/7A8164 pair; mode_constants.h rewrites the fast slot to stock 0.97 raised to the active time scale. | 651E86

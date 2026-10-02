@@ -1,0 +1,489 @@
+site,kind,helper,function,reg,limit,k,result,decision,evidence,bytes
+1D5846,call,2DDF90,1D57B0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E845871000
+1D64E9,call,2DDF90,1D63F0,xmm3,6.28319@671E80,,"xmm0 read by 1D64FB xorps xmm0, xmmword ptr [rip + 0x49ef0e]",query,,E8A27A1000
+1D6C1E,call,2DDF90,1D6B50,xmm3,6.28319@671E80,,"xmm0 read by 1D6C30 xorps xmm0, xmmword ptr [rip + 0x49e7d9]",query,,E86D731000
+1D9869,call,2DDF90,1D9770,xmm3,6.28319@671E80,,"xmm0 read by 1D987B xorps xmm0, xmmword ptr [rip + 0x49bb8e]",query,,E822471000
+1DD160,call,2DDF90,1DD060,xmm3,0.418879@679C78,,accumulated and stored,step,constants,E82B0E1000
+1DDA99,call,2DDF90,1DD9A0,xmm3,6.28319@671E80,,"xmm0 read by 1DDAAB xorps xmm0, xmmword ptr [rip + 0x49795e]",query,,E8F2041000
+1DE38F,call,2DDF90,1DE280,xmm3,6.28319@671E80,,"xmm0 read by 1DE3A1 xorps xmm0, xmmword ptr [rip + 0x497068]",query,,E8FCFB0F00
+1E12A9,call,2DDF90,1E11B0,xmm3,6.28319@671E80,,"xmm0 read by 1E12BB xorps xmm0, xmmword ptr [rip + 0x49414e]",query,,E8E2CC0F00
+1E3653,call,2DDF90,1E3550,xmm3,0.418879@679C78,,accumulated and stored,step,constants,E838A90F00
+1E3F3B,call,2DDF90,1E3E40,xmm3,0.10472@679C80,,accumulated and stored,step,constants,E850A00F00
+1E460A,call,2DDF90,1E4500,xmm3,6.28319@671E80,,"xmm0 read by 1E461C xorps xmm0, xmmword ptr [rip + 0x490ded]",query,,E881990F00
+1E5C91,call,2DDF90,1E5820,xmm3,0.0698132@679C34,,accumulated and stored,step,constants,E8FA820F00
+1E794E,call,2DDF90,1E77E0,xmm3,6.28319@671E80,,"xmm0 read by 1E7960 xorps xmm0, xmmword ptr [rip + 0x48daa9]",query,,E83D660F00
+1E7EE5,call,2DDF90,1E7E50,xmm3,6.28319@671E80,,"xmm0 read by 1E7EF7 xorps xmm0, xmmword ptr [rip + 0x48d512]",query,,E8A6600F00
+1E9B96,call,2DDF90,1E9B00,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8F5430F00
+1EAA3B,call,2DDF90,1EA8A0,xmm3,6.28319@671E80,,"xmm0 read by 1EAA4D xorps xmm0, xmmword ptr [rip + 0x48a9bc]",query,,E850350F00
+1EB049,call,2DDF90,1EAFA0,xmm3,6.28319@671E80,,"xmm0 read by 1EB05B xorps xmm0, xmmword ptr [rip + 0x48a3ae]",query,,E8422F0F00
+1ECFE6,call,2DDF90,1ECF50,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8A50F0F00
+1EF79F,call,2DDF90,1EF700,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8ECE70E00
+1F0837,call,2DDF90,1F07A0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E854D70E00
+1F142F,call,2DDF90,1F12C0,xmm3,6.28319@671E80,,"xmm0 read by 1F1441 xorps xmm0, xmmword ptr [rip + 0x483fc8]",query,,E85CCB0E00
+1F19F0,call,2DDF90,1F1950,xmm3,6.28319@671E80,,"xmm0 read by 1F1A02 xorps xmm0, xmmword ptr [rip + 0x483a07]",query,,E89BC50E00
+1F527B,call,2DDF90,1F50E0,xmm3,6.28319@671E80,,"xmm0 read by 1F528D xorps xmm0, xmmword ptr [rip + 0x48017c]",query,,E8108D0E00
+1F583D,call,2DDF90,1F57A0,xmm3,6.28319@671E80,,"xmm0 read by 1F584F xorps xmm0, xmmword ptr [rip + 0x47fbba]",query,,E84E870E00
+1F7398,call,2DDF90,1F7290,xmm3,0.418879@679C78,,accumulated and stored,step,constants,E8F36B0E00
+1F7A85,call,2DDF90,1F79B0,xmm3,6.28319@671E80,,"xmm0 read by 1F7A97 xorps xmm0, xmmword ptr [rip + 0x47d972]",query,,E806650E00
+1F81EA,call,2DDF90,1F80E0,xmm3,6.28319@671E80,,"xmm0 read by 1F81FC xorps xmm0, xmmword ptr [rip + 0x47d20d]",query,,E8A15D0E00
+1FB56D,call,2DDF90,1FB360,xmm3,0.10472@679C80,,accumulated and stored,step,constants,E81E2A0E00
+1FBA97,call,2DDF90,1FBA00,xmm3,6.28319@671E80,,"xmm0 read by 1FBAA9 xorps xmm0, xmmword ptr [rip + 0x479960]",query,,E8F4240E00
+202CE6,call,2DDF90,202C40,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8A5B20D00
+2042E3,call,2DDF90,204180,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8A89C0D00
+204A6F,call,2DDF90,204A40,xmm3,param(xmm1),,accumulated and stored,step,constants (at every call of 204A40),E81C950D00
+20672F,call,2DDF90,206590,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E85C780D00
+22271F,call,2DA570,222500,xmm3,0.00698132@67C070,0.3@675A30,accumulated and stored,step,constants,E84C7E0B00
+22AAB7,call,2DDF90,22AA40,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8D4340B00
+234B28,call,2DA570,234900,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E8435A0A00
+234B6E,call,2DA570,234900,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E8FD590A00
+234DCE,call,2DA570,234C70,xmm3,0.139626@679C08,0.2@67292C,accumulated and stored,step,constants,E89D570A00
+234E14,call,2DA570,234C70,xmm3,0.139626@679C08,0.2@67292C,accumulated and stored,step,constants,E857570A00
+234FBE,call,2DA570,234E50,xmm3,0.139626@679C08,0.2@67292C,accumulated and stored,step,constants,E8AD550A00
+235004,call,2DA570,234E50,xmm3,0.139626@679C08,0.2@67292C,accumulated and stored,step,constants,E867550A00
+238F6F,call,2DDF90,238F40,xmm3,param(xmm1),,leaves the function at 13F2E0,query,,E81C500A00
+239BF9,call,2DDF90,239B40,xmm3,6.28319@671E80,,"xmm0 live at the call at 239BFE, which reads it",query,,E892430A00
+23A317,call,2DDF90,23A2E0,xmm3,"mulss(param(xmm1), [rbx+1080]@23A2F6)",,accumulated and stored,wrapped,"the limit is 23A2E0's xmm1, stock at some calls and not at others: each call of 23A2E0 is audited",E8743C0A00
+242B0E,call,2DDF90,242A20,xmm3,"mulss([rdi+1080]@242AE8, 6.28319@671E80)",,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E87DB40900
+246B93,call,2DDF90,2469A0,xmm3,"mulss([rsi+1080]@246B6D, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E8F8730900
+246BCD,call,2DDF90,2469A0,xmm3,"mulss([rsi+1080]@246BA7, 3.14159@671E7C)",,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8BE730900
+247642,call,2DDF90,2474E0,xmm3,"phi(mulss([rsi+1080]@247610, 0.0174533@672928) | mulss([rsi+1080]@247610, 0.0523599@679C90))",,accumulated and stored,step,constants and +1080,E849690900
+247F54,call,2DDF90,247CF0,xmm3,"mulss([rdi+1080]@247F2E, 0.0349066@679C00)",,accumulated and stored,step,constants and +1080,E837600900
+24884C,call,2DDF90,248780,xmm3,"mulss([rbx+1080]@248826, 0.0349066@679C00)",,accumulated and stored,step,constants and +1080,E83F570900
+248B92,call,2DDF90,2488B0,xmm3,"mulss([rbx+1080]@248B6C, 0.113446@67EC6C)",,accumulated and stored,step,"constants and +1080; its function reads 2489A7 time scale, 2489BE time scale, 248A1A time scale: the time scale (2489A7..248A1A, 248B1C) paces its vertical motion (+EC8) and a jump's speed; the turn (248B92) takes 0.1134 x speed on every path",E8F9530900
+249001,call,2DDF90,248DE0,xmm3,"mulss([rbx+1080]@248FDB, 0.0349066@679C00)",,accumulated and stored,step,constants and +1080,E88A4F0900
+249366,call,2DDF90,249100,xmm3,"mulss([rsi+1080]@24933D, 0.0174533@672928)",,accumulated and stored,step,constants and +1080,E8254C0900
+24969F,call,2DDF90,2495E0,xmm3,"mulss([rbx+1080]@24966A, 0.523599@679C4C)",,accumulated and stored,step,constants and +1080,E8EC480900
+249708,call,2DDF90,2495E0,xmm3,"mulss([rbx+1080]@2496E2, 0.0174533@672928)",,accumulated and stored,step,constants and +1080,E883480900
+249D25,call,2DDF90,249A90,xmm3,"mulss([rbx+1080]@249CFF, 0.113446@67EC6C)",,accumulated and stored,step,"constants and +1080; its function reads 249B7F time scale, 249B96 time scale, 249BF9 time scale: as 2488B0: the time scale paces +EC8 and the jump; the turn (249D25) takes 0.1134 x speed on every path",E866420900
+24A69A,call,2DA570,24A610,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E8D1FE0800
+24A6D6,call,2DA570,24A610,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E895FE0800
+24A712,call,2DA570,24A610,xmm3,phi(phi(0.0698132@679C34 | 0.0698132@679C34) | phi(0.0698132@679C34 | 0.0698132@679C34) | 0.0698132@679C34),phi(phi(0.2@67292C | 0.2@67292C) | phi(0.2@67292C | 0.2@67292C) | 0.2@67292C),accumulated and stored,step,constants,E859FE0800
+24A898,call,2DA570,24A610,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E8D3FC0800
+24A8F5,call,2DA570,24A610,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,step,constants,E876FC0800
+24A931,call,2DA570,24A610,xmm3,phi(0.0698132@679C34 | 0.0698132@679C34),phi(0.2@67292C | 0.2@67292C),accumulated and stored,step,constants,E83AFC0800
+24B4A9,call,2DDF90,24B3A0,xmm3,"mulss([rbx+1080]@24B47D, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E8E22A0900
+24B53A,call,2DDF90,24B3A0,xmm3,"mulss([rbx+1080]@24B514, 3.14159@671E7C)",,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8512A0900
+24B70D,call,2DA570,24B580,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,step,constants,E85EEE0800
+24B775,call,2DA570,24B580,xmm3,0.279253@679CC0,0.3@675A30,accumulated and stored,step,constants,E8F6ED0800
+24C28B,call,2DA570,24C0B0,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,step,constants,E8E0E20800
+24C2E2,call,2DA570,24C0B0,xmm3,0.279253@679CC0,0.3@675A30,accumulated and stored,step,constants,E889E20800
+24CD68,call,2DDF90,24CC60,xmm3,"mulss([rsi+1080]@24CD42, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E823120900
+24CDE8,call,2DDF90,24CC60,xmm3,"mulss([rsi+1080]@24CDC2, 3.14159@671E7C)",,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8A3110900
+24DB65,call,2DDF90,24D9B0,xmm3,"mulss(cvtdq2ps(sub(#82, imul([rbx+A8]@24DB16, movzx([rsi+E37]@24DB08)))), 0.0174533@672928)",,accumulated and stored,manual-left,"the limit comes from (130 - an integer product) degrees, the product of +E37 and a register, not read yet: left until it is",E826040900
+24E51C,call,2DDF90,24E230,xmm3,"mulss([rdi+1080]@24E4F6, 0.0349066@679C00)",,accumulated and stored,step,constants and +1080,E86FFA0800
+24EAF3,call,2DDF90,24E8E0,xmm3,"mulss([rsi+1080]@24EACD, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E898F40800
+24EB2D,call,2DDF90,24E8E0,xmm3,"mulss([rsi+1080]@24EB07, 3.14159@671E7C)",,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E85EF40800
+24F49F,call,2DDF90,24F370,xmm3,"mulss([rsi+1080]@24F479, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E8ECEA0800
+24F522,call,2DDF90,24F370,xmm3,"mulss([rsi+1080]@24F4FC, 3.14159@671E7C)",,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E869EA0800
+25452D,call,2DDF90,2543B0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E85E9A0800
+255E24,call,2DDF90,255D50,xmm3,"mulss([rdi+1080]@255DFE, 0.174533@679C0C)",,accumulated and stored,step,constants and +1080,E867810800
+256019,call,2DDF90,255ED0,xmm3,"mulss([rdi+1080]@255FEF, 0.20944@679C38)",,accumulated and stored,step,constants and +1080,E8727F0800
+2560AC,call,2DDF90,255ED0,xmm3,"mulss([rdi+1080]@25608A, 0.20944@679C38)",,accumulated and stored,step,constants and +1080,E8DF7E0800
+25B515,call,2DDF90,25B470,xmm3,6.28319@671E80,,"xmm0 read by 25B51A comiss xmm0, xmm9",query,,E8762A0800
+25D340,call,2DDF90,25D260,xmm3,"mulss(phi(0.174533@679C0C | 0.0698132@679C34), [rbx+1080]@25D322)",,accumulated and stored,step,constants and +1080,E84B0C0800
+25D489,call,2DDF90,25D3D0,xmm3,"mulss(phi(0.174533@679C0C | 0.0698132@679C34), [rbx+1080]@25D46B)",,accumulated and stored,step,constants and +1080,E8020B0800
+25E29E,call,2DA570,25E160,xmm3,"mulss([rbx+1080]@25E259, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8CDC20700
+25E321,call,2DA570,25E160,xmm3,"phi(mulss([rbx+1080]@25E2EB, 0.0698132@679C34) | mulss([rbx+1080]@25E259, 0.0698132@679C34))",0.2@67292C,accumulated and stored,step,constants and +1080,E84AC20700
+25E36C,call,2DA570,25E160,xmm3,"phi(mulss([rbx+1080]@25E346, 0.0698132@679C34) | mulss([rbx+1080]@25E2C3, 0.0698132@679C34))",phi(0.2@67292C | 0.2@67292C),accumulated and stored,step,constants and +1080,E8FFC10700
+25E479,call,2DDF90,25E3B0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E812FB0700
+2615DE,call,2DDF90,2614E0,xmm3,"mulss([rbx+1080]@2615B8, 0.174533@679C0C)",,accumulated and stored,step,constants and +1080,E8ADC90700
+261DC8,call,2DDF90,261CD0,xmm3,"mulss([rbx+1080]@261DA2, 0.139626@679C08)",,accumulated and stored,step,constants and +1080,E8C3C10700
+262DD9,call,2DDF90,262AE0,xmm3,1.5708@675A48,,"xmm0 live at the call at 262DDE, which reads it",query,,E8B2B10700
+262E60,call,2DDF90,262AE0,xmm3,1.5708@675A48,,"xmm0 live at the call at 262E65, which reads it",query,,E82BB10700
+262F61,call,2DDF90,262AE0,xmm3,"mulss(phi(0.139626@679C08 | 0.244346@679C10), [rbx+1080]@262F40)",,accumulated and stored,step,constants and +1080,E82AB00700
+270F3B,call,2DDF90,270DB0,xmm3,"mulss([rdi+1080]@270F10, 0.0523599@679C90)",,accumulated and stored,step,constants and +1080,E850D00600
+272AFF,call,2DA570,2729B0,xmm3,"mulss([rbx+1080]@272ABC, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E86C7A0600
+272B81,call,2DA570,2729B0,xmm3,"phi(mulss([rbx+1080]@272B4B, 0.0698132@679C34) | mulss([rbx+1080]@272ABC, 0.0698132@679C34))",0.2@67292C,the base of +108 changed before the store at 272B9E,query,,E8EA790600
+272BCC,call,2DA570,2729B0,xmm3,"phi(mulss([rbx+1080]@272BA6, 0.0698132@679C34) | mulss([rbx+1080]@272B24, 0.0698132@679C34))",phi(0.2@67292C | 0.2@67292C),accumulated and stored,step,constants and +1080,E89F790600
+272E69,call,2DDF90,272DA0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E822B10600
+2868AE,call,2DDF90,2865B0,xmm3,"mulss([r14+1080]@28687D, 0.10472@679C80)",,accumulated and stored,step,constants and +1080,E8DD760500
+289147,call,2DA570,288D90,xmm3,"mulss([rdi+1080]@2890F5, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E824140500
+2891A8,call,2DA570,288D90,xmm3,"mulss([rdi+1080]@2890F5, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8C3130500
+2891F0,call,2DA570,288D90,xmm3,"phi(mulss([rdi+1080]@2891CD, 0.0698132@679C34) | mulss([rdi+1080]@28916C, 0.0698132@679C34))",phi(0.2@67292C | 0.2@67292C),accumulated and stored,step,constants and +1080,E87B130500
+28928B,call,2DA570,288D90,xmm3,"mulss([rdi+1080]@28924F, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8E0120500
+2892D3,call,2DA570,288D90,xmm3,"mulss([rdi+1080]@2892B0, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E898120500
+28931B,call,2DA570,288D90,xmm3,"phi(mulss([rdi+1080]@2892F8, 0.0698132@679C34) | mulss([rdi+1080]@28921C, 0.0698132@679C34))",phi(0.2@67292C | phi(0.2@67292C | 0.2@67292C) | phi(0.2@67292C | 0.2@67292C)),accumulated and stored,step,constants and +1080,E850120500
+28B7AB,call,2DDF90,28B670,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8E0270500
+28C129,call,2DDF90,28C0F0,xmm3,"mulss([rbx+1080]@28C103, 1.5708@675A48)",,"xmm6 read by 28C14B comiss xmm6, xmm7",query,,E8621E0500
+28C4B9,call,2DDF90,28C480,xmm3,"mulss([rbx+1080]@28C493, 1.5708@675A48)",,xmm0 live at the return at 28C4F5,query,,E8D21A0500
+28C804,call,2DDF90,28C7D0,xmm3,"mulss([rbx+1080]@28C7DE, 1.5708@675A48)",,xmm0 live at the return at 28C875,query,,E887170500
+28D4B6,call,2DDF90,28D320,xmm3,3.14159@671E7C,,"a sum stored to another place at 28D513 movss dword ptr [rsp + 0xa4], xmm0",query,,E8D50A0500
+28E7B3,call,2DDF90,28E710,xmm3,"mulss([rbx+1080]@28E78D, 0.113446@67EC6C)",,accumulated and stored,step,constants and +1080,E8D8F70400
+291FC4,call,2DA570,291F00,xmm3,"mulss(param(xmm1), [rdi+1080]@291FB4)",0.15@6784C8,accumulated and stored,step,constants and +1080 (at every call of 291F00),E8A7850400
+291FF2,call,2DDF90,291F00,xmm3,"mulss(param(xmm1), [rdi+1080]@291FC9)",,accumulated and stored,step,constants and +1080 (at every call of 291F00),E899BF0400
+29FBE3,call,2DDF90,29FB80,xmm3,3.14159@671E7C,,"xmm1 read by 29FBF3 comiss xmm1, xmm2",query,,E8A8E30300
+2A01F3,call,2DDF90,2A0190,xmm3,3.14159@671E7C,,"xmm1 read by 2A0203 comiss xmm1, xmm2",query,,E898DD0300
+2A2D23,call,2DDF90,2A2B40,xmm3,"mulss([rdi+1080]@2A2CFE, 0.10472@679C80)",,accumulated and stored,step,constants and +1080,E868B20300
+2A55C3,call,2DDF90,2A53F0,xmm3,"mulss([rbx+1080]@2A559D, 0.10472@679C80)",,accumulated and stored,step,constants and +1080,E8C8890300
+2AAD67,call,2DA570,2A8D20,xmm3,phi(0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34),0.2@67292C,accumulated and stored,step,constants,E804F80200
+2AADA9,call,2DA570,2A8D20,xmm3,phi(0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34 | 0.0698132@679C34),0.2@67292C,accumulated and stored,step,constants,E8C2F70200
+2BD23C,call,2DA570,2BD0B0,xmm3,"mulss([rbx+1080]@2BD1F5, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E82FD30100
+2BD29D,call,2DA570,2BD0B0,xmm3,"mulss([rbx+1080]@2BD1F5, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8CED20100
+2BD2E5,call,2DA570,2BD0B0,xmm3,"phi(mulss([rbx+1080]@2BD2C2, 0.0698132@679C34) | mulss([rbx+1080]@2BD261, 0.0698132@679C34))",phi(0.2@67292C | 0.2@67292C),accumulated and stored,step,constants and +1080,E886D20100
+2BD380,call,2DA570,2BD0B0,xmm3,"mulss([rbx+1080]@2BD344, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8EBD10100
+2BD3C8,call,2DA570,2BD0B0,xmm3,"mulss([rbx+1080]@2BD3A5, 0.0698132@679C34)",0.2@67292C,accumulated and stored,step,constants and +1080,E8A3D10100
+2BD410,call,2DA570,2BD0B0,xmm3,"phi(mulss([rbx+1080]@2BD3ED, 0.0698132@679C34) | mulss([rbx+1080]@2BD311, 0.0698132@679C34))",phi(0.2@67292C | phi(0.2@67292C | 0.2@67292C) | phi(0.2@67292C | 0.2@67292C)),accumulated and stored,step,constants and +1080,E85BD10100
+2CF5AC,call,2DA570,2CF3D0,xmm3,0.10472@679C80,0.05@6775F0,accumulated and stored,step,constants,E8BFAF0000
+2CFC62,call,2DA570,2CF9E0,xmm3,0.10472@679C80,0.05@6775F0,accumulated and stored,step,constants,E809A90000
+2D0DDA,call,2DDF90,2D0C50,xmm3,3.14159@671E7C,,"xmm0 live at the call at 2D0DDF, which reads it",query,,E8B1D10000
+2D12B2,call,2DA570,2D1050,xmm3,0.10472@679C80,0.05@6775F0,accumulated and stored,step,constants,E8B9920000
+2D9733,call,2DDF90,2D9460,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E858480000
+2D9A8E,call,2DDF90,2D9940,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E8FD440000
+2E0EC5,call,2DDF90,2E0610,xmm3,3.14159@671E7C,,"xmm2 live at the call at 2E0ED8, which reads it",query,,E8C6D0FFFF
+2E0F0A,call,2DDF90,2E0610,xmm3,3.14159@671E7C,,"xmm2 live at the call at 2E0F1D, which reads it",query,,E881D0FFFF
+2E4E92,call,2DDF90,2E4CA0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8F990FFFF
+2E5711,call,2DDF90,2E5330,xmm3,"mulss(ret(xmm0 @2E56F2), 0.0872665@679C04)",,accumulated and stored,manual-left,"the limit comes from a getter on the object at 9C1F50 (23AD90) times 0.0873, not read yet: left until it is",E87A88FFFF
+2EDDFB,call,2DDF90,2EDA70,xmm3,3.14159@671E7C,,"xmm2 live at the call at 2EDE0E, which reads it",query,,E89001FFFF
+2EDE98,call,2DDF90,2EDA70,xmm3,3.14159@671E7C,,"xmm2 live at the call at 2EDEAB, which reads it",query,,E8F300FFFF
+33A275,call,2DDF90,33A0B0,xmm3,3.14159@671E7C,,"xmm0 live at the call at 33A27A, which reads it",query,,E8163DFAFF
+33C4D5,call,2DDF90,33C290,xmm3,3.14159@671E7C,,"xmm0 live at the call at 33C4DA, which reads it",query,,E8B61AFAFF
+34277F,call,2DDF90,3426A0,xmm3,0.00872665@6827A8,,accumulated and stored,step,constants,E80CB8F9FF
+3428D3,call,2DDF90,3426A0,xmm3,1.0472@679CA4,,accumulated and stored,step,constants,E8B8B6F9FF
+342DEE,call,2DDF90,342D40,xmm3,1.0472@679CA4,,accumulated and stored,step,constants,E89DB1F9FF
+342E9B,call,2DDF90,342D40,xmm3,0.139626@679C08,,accumulated and stored,step,constants,E8F0B0F9FF
+37F2E7,call,2DDF90,37F1E0,xmm3,6.28319@671E80,,accumulated and stored,snap,a limit of 6.28319: the whole turn in one tick,E8A4ECF5FF
+383CF7,call,2DDF90,383AB0,xmm3,0.0174533@672928,,"a sum stored to another place at 383D17 movss dword ptr [rdi + 0xb4], xmm0",query,,E894A2F5FF
+383E7B,call,2DDF90,383AB0,xmm3,1.5708@675A48,,accumulated and stored,step,constants,E810A1F5FF
+384EED,call,2DDF90,384E30,xmm3,0.0174533@672928,,accumulated and stored,step,constants,E89E90F5FF
+385E73,call,2DDF90,385C50,xmm3,0.0959931@6816FC,,accumulated and stored,step,constants,E81881F5FF
+38745A,call,2DDF90,387140,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E8316BF5FF
+38867B,call,2DDF90,3884B0,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E81059F5FF
+38AE87,call,2DDF90,38ABD0,xmm3,"mulss(ret(xmm0 @38AC0B), 0.10472@679C80)",,accumulated and stored,manual-left,"the limit comes from a call's result (38AC0B) times 0.1047, not read yet: left until it is",E80431F5FF
+38B887,call,2DDF90,38B710,xmm3,0.261799@679C14,,accumulated and stored,step,constants,E80427F5FF
+38B8D8,call,2DDF90,38B710,xmm3,0.0174533@672928,,accumulated and stored,step,constants,E8B326F5FF
+38C24E,call,2DDF90,38C160,xmm3,0.261799@679C14,,accumulated and stored,step,constants,E83D1DF5FF
+38C293,call,2DDF90,38C160,xmm3,0.10472@679C80,,accumulated and stored,step,constants,E8F81CF5FF
+38CE73,call,2DDF90,38CB60,xmm3,0.10472@679C80,,accumulated and stored,step,constants,E81811F5FF
+38DF48,call,2DDF90,38DCB0,xmm3,3.14159@671E7C,,"xmm0 live at the call at 38DF4D, which reads it",query,,E84300F5FF
+38EA4A,call,2DDF90,38E8D0,xmm3,3.14159@671E7C,,"xmm0 live at the call at 38EA4F, which reads it",query,,E841F5F4FF
+38F58A,call,2DDF90,38F400,xmm3,3.14159@671E7C,,"xmm0 live at the call at 38F58F, which reads it",query,,E801EAF4FF
+3909FF,call,2DDF90,390490,xmm3,"mulss(ret(xmm0 @3904BC), 0.20944@679C38)",,accumulated and stored,manual-left,"the limit comes from a call's result (3904BC) times 0.2094, not read yet: left until it is",E88CD5F4FF
+390EE7,call,2DDF90,390C00,xmm3,"mulss(ret(xmm0 @390C26), 0.20944@679C38)",,accumulated and stored,manual-left,"the limit comes from a call's result (390C26) times 0.2094, not read yet: left until it is",E8A4D0F4FF
+3911AD,call,2DDF90,390C00,xmm3,"mulss(ret(xmm0 @390C26), 0.698132@679CA0)",,accumulated and stored,manual-left,"the limit comes from a call's result (390C26) times 0.6981, not read yet: left until it is",E8DECDF4FF
+3918D0,call,2DDF90,3915E0,xmm3,"mulss(ret(xmm0 @391621), 0.10472@679C80)",,accumulated and stored,manual-left,"the limit comes from a call's result (391621) times 0.1047, not read yet: left until it is",E8BBC6F4FF
+39B833,call,2DDF90,39B7B0,xmm3,0.10472@679C80,,accumulated and stored,step,constants,E85827F4FF
+39BD3D,call,2DDF90,39BB10,xmm3,0.523599@679C4C,,accumulated and stored,step,constants,E84E22F4FF
+39F5A0,call,2DDF90,39F2B0,xmm3,0.174533@679C0C,,accumulated and stored,step,constants,E8EBE9F3FF
+39F848,call,2DA570,39F770,xmm3,"mulss(ret(xmm0 @39F797), param(xmm1))",0.15@6784C8,accumulated and stored,manual-left,"read: callblend row (player group), k 0.15 and the slow-motion x rate limit",E823ADF3FF
+39F86F,call,2DDF90,39F770,xmm3,"mulss(ret(xmm0 @39F797), param(xmm1))",,accumulated and stored,manual-left,"read: callscale row (player group), the slow-motion x rate limit",E81CE7F3FF
+3A1CFA,call,2DDF90,3A1B50,xmm3,2.0944@67B6A4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E891C2F3FF
+3A4179,call,2DDF90,3A3CA0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8129EF3FF
+3A440A,call,2DDF90,3A3CA0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8819BF3FF
+3A57A2,call,2DDF90,3A51F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8E987F3FF
+3A5AC6,call,2DDF90,3A51F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8C584F3FF
+3A7B9C,call,2DDF90,3A79F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8EF63F3FF
+3A7D40,call,2DDF90,3A79F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E84B62F3FF
+3A7FA5,call,2DDF90,3A79F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8E65FF3FF
+3AC24E,call,2DA570,3A9630,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E81DE3F2FF
+3AC2A8,call,2DA570,3A9630,xmm3,0.0698132@679C34,0.2@67292C,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8C3E2F2FF
+3AC2E5,call,2DA570,3A9630,xmm3,phi(0.0698132@679C34 | 0.0698132@679C34),0.2@67292C,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E886E2F2FF
+3AED2C,call,2DDF90,3AECC0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E85FF2F2FF
+3B0CCB,call,2DDF90,3B0AF0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8C0D2F2FF
+3B5E2E,call,2DDF90,3B5D40,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E85D81F2FF
+3B65EC,call,2DDF90,3B6310,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E89F79F2FF
+3B6BA7,call,2DDF90,3B68C0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8E473F2FF
+3B7167,call,2DDF90,3B6E80,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8246EF2FF
+3B752A,call,2DDF90,3B7320,xmm3,1.0472@679CA4,,"xmm0 read by 3B7537 comiss xmm1, xmm0",player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8616AF2FF
+3B7594,call,2DDF90,3B7320,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8F769F2FF
+3B78C5,call,2DDF90,3B7320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8C666F2FF
+3B7B92,call,2DDF90,3B7320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8F963F2FF
+3B7E44,call,2DDF90,3B7320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E84761F2FF
+3B7EB5,call,2DDF90,3B7320,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8D660F2FF
+3B8122,call,2DDF90,3B7320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8695EF2FF
+3B81DA,call,2DDF90,3B7320,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8B15DF2FF
+3B8693,call,2DDF90,3B8540,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8F858F2FF
+3B8B1A,call,2DDF90,3B8540,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E87154F2FF
+3B9062,call,2DDF90,3B8540,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8294FF2FF
+3B9246,call,2DDF90,3B8540,xmm3,phi(1.0472@679CA4 | 1.0472@679CA4 | 1.0472@679CA4),,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8454DF2FF
+3B9540,call,2DDF90,3B8540,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E84B4AF2FF
+3B96F7,call,2DDF90,3B8540,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E89448F2FF
+3B9CBD,call,2DDF90,3B9A70,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8CE42F2FF
+3B9FFD,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E88E3FF2FF
+3BA31C,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E86F3CF2FF
+3BA64F,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E83C39F2FF
+3BA937,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E85436F2FF
+3BAC12,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E87933F2FF
+3BAEF2,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E89930F2FF
+3BB16D,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E81E2EF2FF
+3BB42F,call,2DDF90,3B9A70,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E85C2BF2FF
+3BD9E4,call,2DDF90,3BD890,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8A705F2FF
+3BF4D9,call,2DDF90,3BEEE0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8B2EAF1FF
+3BFC4E,call,2DDF90,3BEEE0,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E83DE3F1FF
+3C06BE,call,2DDF90,3C05C0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8CDD8F1FF
+3C082B,call,2DDF90,3C05C0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E860D7F1FF
+3C0991,call,2DDF90,3C05C0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8FAD5F1FF
+3C0BCF,call,2DDF90,3C05C0,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8BCD3F1FF
+3C111B,call,2DDF90,3C1010,xmm3,0.174533@679C0C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E870CEF1FF
+3C12BF,call,2DDF90,3C11F0,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8CCCCF1FF
+3C165A,call,2DDF90,3C13F0,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E831C9F1FF
+3C182A,call,2DDF90,3C13F0,xmm3,0.139626@679C08,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E861C7F1FF
+3C3549,call,2DDF90,3C3470,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E842AAF1FF
+3C3A51,call,2DDF90,3C38C0,xmm3,3.14159@671E7C,,"xmm0 live at the call at 3C3A7E, which reads it",player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E83AA5F1FF
+3C5A87,call,2DDF90,3C57A0,xmm3,0.139626@679C08,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E80485F1FF
+3C5C9D,call,2DDF90,3C57A0,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8EE82F1FF
+3C5D14,call,2DDF90,3C57A0,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E87782F1FF
+3C71B9,call,2DDF90,3C70C0,xmm3,0.523599@679C4C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8D26DF1FF
+3C72F9,call,2DDF90,3C70C0,xmm3,0.139626@679C08,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8926CF1FF
+3C79D4,call,2DDF90,3C7880,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8B765F1FF
+3C7A3A,call,2DDF90,3C7880,xmm3,0.139626@679C08,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E85165F1FF
+3C7E8B,call,2DDF90,3C7880,xmm3,0.0349066@679C00,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E80061F1FF
+3C8FE1,call,2DDF90,3C84B0,xmm3,0.558505@6827C4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8AA4FF1FF
+3CA220,call,2DDF90,3CA160,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E86B3DF1FF
+3CA2D3,call,2DDF90,3CA160,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8B83CF1FF
+3CA4BE,call,2DDF90,3CA320,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8CD3AF1FF
+3CA555,call,2DDF90,3CA320,xmm3,0.279253@679CC0,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8363AF1FF
+3CA6F4,call,2DDF90,3CA320,xmm3,0.139626@679C08,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E89738F1FF
+3CA8C4,call,2DDF90,3CA320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E8C736F1FF
+3CAA46,call,2DDF90,3CA320,xmm3,1.0472@679CA4,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E84535F1FF
+3CC3EF,call,2DDF90,3CC270,xmm3,3.14159@671E7C,,accumulated and stored,player,"the player's own code (pl00..pl05): her turning is Phase A's, and these calls are its own review",E89C1BF1FF
+46B725,call,2DA570,46B080,xmm3,0.349066@67E504,0.9@672930,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E846EEE6FF
+46B74E,call,2DA570,46B080,xmm3,0.0349066@679C00,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E81DEEE6FF
+46B7A3,call,2DA570,46B080,xmm3,0.279253@679CC0,"subss(table[7A82D8] via lea 46B77A, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8C8EDE6FF
+46B7EB,call,2DA570,46B080,xmm3,0.0698132@679C34,0.05@6775F0,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E880EDE6FF
+46DFB0,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"xmm8 read by 46DFC2 comiss xmm8, xmm12",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8DBFFE6FF
+46E000,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"step - x at 46E00E subss xmm0, xmm1: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E88BFFE6FF
+46E0F1,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"step - x at 46E0FB subss xmm0, xmm8: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E89AFEE6FF
+46E4A0,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"xmm8 read by 46E4A9 comiss xmm8, xmm12",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8EBFAE6FF
+46E4E7,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"step - x at 46E4F5 subss xmm0, xmm1: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8A4FAE6FF
+46E677,call,2DDF90,46DCF0,xmm3,3.14159@671E7C,,"step - x at 46E681 subss xmm0, xmm8: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E814F9E6FF
+470F25,call,2DA570,470AE0,xmm3,0.139626@679C08,0.1@671E04,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E84696E6FF
+470F5F,call,2DA570,470AE0,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E80C96E6FF
+4727FE,call,2DA570,472330,xmm3,0.139626@679C08,0.1@671E04,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E86D7DE6FF
+472838,call,2DA570,472330,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8337DE6FF
+4780FC,call,2DA570,477F90,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E86F24E6FF
+47811C,call,2DA570,477F90,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E84F24E6FF
+478A73,call,2DA570,478450,xmm3,0.0349066@679C00,0.3@675A30,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8F81AE6FF
+478B19,call,2DA570,478450,xmm3,0.279253@679CC0,0.1@671E04,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8521AE6FF
+478B53,call,2DA570,478450,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8181AE6FF
+478B8A,call,2DA570,478450,xmm3,0.010472@6B36B8,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8E119E6FF
+4794B0,call,2DA570,478EF0,xmm3,0.139626@679C08,"subss(table[7A82C0] via lea 479487, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8BB10E6FF
+479ABB,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"xmm9 read by 479ACD comiss xmm9, xmm12",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8D044E6FF
+479B0B,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"step - x at 479B19 subss xmm0, xmm1: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E88044E6FF
+479BFC,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"step - x at 479C06 subss xmm0, xmm9: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E88F43E6FF
+479FA8,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"xmm8 read by 479FB1 comiss xmm8, xmm12",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8E33FE6FF
+479FEF,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"step - x at 479FFD subss xmm0, xmm1: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E89C3FE6FF
+47A17C,call,2DDF90,4797A0,xmm3,3.14159@671E7C,,"step - x at 47A186 subss xmm0, xmm8: not an accumulation",camera,"the camera, which the port compensates in part: read as a whole elsewhere",E80F3EE6FF
+47AA70,call,2DA570,47A3A0,xmm3,0.00872665@6827A8,"subss(table[7A8330], 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8FBFAE5FF
+47AAC9,call,2DA570,47A3A0,xmm3,0.00872665@6827A8,"subss(table[7A8330], 1@671C08)",cur is not one field: ret(xmm0 @47AA70),camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8A2FAE5FF
+47AB22,call,2DA570,47A3A0,xmm3,0.00872665@6827A8,"subss(table[7A8330], 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E849FAE5FF
+47AC05,call,2DA570,47A3A0,xmm3,0.0349066@679C00,0.3@675A30,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E866F9E5FF
+47ACBA,call,2DA570,47A3A0,xmm3,0.279253@679CC0,"subss(table[7A82D8], 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8B1F8E5FF
+47BF60,call,2DA570,47BAE0,xmm3,0.00872665@6827A8,"subss(table[7A8330], 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E80BE6E5FF
+47BFB9,call,2DA570,47BAE0,xmm3,0.00872665@6827A8,"subss(table[7A8330], 1@671C08)",cur is not one field: ret(xmm0 @47BF60),camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8B2E5E5FF
+47C035,call,2DA570,47BAE0,xmm3,0.139626@679C08,"subss(table[7A82C0], 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E836E5E5FF
+47D0A4,call,2DA570,47C9D0,xmm3,0.279253@679CC0,"subss(table[7A82D8] via lea 47D07B, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8C7D4E5FF
+47D0E9,call,2DA570,47C9D0,xmm3,0.0698132@679C34,0.05@6775F0,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E882D4E5FF
+47E201,call,2DA570,47DAB0,xmm3,0.279253@679CC0,"subss(table[7A82D8] via lea 47E1D8, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E86AC3E5FF
+47E246,call,2DA570,47DAB0,xmm3,0.0698132@679C34,0.05@6775F0,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E825C3E5FF
+47F0DE,call,2DA570,47EC10,xmm3,0.139626@679C08,0.1@671E04,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E88DB4E5FF
+47F118,call,2DA570,47EC10,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E853B4E5FF
+4803FC,call,2DA570,47FF90,xmm3,0.139626@679C08,0.1@671E04,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E86FA1E5FF
+480436,call,2DA570,47FF90,xmm3,0.279253@679CC0,0.2@67292C,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E835A1E5FF
+482B1A,call,2DA570,4829A0,xmm3,phi(0.00523599@683178 | 0.00872665@6827A8 | 0.00349066@6B36B0 | 0.00698132@67C070 | 0.0139626@6B36BC),"subss(phi(table[7A82C0] via lea 482AE4 | table[7A82C0] via lea 482A2A | table[7A82C0] via lea 482A2A | [r8+70]@482AB0 | table[7A82C0] via lea 482A2A), 1@671C08)",cur is not one field: phi([rbx+1B0]@482B0A | [rbx+1B0]@482A80),camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8517AE5FF
+482C8C,call,2DA570,482B40,xmm3,0.00349066@6B36B0,"subss([rsi+10]@482C67, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8DF78E5FF
+482CB5,call,2DA570,482B40,xmm3,0.00349066@6B36B0,"subss([rsi+10]@482C67, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8B678E5FF
+482D3F,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E82C78E5FF
+482D8B,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8E077E5FF
+482DCE,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E89D77E5FF
+482E28,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E84377E5FF
+482F1D,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E84E76E5FF
+482F4C,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,cur is not one field: ret(xmm0 @482F1D),camera,"the camera, which the port compensates in part: read as a whole elsewhere",E81F76E5FF
+482F84,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8E775E5FF
+482FB3,call,2DA570,482B40,xmm3,0.00349066@6B36B0,0.08@679C70,cur is not one field: ret(xmm0 @482F84),camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8B875E5FF
+482FF1,call,2DA570,482B40,xmm3,0.00872665@6827A8,"subss([rsi+10]@482FE6, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E87A75E5FF
+48306C,call,2DA570,482B40,xmm3,0.010472@6B36B8,"subss([rsi+10]@483061, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8FF74E5FF
+4830DF,call,2DA570,482B40,xmm3,0.010472@6B36B8,"subss([rsi+10]@4830D4, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E88C74E5FF
+483137,call,2DA570,482B40,xmm3,0.0349066@679C00,"subss([rsi+18]@48312C, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E83474E5FF
+483189,call,2DA570,482B40,xmm3,0.010472@6B36B8,"subss([rsi+10]@48317B, 1@671C08)",accumulated and stored,camera,"the camera, which the port compensates in part: read as a whole elsewhere",E8E273E5FF
+48CF9B,call,2DDF90,48CE30,xmm3,6.28319@671E80,,"a sum stored to another place at 48CFBF movss dword ptr [rsp + 0x28], xmm0",query,,E8F00FE5FF
+522B6E,call,2DDF90,522A80,xmm3,0.0174533@672928,,accumulated and stored,step,constants,E81DB4DBFF
+5609C5,call,2DDF90,5607A0,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E8C6D5D7FF
+560E22,call,2DDF90,560BD0,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E869D1D7FF
+561912,call,2DDF90,5616C0,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E879C6D7FF
+561CD8,call,2DDF90,561A90,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E8B3C2D7FF
+561E26,call,2DDF90,561A90,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E865C1D7FF
+561F74,call,2DDF90,561A90,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E817C0D7FF
+564FFE,call,2DDF90,564E60,xmm3,"mulss(cvtdq2ps(movsx([rbx+E3E]@564FD2)), 0.139626@679C08)",,accumulated and stored,manual-left,"the limit comes from the short +E3E times 0.1396, not read yet: left until it is",E88D8FD7FF
+565258,call,2DDF90,565190,xmm3,0.558505@6827C4,,accumulated and stored,step,constants,E8338DD7FF
+5652D3,call,2DDF90,565190,xmm3,0.139626@679C08,,accumulated and stored,step,constants,E8B88CD7FF
+565A60,call,2DDF90,5658C0,xmm3,0.174533@679C0C,,accumulated and stored,step,constants,E82B85D7FF
+57AE77,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E81431D6FF
+57AFAB,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8E02FD6FF
+57B048,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8432FD6FF
+57B10A,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8812ED6FF
+57B140,call,2DDF90,57AC60,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E84B2ED6FF
+57B213,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E8782DD6FF
+57B281,call,2DDF90,57AC60,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E80A2DD6FF
+57B31C,call,2DDF90,57AC60,xmm3,3.14159@671E7C,,accumulated and stored,snap,a limit of 3.14159: the whole turn in one tick,E86F2CD6FF
+57B38B,call,2DDF90,57AC60,xmm3,0.0523599@679C90,,accumulated and stored,step,constants,E8002CD6FF
+57B407,call,2DDF90,57AC60,xmm3,0.139626@679C08,,accumulated and stored,step,constants,E8842BD6FF
+242D49,call,23A2E0,242CB0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E89275FFFF
+244433,call,23A2E0,2443F0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8A85EFFFF
+24478B,call,23A2E0,244740,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8505BFFFF
+2470A0,call,23A2E0,246E60,xmm1,0.0610865@67EC68,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E83B32FFFF
+2471C3,call,23A2E0,246E60,xmm1,1.0472@679CA4,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81831FFFF
+247AD9,call,23A2E0,247900,xmm1,0.113446@67EC6C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80228FFFF
+24826F,call,23A2E0,2480A0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E86C20FFFF
+248511,call,23A2E0,2480A0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8CA1DFFFF
+2486F8,call,23A2E0,248550,xmm1,0.349066@67E504,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E31BFFFF
+24B746,call,23A2E0,24B580,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E895EBFEFF
+24B8EB,call,23A2E0,24B830,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F0E9FEFF
+24BB52,call,23A2E0,24BAB0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E889E7FEFF
+24BCFB,call,23A2E0,24BC50,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E0E5FEFF
+24BDCC,call,23A2E0,24BC50,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80FE5FEFF
+24BF0A,call,23A2E0,24BE70,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D1E3FEFF
+24C02A,call,23A2E0,24BF90,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B1E2FEFF
+24C2B3,call,23A2E0,24C0B0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E828E0FEFF
+24C461,call,23A2E0,24C380,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87ADEFEFF
+24CF3E,call,23A2E0,24CE60,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E89DD3FEFF
+24D3C1,call,23A2E0,24D270,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81ACFFEFF
+24DFA5,call,23A2E0,24DF00,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E836C3FEFF
+24E0B2,call,23A2E0,24DF00,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E829C2FEFF
+24EDE8,call,23A2E0,24EB80,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F3B4FEFF
+24F658,call,23A2E0,24F5B0,xmm1,0.0174533@672928,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E883ACFEFF
+252E03,call,23A2E0,252D80,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8D874FEFF
+252F6A,call,23A2E0,252EC0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E87173FEFF
+2534FF,call,23A2E0,253470,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8DC6DFEFF
+253636,call,23A2E0,253560,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8A56CFEFF
+253754,call,23A2E0,253690,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8876BFEFF
+253874,call,23A2E0,2537B0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8676AFEFF
+253F26,call,23A2E0,253D20,xmm1,0.0174533@672928,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B563FEFF
+25421C,call,23A2E0,254010,xmm1,1.5708@675A48,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8BF60FEFF
+2544F5,call,23A2E0,2543B0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8E65DFEFF
+25538A,call,23A2E0,255290,xmm1,0.15708@67F8A8,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8514FFEFF
+2553AB,call,23A2E0,255290,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8304FFEFF
+2553E5,call,23A2E0,255290,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F64EFEFF
+25585A,call,23A2E0,255780,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8814AFEFF
+255BB5,call,23A2E0,255AA0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82647FEFF
+2561D3,call,23A2E0,255ED0,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80841FEFF
+256839,call,23A2E0,2566F0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8A23AFEFF
+256B59,call,23A2E0,2566F0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E88237FEFF
+256C91,call,23A2E0,256C00,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E84A36FEFF
+256DA7,call,23A2E0,256C00,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E83435FEFF
+256E57,call,23A2E0,256C00,xmm1,0.0261799@67C078,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E88434FEFF
+256E7E,call,23A2E0,256C00,xmm1,0.0261799@67C078,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E85D34FEFF
+257102,call,23A2E0,257060,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D931FEFF
+2573C8,call,23A2E0,257300,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8132FFEFF
+2575AD,call,23A2E0,2574C0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82E2DFEFF
+257682,call,23A2E0,2574C0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8592CFEFF
+25785C,call,23A2E0,257770,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87F2AFEFF
+257917,call,23A2E0,257770,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8C429FEFF
+257B05,call,23A2E0,2579F0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D627FEFF
+257D99,call,23A2E0,257CA0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E84225FEFF
+257E65,call,23A2E0,257CA0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87624FEFF
+2580E3,call,23A2E0,257FB0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8F821FEFF
+25847B,call,23A2E0,2583A0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8601EFEFF
+258518,call,23A2E0,2583A0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8C31DFEFF
+2586B5,call,23A2E0,2583A0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8261CFEFF
+2587F2,call,23A2E0,258700,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E91AFEFF
+258AB9,call,23A2E0,258930,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82218FEFF
+258C02,call,23A2E0,258930,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D916FEFF
+25A401,call,23A2E0,25A310,xmm1,"mulss([rsi+E14]@25A3EE, 0.0523599@679C90)",,the wrapper's,manual-left,"the limit comes from +E14 x 0.0524, a value the class ramps by speed x 0.3 a tick, not read yet: left until it is",E8DAFEFDFF
+25A5C6,call,23A2E0,25A510,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E815FDFDFF
+25CBA6,call,23A2E0,25CAE0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E835D7FDFF
+25D7AB,call,23A2E0,25D5C0,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E830CBFDFF
+25DB03,call,23A2E0,25D5C0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D8C7FDFF
+25DD7A,call,23A2E0,25DCC0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E861C5FDFF
+25DD9B,call,23A2E0,25DCC0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E840C5FDFF
+25E127,call,23A2E0,25DF10,xmm1,0.279253@679CC0,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B4C1FDFF
+260FB6,call,23A2E0,260E30,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82593FDFF
+262761,call,23A2E0,262200,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87A7BFDFF
+2634D1,call,23A2E0,263400,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80A6EFDFF
+263A2C,call,23A2E0,263550,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8AF68FDFF
+26FD75,call,23A2E0,26FCB0,xmm1,0.0174533@672928,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E866A5FCFF
+270D77,call,23A2E0,270CD0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E86495FCFF
+270E62,call,23A2E0,270DB0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87994FCFF
+270FB3,call,23A2E0,270DB0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82893FCFF
+2714F4,call,23A2E0,2713E0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E78DFCFF
+2717D5,call,23A2E0,2716B0,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8068BFCFF
+271B77,call,23A2E0,271AB0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E86487FCFF
+271ECB,call,23A2E0,271DD0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81084FCFF
+271FA2,call,23A2E0,271DD0,xmm1,0.349066@67E504,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E83983FCFF
+2722BC,call,23A2E0,2721D0,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81F80FCFF
+272497,call,23A2E0,2723C0,xmm1,0.785398@675D58,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8447EFCFF
+27262E,call,23A2E0,2725B0,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8AD7CFCFF
+2766F5,call,23A2E0,276400,xmm1,"mulss([rdi+E14]@2766E2, 0.0174533@672928)",,the wrapper's,manual-left,"the limit comes from +E14 x 0.0175, a value the class ramps by speed x 0.3 a tick, not read yet: left until it is",E8E63BFCFF
+277CE7,call,23A2E0,2779A0,xmm1,0.148353@6808D8,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F425FCFF
+278753,call,23A2E0,278590,xmm1,0.113446@67EC6C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8881BFCFF
+278793,call,23A2E0,278590,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8481BFCFF
+28A066,call,23A2E0,28A020,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E87502FBFF
+28B773,call,23A2E0,28B670,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E868EBFAFF
+28B866,call,23A2E0,28B670,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E875EAFAFF
+28C44B,call,23A2E0,28C220,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E890DEFAFF
+28C6B5,call,23A2E0,28C630,xmm1,0.0261799@67C078,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E826DCFAFF
+28C971,call,23A2E0,28C8D0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E86AD9FAFF
+28CE30,call,23A2E0,28CD80,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8ABD4FAFF
+28D6F1,call,23A2E0,28D320,xmm1,1.5708@675A48,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8EACBFAFF
+28D951,call,23A2E0,28D810,xmm1,1.5708@675A48,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E88AC9FAFF
+28D9C2,call,23A2E0,28D810,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E819C9FAFF
+28DB5F,call,23A2E0,28D810,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87CC7FAFF
+28DCAC,call,23A2E0,28DBE0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82FC6FAFF
+28DD47,call,23A2E0,28DBE0,xmm1,0.0174533@672928,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E894C5FAFF
+28DFDE,call,23A2E0,28DF60,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8FDC2FAFF
+28E250,call,23A2E0,28E120,xmm1,0.0959931@6816FC,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E88BC0FAFF
+28E2BF,call,23A2E0,28E120,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81CC0FAFF
+28E348,call,23A2E0,28E120,xmm1,0.0610865@67EC68,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E893BFFAFF
+28E43E,call,23A2E0,28E120,xmm1,0.0261799@67C078,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E89DBEFAFF
+28FC25,call,23A2E0,28FAA0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B6A6FAFF
+28FCB4,call,23A2E0,28FAA0,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E827A6FAFF
+2911AE,call,23A2E0,290EC0,xmm1,0.523599@679C4C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82D91FAFF
+2911CB,call,23A2E0,290EC0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81091FAFF
+2A1334,call,23A2E0,2A1260,xmm1,3.14159@671E7C,,the wrapper's,snap,a limit of 3.14159: the whole turn in one tick,E8A78FF9FF
+2A1638,call,23A2E0,2A1570,xmm1,3.14159@671E7C,,the wrapper's,snap,a limit of 3.14159: the whole turn in one tick,E8A38CF9FF
+2A2A2E,call,23A2E0,2A2940,xmm1,phi(0.0523599@679C90 | 0.0872665@679C04),,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8AD78F9FF
+2A2FE8,call,23A2E0,2A2F40,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F372F9FF
+2A3138,call,23A2E0,2A3040,xmm1,phi(0.139626@679C08 | 0.314159@6800D8 | 0.244346@679C10),,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8A371F9FF
+2A3499,call,23A2E0,2A33F0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8426EF9FF
+2A358C,call,23A2E0,2A34D0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E84F6DF9FF
+2A36C4,call,23A2E0,2A3600,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8176CF9FF
+2A3BF2,call,23A2E0,2A3AF0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E966F9FF
+2A3C97,call,23A2E0,2A3AF0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E84466F9FF
+2A3D6B,call,23A2E0,2A3AF0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87065F9FF
+2A3EC4,call,23A2E0,2A3AF0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81764F9FF
+2A4A9C,call,23A2E0,2A4770,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E83F58F9FF
+2A4E09,call,23A2E0,2A4BA0,xmm1,0.0872665@679C04,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D254F9FF
+2A50F3,call,23A2E0,2A4F70,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8E851F9FF
+2A5BBB,call,23A2E0,2A58A0,xmm1,0.279253@679CC0,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82047F9FF
+2A5DA9,call,23A2E0,2A5CA0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E83245F9FF
+2A5E26,call,23A2E0,2A5CA0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B544F9FF
+2A5EC6,call,23A2E0,2A5CA0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81544F9FF
+2A70AF,call,23A2E0,2A6FB0,xmm1,3.14159@671E7C,,the wrapper's,snap,a limit of 3.14159: the whole turn in one tick,E82C32F9FF
+2A75B7,call,23A2E0,2A74B0,xmm1,0.314159@6800D8,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8242DF9FF
+2A79C3,call,23A2E0,2A75D0,xmm1,0.244346@679C10,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81829F9FF
+2A7CBA,call,23A2E0,2A7C00,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E82126F9FF
+2A7E02,call,23A2E0,2A7C00,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D924F9FF
+2A7F1A,call,23A2E0,2A7C00,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8C123F9FF
+2A80CA,call,23A2E0,2A8030,xmm1,0.349066@67E504,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E81122F9FF
+2A80E0,call,23A2E0,2A8030,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8FB21F9FF
+2A82D3,call,23A2E0,2A8030,xmm1,0.174533@679C0C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80820F9FF
+2B849F,call,23A2E0,2B82B0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E83C1EF8FF
+2B888D,call,23A2E0,2B82B0,xmm1,0.523599@679C4C,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E84E1AF8FF
+2B8F4A,call,23A2E0,2B8D10,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E89113F8FF
+2B97DC,call,23A2E0,2B96D0,xmm1,0.0261799@67C078,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8FF0AF8FF
+2B9A46,call,23A2E0,2B99B0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E89508F8FF
+2B9CD5,call,23A2E0,2B9C30,xmm1,0.122173@6827C0,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E80606F8FF
+2B9E22,call,23A2E0,2B9C30,xmm1,0.122173@6827C0,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B904F8FF
+2BA3A3,call,23A2E0,2BA310,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E838FFF7FF
+2BA561,call,23A2E0,2BA4A0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E87AFDF7FF
+2BA62B,call,23A2E0,2BA4A0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8B0FCF7FF
+2BAC6A,call,23A2E0,2BAB00,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E871F6F7FF
+2BAFCA,call,23A2E0,2BAE40,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E811F3F7FF
+2BB07B,call,23A2E0,2BAE40,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E860F2F7FF
+2BB404,call,23A2E0,2BB250,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D7EEF7FF
+2BB658,call,23A2E0,2BB590,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E883ECF7FF
+2BC137,call,23A2E0,2BBFC0,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8A4E1F7FF
+2BF2B9,call,23A2E0,2BF0F0,xmm1,phi(0.0261799@67C078 | 0.0523599@679C90 | 0.0872665@679C04),,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E822B0F7FF
+2BF2DA,call,23A2E0,2BF0F0,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E801B0F7FF
+2D0E05,call,23A2E0,2D0C50,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8D694F6FF
+2D15FC,call,23A2E0,2D14F0,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8DF8CF6FF
+2D1839,call,23A2E0,2D1760,xmm1,0.0523599@679C90,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8A28AF6FF
+2D4B59,call,23A2E0,2D4AA0,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E88257F6FF
+2D500D,call,23A2E0,2D4F60,xmm1,0.20944@679C38,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8CE52F6FF
+2D6334,call,23A2E0,2D62A0,xmm1,6.28319@671E80,,the wrapper's,snap,a limit of 6.28319: the whole turn in one tick,E8A73FF6FF
+2D6A1B,call,23A2E0,2D6920,xmm1,0.10472@679C80,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8C038F6FF
+2D6D33,call,23A2E0,2D6B70,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8A835F6FF
+2D6F2F,call,23A2E0,2D6D60,xmm1,0.0349066@679C00,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8AC33F6FF
+2D71E6,call,23A2E0,2D6D60,xmm1,0.0698132@679C34,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8F530F6FF
+2D7311,call,23A2E0,2D7240,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8CA2FF6FF
+2D744E,call,23A2E0,2D7240,xmm1,0.139626@679C08,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E88D2EF6FF
+2D75DF,call,23A2E0,2D7520,xmm1,0.0174533@672928,,the wrapper's,step,constants; 23A2E0 turns the heading by it every call,E8FC2CF6FF

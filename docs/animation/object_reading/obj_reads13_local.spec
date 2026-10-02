@@ -1,0 +1,5 @@
+stock | utbc 22CC00 runs only while E14 is zero; the E10 add at 22CC5C uses E14 times 0.8, so it always adds zero on this path | 22CC5C
+once | utbc 22CC00 on E35 state one and E14 zero sets E34 to 0x201, making E35 state two; the E18 displacement at 22CC74 is the one-time transition placement | 22CC74
+once | et22 2E7D40 virtual slot nine initializes position and plays its initial motion, then copies the current position to 1080 and applies the 5000 Y offset before building the trajectory in 1090 | 2E7E41
+once | utbe 22EAC0 virtual slot nine initializes E34, copies the actor position to 1100 and 10F0, offsets the two query endpoints by plus/minus 1000 for 466240, then adds 500 to the resolved placement before copying it back; these are placement coordinates for initialization | 22EB48 22EB60 22EBCF
+stock | et2e 2EA1B0 backs up actor Y in 9C490C, temporarily adds 10 at 2EA278 for the 45FC40 ground query, then restores actor Y from 9C490C at 2EA2A7; the stored change is only the query coordinate | 2EA278

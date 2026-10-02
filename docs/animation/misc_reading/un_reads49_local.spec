@@ -1,0 +1,5 @@
+stock | Shared 2DA050 spawn constructor copies the supplied orientation to the fresh object's +B0/B4/B8 and normalizes each angle once before returning that object. | 2DA1C4 2DA1D9 2DA1EE
+stock | Shared 3769D0 UV normalization subtracts the integral part of each supplied UV and adds one only for a negative fractional remainder. This is a modulo operation without a time increment. | 3769F6 376A00 376A20 376A2B
+stock | Shared 4643B0 resolves the current geometric overlap of collision shapes by placing their centers at the separation boundary; its displacement is the measured penetration, independent of elapsed frames. | 464859 46486E 4648F5 46490D
+stock | Shared 464A80 projects the supplied point out of the current overlapping collision shape. It computes the separation boundary from the supplied radius and normalized center difference; these stores are geometric corrections. | 464E7D 464F01 464F05 464F0E
+fixed | Shared 203FE0's heading approach calls 2DA510, whose installed FixTurnRate hook converts its per-tick 0.25 blend to 1-(1-k)^(1/N). | 204159

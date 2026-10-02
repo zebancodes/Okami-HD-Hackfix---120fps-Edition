@@ -1,0 +1,1 @@
+fixed | pl00 collision helper 3BBC90: both successful overlap queries feed a sustained-contact path that executed on all 30 of 30 traced update ticks; +E48's 0.7 damping is now converted to 0.7^s by the narrowly opted-in decay_factors.h site 3BBE4D | 3BBE55

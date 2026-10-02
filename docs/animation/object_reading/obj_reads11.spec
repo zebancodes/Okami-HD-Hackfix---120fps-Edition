@@ -1,0 +1,6 @@
+stock | objScroll 35B840 increments B65F50 only after a successful 1B9AB0 object query; the enclosing 4934D0 frame sweep clears B65F50 at 49351B before traversing objects, so these are per-sweep counts of successful objects | 35B901 35BAC5
+stock | objScroll 35B840 increments B65F58 for an active object; a full direct and RIP-reference scan of main.dll found no read or address-taking reference to B65F58, so this write-only tally does not drive a timer or animation | 35BB16
+stock | objScroll 35B840 at 35C1CC is add rsp,0x140 in the function epilogue; the inventory's frame-derived match is a false positive on a stack adjustment | 35C1CC
+stock | objScroll 35B1E0 at 35B547 reads B6B240 and compares the mode byte with 0x20 to select a branch; it does not advance state | 35B547
+stock | Shared 20F8A0 temporarily subtracts +E54 and param_3 from the object's Y before the 45FC40 collision query, then restores both afterward; these four stores change the coordinate frame for that query and do not integrate motion | 20F906 20F91B 20F952 20F966
+stock | ut9a update 229A20 adds 20 to object Y solely to call 45FC40 in the raised coordinate frame, then subtracts the same 20 immediately after the query | 229B13 229B39

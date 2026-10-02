@@ -1,0 +1,164 @@
+site,kind,function,cls,coefficient,evidence
+1D73F7,call,1D72B0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1D7786,call,1D72B0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1D7916,call,1D72B0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DA87A,call,1DA750,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DAC13,call,1DA750,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DAD92,call,1DA750,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DEB3F,call,1DE9F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DEE75,call,1DE9F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1DEFCA,call,1DE9F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E2187,call,1E2040,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E2520,call,1E2040,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E2675,call,1E2040,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E4EEC,call,1E4D70,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E5017,call,1E4D70,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E5169,call,1E4D70,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E6239,call,1E60E0,convert,0.25@675C34,constant: the hook's conversion is the only one
+1E8704,call,1E85D0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E8A32,call,1E85D0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1E8B7C,call,1E85D0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EB923,call,1EB7F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EBCB7,call,1EB7F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EBE1A,call,1EB7F0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EE8F1,call,1EE670,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EECC8,call,1EE670,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1EEE0D,call,1EE670,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F20FB,call,1F1FD0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F237D,call,1F1FD0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F24D2,call,1F1FD0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F3FBB,call,1F3E40,convert,0.05@6775F0,constant: the hook's conversion is the only one
+1F3FD6,call,1F3E40,convert,0.05@6775F0,constant: the hook's conversion is the only one
+1F63A5,call,1F5F20,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F64F7,call,1F5F20,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F89CB,call,1F8890,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F8B74,call,1F8890,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1F8CC9,call,1F8890,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1FC1A2,call,1FC080,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1FC54C,call,1FC080,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1FC6DF,call,1FC080,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1FFB82,call,1FFA50,convert,0.15@6784C8,constant: the hook's conversion is the only one
+1FFEE5,call,1FFA50,convert,0.15@6784C8,constant: the hook's conversion is the only one
+200054,call,1FFA50,convert,0.15@6784C8,constant: the hook's conversion is the only one
+20414C,call,203FE0,convert,0.25@675C34,constant: the hook's conversion is the only one
+204C6B,call,204BE0,convert,param(xmm3),"leaves: param(xmm3); MANUAL: dead code: nothing references FUN_180204be0 -- no call, jump, 8-byte pointer, rva or rip lea"
+205CA5,call,205AE0,convert,[rdi+1178]@205C8A,"leaves: [rdi+1178]@205C8A; MANUAL: k = [obj+0x1178], written only by the setup at 205A60 from its 5th argument, and all 16 of its callers pass an .rdata per-tick blend (0.1 to 0.4)"
+205CCA,call,205AE0,convert,[rdi+1178]@205CBA,leaves: [rdi+1178]@205CBA; MANUAL: as 205CA5
+209B4B,call,2097C0,convert,0.2@67292C,constant: the hook's conversion is the only one
+20A8BC,call,20A460,convert,0.1@671E04,constant: the hook's conversion is the only one
+22A00E,call,229CB0,convert,0.2@67292C,constant: the hook's conversion is the only one
+243753,call,243630,convert,0.4@679C74,"constant: the hook's conversion is the only one; the function reads a rate global (243B12 243BF3 243C1D): its 0.4 and 0.3 turns are switch cases 1 and 5 of the state; the time scale and 60 fps flag (243B12, 243BF3, 243C1D) are read by the movement code after them and select nothing for the turn"
+243878,call,243630,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (243B12 243BF3 243C1D): its 0.4 and 0.3 turns are switch cases 1 and 5 of the state; the time scale and 60 fps flag (243B12, 243BF3, 243C1D) are read by the movement code after them and select nothing for the turn"
+243A12,call,243630,convert,0.3@675A30,"constant: the hook's conversion is the only one; the function reads a rate global (243B12 243BF3 243C1D): its 0.4 and 0.3 turns are switch cases 1 and 5 of the state; the time scale and 60 fps flag (243B12, 243BF3, 243C1D) are read by the movement code after them and select nothing for the turn"
+243FAF,call,243EE0,convert,1@671C08,constant: the hook's conversion is the only one
+2440B6,call,243EE0,convert,0.4@679C74,constant: the hook's conversion is the only one
+26321F,call,263040,convert,0.15@6784C8,constant: the hook's conversion is the only one
+2861C5,call,2860D0,convert,0.15@6784C8,constant: the hook's conversion is the only one
+286878,call,2865B0,convert,0.3@675A30,constant: the hook's conversion is the only one
+294ACC,call,2949E0,convert,1@671C08,constant: the hook's conversion is the only one
+294B7D,call,2949E0,convert,0.4@679C74,constant: the hook's conversion is the only one
+2A17F1,call,2A1710,convert,0.4@679C74,"constant: the hook's conversion is the only one; the function reads a rate global (2A1BAB): the same code as 243630 (time scale at 2A1BAB), same finding"
+2A192B,call,2A1710,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (2A1BAB): the same code as 243630 (time scale at 2A1BAB), same finding"
+2A1A96,call,2A1710,convert,0.3@675A30,"constant: the hook's conversion is the only one; the function reads a rate global (2A1BAB): the same code as 243630 (time scale at 2A1BAB), same finding"
+2A1F6C,call,2A1E90,convert,1@671C08,constant: the hook's conversion is the only one
+2A2028,call,2A1E90,convert,0.4@679C74,constant: the hook's conversion is the only one
+2A55FD,call,2A53F0,convert,"mulss([rbx+1080]@2A55DD, 0.2@67292C)","leaves: [rbx+1080]@2A55DD; MANUAL: k = [obj+0x1080] * 0.2; this class's code (290000..2B0000) only ever sets +0x1080 to the constant 1.0 (294A12, 297E25), and the same field scales its 0.10472 rad/tick turn step at 2A559D"
+2A5AE1,call,2A58A0,convert,0.1@671E04,constant: the hook's conversion is the only one
+304935,call,3048B0,convert,0.1@671E04,constant: the hook's conversion is the only one
+317673,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+31768F,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+3176C9,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+3176E5,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+31771F,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+31773B,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+317775,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+317791,call,317470,convert,"divss(cvtdq2ps(movzx([r14+12]@3175D0)), 100@675AC4)","leaves: [r14+12]@3175D0; MANUAL: k = byte [ctl+0x12] / 100: the spine controller 317470's per-tick blend percentage, which its caller 317020 puts back to 8 after every update; rescaled nowhere"
+317832,call,317810,convert,stack?@317810,"leaves: stack?@317810; MANUAL: dead code: nothing references FUN_180317810 -- no call, jump, 8-byte pointer, rva or rip lea"
+317850,call,317810,convert,stack?@317810,"leaves: stack?@317810; MANUAL: dead code: nothing references FUN_180317810 -- no call, jump, 8-byte pointer, rva or rip lea"
+3226C7,call,3223B0,convert,0.5@671E08,constant: the hook's conversion is the only one
+3233DE,call,323240,convert,"divss(1@671C08, cvtdq2ps(inc(opaque@32336B, -)))","leaves: opaque@32336B; MANUAL: k = 1 / (n + 1), n the countdown [obj+0xE3C] whose decrement at 3233E3 is in memory_timers.h: with the timers fixed n holds for 1/ts ticks, and the conversion makes those ticks one stock step"
+32AD33,call,32A910,convert,0.2@67292C,constant: the hook's conversion is the only one
+3371CC,call,3370B0,convert,0.1@671E04,constant: the hook's conversion is the only one
+337A92,call,3377F0,convert,0.5@671E08,constant: the hook's conversion is the only one
+34069F,call,340440,convert,0.1@671E04,constant: the hook's conversion is the only one
+340983,call,340440,convert,0.1@671E04,constant: the hook's conversion is the only one
+368BAB,call,368790,convert,0.2@67292C,constant: the hook's conversion is the only one
+36947C,call,369090,convert,0.2@67292C,constant: the hook's conversion is the only one
+369E68,call,369A70,convert,0.2@67292C,constant: the hook's conversion is the only one
+388E12,call,388B50,convert,0.2@67292C,constant: the hook's conversion is the only one
+388E3E,call,388B50,convert,0.2@67292C,constant: the hook's conversion is the only one
+388F08,call,388B50,convert,0.2@67292C,constant: the hook's conversion is the only one
+388F34,call,388B50,convert,0.2@67292C,constant: the hook's conversion is the only one
+38929C,call,388FD0,convert,0.2@67292C,constant: the hook's conversion is the only one
+3892C8,call,388FD0,convert,0.2@67292C,constant: the hook's conversion is the only one
+38AE59,call,38ABD0,convert,0.4@679C74,constant: the hook's conversion is the only one
+390714,call,390490,convert,0.05@6775F0,constant: the hook's conversion is the only one
+3909CF,call,390490,convert,0.2@67292C,constant: the hook's conversion is the only one
+390EB9,call,390C00,convert,0.2@67292C,constant: the hook's conversion is the only one
+3918A0,call,3915E0,convert,0.3@675A30,constant: the hook's conversion is the only one
+3923EE,call,391D60,convert,0.4@679C74,constant: the hook's conversion is the only one
+3A7390,call,3A7280,convert,0.6@671E0C,constant: the hook's conversion is the only one
+3AC079,call,3A9630,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+3B17D2,call,3B1560,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+3B21AE,call,3B18D0,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3B2900,call,3B2620,table,"subss(table[7A82F0], 1@671C08)",stock coefficient recovered from 7A82F0
+3B3A01,call,3B2CF0,table,"subss(table[7A82F8], 1@671C08)",stock coefficient recovered from 7A82F8
+3B3A5C,call,3B2CF0,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+3B453F,call,3B3FF0,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3B4041 3B4286 3B42A6 3B441C): its convert calls pass k = 1, a snap the hook leaves alone"
+3B46E2,call,3B3FF0,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3B4041 3B4286 3B42A6 3B441C): its convert calls pass k = 1, a snap the hook leaves alone"
+3B553F,call,3B3FF0,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3B74E6,call,3B7320,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3B7881,call,3B7320,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3B7B57,call,3B7320,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3B7E09,call,3B7320,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3B80DE,call,3B7320,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BA059,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BA378,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BA6AB,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BA993,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BAC6E,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BAF4E,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BB1C9,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BB48B,call,3B9A70,table,"subss(table[7A8308], 1@671C08)",stock coefficient recovered from 7A8308
+3BECEA,call,3BEB40,table,"subss(table[7A82D0] via lea 3BECDA, 1@671C08)",stock coefficient recovered from 7A82D0
+3C33B3,call,3C2E80,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C37AF,call,3C3660,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C3A7E,call,3C38C0,table,"subss(table[7A82C0] via lea 3C3A6E, 1@671C08)",stock coefficient recovered from 7A82C0
+3C408D,call,3C3C70,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C40C3,call,3C3C70,table,"subss(table[7A8330], 1@671C08)",stock coefficient recovered from 7A8330
+3C48B5,call,3C43C0,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C4920,call,3C43C0,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+3C506A,call,3C4D90,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C50A4,call,3C4D90,table,"subss(table[7A8330], 1@671C08)",stock coefficient recovered from 7A8330
+3C54F3,call,3C5350,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3C535A 3C53FC 3C5410 3C55EA): its convert call passes k = 1, a snap the hook leaves alone"
+3C5BA4,call,3C57A0,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3C57DB 3C58D1 3C5903 3C5ABC): its convert calls pass k = 1, a snap the hook leaves alone"
+3C5C40,call,3C57A0,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3C57DB 3C58D1 3C5903 3C5ABC): its convert calls pass k = 1, a snap the hook leaves alone"
+3C67F1,call,3C6750,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3C6756): its convert call passes k = 1, a snap the hook leaves alone"
+3C9CB7,call,3C9940,table,"subss(table[7A82C0], 1@671C08)",stock coefficient recovered from 7A82C0
+3C9CFE,call,3C9940,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+3CA44A,call,3CA320,convert,1@671C08,"constant: the hook's conversion is the only one; the function reads a rate global (3CA352 3CA408 3CA58A 3CA609): its convert call passes k = 1, a snap the hook leaves alone"
+46B646,call,46B080,convert,0.08@679C70,"constant: the hook's conversion is the only one; the function reads a rate global (46B761): the 0.08 turn toward +0x3B0 is unconditional once +0x3B8 is 0; the mode byte (46B761) indexes the 7A82D8 table for a later call to 2DA570, a different function"
+47CFC0,call,47C9D0,convert,0.08@679C70,constant: the hook's conversion is the only one; the function reads a rate global (47D062): as 46B080 (mode byte at 47D062 for 2DA570)
+47E131,call,47DAB0,convert,0.08@679C70,constant: the hook's conversion is the only one; the function reads a rate global (47E1BF): as 46B080 (mode byte at 47E1BF for 2DA570)
+486165,call,4860D0,convert,0.4@679C74,constant: the hook's conversion is the only one
+4868D7,call,4867F0,convert,0.3@675A30,constant: the hook's conversion is the only one
+48781B,call,487650,convert,0.05@6775F0,constant: the hook's conversion is the only one
+487837,call,487650,convert,0.05@6775F0,constant: the hook's conversion is the only one
+487893,call,487650,convert,0.1@671E04,constant: the hook's conversion is the only one
+4884F6,call,488310,convert,0.4@679C74,constant: the hook's conversion is the only one
+4A9EEB,call,4A9DD0,convert,0.05@6775F0,constant: the hook's conversion is the only one
+4A9F06,call,4A9DD0,convert,0.05@6775F0,constant: the hook's conversion is the only one
+4B7575,jmp,,bypass,,"no .pdata function holds it; MANUAL: the tail jump of the keyframe interpolator at 4B7509 (a leaf, no .pdata): channels 3-5 are angles, and k = t - key is the fraction between two keys, not a per-tick blend"
+4B7D40,call,4B7700,bypass,phi(param(xmm1) | 1@671C08),"leaves: param(xmm1); MANUAL: k is 4B7700's weight 1/n from the motion advance 4B9C80, n = [obj+0xF50] counted down per call: a linear blend that lands on the target at n = 1, and the same weight lerps the non-turn channels (4B79C8..) unconverted. Converted, the rotations lag them and snap at the end"
+4B7DA6,call,4B7700,bypass,phi(param(xmm1) | 1@671C08),leaves: param(xmm1); MANUAL: as 4B7D40
+4B7E0C,call,4B7700,bypass,phi(param(xmm1) | 1@671C08),leaves: param(xmm1); MANUAL: as 4B7D40
+54EFF4,call,54EDC0,convert,0.1@671E04,constant: the hook's conversion is the only one
+5659D0,call,5658C0,convert,0.2@67292C,constant: the hook's conversion is the only one
+5721CA,call,5720C0,convert,0.1@671E04,constant: the hook's conversion is the only one
+57228E,call,5720C0,convert,0.1@671E04,constant: the hook's conversion is the only one
+57B520,call,57AC60,convert,0.05@6775F0,constant: the hook's conversion is the only one
+651A71,call,6518E0,table,"subss(table[7A8320], 1@671C08)",stock coefficient recovered from 7A8320
+651AB8,call,6518E0,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+651D2D,call,651B40,table,"subss(table[7A8328], 1@671C08)",stock coefficient recovered from 7A8328
+651D63,call,651B40,table,"subss(table[7A82D0], 1@671C08)",stock coefficient recovered from 7A82D0
+651EF8,call,651DC0,table,"subss(table[7A8330], 1@671C08)",stock coefficient recovered from 7A8330

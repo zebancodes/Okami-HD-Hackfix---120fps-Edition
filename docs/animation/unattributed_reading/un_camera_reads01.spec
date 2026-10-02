@@ -1,0 +1,9 @@
+# Camera modes, 2026-09-30 (rows in un_camera_rows01.spec)
+follows | Camera modes: the yaw +1B4, pitch +1B0 and roll +1B8 are wrapped to +-pi by 13F2E0 after their approaches (now blended and limited per tick) have moved them; the wrap adds or removes whole turns only. | 478BC1 478BD6 47D144 47D158 47E2AA 47E2BE 47ACE5 47ACFA 47809F 4780B1 4780D7 470F9B 470FAF 46B808 46B81C
+stock | Camera modes 47C9D0/47DAB0: when the target's bearing from 2DE0A0 leaves +-0.436 (or +-0.401) rad, yaw or pitch moves by exactly the excess and is wrapped: a clamp that keeps the target in view, with the same result at any tick rate. | 47D4FA 47D587 47D60C 47D6A1 47E660 47E6EF 47E77F 47E80B
+fixed | Camera modes: the stores of 2DA570's results, whose calls are callblend/callscale rows (un_camera_rows01.spec). | 478A78 478B25 478B5F 478B8F 47810C 478128 470F31 470F6B
+fixed | Camera mode 47A3A0: +1D0 and +200 approach 65 and 7A7C0C by the constants 0.15 and 0.1, blend rows 47A43B and 47A677 (loaded 12 bytes before the stores). | 47A447 47A683
+fixed | Camera mode 47A3A0: +1FC approaches its target by the 7A82C0 mode-table value minus one; mode_constants.h rewrites that indexed slot for the running rate. | 47A662
+stock | Camera mode 46B080: +3B0 is reseeded every tick (46B377, then 46B3B4 from the target's distance) before 46B403 subtracts the height term: a target recomputed each tick, not an accumulation. 2DA510 then approaches it (FixTurnRate). | 46B403
+fixed | Two-player camera 477820: all six eye/view coordinates and the field of view approach their targets by xmm2 = min(k, 0.04 + 0.01 x count), which blendr 477CE9 compounds for the running rate; count 477CC1 paces the count. | 477D65 477D83 477DA4 477DC8 477DE4
+stock | Two-player camera 477130, while +182 < 15: the eye X/Y/Z are set from the two players' midpoint and the view point is moved by the same offset: a snap to current positions each tick, not a rate. | 4772F6 47730A 47730F 477326 47732E 477336

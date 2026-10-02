@@ -1,0 +1,2 @@
+fixed | Whole-function gate 311FA0 runs the periodic effect counter, old-counter comparison, reset and spawn together at stock cadence; its sole caller discards the return. | 311FED
+fixed | Whole-function gate 3D3400 runs every ballistic slot's position, acceleration, completion flags and age together at stock cadence. The generator proves the frame-dispatcher call discards the result, and the focused gate window checks passed. | 3D34E6 3D34EB 3D34FA

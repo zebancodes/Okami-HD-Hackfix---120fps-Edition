@@ -1,0 +1,1 @@
+fixed | UI element compositor 1B2C60: its one caller 1B54E0 invokes the complete final pass after updating each element; the gate paces cumulative angle, RGBA multipliers and XY offsets together | 1B2D55 1B2EBD 1B2EDC 1B2EFB 1B2F1A 1B2F37 1B2F3C

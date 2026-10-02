@@ -1,0 +1,1 @@
+fixed | pl00 attack combo (3B7320), state 0: lin 3B75C0, srcx 3B75C8 and immstore 3B75D9 jointly compute min(+E48 + 2*s, 3*s), preserving the current-rate displacement and the stock acceleration/cap; the compound verifier exercises both sides of the cap | 3B75CF

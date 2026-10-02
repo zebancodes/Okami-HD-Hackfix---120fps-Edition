@@ -1,0 +1,2 @@
+once | et69 4D1000: the quarter-turn +B4 offset belongs only to the story-flag branch guarded by +10E4 == zero. That branch sets +10E4 to one before applying the offset, so it is one-time orientation setup. | 4D10A2
+once | cDigObj 50E810: +E35 advances only in the zero phase that selects and creates the effect and sound. Later calls run the duration countdown instead of repeating initialization. | 50E8CA

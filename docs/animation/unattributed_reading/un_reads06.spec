@@ -1,0 +1,1 @@
+once | 4C3C90 stage entry at table 7AD9E8 slot zero: it sets initial stage flags and places seven linked objects by a fixed height offset; slot two at 4C4300 handles subsequent stage updates | 4C3E1B 4C3E3E 4C3E61 4C3E84 4C3EA7 4C3ECA 4C3EFB

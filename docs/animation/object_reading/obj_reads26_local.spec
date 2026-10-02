@@ -1,0 +1,2 @@
+once | ut1b 509EB0: +1091 increments only in the zero branch that initializes the sound and rise velocity. Subsequent calls take phase one until the separate completion branch resets the state. | 509F9C
+once | ut47 553160: the alpha-fade completion branch restores the saved position, may place Y relative to the player, then switches +E35 to phase two. The placement sum is a one-time reset after the already-paced fade. | 553227

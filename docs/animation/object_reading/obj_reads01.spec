@@ -1,0 +1,2 @@
+once | uta4 part case 11 (55F8A0): when it crosses the target height, state changes to 13 and its vertical velocity is reversed/damped by -0.5 once for that bounce; a second collision helper can trigger the same one-time transition | 55F998 55FA1A
+fixed | uta4 part case 1: 55F422 stores the approached z after xmm8 was converted from its 0.02-times-part factor to a per-tick blend by the blendr row at 55F1A8 (the same factor feeds x and y) | 55F422

@@ -1,0 +1,3 @@
+once | cItemObj 498640 498AF0 4991F0 4992F0 4995A0: these +E36 increments enter the next item action stage after initial vector setup, helper success, or obtaining the target; the new stage does not repeat the same setup branch | 49867D 498B7C 499228 4993B2 4995F5
+once | et2f action helpers 62E560 through 62F4A0: these +E36 increments follow an action-complete answer, a one-time flag clear, motion setup or an effect; the next stage selects another helper on the next tick | 62E707 62E923 62EA6A 62EBE8 62F135 62F26A 62F42A 62F5E2
+once | et30 action helpers 631560 631CA0 631EE0 632040: each +E36 increment follows stage completion, motion setup or a one-time effect and changes the helper selected by the parent action switch | 631673 631D80 631FC0 632148

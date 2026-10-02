@@ -1,0 +1,369 @@
+189650 unattributed 18980F:task_waits.h:counter
+18FBD0 effects 18FC2F:world_anims.h:int-expr 18FC4E:world_anims.h:int-expr
+190DA0 effects 190F28:world_anims.h:int-step 190FED:world_anims.h:int-step
+1A6C60 effects 1A6DA7:world_anims.h:multiplier 1A6E91:world_anims.h:float-step 1A6EAC:world_anims.h:float-step 1A6ED2:world_anims.h:float-step
+1B2A50 ui 1B2C03:world_anims.h:counter 1B2C1B:world_anims.h:counter
+1BE750 ui 1BEA4D:phase_steps.h:counter
+1C0160 unattributed 1C0BC1:world_anims.h:counter 1C0BCA:world_anims.h:counter
+1D57B0 animals 1D593F:decay_factors.h:float-expr 1D5957:decay_factors.h:float-expr
+1D7020 animals 1D7178:memory_timers.h:int-step
+1D72B0 animals 1D778E:memory_timers.h:call
+1D83A0 animals 1D8516:memory_timers.h:counter
+1D8B20 animals 1D8C58:decay_factors.h:float-expr 1D8C70:decay_factors.h:float-expr
+1D9100 animals 1D932E:action_timers.h:counter
+1DA470 animals 1DA5D8:memory_timers.h:int-step
+1DA750 animals 1DAC1B:memory_timers.h:call
+1DAEB0 animals 1DAFCA:memory_timers.h:phase-wrap
+1DB670 animals 1DB759:memory_timers.h:counter
+1DC180 animals 1DC212:action_timers.h:counter
+1DC280 animals 1DC500:memory_timers.h:counter
+1DD060 animals 1DD123:world_anims.h_call:counter 1DD132:world_anims.h_call:float-expr 1DD13A:world_anims.h_call:float-expr 1DD1D6:decay_factors.h:float-expr 1DD1EE:decay_factors.h:float-expr
+1DD9A0 animals 1DDC57:action_timers.h:phase-wrap
+1DE770 animals 1DE8D8:memory_timers.h:int-step
+1DE9F0 animals 1DEE7D:memory_timers.h:call
+1DF040 animals 1DF0C4:memory_timers.h:counter
+1E0750 animals 1E0888:decay_factors.h:float-expr 1E08A0:decay_factors.h:float-expr
+1E2040 animals 1E2528:memory_timers.h:call
+1E2790 animals 1E294C:memory_timers.h:phase-wrap
+1E2DB0 animals 1E2F91:memory_timers.h:counter
+1E3550 animals 1E3616:world_anims.h_call:counter 1E3625:world_anims.h_call:float-expr 1E362D:world_anims.h_call:float-expr 1E36AD:decay_factors.h:float-expr 1E36C5:decay_factors.h:float-expr
+1E4AB0 animals 1E4C01:memory_timers.h:int-step
+1E6D20 animals 1E6E8C:decay_factors.h:float-expr 1E6EA4:decay_factors.h:float-expr
+1E77E0 animals 1E79CB:action_timers.h:phase-wrap
+1E7AF0 animals 1E7D08:world_anims.h:float-step
+1E8260 animals 1E83AE:memory_timers.h:int-step
+1E8BF0 animals 1E8C63:memory_timers.h:counter
+1E9B00 animals 1E9C8F:decay_factors.h:float-expr 1E9CA7:decay_factors.h:float-expr
+1EAC20 animals 1EAE5A:world_anims.h:float-step
+1EB430 animals 1EB589:memory_timers.h:int-step
+1EC2C0 animals 1EC3BA:memory_timers.h:counter 1EC414:memory_timers.h:counter
+1ECF50 animals 1ED0F6:decay_factors.h:float-expr 1ED10E:decay_factors.h:float-expr
+1ED4C0 animals 1ED60F:world_anims.h:counter
+1EDC50 animals 1EDFDC:world_anims.h:float-step
+1EE300 animals 1EE487:memory_timers.h:int-step
+1EF700 animals 1EF94F:decay_factors.h:float-expr 1EF967:decay_factors.h:float-expr
+1EFBC0 animals 1EFC64:action_timers.h:counter
+1F07A0 animals 1F09F4:decay_factors.h:float-expr 1F0A0C:decay_factors.h:float-expr
+1F0DB0 animals 1F1028:memory_timers.h:counter
+1F1DA0 animals 1F1ED1:memory_timers.h:int-step
+1F38D0 animals 1F3A5F:memory_timers.h:counter
+1F4610 animals 1F4774:decay_factors.h:float-expr 1F478C:decay_factors.h:float-expr
+1F50E0 animals 1F51CF:action_timers.h:phase-wrap
+1F5420 animals 1F565A:world_anims.h:float-step
+1F5BE0 animals 1F5D3F:memory_timers.h:int-step
+1F6570 animals 1F65F4:memory_timers.h:counter
+1F66C0 animals 1F67B7:memory_timers.h:phase-wrap 1F67CC:memory_timers.h:counter
+1F7290 animals 1F735A:world_anims.h_call:multiplier 1F7372:world_anims.h_call:multiplier 1F73F2:decay_factors.h:float-expr 1F740A:decay_factors.h:float-expr
+1F79B0 animals 1F7AB2:action_timers.h:counter 1F7B94:phase_steps.h:counter
+1F85B0 animals 1F8726:memory_timers.h:int-step
+1F8890 animals 1F89D3:memory_timers.h:call 1F8B7C:memory_timers.h:call
+1FA390 animals 1FA4AD:decay_factors.h:float-expr 1FA4C5:decay_factors.h:float-expr
+1FB6A0 animals 1FB8B7:world_anims.h:float-step
+1FBE40 animals 1FBF71:memory_timers.h:int-step
+1FC080 animals 1FC554:memory_timers.h:call
+1FC8C0 animals 1FC936:memory_timers.h:counter
+1FCA30 animals 1FCB31:memory_timers.h:phase-wrap 1FCB46:memory_timers.h:counter
+1FDCF0 animals 1FDE0D:decay_factors.h:float-expr 1FDE25:decay_factors.h:float-expr
+1FE2C0 animals 1FE3F8:decay_factors.h:float-expr 1FE410:decay_factors.h:float-expr
+1FED30 animals 1FEFB3:action_timers.h:phase-wrap
+1FF800 animals 1FF968:memory_timers.h:int-step
+1FFA50 animals 1FFEED:memory_timers.h:call
+200B70 animals 200C14:action_timers.h:counter
+2017E0 animals 2018C9:phase_steps.h:counter
+202DC0 unattributed 202E1B:decay_factors.h:float-expr 202E33:decay_factors.h:float-expr
+203FE0 unattributed 204119:world_anims.h_literal:float-expr
+206000 animals 206285:decay_factors.h:float-expr 20629F:decay_factors.h:float-expr 2062B7:decay_factors.h:float-expr
+206A10 objects 206A58:world_anims.h:multiplier
+209330 unattributed 209397:world_anims.h_literal:float-step
+2097C0 objects 209824:phase_steps.h:float-expr
+20C620 animals 20C798:kDrawDistanceSites:int-step
+20E210 unattributed 20E282:world_anims.h:phase-wrap
+213FB0 objects 21405C:action_timers.h:counter
+21E850 unattributed 21E98A:phase_steps.h:counter 21EA1E:phase_steps.h:counter
+21EBD0 unattributed 21ED02:phase_steps.h:counter
+21EF90 unattributed 21F0C2:phase_steps.h:counter
+222B30 objects 222B8B:world_anims.h_literal:lerp 222B9B:action_timers.h:lerp
+228200 objects 228352:memory_timers.h:counter
+2284E0 objects 22865D:memory_timers.h:counter
+22E430 objects 22E5C9:phase_steps.h:float-step 22E5D1:phase_steps.h:float-step 22E60F:phase_steps.h:counter 22E717:decay_factors.h:phase-wrap 22E73F:decay_factors.h:float-expr 22E793:decay_factors.h:lerp 22E7C3:decay_factors.h:phase-wrap 22E7E6:decay_factors.h:float-expr
+22F820 objects 22F850:phase_steps.h:float-expr
+2310C0 objects 23119A:world_anims.h_literal:float-step
+231200 objects 2313BE:lea_timers.h:counter
+231A80 objects 231CB5:world_anims.h_literal:lerp 231CC5:world_anims.h_literal:lerp
+236A50 objects 23731C:lea_timers.h:float-step
+239AA0 unattributed 239ACE:world_anims.h_literal:multiplier
+241180 enemies 241296:world_anims.h:counter 2412E8:world_anims.h:counter
+24D9B0 enemies 24DCE1:action_timers.h:counter
+253D20 unattributed 253EEB:world_anims.h_call:float-step
+255290 unattributed 255372:world_anims.h_call:counter
+255D50 unattributed 255DE6:world_anims.h_call:counter
+255ED0 unattributed 256242:world_anims.h_literal:float-expr 25625A:world_anims.h:float-expr
+256C00 unattributed 256DD8:world_anims.h_call:counter
+2574C0 unattributed 257697:world_anims.h_call:counter
+257FB0 unattributed 258136:world_anims.h:counter
+258290 unattributed 25832F:world_anims.h_call:counter
+2583A0 unattributed 25852D:world_anims.h_call:counter
+25D3D0 enemies 25D44C:world_anims.h_call:counter
+25E4C0 enemies 25E54B:world_anims.h_literal:float-step 25E5DA:world_anims.h:phase-wrap
+2601D0 enemies 260283:world_anims.h:counter
+2603B0 enemies 26045D:world_anims.h:counter
+261AC0 enemies 261C7F:world_anims.h:phase-wrap
+263400 enemies 2634F9:world_anims.h_call:counter
+263550 enemies 263A41:world_anims.h_call:counter
+26FCB0 enemies 26FD5C:world_anims.h_call:counter 26FD62:world_anims.h_call:float-step
+270CD0 enemies 270D66:world_anims.h_call:counter
+2713E0 enemies 2714D3:world_anims.h_call:counter 2714E1:world_anims.h_call:float-expr
+2723C0 enemies 2724C5:world_anims.h_call:counter
+2725B0 enemies 27261D:world_anims.h_call:counter
+272EC0 enemies 272F65:world_anims.h:float-step 272FE3:world_anims.h:phase-wrap
+275A80 enemies 275C3D:world_anims.h:counter
+2779A0 enemies 277CA9:world_anims.h_call:multiplier 277CB1:world_anims.h_call:multiplier
+278590 enemies 27881C:world_anims.h_call:counter
+27AD50 enemies 27B8AD:world_anims.h:multiplier
+281AE0 enemies 2824A4:decay_factors.h:counter
+2865B0 enemies 28689E:world_anims.h_call:call 286B8F:world_anims.h:float-expr
+28AE50 enemies 28AFAA:world_anims.h:counter
+28B670 enemies 28B88E:world_anims.h_call:counter
+28C630 enemies 28C69D:world_anims.h_call:counter
+28C8D0 enemies 28C959:world_anims.h_call:counter
+28D1A0 enemies 28D25C:world_anims.h:float-step 28D2CD:world_anims.h:counter 28D2D7:world_anims.h:counter
+28D320 enemies 28D735:world_anims.h:float-step 28D7DB:decay_factors.h:counter
+28E710 enemies 28E778:world_anims.h_call:counter
+290EC0 enemies 291202:world_anims.h_call:float-step 2912A8:decay_factors.h:counter
+291B80 enemies 291C2E:world_anims.h:float-step
+2940C0 enemies 294143:world_anims.h_literal:phase-wrap 2942C0:world_anims.h_literal:phase-wrap 294305:world_anims.h_literal:phase-wrap
+297720 enemies 297C46:world_anims.h_literal:counter
+2981B0 enemies 298442:world_anims.h:counter
+2990A0 enemies 2993EE:world_anims.h_literal:float-step
+2994C0 enemies 299511:world_anims.h_literal:phase-wrap 29965A:world_anims.h_literal:float-step 299705:world_anims.h_literal:phase-wrap
+29A380 enemies 29A4E6:world_anims.h_literal:float-step
+29B300 enemies 29B66C:decay_factors.h:counter
+29D3B0 enemies 29D458:world_anims.h:float-expr 29D4CA:world_anims.h:float-expr
+2A1260 enemies 2A1425:world_anims.h_call:counter
+2A2F40 unattributed 2A2FCC:world_anims.h_call:counter
+2A3040 enemies 2A30FA:world_anims.h_call:counter
+2A33F0 unattributed 2A3483:world_anims.h_call:counter
+2A34D0 unattributed 2A3576:world_anims.h_call:counter
+2A3600 unattributed 2A36AE:world_anims.h_call:counter
+2A3AF0 enemies 2A3BD9:world_anims.h_call:float-step 2A3FB3:world_anims.h:float-expr
+2A4BA0 unattributed 2A4DF6:world_anims.h_call:float-step 2A4E4C:world_anims.h_call:counter
+2A53F0 unattributed 2A5584:world_anims.h_call:float-step 2A5605:world_anims.h_call:call
+2A5CA0 unattributed 2A5D89:world_anims.h_call:float-step
+2A7C00 enemies 2A7CA1:world_anims.h_call:float-step
+2A8030 enemies 2A8144:world_anims.h:counter 2A8296:world_anims.h_call:float-step
+2AF240 enemies 2AF561:world_anims.h:counter
+2B99B0 enemies 2B9A2A:world_anims.h_call:counter
+2BA4A0 enemies 2BA538:world_anims.h_call:int-step 2BA54A:world_anims.h_call:counter 2BA613:world_anims.h_call:int-expr
+2BAE40 enemies 2BB0A1:world_anims.h_call:counter
+2BB590 enemies 2BB631:world_anims.h_call:int-step 2BB641:world_anims.h_call:counter
+2C40A0 enemies 2C42CC:world_anims.h:float-expr 2C43B5:world_anims.h:float-expr 2C44B0:world_anims.h:float-expr 2C458E:world_anims.h:float-expr 2C45A6:world_anims.h:float-expr
+2C48D0 enemies 2C4AEF:world_anims.h:float-expr 2C4BCA:world_anims.h:float-expr 2C4DE2:world_anims.h:float-expr
+2C5770 enemies 2C5D26:world_anims.h:float-expr
+2CA9C0 enemies 2CAA3C:world_anims.h:counter
+2CBF20 enemies 2CBFCD:world_anims.h_literal:counter
+2D0F90 enemies 2D0FE1:world_anims.h:counter
+2D2140 enemies 2D2589:world_anims.h:counter
+2D48E0 enemies 2D49B3:world_anims.h:float-expr
+2D4AA0 enemies 2D4BFE:world_anims.h_call:counter
+2D4D40 enemies 2D4ECF:phase_steps.h:counter
+2D7240 enemies 2D7463:world_anims.h_call:counter
+2D79F0 enemies 2D7C5C:world_anims.h:multiplier 2D7C8C:world_anims.h:lerp 2D7CAC:world_anims.h:lerp 2D7F88:world_anims.h:multiplier 2D8095:world_anims.h_literal:lerp 2D80B4:world_anims.h:lerp 2D80D4:world_anims.h:lerp 2D823A:world_anims.h:multiplier 2D8417:world_anims.h:multiplier
+2D90E0 enemies 2D918A:phase_steps.h:float-step 2D91D8:phase_steps.h:multiplier 2D9328:phase_steps.h:multiplier
+2D9460 enemies 2D9673:phase_steps.h:lerp 2D9709:world_anims.h_call:lerp
+2D9940 enemies 2D9A7A:world_anims.h_call:lerp 2D9AD2:world_anims.h_call:lerp 2D9AFC:phase_steps.h:lerp 2D9B26:phase_steps.h:lerp 2D9B95:lea_timers.h:lerp
+2D9C00 enemies 2D9CC9:memory_timers.h:lerp 2D9CEB:memory_timers.h:lerp
+2E25B0 materials 2E2723:memory_timers.h:float-step 2E272E:memory_timers.h:float-expr
+2E2BE0 objects 2E2D60:action_timers.h:counter
+2E36F0 objects 2E3A0B:memory_timers.h:float-expr
+2E4CA0 objects 2E4EA7:phase_steps.h:phase-wrap
+2E5330 objects 2E555B:memory_timers.h:counter
+2E6C80 objects 2E6CD7:phase_steps.h:counter 2E6D13:phase_steps.h:counter 2E6D22:phase_steps.h:counter
+2E83E0 objects 2E84D7:world_anims.h_literal:phase-wrap
+2E8FB0 objects 2E9008:phase_steps.h:float-step
+2E93A0 objects 2E9DA6:memory_timers.h:counter
+2EA790 objects 2EA9B9:phase_steps.h:float-step
+2F2970 objects 2F2E4A:world_anims.h:float-expr
+2F3210 objects 2F3292:action_timers.h:int-step
+3049D0 unattributed 304A2D:world_anims.h:counter
+307340 unattributed 307622:action_timers.h:float-expr 30764B:action_timers.h:float-expr
+30D650 unattributed 30D77D:memory_timers.h:counter
+3105D0 people 310675:action_timers.h:counter
+314B60 people 314DB2:phase_steps.h:counter 314DC6:phase_steps.h:counter 314DD9:phase_steps.h:counter
+315E60 unattributed 31607B:phase_steps.h:lerp 3160C9:phase_steps.h:float-expr
+31AAC0 people 31AB85:memory_timers.h:counter
+31CC60 people 31CCDA:action_timers.h:counter
+31CDA0 people 31CE1A:action_timers.h:counter
+3206A0 unattributed 3206F4:action_timers.h:counter
+3208F0 people 320944:action_timers.h:counter
+3213A0 people 321434:action_timers.h:counter
+321870 people 32191E:memory_timers.h:counter
+323240 people 3233B1:world_anims.h:lerp 3233D1:memory_timers.h:lerp
+327400 people 327724:phase_steps.h:counter
+32C1C0 people 32C212:action_timers.h:counter
+333960 people 333A04:action_timers.h:counter
+335530 people 3356DA:world_anims.h:lerp
+33ABC0 objects 33ACD7:world_anims.h:float-expr
+33C290 objects 33C33A:decay_factors.h:float-expr 33C352:decay_factors.h:float-expr
+341F10 materials 342235:memory_timers.h:lerp 34223A:memory_timers.h:lerp
+3423D0 materials 342571:memory_timers.h:lerp 3425A1:memory_timers.h:lerp
+35C790 objects 35C8D4:phase_steps.h:float-expr
+35CC30 objects 35CE6F:world_anims.h_literal:lerp 35CE8B:world_anims.h_literal:lerp 35D009:phase_steps.h:float-expr
+35D0E0 objects 35D222:phase_steps.h:float-expr 35D388:world_anims.h_literal:lerp 35D398:world_anims.h_literal:lerp 35D45E:phase_steps.h:float-expr
+362F50 effects 3631E0:phase_steps.h:counter
+363210 effects 3633B8:decay_factors.h:counter 3633C0:decay_factors.h:float-step
+363790 effects 3638B7:phase_steps.h:counter
+368790 objects 368853:phase_steps.h:float-expr
+369090 objects 3690FB:phase_steps.h:float-expr
+369A70 objects 369ADB:phase_steps.h:float-expr
+36AA30 objects 36AAD1:phase_steps.h:float-expr
+371DE0 objects 371F3A:memory_timers.h:phase-wrap
+37F160 player_and_weapons 37F1A2:memory_timers.h:counter
+384930 player_and_weapons 384A3C:memory_timers.h:counter
+384A80 player_and_weapons 384B7A:memory_timers.h:counter
+384E30 player_and_weapons 384EB2:world_anims.h_call:counter
+386580 player_and_weapons 3865E9:memory_timers.h:counter
+386620 player_and_weapons 386689:memory_timers.h:counter
+389A30 player_and_weapons 389AC0:decay_factors.h:phase-wrap
+38B520 player_and_weapons 38B594:action_timers.h:counter
+38C160 player_and_weapons 38C308:memory_timers.h:phase-wrap 38C387:memory_timers.h:multiplier 38C3A6:memory_timers.h:multiplier
+38DB30 player_and_weapons 38DBC2:decay_factors.h:float-expr 38DBDA:decay_factors.h:float-expr
+38DCB0 player_and_weapons 38DD82:decay_factors.h:float-expr 38DD9A:decay_factors.h:float-expr
+38F400 player_and_weapons 38F748:world_anims.h:float-expr 38F760:decay_factors.h:float-expr
+390110 player_and_weapons 39031D:action_timers.h:phase-wrap
+392990 materials 392A75:action_timers.h:float-step 392A80:action_timers.h:float-expr 392A93:action_timers.h:float-step
+392D00 player_and_weapons 392E3F:action_timers.h:counter
+392FE0 unattributed 3930CE:phase_steps.h:counter
+393210 materials 393299:world_anims.h_literal:float-step 3932A4:world_anims.h_literal:float-expr 3932C5:world_anims.h_literal:float-step 3932D0:world_anims.h_literal:float-expr 39332B:world_anims.h_literal:float-step 39336F:world_anims.h_literal:float-step 39350F:decay_factors.h:phase-wrap 393537:decay_factors.h:float-expr 39358B:decay_factors.h:lerp 3935BB:decay_factors.h:phase-wrap 3935E1:decay_factors.h:float-expr
+396EA0 unattributed 396F8E:phase_steps.h:counter
+39AE20 player_and_weapons 39AE7C:memory_timers.h:counter
+39AEB0 player_and_weapons 39B092:memory_timers.h:counter
+39B170 player_and_weapons 39B2B0:memory_timers.h:counter
+39B950 player_and_weapons 39BABB:memory_timers.h:float-expr
+39BB10 player_and_weapons 39BD00:world_anims.h_call:float-expr
+39DDB0 player_and_weapons 39DE72:memory_timers.h:phase-wrap
+3A03A0 player_and_weapons 3A03D2:action_timers.h:counter
+3A0410 player_and_weapons 3A05F9:action_timers.h:float-expr
+3A0BE0 player_and_weapons 3A0C1E:memory_timers.h:counter
+3A0C50 player_and_weapons 3A0CA2:memory_timers.h:counter
+3A75C0 player_and_weapons 3A78A2:decay_factors.h:float-expr 3A78B8:decay_factors.h:float-expr
+3A9630 player_and_weapons 3AB710:decay_factors.h:multiplier
+3B1560 player_and_weapons 3B17A9:turn_callers.h:multiplier
+3B18D0 player_and_weapons 3B20A2:decay_factors.h:float-expr 3B20BA:decay_factors.h:float-expr 3B216B:turn_callers.h:multiplier
+3B2620 player_and_weapons 3B2983:decay_factors.h:float-expr 3B299B:decay_factors.h:float-expr
+3B2CF0 player_and_weapons 3B2FCC:hoisted_decay.h:float-step 3B3139:hoisted_decay.h:multiplier 3B31C4:decay_factors.h:counter 3B31E5:decay_factors.h:int-expr 3B358B:kAnimSites:counter
+3B3FF0 player_and_weapons 3B4079:hoisted_decay.h:multiplier 3B4B0E:action_timers.h:counter 3B564C:decay_factors.h:float-expr 3B5664:decay_factors.h:float-expr
+3B7320 player_and_weapons 3B78D7:turn_callers.h:phase-wrap 3B7BA4:turn_callers.h:phase-wrap
+3B9A70 player_and_weapons 3BA00F:turn_callers.h:phase-wrap 3BA32E:turn_callers.h:phase-wrap 3BA661:turn_callers.h:phase-wrap 3BA949:turn_callers.h:phase-wrap 3BAC24:turn_callers.h:phase-wrap 3BAF04:turn_callers.h:phase-wrap 3BB17F:turn_callers.h:phase-wrap 3BB441:turn_callers.h:phase-wrap 3BB84C:decay_factors.h:float-expr
+3BC710 player_and_weapons 3BC9E3:decay_factors.h:float-step
+3BE8F0 player_and_weapons 3BE9DF:lea_timers.h:multiplier
+3C18B0 player_and_weapons 3C19D4:memory_timers.h:float-step
+3C2430 player_and_weapons 3C2841:memory_timers.h:counter 3C2865:memory_timers.h:counter
+3C3660 player_and_weapons 3C3763:lea_timers.h:multiplier
+3C43C0 player_and_weapons 3C481A:action_timers.h:multiplier 3C4844:action_timers.h:multiplier 3C4869:turn_callers.h:multiplier 3C48EF:turn_callers.h:multiplier
+3C4D90 player_and_weapons 3C5023:turn_callers.h:multiplier 3C50CD:turn_callers.h:multiplier
+3C5350 player_and_weapons 3C545C:launch_velocities.h:multiplier
+3C57A0 player_and_weapons 3C5AED:launch_velocities.h:multiplier 3C5C45:launch_velocities.h:call 3C5DE7:decay_factors.h:float-expr 3C5DFF:decay_factors.h:float-expr
+3C68C0 player_and_weapons 3C6989:memory_timers.h:float-expr
+3C70C0 player_and_weapons 3C7221:kStickDriftSites:multiplier
+3C9940 player_and_weapons 3C9BC3:kAirAccelSites:float-expr 3C9BC8:kAirAccelSites:int-step 3C9C1C:kAirAccelSites:multiplier 3C9C46:kAirAccelSites:multiplier 3C9C6B:turn_callers.h:multiplier 3C9D27:turn_callers.h:multiplier
+3CA320 player_and_weapons 3CA44F:launch_velocities.h:call 3CA567:decay_factors.h:phase-wrap 3CA706:launch_velocities.h:phase-wrap 3CA750:launch_velocities.h:multiplier 3CA762:launch_velocities.h:multiplier
+3D08E0 player_and_weapons 3D0A2F:memory_timers.h:int-expr
+3D1CB0 player_and_weapons 3D1D76:world_anims.h:multiplier
+3FAB00 ui 3FAB2D:phase_steps.h:counter 3FAB45:phase_steps.h:multiplier
+3FCF50 ui 3FCF50:phase_steps.h:counter 3FCF57:phase_steps.h:counter
+3FCFC0 ui 3FCFDB:phase_steps.h:counter
+407B00 ui 407B92:world_anims.h:counter
+415B30 ui 415BE7:shadow_mode.h:multiplier 415C3A:shadow_mode.h:counter
+4397B0 ui 43986E:decay_factors.h:counter
+439AD0 ui 439B2D:phase_steps.h:counter 439B5A:phase_steps.h:counter
+459120 unattributed 45917F:phase_steps.h:counter 4591CF:phase_steps.h:float-expr
+468420 unattributed 46847C:decay_factors.h:multiplier
+468FF0 unattributed 4690BB:world_anims.h:multiplier
+46E890 unattributed 46EE6B:decay_factors.h:multiplier
+477820 unattributed 477D20:world_anims.h:lerp
+485390 animals 485745:decay_factors.h:float-expr 48575D:decay_factors.h:float-expr
+499410 objects 499495:memory_timers.h:float-expr
+4995A0 objects 499640:memory_timers.h:float-expr
+4997D0 objects 499880:phase_steps.h:float-expr
+4AB830 people 4AB88C:action_timers.h:counter
+4AB910 people 4AB96C:action_timers.h:counter
+4AB9F0 people 4ABA4C:action_timers.h:counter
+4BBE10 unattributed 4BBED9:task_waits.h:float-expr 4BBF01:task_waits.h:counter
+4C1F50 unattributed 4C2106:task_waits.h:float-step
+4C31C0 unattributed 4C34B3:task_waits.h:counter
+4C7D80 unattributed 4C84B4:task_waits.h:float-step
+4CBB70 unattributed 4CBBE1:task_waits.h:float-step
+4D4B60 unattributed 4D514C:task_waits.h:float-step 4D5154:task_waits.h:float-step 4D515C:task_waits.h:float-step
+4E1BA0 unattributed 4E2261:task_waits.h:float-step 4E2269:task_waits.h:float-step 4E2271:task_waits.h:float-step
+4EF210 unattributed 4EF891:task_waits.h:float-step 4EF899:task_waits.h:float-step 4EF8A1:task_waits.h:float-step
+4F0CD0 objects 4F0EAD:memory_timers.h:float-step 4F1088:memory_timers.h:float-step
+4F1910 objects 4F1A76:action_timers.h:counter
+4FF080 objects 4FF21D:phase_steps.h:counter 4FF23C:phase_steps.h:counter
+4FFB00 objects 4FFC76:phase_steps.h:counter 4FFC95:phase_steps.h:counter
+504930 unattributed 504FD2:task_waits.h:float-step
+509D10 objects 509E0A:phase_steps.h:float-expr
+50E600 objects 50E6FA:phase_steps.h:counter
+515970 effects 515A6A:world_anims.h_literal:phase-wrap
+51FE30 unattributed 520289:task_waits.h:float-step 520291:task_waits.h:float-step 520299:task_waits.h:float-step
+520F90 unattributed 5210EA:task_waits.h:float-step 521120:task_waits.h:float-step 521229:task_waits.h:float-step
+524790 materials 52493F:phase_steps.h:float-step
+52FE00 unattributed 5300F2:task_waits.h:float-step 5300FA:task_waits.h:float-step 530102:task_waits.h:float-step
+530860 unattributed 530A02:task_waits.h:lerp 530A11:task_waits.h:counter 530B26:task_waits.h:lerp 530B3D:task_waits.h:lerp
+54EDC0 unattributed 54F669:task_waits.h:float-expr 54F9DB:task_waits.h:float-expr
+5525B0 objects 552601:world_anims.h_literal:float-expr
+553000 objects 5530D7:world_anims.h_literal:float-expr
+55D630 objects 55D739:phase_steps.h:float-expr
+5607A0 objects 5609A3:world_anims.h_call:lerp
+560BD0 objects 560E66:world_anims.h_call:lerp 560E97:phase_steps.h:lerp 560EC1:phase_steps.h:lerp 560F1B:phase_steps.h:lerp 560F35:phase_steps.h:lerp
+561360 objects 5613F0:phase_steps.h:lerp 56143E:phase_steps.h:multiplier 56166F:phase_steps.h:multiplier
+5616C0 objects 5618CB:phase_steps.h:lerp
+561A90 objects 561CBD:world_anims.h_call:lerp 561E0B:world_anims.h_call:lerp 561F59:world_anims.h_call:lerp
+562D30 objects 5631B1:world_anims.h:float-step
+563EB0 objects 564331:world_anims.h:float-step
+564E60 objects 565013:lea_timers.h:phase-wrap
+565410 objects 5654DD:phase_steps.h:counter
+568590 objects 568934:phase_steps.h:float-expr
+56A640 objects 56A9E1:phase_steps.h:float-expr
+56D250 objects 56D48D:lea_timers.h:float-step 56D4D8:lea_timers.h:float-step
+570340 unattributed 57040A:phase_steps.h:counter 570499:phase_steps.h:counter
+576E30 unattributed 57709C:task_waits.h:float-step 5770A4:task_waits.h:float-step 5770AC:task_waits.h:float-step
+577490 unattributed 5775BA:task_waits.h:float-step
+57AC60 objects 57B11C:world_anims.h_call:phase-wrap
+57CA00 materials 57CBE7:lea_timers.h:lerp
+585AE0 unattributed 586197:task_waits.h:float-step
+5884F0 unattributed 588625:task_waits.h:float-step 58863D:task_waits.h:float-step 5886AB:task_waits.h:float-step
+5887E0 unattributed 588F53:task_waits.h:float-step 588F72:task_waits.h:float-step
+58C7E0 unattributed 58C9BF:task_waits.h:float-step 58C9C7:task_waits.h:float-step 58C9CF:task_waits.h:float-step
+58CD50 unattributed 58CE6A:task_waits.h:float-step
+598B10 unattributed 598BE3:phase_steps.h:float-step 598BEB:phase_steps.h:float-step 598C2C:phase_steps.h:counter
+599590 materials 5996CA:phase_steps.h:float-step
+59D230 unattributed 59D652:task_waits.h:float-step 59D656:task_waits.h:float-step 59D65E:task_waits.h:float-step
+5A2E20 materials 5A2E9A:phase_steps.h:float-step
+5AB220 objects 5AB290:phase_steps.h:float-step
+5B5BF0 unattributed 5B5CC8:task_waits.h:float-step 5B5CF5:task_waits.h:counter
+5C4B00 unattributed 5C4C06:world_anims.h_literal:float-step 5C4C50:world_anims.h_literal:float-step 5C4D11:world_anims.h_literal:float-step 5C4D4E:world_anims.h_literal:float-step 5C4E48:world_anims.h_literal:float-step
+5C5DD0 enemies 5C62B5:world_anims.h:counter
+5C6450 enemies 5C6C06:world_anims.h:phase-wrap 5C6C9F:world_anims.h:float-step 5C6CC1:world_anims.h:float-step 5C6DC0:action_timers.h:counter
+5CBAD0 unattributed 5CBD4F:decay_factors.h:float-expr
+5D2050 enemies 5D22AE:decay_factors.h:lerp
+5D3600 enemies 5D382E:decay_factors.h:float-expr
+5DA9A0 enemies 5DAB72:decay_factors.h:float-step
+5DBA90 enemies 5DC9FF:world_anims.h:counter
+5DF660 enemies 5E06C0:world_anims.h:float-expr
+5EB440 enemies 5EB465:world_anims.h:counter 5EB479:world_anims.h:counter
+5EC0F0 enemies 5EC1C2:world_anims.h:counter 5EC209:world_anims.h:counter
+5EF560 enemies 5EF89C:decay_factors.h:float-expr
+5F2A60 enemies 5F2C71:decay_factors.h:float-expr
+60C0E0 unattributed 60C66F:task_waits.h:float-step
+618A00 unattributed 618A77:task_waits.h:float-step
+618C70 unattributed 618CA9:task_waits.h:counter
+61C2E0 materials 61C3F0:task_waits.h:float-step 61C3FE:task_waits.h:float-step 61C3E3:task_waits.h:float-step
+627C20 unattributed 627D78:task_waits.h:float-step 627D93:task_waits.h:float-step 627E10:task_waits.h:float-step
+627F70 unattributed 6285A6:task_waits.h:float-step 6285C8:task_waits.h:float-step
+62EF50 objects 62F01D:memory_timers.h:counter
+631B60 objects 631C6E:memory_timers.h:counter
+64E450 unattributed 64E653:task_waits.h:float-step
+650720 unattributed 65083B:task_waits.h:counter
+6518E0 objects 651A00:world_anims.h:multiplier 651A25:turn_callers.h:multiplier
+651B40 objects 651C60:world_anims.h:multiplier
+651DC0 objects 651EAB:turn_callers.h:multiplier 651F22:turn_callers.h:counter

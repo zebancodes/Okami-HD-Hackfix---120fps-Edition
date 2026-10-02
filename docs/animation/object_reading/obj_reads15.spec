@@ -1,0 +1,1 @@
+stock | objScroll 3DCB90: these nine color and height interpolations are computed from the camera distance to a world point and a spatial width passed by the caller; the fraction is distance divided by width, not a per-tick blend | 3DCD7F 3DCDA1 3DCDC2 3DCDE0 3DCE2D 3DCE59 3DCE83 3DCEAE 3DCEE8

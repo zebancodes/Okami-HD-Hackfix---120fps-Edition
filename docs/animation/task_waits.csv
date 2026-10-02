@@ -1,0 +1,2340 @@
+site,kind,function,length,value,cls,loop,rate_reads,head,steps,pad,rate,patched,calls
+1897EB,call,189650,#1,1,pass,loop,,189790,"1897B3 sub eax, 1",,,,1AF560 44ECA0
+1AF5CC,call,1AF5A0,#1,1,pass,loop,,1AF5C0,,,,,1AF560
+1AF60C,call,1AF5F0,#1,1,pass,loop,,1AF600,,,,,
+1C72C8,call,1C7150,#1,1,pass,loop,,1C7220,,1C2A50 475C70 > 476B00 > 476BEB,1B54E0 1B2A50 > 1B2AA7 mode byte | 1C2A50 4396F0 > 4398A0 > 4398AF frame counter | 1C2B30 1C9570 > 1CED80 > 1CDB60 > 1CDC90 > 1CDD96 frame counter,1B54E0 1B2A50 > 1B2AC3 world_anims.h | 1C2A50 4396F0 > 4397B0 > 4397D9 menu_transitions.h | 1C2B30 1C9570 > 1CED80 > 1CDB60 > 1CDC90 > 1CDD96 frame_clocks.h,1AF560 1B54E0 1B8260 1C2A50 1C2B30
+1C82B7,call,1C81F0,#1,1,pass,loop,,1C8220,"1C82BC sub rdi, 1",1C2A50 475C70 > 476B00 > 476BEB,1B54E0 1B2A50 > 1B2AA7 mode byte | 1C2A50 4396F0 > 4398A0 > 4398AF frame counter | 1C2B30 1C9570 > 1CED80 > 1CDB60 > 1CDC90 > 1CDD96 frame counter,1B54E0 1B2A50 > 1B2AC3 world_anims.h | 1C2A50 4396F0 > 4397B0 > 4397D9 menu_transitions.h | 1C2B30 1C9570 > 1CED80 > 1CDB60 > 1CDC90 > 1CDD96 frame_clocks.h,1B54E0 1B8260 1C2A50 1C2B30
+20A904,call,20A8F0,#78,120,timed,,,,,,,,
+2FE740,call,2FE6E0,#1,1,pass,loop,,2FE730,,,,,
+2FE7AB,call,2FE6E0,#A,10,timed,,,,,,,,
+3EF7F0,call,3EF6E0,#DD,221,timed,,,,,,,,
+3F0150,call,3F0110,#1,1,pass,loop,,3F0140,,,,,
+3F01C0,call,3F0110,#1,1,pass,loop,,3F01B0,,,,,305500
+3F01E4,call,3F0110,#1,1,pass,,,,,,,,
+3F17E5,call,3F1790,#5A,90,timed,,,,,,,,
+3F191B,call,3F1830,leacalc@3F18CA,1,pass,,,,,,,,
+3F1956,call,3F1830,#1E,30,timed,,,,,,,,
+3F1A29,call,3F1830,#1,1,pass,loop,,3F1A20,,,,,493640
+3F1C77,call,3F1830,#1,1,pass,loop,,3F1B20,,13A7D0 13A841,3E2A90 3E2ABB 60 fps flag | 3E2A90 3E2ABB 60 fps flag,13A930 13A938 integer_skips.h,13A7D0 13A930 3E2A90 3E2B50 4A35C0 4A36B0 4A3700 4A37F0 4A3E20
+3F2070,call,3F2000,#1,1,pass,loop,,3F2060,,,,,49D270
+3F20E0,call,3F2000,#1,1,pass,loop,,3F20D0,,,,,44A0F0
+3F21E1,call,3F2000,#1E,30,timed,,,,,,,,
+3F2C80,call,3F2C50,#1,1,pass,loop,,3F2C70,,,,,
+3F2E5A,call,3F2E10,#5A,90,timed,,,,,,,,
+3F395E,call,3F3820,#1,1,pass,loop,,3F38C0,"3F394D movss dword ptr [rsi + 0xb4], xmm0 (read-modify-write)",,,,13F2E0 1C9430
+3F39D0,call,3F3970,#1,1,pass,loop,,3F39C0,,,,,1C9430
+3F5739,call,3F56F0,#1,1,pass,loop,,3F5730,,,,,23E520
+3F5769,call,3F56F0,#1,1,pass,loop,,3F5760,,,,,
+3F5781,call,3F56F0,#1,1,pass,,,,,,,,
+3F5B59,call,3F5B00,#1,1,pass,loop,,3F5B50,,,,,23E520
+3F5B89,call,3F5B00,#1,1,pass,loop,,3F5B80,,,,,
+3F5BA2,call,3F5B00,#1,1,pass,,,,,,,,
+3F5BF4,call,3F5BC0,#1,1,pass,loop,,3F5BD4,,,,,3E2B50
+3F5C71,call,3F5C10,#1,1,pass,loop,,3F5C51,,,,,3E2B50
+3F5CF1,call,3F5C90,#1,1,pass,loop,,3F5CD1,,,,,3E2B50
+3F5DE0,call,3F5D10,#1,1,pass,loop,,3F5DD0,,,,,
+3F5EA9,call,3F5E80,#1,1,pass,loop,,3F5EA0,,,,,
+4361DD,call,436180,#1,1,pass,loop,,4361B2,,,,,
+437446,call,437360,#1,1,pass,loop,,437400,,,,,
+4468AB,call,446620,#1,1,pass,loop,,446891,,,,,44ECA0 48A260
+44692A,call,446620,#1,1,pass,loop,,446910,,,,,450230 48A260
+447312,call,447290,#1,1,pass,loop,,4472B1,,,,,4436E0 44A3E0
+4475DC,call,447290,#1,1,pass,loop,,4475C2,,,,,44ECA0 48A260
+44764A,call,447290,#1,1,pass,loop,,447630,,,,,44ECA0 48A260
+44D78C,call,44D740,#1,1,pass,loop,,44D780,,,,,450240
+44DBEC,call,44DBA0,#1,1,pass,loop,,44DBE0,,,,,450240
+44E22F,call,44E1E0,#1,1,pass,loop,,44E223,,,,,450280
+44E2AA,call,44E1E0,#1,1,pass,loop,,44E270,,,,,450240 48A260
+44F74C,call,44F6E0,#1,1,pass,loop,,44F740,,,,,450280
+44F7DA,call,44F6E0,#1,1,pass,loop,,44F7A0,,,,,450240 48A260
+44FA9C,call,44FA40,#1,1,pass,loop,,44FA90,,,,,450280
+44FB1A,call,44FA40,#1,1,pass,loop,,44FAE0,,,,,450240 48A260
+4597B4,call,459660,#1,1,pass,,,,,,,,
+488BC0,call,488AE0,#1,1,pass,loop,,488BB0,,,,,
+488BE9,call,488AE0,#1,1,pass,,,,,,,,
+488C40,call,488AE0,#1,1,pass,loop,,488C30,,,,,
+488C75,call,488AE0,#2D,45,timed,,,,,,,,
+488D40,call,488AE0,#1,1,pass,loop,,488D30,,,,,
+488EAA,call,488AE0,#1,1,pass,loop,,488E90,,,,,
+48ABDE,call,48A920,#1,1,pass,loop,,48A960,,,48A830 48AFB0 > 14A500 > 14A63F mode byte | 48A760 48AFB0 > 14A500 > 14A63F mode byte,48A830 48AFB0 > 14A500 > 14A63F shadow_mode.h | 48A760 48AFB0 > 14A500 > 14A63F shadow_mode.h,1B1FB0 4551D0 48A3A0 48A430 48A5E0 48A760 48A830
+48C750,call,48C720,#1,1,pass,loop,,48C740,,,,,
+48C790,call,48C720,#1,1,pass,loop,,48C780,,,,,
+48CE50,call,48CE30,#1,1,pass,loop,,48CE40,,,,,
+48CE7C,call,48CE30,#1,1,pass,,,,,,,,
+48CEB0,call,48CE30,#1,1,pass,loop,,48CEA0,,,,,210630
+48CF00,call,48CE30,#1,1,pass,loop,,48CEF0,,437130 437197,437130 43715B mode byte,437130 437164 frame_clocks.h,437130
+48CFFB,call,48CE30,#1,1,pass,,,,,,,,
+48D030,call,48CE30,#1,1,pass,loop,,48D020,,,,,
+48D066,call,48CE30,leacalc@48D05F,90,timed,,,,,,,,
+492A28,call,4927F0,movzx([rbx+10]@492A20),,data,loop,,492890,,,,,133280 1690C0 169EC0 170830 3F3170 3F4900 4561C0 456520 4567B0
+492AD9,call,4927F0,#1,1,pass,loop,,492890,,,,,133280 1690C0 169EC0 170830 3F3170 3F4900 4561C0 456520 4567B0
+492C0F,call,492B40,#1,1,pass,loop,,492B93,,494490 437130 > 437197 | 4934D0 4BA500 > 48BE20 > 48C120 > 48C380 > 134E30 > 475C70 > 476B00 > 476BEB | 494120 4A3F10 > 4A38E0 > 4BE300 > 4BE35B,492FB0 438D10 > 1B5380 > 1B5427 mode byte | 494490 4948E1 mode byte | 4934D0 4BA500 > 43BF40 > 43C0B0 > 1B5380 > 1B5427 mode byte,494490 4948E1 shadow_mode.h | 4934D0 4BA500 > 4AF770 > 4AF7CD day_clock.h,492E90 492FB0 4934D0 494120 494490 4AF100
+492DDC,call,492C60,#1,1,pass,loop,,492DD0,,,,,141560
+492E3C,call,492C60,#1,1,pass,loop,,492E30,,,,,141560
+492F0C,call,492E90,#1,1,pass,loop,,492F00,,,,,43B0E0
+492F3C,call,492E90,#1,1,pass,loop,,492F30,,,,,43B0E0
+492F6C,call,492E90,#1,1,pass,loop,,492F60,,,,,43B0E0
+49463B,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+494651,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+494675,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+4946F2,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+494758,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+4947B1,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+4948A5,call,494490,#1,1,pass,,4948E1 mode byte,,,,,,
+494954,call,494490,#1,1,pass,loop,4948E1 mode byte,494900,,437130 437197,4376C0 4376E8 mode byte | 437130 43715B mode byte,4376C0 4376F1 frame_clocks.h | 437130 437164 frame_clocks.h,210000 210630 2DBAC0 437130 4376C0 49DA90 49DC70
+49B6D4,call,49B6C0,#3C,60,timed,,,,,,,,
+4A42BE,call,4A4280,#1E,30,timed,,,,,,,,
+4A4327,call,4A4280,#78,120,timed,,,,,,,,
+4A4469,call,4A4280,#78,120,timed,,,,,,,,
+4A44A9,call,4A4280,#3C,60,timed,,,,,,,,
+4A4524,call,4A4280,#3C,60,timed,,,,,,,,
+4A4631,call,4A4280,#78,120,timed,,,,,,,,
+4A475A,call,4A4730,#2D,45,timed,,,,,,,,
+4A4791,call,4A4730,#14,20,timed,,,,,,,,
+4A47FD,call,4A4730,#1E,30,timed,,,,,,,,
+4A4820,call,4A4730,#1,1,pass,loop,,4A4810,,,,,
+4A49AD,call,4A4730,#1,1,pass,loop,,4A4980,"4A49B2 sub edi, 1",,,,1690C0
+4A4AAF,call,4A4730,#1,1,pass,,,,,,,,
+4A4AF0,call,4A4730,#1,1,pass,loop,,4A4AE0,,,,,
+4A4B62,call,4A4730,#3C,60,timed,,,,,,,,
+4A4D98,call,4A4C60,#1,1,pass,,,,,,,,
+4A5836,call,4A5670,#5A,90,timed,,,,,,,,
+4A5D04,call,4A5AE0,#3C,60,timed,,,,,,,,
+4A6350,call,4A6090,#1,1,pass,loop,,4A6340,,,,,403CF0
+4A6486,call,4A6090,#1E,30,timed,,,,,,,,
+4A6630,call,4A64D0,#1,1,pass,loop,,4A6620,,,,,
+4A6710,call,4A6660,#1,1,pass,loop,,4A6700,,,,,
+4A67B4,call,4A6660,#1,1,pass,loop,,4A6780,4A679D inc ebp,,,,1690C0
+4A68CE,call,4A6660,#1,1,pass,loop,,4A6833,"4A6862 movss dword ptr [rdi + 0xd2c], xmm0 (read-modify-write) | 4A68A2 movss dword ptr [rdi + 0xd2c], xmm0 (read-modify-write)",,,,
+4A9493,call,4A9470,movzx([rcx+20]@4A9484),,data,,,,,,,,
+4A94DC,call,4A9470,#1,1,pass,,,,,,,,
+4A9560,call,4A9470,#1,1,pass,loop,,4A9550,,,,,
+4A9610,call,4A9470,#1,1,pass,loop,,4A9600,,,,,
+4B006A,call,4AFF50,#1,1,pass,loop,,4B0010,,,,,4B0240
+4B01EA,call,4B00C0,#1,1,pass,loop,,4B0190,,,,,4B0240
+4B0476,call,4B0310,#1,1,pass,loop,,4B0430,4B0430 inc ebp,,,,
+4B059C,call,4B0310,#1,1,pass,loop,,4B0550,,,,,
+4B106D,call,4B1030,#1E,30,timed,,,,,,,,
+4B10A0,call,4B1030,#1,1,pass,loop,,4B1090,,,,,
+4B1170,call,4B1030,#1,1,pass,loop,,4B1160,,,,,
+4B11B7,call,4B1030,#1E,30,timed,,,,,,,,
+4B1240,call,4B1030,#1,1,pass,loop,,4B1230,,,,,
+4B144A,call,4B1360,#78,120,timed,,,,,,,,
+4B168B,call,4B1590,#1E,30,timed,,,,,,,,
+4B1830,call,4B1800,#1,1,pass,loop,,4B1820,,,,,
+4B1883,call,4B1800,#F,15,timed,,,,,,,,
+4B19BA,call,4B1800,#1E,30,timed,,,,,,,,
+4B1DC1,call,4B1D80,#A,10,timed,,4B1FE2 fps byte,,,,,,
+4B1E30,call,4B1D80,#1,1,pass,loop,4B1FE2 fps byte,4B1E20,,,,,3F31F0
+4B1EA7,call,4B1D80,#1,1,pass,,4B1FE2 fps byte,,,,,,
+4B1EF0,call,4B1D80,#1,1,pass,loop,4B1FE2 fps byte,4B1EE0,,,,,
+4B1FD0,call,4B1D80,#1,1,pass,loop,4B1FE2 fps byte,4B1FC0,,,,,
+4B2930,call,4B28C0,#1,1,pass,loop,,4B2920,,,,,
+4B2990,call,4B28C0,#1,1,pass,loop,,4B2980,,,,,
+4B2B20,call,4B2A00,#1,1,pass,loop,,4B2B10,,,,,
+4B2C10,call,4B2A00,#1,1,pass,loop,,4B2C00,,,,,
+4B345B,call,4B33D0,leacalc@4B3453,10,timed,,,,,,,,
+4B34CF,call,4B33D0,leacalc@4B34C8,20,timed,,,,,,,,
+4B3560,call,4B33D0,#1,1,pass,loop,,4B3550,,,,,
+4B35BC,call,4B33D0,#A,10,timed,,,,,,,,
+4B362C,call,4B33D0,#F,15,timed,,,,,,,,
+4B366B,call,4B33D0,#14,20,timed,,,,,,,,
+4B4160,call,4B3F60,#1,1,pass,loop,,4B4150,,,,,
+4B4182,call,4B3F60,#A,10,timed,,,,,,,,
+4B42DA,call,4B3F60,#1E,30,timed,,,,,,,,
+4B4910,call,4B48A0,#1,1,pass,loop,,4B4900,,,,,
+4B4A34,call,4B48A0,#1,1,pass,loop,,4B4970,,,,4B2110 44C1C0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h | 4B2110 44C1C0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,3EEC80 446490 4B2110
+4B4C20,call,4B4A40,#1,1,pass,loop,,4B4C10,,,,,
+4B4F11,call,4B4A40,#1,1,pass,loop,,4B4DC0,,,,,3EE160 4AF670
+4B5110,call,4B5090,#1,1,pass,loop,,4B5100,,,,,2EAAF0
+4B536C,call,4B52C0,#1,1,pass,loop,,4B5360,,,,,43B0E0
+4B539C,call,4B52C0,#1,1,pass,loop,,4B5390,,,,,43B0E0
+4B53CC,call,4B52C0,#1,1,pass,loop,,4B53C0,,,,,43B0E0
+4BB06D,call,4BB050,#3C,60,timed,,,,,,,,
+4BB0A0,call,4BB050,#1,1,pass,loop,,4BB090,,,,,
+4BB0C7,call,4BB050,#A,10,timed,,,,,,,,
+4BB0E1,call,4BB050,#A,10,timed,,,,,,,,
+4BB1C0,call,4BB050,#1,1,pass,loop,,4BB1B0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4BB4CF,call,4BB3D0,#F,15,timed,,,,,,,,
+4BB548,call,4BB3D0,#5A,90,timed,,,,,,,,
+4BBC7D,call,4BBC60,#5A,90,timed,,,,,,,,
+4BBCB0,call,4BBC60,#1,1,pass,loop,,4BBCA0,,,,,
+4BBCEC,call,4BBC60,#A,10,timed,,,,,,,,
+4BBD06,call,4BBC60,#A,10,timed,,,,,,,,
+4BBD9C,call,4BBC60,#A,10,timed,,,,,,,,
+4BBEB0,call,4BBE10,#1,1,pass,loop,,4BBEA0,"4BBED9 movss dword ptr [rbx + rbp], xmm0 (read-modify-write) | 4BBEEF mov dword ptr [rbx + r14 + 0xb6c900], eax (read-modify-write) | 4BBF01 mov dword ptr [rbx + r14 + 0xb6c900], eax (read-modify-write) | 4BBF17 movss dword ptr [rbx + rbp], xmm0 (read-modify-write)",,,,1BD480 2DF660
+4C015A,call,4C0100,#1,1,pass,,,,,,,,
+4C0270,call,4C0100,#1,1,pass,loop,,4C0260,,,,,
+4C0DB0,call,4C0D70,#1,1,pass,loop,,4C0DA0,,,,,
+4C0DD8,call,4C0D70,#A,10,timed,,,,,,,,
+4C0E24,call,4C0D70,#14,20,timed,,,,,,,,
+4C1AAA,call,4C1A70,#28,40,timed,,,,,,,,
+4C1CE5,call,4C1B10,#1,1,pass,loop,,4C1BE0,"4C1C03 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1C26 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1C49 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1C6C movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1C8F movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1CB2 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1CD5 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 4C1CEA add ebx, -1",,,,
+4C1D10,call,4C1B10,#1,1,pass,loop,,4C1D00,,,,,
+4C1D61,call,4C1B10,#A,10,timed,,,,,,,,
+4C2120,call,4C1F50,#1,1,pass,loop,,4C2110,"4C2140 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+4C2164,call,4C1F50,#1E,30,timed,,,,,,,,
+4C22EA,call,4C1F50,#1,1,pass,loop,,4C22A0,,,,,
+4C2459,call,4C2330,#1,1,pass,loop,,4C2430,,,,,
+4C25EE,call,4C2560,leacalc@4C25E7,15,timed,,,,,,,,
+4C262A,call,4C2560,leacalc@4C2623,10,timed,,,,,,,,
+4C2669,call,4C2560,leacalc@4C2662,10,timed,,,,,,,,
+4C2711,call,4C2560,leacalc@4C270A,30,timed,,,,,,,,
+4C2909,call,4C28D0,#A,10,timed,,,,,,,,
+4C2AF9,call,4C2AC0,#A,10,timed,,,,,,,,
+4C337C,call,4C31C0,leacalc@4C3375,30,timed,,,,,,,,
+4C3466,call,4C31C0,#1,1,pass,loop,,4C3440,,,,,
+4C347D,call,4C31C0,#A,10,timed,,,,,,,,
+4C352B,call,4C31C0,#1,1,pass,loop,,4C3522,4C3543 inc dword ptr [rcx + 4],,,,2DF660
+4C3672,call,4C31C0,#1,1,pass,loop,,4C35D2,"4C35E5 inc dword ptr [rcx + 4] | 4C3610 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4C3618 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4C3620 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4C3658 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+4C3A00,call,4C3970,#1,1,pass,loop,,4C39F0,,,,,
+4C3A80,call,4C3970,#1,1,pass,loop,,4C3A70,"4C3A9D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4C3AB1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4C3AC5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+4C3B87,call,4C3970,#1,1,pass,loop,,4C3AF0,"4C3B24 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4C3B2C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4C3B34 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4C3B6D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+4C3BF1,call,4C3970,#1,1,pass,loop,,4C39D0,"4C3A56 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4C3A5E movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4C3A66 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4C3A9D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4C3AB1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4C3AC5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 4C3B24 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4C3B2C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4C3B34 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4C3B6D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480 2DF660
+4C6400,call,4C62A0,#1,1,pass,,,,,,,,
+4C6C10,call,4C6B00,#1,1,pass,loop,,4C6C00,,,,,1C8BE0
+4C6C80,call,4C6B00,#1,1,pass,loop,,4C6C70,,,,,
+4C6CA1,call,4C6B00,#1E,30,timed,,,,,,,,
+4C7193,call,4C7130,#F,15,timed,,,,,,,,
+4C7790,call,4C76E0,#1,1,pass,loop,,4C7780,,,,,4AF670
+4C77E0,call,4C76E0,#1,1,pass,loop,,4C77D0,,,,,
+4C7BB0,call,4C7A40,#1,1,pass,loop,,4C7A80,4C7B24 inc dword ptr [rcx + 0xc0],,,,20AD80 2DF660 3F35F0 3F4730 3F4900 437870
+4C7CC0,call,4C7A40,#F,15,timed,,,,,,,,
+4C7FE0,call,4C7D80,#1,1,pass,loop,,4C7FD0,4C7FE5 inc ebx,,,,
+4C8151,call,4C7D80,#1,1,pass,loop,,4C8065,"4C807D movss dword ptr [rcx + 0xd20], xmm0 (read-modify-write) | 4C809D movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 4C80BD movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write) | 4C8125 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+4C83E6,call,4C7D80,#1,1,pass,loop,,4C8270,"4C835F mov dword ptr [rcx + 0x58], eax (read-modify-write)",,,,1690C0 169BA0 3F0650 3F3170 3F35F0 3F4730 3F4900 404760 4561C0 456520 4567B0
+4C84F0,call,4C7D80,#1,1,pass,loop,,4C84E0,"4C850D movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,
+4C858B,call,4C7D80,#1E,30,timed,,,,,,,,
+4C8840,call,4C8810,#1,1,pass,loop,,4C8830,,,,,3F31F0
+4C88E0,call,4C8810,#1,1,pass,loop,,4C88D0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4C8ED4,call,4C8EC0,#1E,30,timed,,,,,,,,
+4C9159,call,4C8FD0,#1,1,pass,loop,,4C8FF0,,,,,3EEC80 3EF3C0 3F3170 3F3220 3F4900
+4C930D,call,4C9290,#5A,90,timed,,,,,,,,
+4C97CD,call,4C95A0,#1,1,pass,loop,,4C96C0,4C9726 inc dword ptr [rax + 8] | 4C96E2 inc ebp,,,,168D70 3F3220 3F35F0 3F4730 3F4900 3F5170 404760
+4C9AA4,call,4C9A90,#1E,30,timed,,,,,,,,
+4C9B20,call,4C9A90,#1,1,pass,loop,,4C9B10,,,,,
+4C9C1A,call,4C9BB0,#28,40,timed,,,,,,,,
+4C9CF0,call,4C9BB0,#1,1,pass,loop,,4C9CE0,,,,,
+4C9D55,call,4C9BB0,#A,10,timed,,,,,,,,
+4C9E00,call,4C9BB0,#1,1,pass,loop,,4C9DF0,,,,,
+4C9F40,call,4C9BB0,#1,1,pass,loop,,4C9F30,,,,,
+4CA03E,call,4C9BB0,#82,130,timed,,,,,,,,
+4CA090,call,4C9BB0,#1,1,pass,loop,,4CA080,,,,,
+4CA383,call,4CA2A0,leacalc@4CA37C,,data,,,,,,,,
+4CA519,call,4CA430,leacalc@4CA512,1,pass,,,,,,,,
+4CA5A0,call,4CA430,#1,1,pass,loop,,4CA590,,,,,49DA90
+4CA612,call,4CA430,#1,1,pass,loop,,4CA5F2,,,,,3E2B50
+4CA6C0,call,4CA430,#1,1,pass,loop,,4CA6B0,,,,,
+4CA740,call,4CA430,#1,1,pass,loop,,4CA730,,,,,
+4CA7A0,call,4CA430,#1,1,pass,loop,,4CA790,,,,,
+4CAA2C,call,4CA860,#A,10,timed,loop,,4CA9F0,,,,,168D70 169760 2F1E70 3F3220 3F35F0 3F4730 3F4900 3F5170 404760
+4CAD16,call,4CA860,#1,1,pass,loop,,4CA9F0,,,,,168D70 169760 2F1E70 3F3220 3F35F0 3F4730 3F4900 3F5170 404760
+4CAE27,call,4CAD20,leacalc@4CAE20,10,timed,,,,,,,,
+4CAE60,call,4CAD20,#1,1,pass,loop,,4CAE50,,,,,
+4CB210,call,4CB160,#1,1,pass,loop,,4CB200,4CB222 inc ebx,,,,3F3640
+4CB5F0,call,4CB5C0,#1,1,pass,loop,,4CB5E0,,,,,
+4CB63A,call,4CB5C0,#1E,30,timed,,,,,,,,
+4CB6A0,call,4CB5C0,#1,1,pass,loop,,4CB690,,,,,
+4CB720,call,4CB5C0,#1,1,pass,loop,,4CB710,,,,,
+4CB7C0,call,4CB790,#1,1,pass,loop,,4CB7B0,,,,,3F31F0
+4CB880,call,4CB790,#1,1,pass,loop,,4CB870,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4CB8E0,call,4CB790,#1,1,pass,loop,,4CB8D0,,,,,
+4CB940,call,4CB790,#1,1,pass,loop,,4CB930,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4CB9F0,call,4CB9C0,#1,1,pass,loop,,4CB9E0,,,,,
+4CBC20,call,4CBB70,#1,1,pass,loop,,4CBC10,"4CBC3C movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4CBC54 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4CBC6C movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,
+4CBD72,call,4CBB70,#1,1,pass,loop,,4CBCC0,"4CBCD0 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4CBCE8 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4CBD00 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 4CBD4C movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+4CC130,call,4CC0E0,#1,1,pass,loop,,4CC120,,,,,
+4CC1C0,call,4CC0E0,#1,1,pass,loop,,4CC1B0,,,,,
+4CC3F1,call,4CC0E0,leacalc@4CC3E7,5,timed,,,,,,,,
+4CC940,call,4CC730,leacalc@4CC936,5,timed,,,,,,,,
+4CCEC9,call,4CCE70,#1,1,pass,,,,,,,,
+4CD5C0,call,4CD560,#1,1,pass,loop,,4CD5B0,,,,,
+4CD676,call,4CD560,#1,1,pass,,,,,,,,
+4CD9D0,call,4CD920,#1,1,pass,loop,,4CD9C0,,,,,
+4CDAD0,call,4CD920,#1,1,pass,loop,,4CDAC0,,,,,
+4CDBE5,call,4CD920,#1E,30,timed,,,,,,,,
+4D3FBA,call,4D3F60,#1E,30,timed,,,,,,,,
+4D406D,call,4D3F60,#5,5,timed,,,,,,,,
+4D4090,call,4D3F60,#1,1,pass,loop,,4D4080,,,,,
+4D41B0,call,4D4190,#1E,30,timed,,,,,,,,
+4D4230,call,4D4190,#1,1,pass,loop,,4D4220,,,,,
+4D4309,call,4D42B0,#1E,30,timed,,,,,,,,
+4D4340,call,4D42B0,#1,1,pass,loop,,4D4330,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4D43C2,call,4D43A0,#1E,30,timed,,,,,,,,
+4D4424,call,4D43A0,#1,1,pass,loop,,4D4400,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4D44AC,call,4D43A0,#28,40,timed,,,,,,,,
+4D47E0,call,4D45A0,#1,1,pass,loop,,4D47D0,,,,,
+4D4B96,call,4D4B60,#1,1,pass,,,,,,,,
+4D4C3C,call,4D4B60,leacalc@4D4C13,30,timed,,,,,,,,
+4D4D34,call,4D4B60,#1E,30,timed,,,,,,,,
+4D4E9F,call,4D4B60,#1,1,pass,loop,,4D4E40,,,,,1690C0 169BA0 3F0650 3F3170 404760 4561C0 456520 4567B0
+4D50BD,call,4D4B60,#1,1,pass,,,,,,,,
+4D50FA,call,4D4B60,#9,9,timed,,,,,,,,
+4D5180,call,4D4B60,#1,1,pass,loop,,4D5170,"4D519D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4D51B1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4D51C5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+4D51F4,call,4D4B60,#1E,30,timed,,,,,,,,
+4D54CE,call,4D53F0,#1,1,pass,loop,,4D54A0,"4D54D3 sub rbx, 1",,,,
+4D5520,call,4D53F0,#1,1,pass,loop,,4D5510,,,,,
+4D55F0,call,4D53F0,#1,1,pass,loop,,4D55E0,,,,,
+4D5650,call,4D53F0,#1,1,pass,loop,,4D5640,,,,,
+4D5730,call,4D53F0,#1,1,pass,loop,,4D5720,,,,,
+4D5A3E,call,4D5910,#3C,60,timed,,,,,,,,
+4D5A6C,call,4D5910,#1,1,pass,loop,,4D5A50,,,,,
+4D5AC0,call,4D5910,#1,1,pass,loop,,4D5AB0,,,,,
+4D5C80,call,4D5910,#1,1,pass,loop,,4D5C70,,,,,
+4D5D05,call,4D5910,#1,1,pass,loop,,4D5CE0,"4D5CF5 movss dword ptr [rax + 4], xmm0 (read-modify-write)",,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,44A160
+4D5DC0,call,4D5910,#1,1,pass,loop,,4D5DB0,,,,,
+4D5DFE,call,4D5910,#14,20,timed,,,,,,,,
+4D5F50,call,4D5F20,#1,1,pass,loop,,4D5F40,,,,,
+4D5FAA,call,4D5F20,#1E,30,timed,,,,,,,,
+4D6170,call,4D60E0,#1,1,pass,loop,,4D6142,"4D6175 sub rbx, 1",,,,
+4D61C0,call,4D60E0,#1,1,pass,loop,,4D61B0,,,,,
+4D61F3,call,4D60E0,#1,1,pass,,,,,,,,
+4D6510,call,4D6390,#1,1,pass,loop,,4D6500,,,,,1C8A20
+4D65F0,call,4D6390,#1,1,pass,loop,,4D65E0,,,,,
+4D6611,call,4D6390,#5,5,timed,,,,,,,,
+4D67B0,call,4D6790,#1E,30,timed,,,,,,,,
+4D697D,call,4D6930,#1E,30,timed,,,,,,,,
+4D6B30,call,4D6B10,#1E,30,timed,,,,,,,,
+4D6B60,call,4D6B10,#1,1,pass,loop,,4D6B50,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4D6C3A,call,4D6BC0,#1,1,pass,loop,,4D6C10,,,,,
+4D6CA3,call,4D6BC0,#5A,90,timed,,,,,,,,
+4D6D10,call,4D6BC0,leacalc@4D6D09,40,timed,,,,,,,,
+4D6D40,call,4D6BC0,#1,1,pass,loop,,4D6D30,,,,,
+4D6E61,call,4D6BC0,"sub(#A, phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(deep@4D6D4C, -) | opaque@4D6BDA), -) | opaque@4D6BDA), -) | opaque@4D6BDA), -) | opaque@4D6BDA), -) | opaque@4D6BDA), -) | opaque@4D6BDA), -) | opaque@4D6BDA))",,data,,,,,,,,
+4D6ECD,call,4D6BC0,#1,1,pass,loop,,4D6E81,"4D6EA8 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+4D6EEE,call,4D6BC0,#3C,60,timed,,,,,,,,
+4D70CB,call,4D7010,leacalc@4D70C2,1,pass,,,,,,,,
+4D7170,call,4D7010,#1,1,pass,loop,,4D7160,,,,,
+4D71B0,call,4D7010,#1,1,pass,loop,,4D71A0,,,,,
+4D7330,call,4D7010,#1,1,pass,loop,,4D72F1,4D73DC inc byte ptr [rax],,,,1690C0 2139E0 3F0650 3F3170 404760 4561C0 456520 4567B0
+4D7378,call,4D7010,#1,1,pass,loop,,4D72F1,4D73DC inc byte ptr [rax],,,,1690C0 2139E0 3F0650 3F3170 404760 4561C0 456520 4567B0
+4D7640,call,4D7010,#1,1,pass,loop,,4D7630,,,,,
+4D7670,call,4D7010,#1,1,pass,loop,,4D7660,,,,,
+4D7887,call,4D7010,#1,1,pass,loop,,4D7870,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4D78C1,call,4D7010,#1E,30,timed,,,,,,,,
+4D7970,call,4D7010,#1,1,pass,loop,,4D7960,,,,,
+4D79D2,call,4D79B0,#1E,30,timed,,,,,,,,
+4D79E7,call,4D79B0,#3C,60,timed,,,,,,,,
+4D7C0C,call,4D7B20,#1,1,pass,loop,,4D7BC0,"4D7BC9 sub dword ptr [rcx + 8], 1",,,,
+4D7C39,call,4D7B20,#1,1,pass,loop,,4D7C30,,,,,
+4D7D29,call,4D7B20,#1,1,pass,loop,,4D7CC0,"4D7CF5 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4D7D09 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4D7D11 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4D7D46 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4D7D5A movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4D7D6E movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+4D7E39,call,4D7B20,#1,1,pass,loop,,4D7DA0,"4D7DD6 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4D7DDE movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4D7DE6 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4D7E1F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+4D7EA1,call,4D7B20,#1,1,pass,loop,,4D7BA0,"4D7BC9 sub dword ptr [rcx + 8], 1 | 4D7C98 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4D7CA0 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4D7CA8 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4D7CF5 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4D7D09 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4D7D11 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4D7D46 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4D7D5A movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4D7D6E movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 4D7DD6 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 4D7DDE movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 4D7DE6 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 4D7E1F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480 2DF660
+4D7EF4,call,4D7B20,#64,100,timed,,,,,,,,
+4D8510,call,4D84C0,#1E,30,timed,,,,,,,,
+4D8DB1,call,4D8D70,#2D,45,timed,,,,,,,,
+4D8DF0,call,4D8D70,#1,1,pass,loop,,4D8DE0,"4D8E01 sub rbx, 1",,,,3F4900
+4D8F7B,call,4D8D70,#1,1,pass,loop,,4D8E83,4D8E83 inc dil,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,2DA050 4A0900
+4D9160,call,4D8D70,#1,1,pass,loop,,4D9150,,,,,
+4D91A0,call,4D8D70,#1,1,pass,loop,,4D9190,,,,,
+4D9250,call,4D8D70,#1,1,pass,loop,,4D9240,,,,,
+4D9320,call,4D92F0,#1,1,pass,loop,,4D9310,,,,,
+4D935A,call,4D92F0,#1E,30,timed,,,,,,,,
+4D9430,call,4D92F0,#1,1,pass,loop,,4D9420,,,,,
+4D954E,call,4D9490,#1,1,pass,loop,,4D9520,"4D9553 sub rbx, 1",,,,
+4D96D0,call,4D9490,#32,50,timed,,,,,,,,
+4D9810,call,4D9490,#1,1,pass,loop,,4D9800,,,,,1C8A20
+4D9880,call,4D9490,#1,1,pass,loop,,4D9870,,,,,
+4D98E0,call,4D9490,#1,1,pass,loop,,4D98D0,,,,,1C8A20
+4D9D1A,call,4D9CD0,#1E,30,timed,,,,,,,,
+4D9EBC,call,4D9E30,#14,20,timed,,,,,,,,
+4D9ED1,call,4D9E30,#A,10,timed,,,,,,,,
+4D9F90,call,4D9E30,#1,1,pass,,,,,,,,
+4DA020,call,4D9E30,#1,1,pass,loop,,4DA010,,,,,
+4DA190,call,4D9E30,#1,1,pass,loop,,4DA180,,,,,3436A0
+4DA1E0,call,4D9E30,#1,1,pass,loop,,4DA1A1,,,,,2DF660 343680 3436A0
+4DA206,call,4D9E30,#5,5,timed,,,,,,,,
+4DA227,call,4D9E30,#1E,30,timed,,,,,,,,
+4DA350,call,4DA300,#1,1,pass,loop,,4DA340,,,,,
+4DA3AC,call,4DA300,#1E,30,timed,,,,,,,,
+4DA47E,call,4DA300,leacalc@4DA477,50,timed,,,,,,,,
+4DA54E,call,4DA300,leacalc@4DA547,10,timed,,,,,,,,
+4DA5E9,call,4DA300,#1,1,pass,loop,,4DA5B1,"4DA5C2 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write) | 4DA5D6 movss dword ptr [rdi + 0xd2c], xmm1 (read-modify-write)",,,,
+4DA645,call,4DA300,#32,50,timed,,,,,,,,
+4DA677,call,4DA300,#19,25,timed,,,,,,,,
+4DA870,call,4DA300,#1,1,pass,loop,,4DA860,,,,,
+4DA892,call,4DA300,#1E,30,timed,,,,,,,,
+4DA910,call,4DA300,#1,1,pass,loop,,4DA900,,,,,
+4DA94F,call,4DA920,#1E,30,timed,,,,,,,,
+4DA9D0,call,4DA920,#1,1,pass,loop,,4DA9C0,,,,,
+4DA9F1,call,4DA920,#46,70,timed,,,,,,,,
+4DD2C0,call,4DD1C0,#1,1,pass,loop,,4DD2B0,,,,,
+4DF12A,call,4DF110,#1E,30,timed,,,,,,,,
+4DF36A,call,4DF350,#1E,30,timed,,,,,,,,
+4DF488,call,4DF450,leacalc@4DF481,60,timed,,,,,,,,
+4DF521,call,4DF450,leacalc@4DF51A,60,timed,,,,,,,,
+4DF560,call,4DF450,#1,1,pass,loop,,4DF550,,,,,
+4DF6A0,call,4DF600,#1,1,pass,loop,,4DF690,,,,,3F31C0
+4DF6F4,call,4DF6E0,#1E,30,timed,,,,,,,,
+4DF770,call,4DF6E0,#1,1,pass,loop,,4DF760,,,,,3F31C0
+4DF80A,call,4DF7A0,#A,10,timed,loop,,4DF7B0,,,,,3F35F0 3F4900 4E23B0 4E2440
+4DF88E,call,4DF7A0,#A,10,timed,loop,,4DF7B0,,,,,3F35F0 3F4900 4E23B0 4E2440
+4DF8E2,call,4DF7A0,#1,1,pass,loop,,4DF7B0,,,,,3F35F0 3F4900 4E23B0 4E2440
+4DF930,call,4DF7A0,#A,10,timed,,,,,,,,
+4DFA0C,call,4DF970,#F,15,timed,,,,,,,,
+4DFA50,call,4DF970,#1,1,pass,loop,,4DFA40,,,,,218D10
+4DFA86,call,4DF970,#F,15,timed,,,,,,,,
+4DFAF6,call,4DFAE0,#1E,30,timed,,,,,,,,
+4DFB48,call,4DFAE0,#1,1,pass,loop,,4DFB11,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,215490 4A0900
+4DFBEA,call,4DFB70,#5A,90,timed,,,,,,,,
+4DFC3F,call,4DFB70,#96,150,timed,,,,,,,,
+4DFCC0,call,4DFB70,#1,1,pass,loop,,4DFCB0,,,,,2154A0
+4DFD66,call,4DFD50,#1E,30,timed,,,,,,,,
+4DFDB4,call,4DFD50,#1,1,pass,loop,,4DFD81,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,215490 4A0900
+4DFE24,call,4DFE10,#5A,90,timed,,,,,,,,
+4DFE60,call,4DFE10,#1,1,pass,loop,,4DFE50,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4DFF35,call,4DFE10,leacalc@4DFF2E,1,pass,,,,,,,,
+4DFF70,call,4DFE10,#96,150,timed,,,,,,,,
+4DFFB0,call,4DFE10,#1,1,pass,loop,,4DFFA0,,,,,2154A0
+4E0074,call,4DFE10,#1,1,pass,loop,,4DFFD0,,,,,1B19E0 481A10
+4E0100,call,4DFE10,#1,1,pass,loop,,4E00F0,,,,,
+4E0170,call,4DFE10,#1,1,pass,loop,,4E0160,,,,,
+4E0264,call,4E0250,#1E,30,timed,,,,,,,,
+4E030D,call,4E0250,#1,1,pass,loop,,4E02C0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h | 4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,198BB0 44A160 4A0900
+4E03C5,call,4E0250,#F,15,timed,,,,,,,,
+4E0410,call,4E0250,#1,1,pass,loop,,4E0400,,,,,
+4E0526,call,4E0460,#A,10,timed,,,,,,,,
+4E054E,call,4E0460,#14,20,timed,,,,,,,,
+4E057C,call,4E0460,#5,5,timed,,,,,,,,
+4E05B4,call,4E05A0,#1E,30,timed,,,,,,,,
+4E0795,call,4E06B0,#1,1,pass,loop,,4E0780,"4E0780 sub dword ptr [rax], 1",,,,
+4E0858,call,4E06B0,#1,1,pass,loop,,4E07B0,"4E07D8 movss dword ptr [rdi + 0xd20], xmm0 (read-modify-write) | 4E07EC movss dword ptr [rdi + 0xd28], xmm1 (read-modify-write) | 4E07F4 movss dword ptr [rdi + 0xd24], xmm0 (read-modify-write) | 4E082E movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 4E0836 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 4E083E movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write)",,,,
+4E08FB,call,4E06B0,#1,1,pass,loop,,4E0870,"4E0898 movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 4E08A0 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 4E08A8 movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write) | 4E08E1 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write)",,,,
+4E09EE,call,4E09A0,#2D,45,timed,,,,,,,,
+4E0A30,call,4E09A0,#1,1,pass,loop,,4E0A20,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4E0B70,call,4E09A0,#1,1,pass,loop,,4E0B05,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h | 4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,2E04C0 44A160 4A0900
+4E0C34,call,4E0C20,#14,20,timed,,,,,,,,
+4E0C78,call,4E0C20,#14,20,timed,,,,,,,,
+4E0CBC,call,4E0C20,#F,15,timed,,,,,,,,
+4E0CEB,call,4E0C20,phi(#32 | #23),,timed,,,,,,,,
+4E0D20,call,4E0C20,#1,1,pass,loop,,4E0D10,,,,,
+4E0DA6,call,4E0D90,#14,20,timed,,,,,,,,
+4E0E32,call,4E0D90,#14,20,timed,,,,,,,,
+4E0E67,call,4E0D90,#32,50,timed,,,,,,,,
+4E0EA0,call,4E0D90,#1,1,pass,loop,,4E0E90,,,,,
+4E0FA7,call,4E0F10,leacalc@4E0FA0,30,timed,,,,,,,,
+4E1010,call,4E0F10,#1,1,pass,loop,,4E1000,,,,,
+4E1150,call,4E10A0,#1,1,pass,loop,,4E1140,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4E1183,call,4E10A0,#3C,60,timed,,,,,,,,
+4E144B,call,4E1250,#1E,30,timed,,,,,,,,
+4E1460,call,4E1250,#1E,30,timed,,,,,,,,
+4E157F,call,4E1540,#14,20,timed,,,,,,,,
+4E1690,call,4E1620,#1,1,pass,loop,,4E1680,,,,,
+4E18C0,call,4E1620,#1,1,pass,loop,,4E18B0,,,,,
+4E193D,call,4E1620,#1,1,pass,loop,,4E17A0,4E18FA inc r15d,,,,168D70 3F0650 3F3170 3F3220 3F4730 3F4900 404760 4561C0 456520 4567B0
+4E1A0E,call,4E1620,#50,80,timed,,,,,,,,
+4E1D8F,call,4E1BA0,#1,1,pass,loop,,4E1D00,,,,,1690C0 169BA0 3F0650 3F3170 404760 4561C0 456520 4567B0
+4E1F50,call,4E1BA0,#1,1,pass,loop,,4E1F40,,,,,
+4E220F,call,4E1BA0,#A,10,timed,,,,,,,,
+4E2290,call,4E1BA0,#1,1,pass,loop,,4E2280,"4E22AD movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4E22C1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4E22D5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+4E232C,call,4E1BA0,#46,70,timed,,,,,,,,
+4E4F10,call,4E4D50,#1,1,pass,loop,,4E4F00,,,,,1C8A20
+4E4F3A,call,4E4D50,#41,65,timed,,,,,,,,
+4E4FC2,call,4E4D50,#F,15,timed,,,,,,,,
+4E5170,call,4E5030,#1,1,pass,loop,,4E5160,,,,,1C8A20
+4E519A,call,4E5030,#41,65,timed,,,,,,,,
+4E5222,call,4E5030,#F,15,timed,,,,,,,,
+4E5350,call,4E5030,#1,1,pass,loop,,4E5340,,,,,1C8A20
+4E53C0,call,4E5030,#1,1,pass,loop,,4E53B0,,,,,
+4E55C0,call,4E54F0,#1,1,pass,loop,,4E55B0,,,,,
+4E58C2,call,4E54F0,#1,1,pass,loop,,4E57C0,4E58C7 inc dil,,,,13F2E0 4971C0
+4E5930,call,4E54F0,#1,1,pass,loop,,4E5920,,,,,
+4E59D0,call,4E54F0,#1,1,pass,loop,,4E59C0,,,,,
+4E5E08,call,4E5D60,leacalc@4E5E01,1,pass,,,,,,,,
+4E5F39,call,4E5D60,#8C,140,timed,,,,,,,,
+4E5F60,call,4E5D60,#1,1,pass,loop,,4E5F50,"4E5F96 sub rbx, 1",,,,481570
+4E5FBA,call,4E5D60,leacalc@4E5FB3,,data,,,,,,,,
+4E6110,call,4E5D60,#1,1,pass,loop,,4E6100,,,,,2F4790
+4E616A,call,4E5D60,#32,50,timed,,,,,,,,
+4E67A0,call,4E6770,#F,15,timed,,,,,,,,
+4E67D0,call,4E6770,#1,1,pass,loop,,4E67C0,,,,,
+4E73CD,call,4E73A0,#2D,45,timed,,,,,,,,
+4E7410,call,4E73A0,#1,1,pass,loop,,4E7400,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4E74F8,call,4E73A0,#1E,30,timed,,,,,,,,
+4E75CD,call,4E73A0,#1,1,pass,,,,,,,,
+4E76FB,call,4E73A0,#1,1,pass,,,,,,,,
+4E8AC0,call,4E8870,#1,1,pass,loop,,4E8AB0,,,,,
+4E8C6D,call,4E8BC0,#1,1,pass,loop,,4E8C40,,,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,44A160
+4E8DD0,call,4E8D90,#1E,30,timed,,,,,,,,
+4E8E20,call,4E8D90,#1,1,pass,loop,,4E8E10,,,,,
+4E9EE0,call,4E9D50,#1,1,pass,loop,,4E9ED0,,,,,
+4EA246,call,4E9D50,#1,1,pass,loop,,4EA020,,,,,168EF0 16A010 170830 2DFE00 3F35F0 3F4730 3F4900 404760
+4EA350,call,4E9D50,#1,1,pass,loop,,4EA340,,,,,
+4EA5D6,call,4E9D50,#1,1,pass,loop,,4EA470,4EA513 inc r15d,,,,168EF0 16A010 2DFE00 3F35F0 3F4730 3F4900 404760
+4EA6E0,call,4E9D50,#1,1,pass,loop,,4EA6D0,,,,,
+4EA954,call,4E9D50,#1E,30,timed,loop,,4EA800,4EA8A3 inc r14d,,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,168EF0 16A010 2DFE00 3F35F0 3F4730 3F4900 404760 44A160 44AE30 4AEC20
+4EAA16,call,4E9D50,#1,1,pass,loop,,4EA800,4EA8A3 inc r14d,,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,168EF0 16A010 2DFE00 3F35F0 3F4730 3F4900 404760 44A160 44AE30 4AEC20
+4EAA34,call,4E9D50,#5A,90,timed,,,,,,,,
+4EAC30,call,4EABA0,#1,1,pass,loop,,4EAC20,,,,,
+4EAD50,call,4EACC0,#1,1,pass,loop,,4EAD40,,,,,
+4EAE90,call,4EADE0,#1,1,pass,loop,,4EAE80,,,,,
+4EB030,call,4EAF20,#1,1,pass,loop,,4EB020,,,,,
+4EB060,call,4EAF20,#1,1,pass,loop,,4EB050,,,,,
+4EB0DC,call,4EAF20,#1,1,pass,,,,,,,,
+4EB1B0,call,4EAF20,#1,1,pass,loop,,4EB1A0,,,,,
+4EB4C6,call,4EB4A0,#1E,30,timed,,,,,,,,
+4EB71A,call,4EB6D0,#3C,60,timed,,,,,,,,
+4EB762,call,4EB6D0,leacalc@4EB75B,1,pass,,,,,,,,
+4EB7D0,call,4EB6D0,#1,1,pass,loop,,4EB7C0,,,,,
+4EB906,call,4EB6D0,#3C,60,timed,,,,,,,,
+4EB9EA,call,4EB9A0,#3C,60,timed,,,,,,,,
+4EBA32,call,4EB9A0,leacalc@4EBA2B,1,pass,,,,,,,,
+4EBAA0,call,4EB9A0,#1,1,pass,loop,,4EBA90,,,,,
+4EBBD6,call,4EB9A0,#3C,60,timed,,,,,,,,
+4EBE50,call,4EBDD0,#1,1,pass,loop,,4EBE40,,,,,
+4EBED0,call,4EBDD0,#1,1,pass,loop,,4EBEC0,,,,,
+4EC160,call,4EC0C0,#1,1,pass,loop,,4EC150,,,,,
+4EC181,call,4EC0C0,#3C,60,timed,,,,,,,,
+4EC1E0,call,4EC0C0,#1,1,pass,loop,,4EC1D0,,,,,
+4EC4E0,call,4EC400,#1,1,pass,loop,,4EC4D0,,,,,
+4EC52C,call,4EC400,#3C,60,timed,,,,,,,,
+4EC55B,call,4EC400,#5,5,timed,,,,,,,,
+4EC5C0,call,4EC400,#1,1,pass,loop,,4EC5B0,,,,,
+4EC670,call,4EC400,#1,1,pass,loop,,4EC660,,,,,
+4EC6CD,call,4EC400,leacalc@4EC6C6,,data,,,,,,,,
+4EC6F0,call,4EC400,#1,1,pass,loop,,4EC6E0,,,,,
+4EC7A0,call,4EC400,#1,1,pass,loop,,4EC790,,,,,
+4EC9A0,call,4EC7E0,#1,1,pass,loop,,4EC990,,,,,3F33A0
+4ECA50,call,4EC7E0,#1,1,pass,loop,,4ECA40,,,,,
+4ECC90,call,4ECC00,#1,1,pass,loop,,4ECC80,,,,,
+4ED380,call,4ED210,#1,1,pass,loop,,4ED370,,,,,
+4ED3E0,call,4ED210,#1,1,pass,loop,,4ED3D0,,,,,
+4ED460,call,4ED210,#1,1,pass,loop,,4ED450,,,,,
+4ED5B0,call,4ED210,#1,1,pass,loop,,4ED5A0,,,,,
+4ED5F4,call,4ED210,#1E,30,timed,,,,,,,,
+4ED6F6,call,4ED210,#5A,90,timed,,,,,,,,
+4EE250,call,4EE020,#1,1,pass,loop,,4EE240,,,,,
+4EE4EC,call,4EE460,#F,15,timed,,,,,,,,
+4EE530,call,4EE460,#1,1,pass,loop,,4EE520,,,,,218D10
+4EE562,call,4EE460,#F,15,timed,,,,,,,,
+4EE64C,call,4EE5C0,#F,15,timed,,,,,,,,
+4EE690,call,4EE5C0,#1,1,pass,loop,,4EE680,,,,,218D10
+4EE6C2,call,4EE5C0,#F,15,timed,,,,,,,,
+4EE8C5,call,4EE7A0,#1,1,pass,loop,,4EE8B0,"4EE8B0 sub dword ptr [rax], 1",,,,
+4EE988,call,4EE7A0,#1,1,pass,loop,,4EE8E0,"4EE908 movss dword ptr [rdi + 0xd20], xmm0 (read-modify-write) | 4EE91C movss dword ptr [rdi + 0xd28], xmm1 (read-modify-write) | 4EE924 movss dword ptr [rdi + 0xd24], xmm0 (read-modify-write) | 4EE95E movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 4EE966 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 4EE96E movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write)",,,,
+4EEA2B,call,4EE7A0,#1,1,pass,loop,,4EE9A0,"4EE9C8 movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 4EE9D0 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 4EE9D8 movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write) | 4EEA11 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write)",,,,
+4EEC0A,call,4EEA60,#1E,30,timed,,,,,,,,
+4EEC1F,call,4EEA60,#1E,30,timed,,,,,,,,
+4EF03A,call,4EECE0,#1,1,pass,loop,,4EEE30,4EEFE9 inc esi,,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,168EF0 16A010 170830 3F35F0 3F4730 3F4900 404760 44A160 44AE30 44C200
+4EF112,call,4EF0D0,leacalc@4EF10B,30,timed,,,,,,,,
+4EF170,call,4EF0D0,#1,1,pass,loop,,4EF160,,,,,
+4EF1D0,call,4EF0D0,#1,1,pass,loop,,4EF1C0,,,,,
+4EF3FF,call,4EF210,#1,1,pass,loop,,4EF370,,,,,1690C0 169BA0 3F0650 3F3170 404760 4561C0 456520 4567B0
+4EF5C0,call,4EF210,#1,1,pass,loop,,4EF5B0,,,,,
+4EF83F,call,4EF210,#A,10,timed,,,,,,,,
+4EF8C0,call,4EF210,#1,1,pass,loop,,4EF8B0,"4EF8DD movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 4EF8F1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 4EF905 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+4EF934,call,4EF210,#46,70,timed,,,,,,,,
+4F38F0,call,4F3870,#1,1,pass,loop,,4F38E0,,,,,1C8A20
+4F3A30,call,4F3980,#1,1,pass,loop,,4F3A20,,,,,1C8A20
+4F3A5A,call,4F3980,#1E,30,timed,,,,,,,,
+4F42D0,call,4F4120,#1,1,pass,loop,,4F42C0,,,,,1C8A20
+4F4360,call,4F4120,#1,1,pass,loop,,4F4350,,,,,2EAAF0
+4F43D8,call,4F4120,#1E,30,timed,,,,,,,,
+4F4AD0,call,4F4930,#1,1,pass,loop,,4F4AC0,,,,,
+4F5720,call,4F5540,#1,1,pass,loop,,4F5710,,,,,1C8A20
+4F574A,call,4F5540,#7,7,timed,,,,,,,,
+4F57D2,call,4F5540,#1,1,pass,,,,,,,,
+4F5810,call,4F5540,#1,1,pass,loop,,4F5800,,,,,
+4F613D,call,4F5FD0,#1,1,pass,,,,,,,,
+4F6580,call,4F63D0,#5,5,timed,loop,,4F6570,"4F659B sub rdi, 1",,487E30 4B9B70 > 4BA080 > 4BA11D mode byte,487E30 4B9B70 > 4BA080 > 4BA141 mode_multipliers.h,487E30
+4F6766,call,4F66F0,#1E,30,timed,,,,,,,,
+4F6AE6,call,4F6970,#1,1,pass,,,,,,,,
+4F6C50,call,4F6B40,#5,5,timed,,,,,,,,
+4F77B0,call,4F7770,#1,1,pass,loop,,4F77A0,,,,,
+4F77D4,call,4F7770,#1E,30,timed,,,,,,,,
+4F7850,call,4F7770,#1,1,pass,loop,,4F7840,"4F7855 sub rbx, 1",,,,
+4F7C90,call,4F7C00,#1,1,pass,loop,,4F7C80,,,,,
+4F7CCC,call,4F7C00,#1,1,pass,loop,,4F7CB0,"4F7CD1 sub rdi, 1",,,,3F4900
+4F7D5C,call,4F7C00,#1,1,pass,loop,,4F7D40,"4F7D61 sub rbx, 1",,,,3F4900
+4F7DA0,call,4F7C00,leacalc@4F7D99,,data,,,,,,,,
+4F7E18,call,4F7C00,#A,10,timed,,,,,,,,
+4F7E47,call,4F7C00,#2,2,timed,,,,,,,,
+4F7EA1,call,4F7C00,#4B,75,timed,,,,,,,,
+4F8075,call,4F7C00,#1,1,pass,,,,,,,,
+4F8CA0,call,4F8C30,#1,1,pass,loop,,4F8C90,,,,,3F31F0
+4F8DBC,call,4F8C30,#1E,30,timed,,,,,,,,
+4F8DF0,call,4F8C30,#1,1,pass,loop,,4F8DE0,,,,,
+4F8F40,call,4F8C30,#1,1,pass,loop,,4F8F30,,,,,
+4F8F87,call,4F8C30,#32,50,timed,,,,,,,,
+4F9060,call,4F8C30,#1,1,pass,loop,,4F9050,,,,,
+4F90B2,call,4F8C30,#1E,30,timed,,,,,,,,
+4F9128,call,4F8C30,#A,10,timed,,,,,,,,
+4F9155,call,4F8C30,phi(#1E | #5A),,timed,,,,,,,,
+4F91A0,call,4F8C30,#1,1,pass,loop,,4F9190,,,,,
+4F9350,call,4F9250,#1,1,pass,loop,,4F9340,,,,,
+4F9560,call,4F94F0,#1,1,pass,loop,,4F9510,,,,,4FF2B0
+4F9670,call,4F9590,#1,1,pass,loop,,4F9660,,,,,
+4F96B0,call,4F9590,#1,1,pass,loop,,4F96A0,,,,,3F31F0
+4F971C,call,4F9590,#1,1,pass,,,,,,,,
+4F9760,call,4F9590,#1,1,pass,loop,,4F9750,,,,,
+4F98C3,call,4F9590,#1E,30,timed,,,,,,,,
+4F9910,call,4F9590,#1,1,pass,loop,,4F9900,,,,,
+4F99E0,call,4F9590,#1,1,pass,loop,,4F99D0,,,,,1C8A20
+4F9A80,call,4F9590,#5,5,timed,loop,,4F9A70,"4F9A9B sub rbp, 1",,487E30 4B9B70 > 4BA080 > 4BA11D mode byte,487E30 4B9B70 > 4BA080 > 4BA141 mode_multipliers.h,487E30
+4F9AE0,call,4F9590,#1,1,pass,loop,,4F9AD0,,,,,1C8A20
+4F9B1C,call,4F9590,#A,10,timed,,,,,,,,
+4F9B46,call,4F9590,#2,2,timed,,,,,,,,
+4F9BD1,call,4F9590,#1,1,pass,,,,,,,,
+4F9D34,call,4F9590,#1,1,pass,loop,,4F9D00,,,,,
+4F9E20,call,4F9590,#1,1,pass,loop,,4F9E10,,,,,1C8A20
+4F9E80,call,4F9590,#1,1,pass,loop,,4F9E70,,,,,1C8A20
+4F9F00,call,4F9590,#1,1,pass,loop,,4F9EF0,,,,,1C8A20
+4F9F30,call,4F9590,#5,5,timed,loop,,4F9F20,"4F9F4B sub rdi, 1",,487E30 4B9B70 > 4BA080 > 4BA11D mode byte,487E30 4B9B70 > 4BA080 > 4BA141 mode_multipliers.h,487E30
+4F9FC0,call,4F9590,#1,1,pass,loop,,4F9FB0,,,,,1C8A20
+4FA060,call,4F9590,#1,1,pass,loop,,4FA050,,,,,1C8A20
+4FA140,call,4F9590,#1,1,pass,loop,,4FA130,,,,,
+4FA1F0,call,4F9590,#1,1,pass,loop,,4FA1E0,,,,,
+4FA2A0,call,4F9590,#1,1,pass,loop,,4FA290,,,,,
+4FA2F2,call,4FA2D0,#1E,30,timed,,,,,,,,
+4FA3C0,call,4FA2D0,#1,1,pass,loop,,4FA3B0,,,,,1C8A20
+4FA480,call,4FA450,#1,1,pass,loop,,4FA470,,,,,
+4FA51B,call,4FA450,#1,1,pass,loop,,4FA4C0,,,,,3F3380 404760
+4FA597,call,4FA450,#1E,30,timed,,,,,,,,
+4FA5C1,call,4FA450,#3C,60,timed,,,,,,,,
+4FA610,call,4FA450,#1,1,pass,loop,,4FA600,,,,,
+4FA650,call,4FA450,#1,1,pass,loop,,4FA640,,,,,
+4FA850,call,4FA820,#1,1,pass,loop,,4FA840,,,,,3F3380
+4FA88B,call,4FA820,#1E,30,timed,,,,,,,,
+4FA960,call,4FA940,#A,10,timed,,,,,,,,
+4FAA17,call,4FA9E0,#1E,30,timed,,,,,,,,
+4FAA60,call,4FA9E0,#1,1,pass,loop,,4FAA50,,,,,
+4FAB10,call,4FA9E0,#1,1,pass,loop,,4FAB00,,,,,
+4FAC19,call,4FA9E0,leacalc@4FABEA,30,timed,,,,,,,,
+4FADE0,call,4FA9E0,#1,1,pass,loop,,4FADD0,,,,,1C8A20
+4FAE80,call,4FA9E0,#1,1,pass,loop,,4FAE70,,,,,1C8A20
+4FAFAE,call,4FAF80,#1E,30,timed,,,,,,,,
+4FB076,call,4FB050,#1E,30,timed,,,,,,,,
+4FB170,call,4FB050,#1,1,pass,loop,,4FB160,,,,,1C8A20
+4FB1E0,call,4FB050,#1,1,pass,loop,,4FB1D0,,,,,
+4FB220,call,4FB050,#1,1,pass,loop,,4FB210,,,,,1C8A20
+4FB270,call,4FB050,#1,1,pass,loop,,4FB260,,,,,1C8A20
+4FB470,call,4FB360,#1,1,pass,loop,,4FB460,,,,,1C8A20
+4FB4EC,call,4FB360,#1E,30,timed,,,,,,,,
+4FB698,call,4FB360,#C8,200,timed,,,,,,,,
+4FB6D0,call,4FB360,#1,1,pass,loop,,4FB6C0,,,,,
+4FB6F1,call,4FB360,#1E,30,timed,,,,,,,,
+4FB87E,call,4FB360,#1,1,pass,,,,,,,,
+4FBA8E,call,4FB360,#1,1,pass,,,,,,,,
+4FBAA3,call,4FB360,#1,1,pass,,,,,,,,
+4FBD60,call,4FBCB0,#1,1,pass,loop,4FBD8B fps byte,4FBD50,,,,,3F31F0
+4FBE00,call,4FBCB0,#1,1,pass,loop,4FBD8B fps byte,4FBDF0,,,,,
+4FBEA0,call,4FBCB0,#1,1,pass,loop,4FBD8B fps byte,4FBE90,,,,,
+4FC170,call,4FC150,#1E,30,timed,,,,,,,,
+4FC242,call,4FC220,#1E,30,timed,,,,,,,,
+4FC562,call,4FC540,#1E,30,timed,,,,,,,,
+4FC6BE,call,4FC690,#1E,30,timed,,,,,,,,
+4FC820,call,4FC7F0,#1,1,pass,loop,,4FC810,,,,,
+4FC860,call,4FC7F0,#1,1,pass,loop,,4FC850,,,,,
+4FC88E,call,4FC7F0,#2D,45,timed,,,,,,,,
+4FC8D0,call,4FC7F0,#1,1,pass,loop,,4FC8C0,4FC963 inc bl,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+4FCA33,call,4FCA00,#A,10,timed,,,,,,,,
+4FCADE,call,4FCA00,#28,40,timed,,,,,,,,
+4FCCD7,call,4FCA00,#1,1,pass,loop,,4FCB55,4FCCC4 inc byte ptr [rcx + 0x22],4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,1993F0 2DFE60 4A0900
+4FCD10,call,4FCA00,#1,1,pass,loop,,4FCD00,,,,,
+500320,call,500200,#1,1,pass,loop,,500310,,,,,1C8A20
+5003C0,call,500200,#1,1,pass,loop,,5003B0,,,,,
+500410,call,500200,#1,1,pass,loop,,500400,,,,,1C8A20
+500490,call,500200,#1,1,pass,loop,,500480,,,,,
+5006C0,call,5005F0,#1,1,pass,loop,,5006B0,,,,,2EAAF0
+500818,call,500730,leacalc@5007E2,30,timed,,,,,,,,
+500A4F,call,5008C0,leacalc@500A19,30,timed,,,,,,,,
+500CD0,call,5008C0,#1,1,pass,loop,,500CC0,,,,,
+500D96,call,5008C0,#1E,30,timed,,,,,,,,
+500F59,call,500E10,leacalc@500F23,30,timed,,,,,,,,
+5018F0,call,501850,#1,1,pass,loop,,5018E0,,,,,1C8A20
+501A80,call,501990,#1,1,pass,loop,,501A70,,,,,
+501B60,call,501990,#1,1,pass,loop,,501B50,,,,,
+501DF0,call,501D00,#1,1,pass,loop,,501DE0,,,,,
+502183,call,5020D0,#1,1,pass,loop,,502171,,,,,1C9430
+5021B4,call,5020D0,"sub(#3C, phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(deep@50217D, -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2), -) | opaque@5020F2))",,data,,,,,,,,
+502210,call,5020D0,#1,1,pass,loop,,502200,,,,,
+5022BE,call,5020D0,#A,10,timed,,,,,,,,
+502380,call,5020D0,#1,1,pass,loop,,502370,,,,,1C8A20
+5023E0,call,5020D0,#1,1,pass,loop,,5023D0,,,,,1C8A20
+5024B0,call,502480,#1,1,pass,loop,,5024A0,,,,,
+502890,call,5026C0,#1,1,pass,loop,,502880,,,,,
+5028F0,call,5026C0,#1,1,pass,loop,,5028E0,,,,,3F31F0
+502932,call,5026C0,#1,1,pass,,,,,,,,
+502970,call,5026C0,#1,1,pass,loop,,502960,,,,,
+502A40,call,5026C0,#1,1,pass,loop,,502A30,,,,,
+502CD0,call,5026C0,#1,1,pass,loop,,502CC0,,,,,
+50324D,call,503170,#F,15,timed,,,,,,,,
+503299,call,503170,#1E,30,timed,,,,,,,,
+5032F0,call,503170,#1,1,pass,loop,,5032E0,,,,,
+503325,call,503170,#1,1,pass,,,,,,,,
+5033F0,call,503170,#1,1,pass,loop,,5033E0,,,,,489C50
+503419,call,503170,#F,15,timed,,,,,,,,
+50348A,call,503440,#1,1,pass,,,,,,,,
+5034E4,call,503440,#1,1,pass,,,,,,,,
+50361A,call,503590,#1E,30,timed,,,,,,,,
+5036A0,call,503590,#1,1,pass,loop,,503690,,,,,
+50372B,call,503590,#1E,30,timed,,,,,,,,
+503770,call,503590,#1,1,pass,loop,,503760,,,,,
+503798,call,503590,#F,15,timed,,,,,,,,
+5037DA,call,503590,#F,15,timed,,,,,,,,
+503820,call,503590,#1,1,pass,loop,,503810,,,,,
+503848,call,503590,#1E,30,timed,,,,,,,,
+5039B0,call,503940,#1E,30,timed,,,,,,,,
+503ADC,call,503A20,leacalc@503AD5,30,timed,,,,,,,,
+503BD0,call,503A20,leacalc@503BC9,30,timed,,,,,,,,
+503C10,call,503A20,#1,1,pass,loop,,503C00,,,,,
+503C39,call,503A20,#F,15,timed,,,,,,,,
+5040E0,call,503A20,#1,1,pass,loop,,5040D0,,,,,1C8A20
+50428B,call,503A20,leacalc@504284,30,timed,,,,,,,,
+504310,call,503A20,#1,1,pass,loop,,504300,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+50434B,call,503A20,#1E,30,timed,,,,,,,,
+5043BD,call,503A20,#F,15,timed,,,,,,,,
+504400,call,503A20,#1,1,pass,loop,,5043F0,,,,,
+504429,call,503A20,#1E,30,timed,,,,,,,,
+504830,call,504800,#1,1,pass,loop,,504820,,,,,
+504B50,call,504930,#1,1,pass,loop,,504B40,504B55 inc ebx,,,,
+504CB5,call,504930,#1,1,pass,loop,,504BD1,"504BE8 movss dword ptr [rcx + 0xd20], xmm0 (read-modify-write) | 504C07 movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 504C26 movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write) | 504C8A movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+504EFD,call,504930,#1,1,pass,loop,,504DD0,"504E76 mov dword ptr [rcx + 0x40], eax (read-modify-write)",,,,1690C0 3F0650 3F3170 404760 4561C0 456520 4567B0
+505010,call,504930,#1,1,pass,loop,,505000,"50502C movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,
+5050A5,call,504930,#1E,30,timed,,,,,,,,
+505250,call,505200,#1,1,pass,loop,,505240,,,,,
+5052F0,call,505200,#1,1,pass,loop,,5052E0,,,,,
+505B10,call,505A70,#1,1,pass,loop,,505B00,,,,,
+505B90,call,505A70,#1,1,pass,loop,,505B80,,,,,
+505C10,call,505A70,#1,1,pass,loop,,505C00,,,,,
+505CEF,call,505A70,#C8,200,timed,,,,,,,,
+505D30,call,505A70,#1,1,pass,loop,,505D20,,,,,
+505D88,call,505A70,#3C,60,timed,,,,,,,,
+505DDD,call,505A70,#1E,30,timed,,,,,,,,
+505F6A,call,505A70,#F,15,timed,,,,,,,,
+505FC4,call,505A70,#1E,30,timed,,,,,,,,
+5061F0,call,5060C0,#1,1,pass,loop,,5061E0,,,,,
+50625E,call,5060C0,leacalc@506257,30,timed,,,,,,,,
+5063EA,call,5060C0,#F,15,timed,,,,,,,,
+506444,call,5060C0,#1E,30,timed,,,,,,,,
+506730,call,506540,#1,1,pass,loop,,506720,,,,,
+506A0F,call,506540,#1E,30,timed,,,,,,,,
+506A51,call,506540,#1,1,pass,,,,,,,,
+506D3F,call,506540,#1E,30,timed,,,,,,,,
+506D81,call,506540,#1,1,pass,,,,,,,,
+506EE0,call,506EB0,#1,1,pass,loop,,506ED0,,,,,
+507130,call,507080,#1,1,pass,loop,,507120,"50714B movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 507162 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 507179 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,
+50726A,call,507080,#1,1,pass,loop,,5071C0,"5071CF movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 5071E6 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 5071FD movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 507245 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+507370,call,5072D0,#1,1,pass,loop,,507360,,,,,2182D0
+50739D,call,5072D0,#F,15,timed,,,,,,,,
+507481,call,5072D0,#1,1,pass,loop,,507410,507410 inc ebx,,,,44E530
+507512,call,5072D0,#1,1,pass,loop,,5074B0,,,,,44E530
+507650,call,5075C0,#28,40,timed,,,,,,,,
+507680,call,5075C0,#1,1,pass,loop,,507670,,,,,
+5076C0,call,5075C0,#1,1,pass,loop,,5076B0,,,,,
+5076E1,call,5075C0,#1E,30,timed,,,,,,,,
+5079E0,call,5078D0,#1,1,pass,loop,,5079D0,,,,,
+507C30,call,507BC0,#1,1,pass,loop,,507C20,,,,,
+507CAC,call,507BC0,#1,1,pass,,,,,,,,
+507D60,call,507BC0,#1,1,pass,loop,,507D40,,,,,3E2B50
+507E40,call,507E00,#1,1,pass,loop,,507E30,,,,,
+5082F2,call,508000,#1,1,pass,loop,,5081D0,"50826C mov dword ptr [rcx + 0xa0], eax (read-modify-write) | 508293 mov dword ptr [rcx + 0xa4], eax (read-modify-write) | 5082D2 mov dword ptr [rax + 0xa4], ecx (read-modify-write)",,,,168D70 1696E0 3F3220 3F35F0 3F4730 3F4900 3F5170 404760
+5083E9,call,508000,#5A,90,timed,,,,,,,,
+508420,call,508000,#1,1,pass,loop,,508410,,,,,
+5085E8,call,508000,#1,1,pass,,,,,,,,
+508620,call,508000,#1,1,pass,loop,,508610,,,,,
+508690,call,508000,#1,1,pass,loop,,508680,,,,,
+5087F9,call,508000,#2,2,timed,,,,,,,,
+508A59,call,508880,#1,1,pass,loop,,508990,"5089D9 mov dword ptr [rcx + 0xa0], eax (read-modify-write) | 508A1C mov dword ptr [rcx + 0xa4], eax (read-modify-write)",,,,168D70 332CD0 3F3220 3F35F0 3F4730 3F4900 3F5170 404760
+508BB0,call,508880,#1,1,pass,loop,,508BA0,,,,,1C8A20
+50A619,call,50A5E0,leacalc@50A612,60,timed,,,,,,,,
+50A6A1,call,50A5E0,leacalc@50A68C,60,timed,,,,,,,,
+5110B3,call,511020,movsx([rcx+41]@5110A4),,data,,,,,,,,
+5110D8,call,511020,#3C,60,timed,,,,,,,,
+511430,call,511270,#1,1,pass,loop,,511420,,,,,
+511510,call,511270,#1,1,pass,loop,,511500,,,,,
+5115CC,call,511270,#1E,30,timed,,,,,,,,
+511EA0,call,511CC0,#1,1,pass,loop,,511E90,,,,,5140A0
+511F40,call,511CC0,#1,1,pass,loop,,511F30,,,,,5143F0
+511FAB,call,511CC0,leacalc@511F9D,27,timed,,,,,,,,
+512060,call,511CC0,#1,1,pass,loop,,512050,,,,,5140A0
+5122A0,call,512280,#1E,30,timed,,,,,,,,
+51270A,call,512530,#28,40,timed,loop,,5125C0,,,,,1C8770 2DBAC0 3F0110 3F3380 3F35F0 3F4730 3F4900 4971C0 50F760 50F9D0 50FD40 50FE50 510460
+51273B,call,512530,#3C,60,timed,loop,,5125C0,,,,,1C8770 2DBAC0 3F0110 3F3380 3F35F0 3F4730 3F4900 4971C0 50F760 50F9D0 50FD40 50FE50 510460
+512805,call,512530,#1,1,pass,loop,,5125C0,,,,,1C8770 2DBAC0 3F0110 3F3380 3F35F0 3F4730 3F4900 4971C0 50F760 50F9D0 50FD40 50FE50 510460
+512881,call,512820,#1,1,pass,loop,,512830,,513010 513072 | 5129B0 512A12 | 512D00 512D5F,,,5129B0 512D00 513010
+5128C0,call,512890,#1,1,pass,loop,,5128B0,,,,,
+51298A,call,512910,#1,1,pass,loop,,512914,,,,,2DBAC0 3CE2E0
+512B10,call,5129B0,#1,1,pass,loop,,512B00,,direct 512B43 | direct 512B55,,,50F760 510E00 510F10
+512E40,call,512D00,#1,1,pass,loop,,512E30,,,,,50F760 510D80 510F10
+513170,call,513010,#1,1,pass,loop,,513160,,direct 5131A3 | direct 5131B5,,,50F760 510CC0 510F10
+513410,call,513370,#1,1,pass,loop,,513400,513454 inc dword ptr [rcx + 0xc],,,,3F35F0 3F4730 3F4900 43B500 4812E0 481CC0
+513517,call,513370,#14,20,timed,loop,,513400,513454 inc dword ptr [rcx + 0xc],,,,3F35F0 3F4730 3F4900 43B500 4812E0 481CC0
+5136A3,call,513610,movsx([rcx+41]@513694),,data,,,,,,,,
+5136EE,call,513610,#1E,30,timed,,,,,,,,
+513776,call,513610,#3C,60,timed,,,,,,,,
+5137B3,call,513610,#3C,60,timed,,,,,,,,
+51389B,call,513610,leacalc@513894,56,timed,,,,,,,,
+5138B8,call,513610,leacalc@5138AA,20,timed,,,,,,,,
+513A72,jmp,513610,#14,20,timed,,,,,,,,
+516410,call,516380,#1,1,pass,loop,,516400,,,,,
+516730,call,5164C0,#1,1,pass,loop,,516720,,,,,
+516AA0,call,516850,#1,1,pass,loop,,516A90,,,,,
+5175C0,call,517590,#1,1,pass,loop,,5175B0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+517E54,call,517E40,#1E,30,timed,,,,,,,,
+517EE4,call,517ED0,#1E,30,timed,,,,,,,,
+5180F1,call,517F70,#1,1,pass,loop,,5180B7,5180B7 inc ebx,,,,
+518270,call,5181F0,#1,1,pass,loop,,518260,,,,,
+5183C0,call,518360,#1,1,pass,loop,,5183B0,,,,,
+518523,call,518360,#14,20,timed,loop,,5184D0,,,3E2A90 3E2ABB 60 fps flag | 3E2A90 3E2ABB 60 fps flag,,169040 1C9460 3E2A90 3F0650 3F35F0 3F4900 3F5170 404760 44E470 4561C0 456520 456750 481CC0
+5185C8,call,518360,#3C,60,timed,loop,,5184D0,,,3E2A90 3E2ABB 60 fps flag | 3E2A90 3E2ABB 60 fps flag,,169040 1C9460 3E2A90 3F0650 3F35F0 3F4900 3F5170 404760 44E470 4561C0 456520 456750 481CC0
+518659,call,518360,#1E,30,timed,loop,,5184D0,,,3E2A90 3E2ABB 60 fps flag | 3E2A90 3E2ABB 60 fps flag,,169040 1C9460 3E2A90 3F0650 3F35F0 3F4900 3F5170 404760 44E470 4561C0 456520 456750 481CC0
+518738,call,518360,#1,1,pass,loop,,5184D0,,,3E2A90 3E2ABB 60 fps flag | 3E2A90 3E2ABB 60 fps flag,,169040 1C9460 3E2A90 3F0650 3F35F0 3F4900 3F5170 404760 44E470 4561C0 456520 456750 481CC0
+5189B4,call,5189A0,#1E,30,timed,,,,,,,,
+519B40,call,519A80,#1,1,pass,loop,,519B30,,,,,
+51AC10,call,51ABB0,#1,1,pass,loop,,51AC00,,,,,
+51B08C,call,51AFD0,#1,1,pass,,,,,,,,
+51BB5F,call,51BA80,#3C,60,timed,,,,,,,,
+51BBD0,call,51BA80,#1,1,pass,loop,,51BBC0,,,,,
+51BF01,call,51BA80,leacalc@51BEFA,1,pass,,,,,,,,
+51BF8D,call,51BA80,#1,1,pass,loop,,51BF40,,,,,20E960
+51C26A,call,51BA80,leacalc@51C23F,,data,,,,,,,,
+51C34D,call,51BA80,#1,1,pass,loop,,51C335,"51C390 movss dword ptr [rdx + 4], xmm0 (read-modify-write) | 51C3D4 movss dword ptr [rax], xmm0 (read-modify-write) | 51C3E8 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 51C402 movss dword ptr [rax + 8], xmm0 (read-modify-write) | 51C427 sub r12d, 1",,,,20E960
+51C460,call,51BA80,#1,1,pass,loop,,51C450,,,,,
+51C4E0,call,51C4B0,#1,1,pass,loop,,51C4D0,,,,,
+51DA76,call,51DA60,#14,20,timed,,,,,,,,
+51DABA,call,51DA60,#14,20,timed,,,,,,,,
+51DB3C,call,51DA60,#F,15,timed,,,,,,,,
+51DB80,call,51DA60,#1,1,pass,loop,,51DB70,,,,,
+51DC06,call,51DBF0,#14,20,timed,,,,,,,,
+51DC92,call,51DBF0,#14,20,timed,,,,,,,,
+51DCFA,call,51DBF0,#32,50,timed,,,,,,,,
+51DD30,call,51DBF0,#1,1,pass,loop,,51DD20,,,,,
+51E00E,call,51DE40,#1,1,pass,loop,,51DF10,"51E013 sub rdi, 1",,,,1989F0 1B19E0 44E470 481A10 481B20
+51E070,call,51DE40,#1,1,pass,loop,,51E060,,,,,
+51E120,call,51DE40,#1,1,pass,loop,,51E110,,,,,
+51E2E0,call,51E230,#1,1,pass,loop,,51E2D0,,,,,
+51E390,call,51E230,#1,1,pass,loop,,51E380,,,,,
+51E6B0,call,51E410,#1,1,pass,loop,,51E6A0,,,,,
+51E73C,call,51E410,#1,1,pass,loop,,51E570,51E6EA inc r15d,,,,168D70 3F0650 3F3170 3F3220 3F4730 3F4900 404760 4561C0 456520 4567B0
+51E8A4,call,51E890,#1E,30,timed,,,,,,,,
+51E944,call,51E930,#1E,30,timed,,,,,,,,
+51E994,call,51E980,#1E,30,timed,,,,,,,,
+51EA34,call,51E980,#1E,30,timed,,,,,,,,
+51EA76,call,51E980,#5A,90,timed,,,,,,,,
+51EB8C,call,51EAF0,#F,15,timed,,,,,,,,
+51EBD0,call,51EAF0,#1,1,pass,loop,,51EBC0,,,,,218D10
+51EC0E,call,51EAF0,#F,15,timed,,,,,,,,
+51ED0F,call,51EC70,#F,15,timed,,,,,,,,
+51ED50,call,51EC70,#1,1,pass,loop,,51ED40,,,,,218D10
+51ED86,call,51EC70,#F,15,timed,,,,,,,,
+51EE20,call,51EDE0,#1,1,pass,loop,,51EE10,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+51F07C,call,51F060,#3C,60,timed,,,,,,,,
+51F1EF,call,51F060,leacalc@51F1E8,60,timed,,,,,,,,
+51F230,call,51F060,#1,1,pass,loop,,51F220,,,,,
+51F2A0,call,51F060,#1,1,pass,loop,,51F290,,,,,
+51F36B,call,51F060,#5,5,timed,,,,,,,,
+51F3A0,call,51F060,#1,1,pass,loop,,51F390,,,,,
+51F41E,call,51F060,#3C,60,timed,,,,,,,,
+51F47F,call,51F460,#1E,30,timed,,,,,,,,
+51F509,call,51F460,leacalc@51F502,120,timed,,,,,,,,
+51F916,call,51F5C0,#1,1,pass,loop,,51F600,"51F72F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 51F751 movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write) | 51F7D1 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 51F7F3 movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,1690C0 1989F0 1C8770 3F3380 3F3640
+51F9DA,call,51F920,#1E,30,timed,,,,,,,,
+51FA91,call,51F920,#78,120,timed,,,,,,,,
+51FAC0,call,51F920,#1,1,pass,loop,,51FAB0,,,,,
+51FC25,call,51FB50,#1,1,pass,loop,,51FC10,"51FC10 sub dword ptr [rax], 1",,,,
+51FCE8,call,51FB50,#1,1,pass,loop,,51FC40,"51FC68 movss dword ptr [rdi + 0xd20], xmm0 (read-modify-write) | 51FC7C movss dword ptr [rdi + 0xd28], xmm1 (read-modify-write) | 51FC84 movss dword ptr [rdi + 0xd24], xmm0 (read-modify-write) | 51FCBE movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 51FCC6 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 51FCCE movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write)",,,,
+51FD8B,call,51FB50,#1,1,pass,loop,,51FD00,"51FD28 movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 51FD30 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 51FD38 movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write) | 51FD71 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write)",,,,
+51FFDF,call,51FE30,#1,1,pass,loop,,51FF53,,,,,1690C0 404760
+520212,call,51FE30,leacalc@5201FD,10,timed,,,,,,,,
+5202C0,call,51FE30,#1,1,pass,loop,,5202B0,"5202DD movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 5202F1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 520305 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+520334,call,51FE30,#46,70,timed,,,,,,,,
+52055D,call,520510,#96,150,timed,,,,,,,,
+520589,call,520510,#1,1,pass,loop,,520580,,,,,
+520640,call,520510,#1E,30,timed,,,,,,,,
+5206A4,call,520510,#3C,60,timed,,,,,,,,
+5206F0,call,520510,#1,1,pass,loop,,5206E0,,,,,
+520810,call,520510,#1,1,pass,loop,,5207C0,"5207E6 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 5207FB movss dword ptr [rax + 4], xmm0 (read-modify-write)",,,,
+5208A0,call,520510,#1,1,pass,loop,,520890,,,,,
+520950,call,520900,#1,1,pass,loop,,520940,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+52097C,call,520900,#3C,60,timed,,,,,,,,
+520A01,call,5209C0,leacalc@5209FA,20,timed,,,,,,,,
+520A84,call,5209C0,leacalc@520A7D,60,timed,,,,,,,,
+520AD0,call,5209C0,#1,1,pass,loop,,520AC0,,,,,
+520B34,call,520B20,#1E,30,timed,,,,,,,,
+520BC0,call,520B20,#1,1,pass,loop,,520BB0,,,,,
+520C74,call,520C60,#1E,30,timed,,,,,,,,
+520CB8,call,520C60,#14,20,timed,,,,,,,,
+520D50,call,520C60,#1,1,pass,loop,,520D40,,,,,
+520DD6,call,520DC0,#1E,30,timed,,,,,,,,
+520ECC,call,520DC0,leacalc@520EC5,15,timed,,,,,,,,
+520EF8,call,520DC0,leacalc@520ED8,30,timed,,,,,,,,
+520F40,call,520DC0,#1,1,pass,loop,,520F30,,,,,
+520FB4,call,520F90,#1E,30,timed,,,,,,,,
+5210A1,call,520F90,leacalc@52109A,30,timed,,,,,,,,
+521150,call,520F90,#1,1,pass,loop,,521140,"52116F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 52118A movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 5211A5 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+521260,call,520F90,#1,1,pass,loop,,521250,"52127F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 52129A movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+521300,call,520F90,#1,1,pass,loop,,5212F0,,,,,
+5213A0,call,521370,#1,1,pass,loop,,521390,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+526A8E,call,5269D0,#1,1,pass,loop,,5269F0,,,,,3F3380
+527770,call,527650,#1,1,pass,loop,,527760,,,,,
+5277C7,call,527650,#28,40,timed,,,,,,,,
+527830,call,527650,#1,1,pass,loop,,527820,,,,,
+527900,call,527650,#1,1,pass,loop,,5278F0,,,,,
+5279E0,call,527650,#1,1,pass,loop,,5279D0,,,,,
+527A5D,call,527650,#1,1,pass,loop,,527A32,,,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,44A160
+527ACB,call,527650,#1E,30,timed,,,,,,,,
+527BA4,call,527B90,#1E,30,timed,,,,,,,,
+527C44,call,527C30,#1E,30,timed,,,,,,,,
+527DDA,call,527CD0,#1,1,pass,loop,,527DA3,,,,,
+527EC4,call,527EB0,#1E,30,timed,,,,,,,,
+528223,call,527F30,#1,1,pass,loop,,527FC0,,,,,19C850 2DBAC0 45AE30 467BC0
+5283A0,call,5282F0,#1,1,pass,loop,,528390,,,,,
+5284FA,call,5282F0,#1,1,pass,loop,,5284D0,5287FB inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+5285C8,call,5282F0,#1,1,pass,loop,,5284D0,5287FB inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+5286A6,call,5282F0,#96,150,timed,loop,,5284D0,5287FB inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+529681,call,529600,#1,1,pass,,,,,,,,
+529E90,call,529E00,#1,1,pass,loop,,529E80,,,,,1C8A20
+52A210,call,52A1A0,#1,1,pass,loop,,52A200,,,,,
+52A3C0,call,52A1A0,#1,1,pass,loop,,52A3B0,,,,,
+52A400,call,52A1A0,#1,1,pass,loop,,52A3F0,,,,,3F31F0
+52A49D,call,52A1A0,#1,1,pass,,,,,,,,
+52A4D0,call,52A1A0,#1,1,pass,loop,,52A4C0,,,,,
+52A600,call,52A1A0,#1,1,pass,loop,,52A5F0,,,,,
+52A8B0,call,52A1A0,#1,1,pass,loop,,52A8A0,,,,,
+52AFA0,call,52AE90,#1,1,pass,loop,,52AF90,,,,,
+52B573,call,52B3E0,#24,36,timed,,,,,,,,
+52B5CD,jmp,52B3E0,#144,324,timed,,,,,,,,
+52BD96,call,52BD50,#28,40,timed,,,,,,,,
+52C124,call,52C110,#28,40,timed,,,,,,,,
+52C504,call,52C4F0,#2D,45,timed,,,,,,,,
+52D772,call,52D710,#B4,180,timed,,,,,,,,
+52D80B,call,52D710,leacalc@52D804,30,timed,,,,,,,,
+52E9A0,call,52E7C0,#1,1,pass,loop,,52E990,,,,,
+52F134,call,52F120,#1E,30,timed,,,,,,,,
+52F1A5,call,52F120,#A,10,timed,,,,,,,,
+52F1F0,call,52F120,#1,1,pass,loop,,52F1E0,,,,,
+52F294,call,52F280,#1E,30,timed,,,,,,,,
+52F305,call,52F280,#A,10,timed,,,,,,,,
+52F350,call,52F280,#1,1,pass,loop,,52F340,,,,,
+52F501,call,52F490,#1E,30,timed,,,,,,,,
+52F549,call,52F490,leacalc@52F542,10,timed,,,,,,,,
+52F590,call,52F490,#1,1,pass,loop,,52F580,,,,,
+52F670,call,52F490,#1,1,pass,loop,,52F660,,,,,
+52F692,call,52F490,#1E,30,timed,,,,,,,,
+52F800,call,52F790,#1,1,pass,loop,,52F7F0,,,,,2DB310
+52F9A9,call,52F970,#1E,30,timed,,,,,,,,
+52F9F5,call,52F970,#1E,30,timed,,,,,,,,
+52FF5C,call,52FE00,#1E,30,timed,,,,,,,,
+530059,call,52FE00,#1,1,pass,loop,,530030,,,,,
+5300A0,call,52FE00,leacalc@530088,10,timed,,,,,,,,
+530120,call,52FE00,#1,1,pass,loop,,530110,"53013D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 530151 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 530165 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+530238,call,52FE00,#1,1,pass,loop,,5301A2,"5301D6 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 5301DE movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 5301E6 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 53021E movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+530390,call,52FE00,#1,1,pass,loop,,530380,,,,,
+53040E,call,52FE00,#1E,30,timed,,,,,,,,
+5305B0,call,530480,#1,1,pass,loop,,5305A0,,,,,
+53062A,call,530480,#1E,30,timed,,,,,,,,
+530A30,call,530860,#1,1,pass,loop,,530A20,"530A58 movss dword ptr [rax + 0xd20], xmm1 (read-modify-write) | 530A77 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 530A96 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 530AA5 sub dword ptr [rcx + 8], 1",,,,2DF660
+530B60,call,530860,#1,1,pass,loop,,530B50,"530B7E movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 530B9D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 530BBC movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 530BDB movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+530C0E,call,530860,#1E,30,timed,,,,,,,,
+530D1A,call,530CE0,#1,1,pass,,,,,,,,
+531164,call,531150,#1E,30,timed,,,,,,,,
+5312F0,call,531260,#1,1,pass,loop,,5312E0,,,,,
+531380,call,531260,#1,1,pass,loop,,531370,"53139D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 5313B1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 5313C5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+531487,call,531260,#1,1,pass,loop,,5313F0,"531424 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 53142C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 531434 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 53146D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+5314F1,call,531260,#1,1,pass,loop,,5312C0,"531346 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 53134E movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 531356 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 53139D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 5313B1 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 5313C5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 531424 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 53142C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 531434 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 53146D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480 2DF660
+531539,call,531500,#1E,30,timed,,,,,,,,
+531585,call,531500,#1E,30,timed,,,,,,,,
+53170B,call,5316D0,#1,1,pass,loop,,5316E1,,,,,
+533160,call,532FB0,#1,1,pass,loop,,533150,,,,,
+533244,call,532FB0,#3C,60,timed,,,,,,,,
+5334C0,call,5332C0,#1,1,pass,loop,,5334B0,,,,,
+533B80,call,533AA0,#1,1,pass,loop,,533B70,,,,,1C8A20
+533D60,call,533AA0,#1,1,pass,loop,,533D50,,,,,
+533DA0,call,533AA0,#1,1,pass,loop,,533D90,,,,,
+533FC0,call,533E40,#1,1,pass,loop,,533FB0,,,,,2DBAC0 3F3BC0
+534030,call,533E40,#1,1,pass,loop,,534020,,,,,
+534700,call,534690,#1,1,pass,loop,,5346F0,,,,,
+534820,call,5347E0,#1,1,pass,loop,,534810,,,,,
+534B30,call,534AB0,#1,1,pass,loop,,534B20,,,,,
+534BB4,call,534AB0,#1,1,pass,,,,,,,,
+534C30,call,534AB0,#1,1,pass,loop,,534C20,,,,,
+534CA0,call,534AB0,#1,1,pass,loop,,534C90,,,,,
+534E9F,call,534E30,#1E,30,timed,,,,,,,,
+534EFF,call,534E30,leacalc@534EF8,100,timed,,,,,,,,
+534F61,call,534E30,#1,1,pass,loop,,534F41,,,,,3E2B50
+534FD2,call,534E30,#32,50,timed,,,,,,,,
+535336,call,535320,#28,40,timed,,,,,,,,
+5356F0,call,535680,#1,1,pass,loop,,5356E0,,,,,
+5357A0,call,535680,#1,1,pass,loop,,535790,,,,,
+5357C2,call,535680,#F,15,timed,,,,,,,,
+535F75,call,535F20,#1,1,pass,,,,,,,,
+536070,call,535FB0,#1,1,pass,loop,,536060,,,,,1C8A20
+53629C,call,536270,#1E,30,timed,,,,,,,,
+5369F0,call,536920,#1,1,pass,loop,,5369E0,,,,,
+536DA0,call,536D50,#1,1,pass,loop,,536D90,,,,,
+536E60,call,536D50,#1,1,pass,loop,,536E50,,,,,
+537860,call,537830,#1,1,pass,loop,,537850,,,,,
+537AC9,call,537900,#1,1,pass,loop,,537AB0,"537AB0 sub edi, 1",,,,3F3220 404760
+537B60,call,537900,#1,1,pass,loop,,537B50,,,,,168F50
+537C90,call,537900,#1,1,pass,loop,,537C70,,,,,3E2B50
+537CD0,call,537900,#1,1,pass,loop,,537CC0,,,,,
+538100,call,538030,#1,1,pass,loop,,5380F0,,,,,
+5381E4,call,5381A0,leacalc@5381DC,10,timed,,538422 fps byte,,,,,,
+538260,call,5381A0,#1,1,pass,loop,538422 fps byte,538250,,,,,3F31F0
+5382EB,call,5381A0,#1,1,pass,,538422 fps byte,,,,,,
+538330,call,5381A0,#1,1,pass,loop,538422 fps byte,538320,,,,,
+538410,call,5381A0,#1,1,pass,loop,538422 fps byte,538400,,,,,
+5386E6,call,5386C0,#2D,45,timed,,,,,,,,
+5388A8,call,538800,#A,10,timed,,,,,,,,
+538910,call,538800,#1,1,pass,loop,,538900,,,,,
+53ACE0,call,53ABD0,#1,1,pass,loop,,53ACD0,,,,,
+53B1D0,call,53B0F0,#1,1,pass,loop,,53B1C0,,,,,
+53B310,call,53B230,#1,1,pass,loop,,53B300,,,,,
+53B450,call,53B370,#1,1,pass,loop,,53B440,,,,,
+53B590,call,53B4B0,#1,1,pass,loop,,53B580,,,,,
+53B6D0,call,53B5F0,#1,1,pass,loop,,53B6C0,,,,,
+53B810,call,53B730,#1,1,pass,loop,,53B800,,,,,
+53B950,call,53B870,#1,1,pass,loop,,53B940,,,,,
+53BA90,call,53B9B0,#1,1,pass,loop,,53BA80,,,,,
+53BC40,call,53BAF0,#1,1,pass,loop,,53BC30,,,,,330AE0
+53BD20,call,53BAF0,#1,1,pass,loop,,53BD10,,,,,330AC0
+53BFB0,call,53BE50,#1,1,pass,loop,,53BFA0,,,,,
+53C9A8,call,53C980,#2D,45,timed,,,,,,,,
+53C9E0,call,53C980,#1,1,pass,loop,,53C9D0,,,,,
+53CA70,call,53C980,#1,1,pass,loop,,53CA60,,,,,
+53D520,call,53D440,#1,1,pass,loop,,53D510,,,,,
+53D760,call,53D5C0,#1,1,pass,loop,,53D750,,,,,
+53D790,call,53D5C0,#1,1,pass,loop,,53D780,,,,,
+53D930,call,53D8D0,#1,1,pass,loop,,53D920,,,,,
+53DA00,call,53D8D0,#1,1,pass,loop,,53D9F0,,,,,
+53DA93,call,53D8D0,#28,40,timed,,,,,,,,
+53E290,call,53E0B0,#1,1,pass,loop,,53E280,,,,,
+53E3B5,call,53E0B0,#1,1,pass,loop,,53E3A0,"53E3A0 sub edi, 1",,,,404760
+53E770,call,53E0B0,#1,1,pass,loop,,53E760,,,,,168F50
+53E850,call,53E0B0,#1,1,pass,loop,,53E830,,,,,3E2B50
+53EB24,call,53E0B0,#3C,60,timed,,,,,,,,
+53ECF0,call,53ECA0,#1,1,pass,loop,,53ECE0,,,,,
+53ED60,call,53ECA0,#1,1,pass,loop,,53ED50,,,,,
+53F180,call,53F130,#1,1,pass,loop,,53F170,,,,,
+53F300,call,53F130,#1,1,pass,loop,,53F2F0,,,,,
+53F3EB,call,53F130,#A,10,timed,,,,,,,,
+53F420,call,53F130,#1,1,pass,loop,,53F410,,,,,
+53F500,call,53F4B0,#1,1,pass,loop,,53F4F0,,,,,
+53F5D0,call,53F4B0,#1,1,pass,loop,,53F5C0,,,,,
+53F71F,call,53F4B0,#1,1,pass,loop,,53F6C0,,,,,3F0650 4561C0 456520 456750
+53F7F0,call,53F7B0,#1,1,pass,loop,,53F7E0,,,,,
+53F81E,call,53F7B0,#1E,30,timed,,,,,,,,
+53F850,call,53F7B0,#1,1,pass,loop,,53F840,,,,,
+53F9A0,call,53F7B0,#1,1,pass,loop,,53F990,,,,,
+53FC52,call,53FB50,leacalc@53FC43,10,timed,,,,,,,,
+53FE4C,call,53FB50,#2D,45,timed,,,,,,,,
+5403D9,call,540350,#3C,60,timed,,,,,,,,
+5405D0,call,5404F0,#1,1,pass,loop,,5405C0,,,,,168F50
+540710,call,5406E0,#1,1,pass,loop,,540700,,,,,
+540AA0,call,5409A0,#1,1,pass,loop,,540A90,,,,,
+540B70,call,5409A0,#1,1,pass,loop,,540B60,,,,,
+5410B0,call,541080,#1,1,pass,loop,,5410A0,,,,,
+541190,call,541080,#1,1,pass,loop,,541180,,,,,
+541204,call,541080,#1E,30,timed,,,,,,,,
+541240,call,541080,#1,1,pass,loop,,541230,,,,,
+5414A0,call,541340,#1,1,pass,loop,,541490,,,,,330A00
+5414E0,call,541340,#1,1,pass,loop,,5414D0,,,,,
+54157D,call,541340,#1,1,pass,,,,,,,,
+5415C0,call,541340,#1,1,pass,loop,,5415B0,,,,,
+541710,call,5416B0,#1,1,pass,loop,,541700,,,,,
+541750,call,5416B0,#1,1,pass,loop,,541740,,,,,330AC0
+5417F0,call,541770,#1,1,pass,loop,,5417E0,,,,,
+541830,call,541770,#1,1,pass,loop,,541820,,,,,3309E0
+541D00,call,541C60,#1,1,pass,loop,,541CF0,,,,,
+541DC0,call,541D90,#1,1,pass,loop,,541DB0,,,,,
+541E70,call,541D90,#1,1,pass,loop,,541E60,,,,,
+541EE0,call,541EA0,#1,1,pass,loop,,541ED0,,,,,
+5423D0,call,5423A0,#1,1,pass,loop,,5423C0,,,,,
+5426C8,call,542630,#1,1,pass,,,,,,,,
+542760,call,542630,#1,1,pass,loop,,542750,,,,,
+542B1A,call,542AE0,#50,80,timed,,,,,,,,
+542C40,call,542BF0,#1,1,pass,loop,,542C30,,,,,
+542CA0,call,542BF0,#1,1,pass,loop,,542C90,,,,,
+542EC4,call,542E70,#2D,45,timed,,,,,,,,
+543768,call,543740,#1E,30,timed,,,,,,,,
+5437D9,call,543740,#F,15,timed,,,,,,,,
+543840,call,543740,#1,1,pass,loop,,543830,,,,,
+543950,call,543920,#1,1,pass,loop,,543940,,,,,
+543C74,call,543C40,#2D,45,timed,,,,,,,,
+544170,call,544130,#1,1,pass,loop,,544160,,,,,
+5449F0,call,544980,#1,1,pass,loop,,5449E0,,,,,
+544A34,call,544980,#1E,30,timed,,,,,,,,
+544A70,call,544980,#1,1,pass,loop,,544A60,,,,,
+544B30,call,544980,#1,1,pass,loop,,544B20,,,,,
+544B90,call,544980,#1,1,pass,loop,,544B80,,,,,330A20
+544BB9,call,544980,#1E,30,timed,,,,,,,,
+544C20,call,544980,#1,1,pass,loop,,544C10,,,,,330AC0
+54512C,call,545050,#1E,30,timed,,,,,,,,
+545160,call,545050,#1,1,pass,loop,,545150,,,,,
+54524F,call,545050,#F,15,timed,,,,,,,,
+545290,call,545050,#1,1,pass,loop,,545280,,,,,
+5458F0,call,545490,#1,1,pass,loop,,545600,,,,,1708A0 20E0F0 3ED200 3F3220 404440 4049B0 404A00 4379A0 4561D0 544D60 544E40
+545920,call,545490,#1,1,pass,loop,,545910,,,,,
+545980,call,545490,#1,1,pass,loop,,545970,,,,,
+545D05,call,545490,#1,1,pass,,,,,,,,
+545D40,call,545490,#1,1,pass,loop,,545D30,,,,,
+545E34,call,545490,#78,120,timed,,,,,,,,
+546020,call,545F60,#1,1,pass,loop,,545FB0,"545FB4 addss xmm6, xmm10 (carried) | 545FDA addss xmm6, xmm9 (carried)",,,,1BD480 2DF660
+546080,call,546030,#1,1,pass,loop,,546070,,,,,
+546120,call,546030,#1,1,pass,loop,,546110,,,,,
+5462B4,call,5462A0,#1E,30,timed,,,,,,,,
+548CB2,call,548BC0,#1,1,pass,,,,,,,,
+548CEA,call,548BC0,#F,15,timed,,,,,,,,
+548D5F,call,548BC0,#B4,180,timed,,,,,,,,
+548DB0,call,548BC0,#1,1,pass,loop,,548DA0,,,,,
+548E1B,call,548BC0,#1,1,pass,,,,,,,,
+548E9C,call,548BC0,#A,10,timed,,,,,,,,
+548EEF,call,548BC0,#1,1,pass,loop,,548ED0,,,,,2DBAC0 489C50
+548F17,call,548BC0,#F,15,timed,,,,,,,,
+548F99,call,548F50,#1,1,pass,,,,,,,,
+54900A,call,548F50,#1,1,pass,,,,,,,,
+5492A0,call,549230,#1,1,pass,loop,,549290,,,,,
+549420,call,549340,#1,1,pass,loop,,549410,,,,,
+5494C0,call,549340,#1,1,pass,loop,,5494B0,,,,,
+549BE0,call,549B40,#1,1,pass,loop,,549BD0,,,,,1ACD70
+549C40,call,549B40,#1,1,pass,loop,,549C30,,,,,
+549D00,call,549CD0,#1,1,pass,loop,,549CF0,,,,,
+54A117,call,54A070,#1,1,pass,,,,,,,,
+54A240,call,54A170,#1,1,pass,loop,,54A230,,,,,
+54ACD0,call,54AC30,#1,1,pass,loop,,54ACC0,,,,,1C8A20
+54AD40,call,54AC30,#1,1,pass,loop,,54AD30,,,,,
+54AE55,call,54ADC0,#1,1,pass,loop,,54AE10,,,,,2DBAC0 3F3BC0
+54AEED,call,54ADC0,#1E,30,timed,,,,,,,,
+54AF7A,call,54ADC0,#1E,30,timed,,,,,,,,
+54AFB0,call,54ADC0,#1,1,pass,loop,,54AFA0,,,,,
+54AFFD,call,54ADC0,#1,1,pass,,,,,,,,
+54B070,call,54ADC0,#1,1,pass,,,,,,,,
+54B0F0,call,54ADC0,#1,1,pass,loop,,54B0E0,,,,,
+54B112,call,54ADC0,#1,1,pass,,,,,,,,
+54B390,call,54B1C0,#1,1,pass,loop,,54B380,,,,,1C8A20
+54B3FA,call,54B1C0,#1,1,pass,,,,,,,,
+54B9B0,call,54B880,#1,1,pass,loop,,54B9A0,,,,,1C8A20
+54BD10,call,54BCC0,#1,1,pass,loop,,54BD00,,,,,
+54BD61,call,54BCC0,#1,1,pass,,,,,,,,
+54BE87,call,54BCC0,"sub(#A, phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(phi(inc(deep@54BD1C, -) | opaque@54BCDF), -) | opaque@54BCDF), -) | opaque@54BCDF), -) | opaque@54BCDF), -) | opaque@54BCDF), -) | opaque@54BCDF), -) | opaque@54BCDF))",,data,,,,,,,,
+54BEFC,call,54BCC0,#1,1,pass,loop,,54BEB0,"54BED7 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+54BF1D,call,54BCC0,#1E,30,timed,,,,,,,,
+54C010,call,54BF80,#1,1,pass,,,,,,,,
+54C072,call,54BF80,#1,1,pass,,,,,,,,
+54C0AF,call,54BF80,#1,1,pass,,,,,,,,
+54C21B,call,54C190,#1E,30,timed,,,,,,,,
+54C2E0,call,54C2B0,#1,1,pass,loop,,54C2D0,,,,,
+54CEB5,call,54CD60,#F,15,timed,,,,,,,,
+54CF01,call,54CD60,#1E,30,timed,,,,,,,,
+54CF90,call,54CD60,#1,1,pass,loop,,54CF80,,,,,
+54CFD8,call,54CD60,#1,1,pass,,,,,,,,
+54D0A0,call,54CD60,#1,1,pass,loop,,54D090,,,,,489C50
+54D0C9,call,54CD60,#F,15,timed,,,,,,,,
+54D200,call,54D0F0,#1,1,pass,loop,,54D1F0,,,,,
+54D250,call,54D0F0,#1E,30,timed,,,,,,,,
+54D2B0,call,54D0F0,#1,1,pass,loop,,54D2A0,,,,,
+54D2D8,call,54D0F0,#1E,30,timed,,,,,,,,
+54D360,call,54D0F0,#1E,30,timed,,,,,,,,
+54D3A0,call,54D0F0,#1,1,pass,loop,,54D390,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+54D3C9,call,54D0F0,#1E,30,timed,,,,,,,,
+54D40D,call,54D0F0,#3,3,timed,,,,,,,,
+54D43E,call,54D0F0,#1E,30,timed,,,,,,,,
+54D480,call,54D0F0,#1,1,pass,loop,,54D470,,,,,
+54D4A9,call,54D0F0,#1E,30,timed,,,,,,,,
+54D560,call,54D530,#1,1,pass,loop,,54D550,,,,,
+54D655,call,54D630,#1E,30,timed,,,,,,,,
+54DE60,call,54DE40,#1,1,pass,loop,,54DE50,"54DE71 sub rbx, 1",,,,3F4900
+54DF08,call,54DE40,#5,5,timed,,,,,,,,
+54DF29,call,54DE40,#5A,90,timed,,,,,,,,
+54E0C0,call,54DF70,#1,1,pass,loop,,54E0B0,,,,,
+54E0E1,call,54DF70,#1,1,pass,,,,,,,,
+54E154,call,54DF70,#1,1,pass,,,,,,,,
+54E1C0,call,54DF70,#1,1,pass,loop,,54E1B0,,,,,
+54E1E1,call,54DF70,#1,1,pass,,,,,,,,
+54E76C,call,54E6B0,#1,1,pass,,,,,,,,
+54E7BC,call,54E6B0,leacalc@54E7B5,5,timed,,,,,,,,
+54E8D0,call,54E6B0,#1,1,pass,loop,,54E8C0,,,,,
+54E930,call,54E6B0,#1,1,pass,loop,,54E920,,,,,
+54E989,call,54E6B0,#91,145,timed,,,,,,,,
+54E9C4,call,54E6B0,#1,1,pass,,,,,,,,
+54EA30,call,54E6B0,#1E,30,timed,,,,,,,,
+54EB5A,call,54E6B0,#1,1,pass,loop,,54EB30,"54EB5F sub rbx, 1",,,20E210 20E22B world_anims.h,20E210
+54EED0,call,54EDC0,leacalc@54EEC8,1,pass,,,,,,,,
+54F186,call,54EDC0,#1,1,pass,loop,,54EFC0,"54F04F mov qword ptr [rcx + 0xf38], rdx (read-modify-write) | 54F0F2 mov qword ptr [rcx + 0xf38], rdx (read-modify-write) | 54F18B sub rdi, 1",,,2DA510 2DA510 kTurnRva,2DA510 3F0110 4B9C70
+54F1A3,call,54EDC0,leacalc@54F19C,,data,,,,,,,,
+54F270,call,54EDC0,#1,1,pass,loop,,54F260,"54F2D9 movss dword ptr [rax + 0xec8], xmm0 (read-modify-write) | 54F2F8 sub rdi, 1",,,,2DA3D0 3F0110 481570
+54F698,call,54EDC0,#1,1,pass,loop,,54F5D0,"54F601 movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write) | 54F669 movss dword ptr [rax + 0xec8], xmm0 (read-modify-write) | 54F6C9 inc edi",,,,1690C0 169FF0 2DA3D0 3F0110 404760
+54F82C,call,54EDC0,#1,1,pass,,,,,,,,
+54F92D,call,54EDC0,leacalc@54F925,,data,loop,,54F880,"54F8AB movss dword ptr [rax + 0xec8], xmm0 (read-modify-write) | 54F903 movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write) | 54F932 sub r14, 1",,,,2DA3D0 3F0110
+54FA0A,call,54EDC0,#1,1,pass,loop,,54F9B0,"54F9DB movss dword ptr [rax + 0xec8], xmm0 (read-modify-write) | 54FA41 inc dil",,3E2A90 3E2ABB 60 fps flag,,2DA3D0 3E2A90 3F0110
+54FA90,call,54EDC0,#1,1,pass,loop,,54FA70,,,,,3E2B50
+54FB7C,call,54EDC0,#1,1,pass,,,,,,,,
+54FCF0,call,54EDC0,#1,1,pass,loop,,54FCE0,,,,,
+54FD2A,call,54EDC0,#1,1,pass,,,,,,,,
+54FF7C,call,54EDC0,#1,1,pass,,,,,,,,
+5500E4,call,54EDC0,#1,1,pass,,,,,,,,
+55012F,call,54EDC0,phi(#A | #A),10,timed,,,,,,,,
+550210,call,54EDC0,#1,1,pass,loop,,550200,,,,,1C8A20
+55044C,call,5503B0,#A,10,timed,,,,,,,,
+5504B0,call,5503B0,#1,1,pass,loop,,5504A0,,,,,
+55062C,call,550590,#A,10,timed,,,,,,,,
+550690,call,550590,#1,1,pass,loop,,550680,,,,,
+5509A0,call,550980,#1E,30,timed,,,,,,,,
+550A51,call,550980,#5A,90,timed,,,,,,,,
+550AC0,call,550980,#1,1,pass,loop,,550AB0,,,,,
+550C50,call,550C30,#2D,45,timed,,,,,,,,
+550CB0,call,550C30,#1,1,pass,loop,,550CA0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+550D40,call,550D10,#1,1,pass,loop,,550D30,,,,,
+550DD0,call,550D10,#1,1,pass,loop,,550DC0,,,,,
+554AA0,call,554A80,#1E,30,timed,,,,,,,,
+554B20,call,554A80,#1,1,pass,loop,,554B10,,,,,
+554B70,call,554A80,#1,1,pass,loop,,554B60,,,,,
+554C20,call,554C00,#1E,30,timed,,,,,,,,
+554C91,call,554C00,#3C,60,timed,,,,,,,,
+554CE0,call,554C00,#1,1,pass,loop,,554CD0,,,,,
+554D9B,call,554D70,#3C,60,timed,,,,,,,,
+554EC0,call,554D70,#1,1,pass,loop,,554EB0,,,,,
+554EE1,call,554D70,#1E,30,timed,,,,,,,,
+554F4C,call,554D70,#1E,30,timed,,,,,,,,
+554FF0,call,554D70,#1,1,pass,loop,,554FE0,,,,,
+555496,call,555470,#1E,30,timed,,,,,,,,
+555995,call,555950,#5A,90,timed,,,,,,,,
+555AE5,call,555AA0,#5A,90,timed,,,,,,,,
+555F9C,call,555F10,#F,15,timed,,,,,,,,
+555FE0,call,555F10,#1,1,pass,loop,,555FD0,,,,,218D10
+556001,call,555F10,#F,15,timed,,,,,,,,
+5560A5,call,556060,#1E,30,timed,,,,,,,,
+557A94,call,557A80,#1E,30,timed,,,,,,,,
+557CA6,call,557B90,#1,1,pass,loop,,557BB0,,,,,3F0650 3F3170 3F3380 3F4900 4561C0 456520 4567B0
+557CC6,call,557CB0,#1E,30,timed,,,,,,,,
+557FE9,call,557FD0,#1E,30,timed,,,,,,,,
+5580B0,call,557FD0,#1,1,pass,loop,,5580A0,,,,,
+5581C4,call,5581B0,#1E,30,timed,,,,,,,,
+558250,call,5581B0,#1,1,pass,loop,,558240,,,,,
+558377,call,558360,#1E,30,timed,,,,,,,,
+558410,call,558360,#1,1,pass,loop,,558400,,,,,
+558540,call,558360,#1,1,pass,loop,,558530,,,,,
+558610,call,558360,#1,1,pass,loop,,558600,,,,,
+55866B,call,558360,#96,150,timed,,,,,,,,
+558884,call,558870,#1E,30,timed,,,,,,,,
+558934,call,558920,#1E,30,timed,,,,,,,,
+558B80,call,558B10,#1,1,pass,loop,,558B70,,,,,
+558C90,call,558B10,#1,1,pass,loop,,558C80,,,,,
+558D00,call,558B10,#1,1,pass,loop,,558CF0,,,,,
+558E94,call,558E80,#1E,30,timed,,,,,,,,
+558F60,call,558E80,#1,1,pass,loop,,558F50,,,,,
+559009,call,558FF0,#A,10,timed,,,,,,,,
+559090,call,558FF0,#1,1,pass,loop,,559080,,,,,
+559100,call,558FF0,#1,1,pass,loop,,5590F0,,,,,
+5591A9,call,559190,#1E,30,timed,,,,,,,,
+559230,call,559190,#1,1,pass,loop,,559220,,,,,
+5592A0,call,559190,#1,1,pass,loop,,559290,,,,,
+5593E8,call,559350,#5A,90,timed,,,,,,,,
+559470,call,559350,#1,1,pass,loop,,559460,,,,,
+5594F4,call,5594E0,#1E,30,timed,,,,,,,,
+5595A0,call,5594E0,#1,1,pass,loop,,559590,,,,,
+5596DE,call,559670,#1E,30,timed,,,,,,,,
+559834,call,559820,#1E,30,timed,,,,,,,,
+559A74,call,559A60,#1E,30,timed,,,,,,,,
+559B00,call,559A60,#1,1,pass,loop,,559AF0,,,,,
+559D2C,call,559CA0,#F,15,timed,,,,,,,,
+559D70,call,559CA0,#1,1,pass,loop,,559D60,,,,,218D10
+559DAC,call,559CA0,#F,15,timed,,,,,,,,
+571A27,call,571A00,#1E,30,timed,,,,,,,,
+571D60,call,571C80,#1,1,pass,loop,,571D50,,,,,
+571E34,call,571E20,#1E,30,timed,,,,,,,,
+571F36,call,571F20,phi(#1 | #1E),,timed,loop,,571F2B,,,,,
+571FA5,call,571F20,leacalc@571F97,10,timed,,,,,,,,
+57207D,call,572000,#64,100,timed,,,,,,,,
+5720FC,call,5720C0,#1E,30,timed,,,,,,,,
+572230,call,5720C0,#1,1,pass,loop,,572220,"57225D movss dword ptr [rax], xmm1 (read-modify-write) | 572281 movss dword ptr [rax + 8], xmm1 (read-modify-write)",,,2DA510 2DA510 kTurnRva,2DA510 65D72A
+5723CE,call,5723B0,leacalc@5723CB,30,timed,,,,,,,,
+572474,call,572460,#1E,30,timed,,,,,,,,
+5724D0,call,572460,#1,1,pass,loop,,5724C0,,,,,
+572604,call,5725F0,#1E,30,timed,,,,,,,,
+572660,call,5725F0,#1,1,pass,loop,,572650,,,,,
+572794,call,572780,#1E,30,timed,,,,,,,,
+5728E4,call,5728D0,#1E,30,timed,,,,,,,,
+572A2C,call,5729E0,#1E,30,timed,,,,,,,,
+572D05,call,572B00,#1,1,pass,loop,,572B25,,,,,3EF3C0 3F0650 3F3170 3F3380 3F4900 4561C0 456520 4567B0
+572D2A,call,572D10,#1E,30,timed,,,,,,,,
+572F34,call,572F20,#1E,30,timed,,,,,,,,
+5742FB,call,5742E0,#F,15,timed,,,,,,,,
+57431C,call,5742E0,#F,15,timed,,,,,,,,
+5743A0,call,5742E0,#1,1,pass,loop,,574390,,,,,
+5743DD,call,5742E0,#1E,30,timed,,,,,,,,
+574490,call,5742E0,#1,1,pass,loop,,574480,,,,,
+574684,call,574670,#1E,30,timed,,,,,,,,
+574826,call,574720,#1,1,pass,loop,,574740,,,,,3F0650 3F3170 3F3380 3F4900 4561C0 456520 4567B0
+574846,call,574830,#1E,30,timed,,,,,,,,
+574C76,call,574B60,#1,1,pass,loop,,574B80,,,,,3F0650 3F3170 3F3380 3F4900 4561C0 456520 4567B0
+574C94,call,574C80,#28,40,timed,,,,,,,,
+574E24,call,574E10,#1E,30,timed,,,,,,,,
+574FE4,call,574FD0,#1E,30,timed,,,,,,,,
+5753D0,call,575280,#1,1,pass,loop,,5753C0,,,,,
+5753F1,call,575280,#3C,60,timed,,,,,,,,
+575590,call,5754C0,#1,1,pass,loop,,575580,,,,,
+5755B1,call,5754C0,#5A,90,timed,,,,,,,,
+57564C,call,575630,#1E,30,timed,,,,,,,,
+575830,call,575630,#1,1,pass,loop,,575820,,,,,
+57584E,call,575630,#1E,30,timed,,,,,,,,
+575974,call,575960,#1E,30,timed,,,,,,,,
+575AC0,call,575A10,#1,1,pass,loop,,575AB0,,,,,
+575AE5,call,575A10,#A,10,timed,,,,,,,,
+575C34,call,575C20,#1E,30,timed,,,,,,,,
+575E63,call,575E30,#1E,30,timed,,,,,,,,
+575F50,call,575E30,#1,1,pass,loop,,575F40,,,,,
+57609C,call,576000,#32,50,timed,,,,,,,,
+57626E,call,5761F0,leacalc@576267,30,timed,,,,,,,,
+5763FA,call,576390,#1E,30,timed,,,,,,,,
+576434,call,576390,#3C,60,timed,,,,,,,,
+57667B,call,576640,#1E,30,timed,,,,,,,,
+576750,call,576640,#1,1,pass,loop,,576740,,,,,
+57683C,call,576640,#50,80,timed,,,,,,,,
+576950,call,576930,#1E,30,timed,,,,,,,,
+5769D0,call,576930,#1,1,pass,loop,,5769C0,,,,,
+576A69,call,576A50,#28,40,timed,,,,,,,,
+576B30,call,576A50,#1,1,pass,loop,,576B20,,,,,
+576C54,call,576C40,#1E,30,timed,,,,,,,,
+576CB0,call,576C40,#1,1,pass,loop,,576CA0,,,,,
+576D94,call,576D80,#1E,30,timed,,,,,,,,
+576F55,call,576E30,leacalc@576F4E,30,timed,,,,,,,,
+576FC5,call,576E30,leacalc@576FBE,1,pass,,,,,,,,
+577036,call,576E30,#1,1,pass,loop,,577010,,,,,
+57704A,call,576E30,#A,10,timed,,,,,,,,
+5770D0,call,576E30,#1,1,pass,loop,,5770C0,"5770ED movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 577101 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 577115 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+5771E6,call,576E30,#1,1,pass,loop,,577150,"577184 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 57718C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 577194 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 5771CC movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+5775E0,call,577490,#1,1,pass,loop,,5775D0,"577600 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+577624,call,577490,#1E,30,timed,,,,,,,,
+5777C0,call,577490,#1,1,pass,loop,,5777B0,,,,,
+577850,call,577490,#1,1,pass,loop,,577840,,,,,
+57794C,call,577490,#5A,90,timed,,,,,,,,
+577A10,call,577490,#1,1,pass,loop,,577A00,,,,,
+577A31,call,577490,#1E,30,timed,,,,,,,,
+577CC0,call,577C30,#1,1,pass,loop,,577CB0,,,,,
+577D40,call,577C30,#1,1,pass,loop,,577D30,"577D5D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 577D71 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 577D85 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+577E47,call,577C30,#1,1,pass,loop,,577DB0,"577DE4 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 577DEC movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 577DF4 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 577E2D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+577EB1,call,577C30,#1,1,pass,loop,,577C90,"577D16 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 577D1E movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 577D26 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 577D5D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 577D71 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 577D85 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 577DE4 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 577DEC movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 577DF4 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 577E2D movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480 2DF660
+577ED4,call,577EC0,#1E,30,timed,,,,,,,,
+5780C0,call,577FD0,#1,1,pass,loop,,5780B0,,,,,
+578204,call,5781F0,#1E,30,timed,,,,,,,,
+5782B4,call,5782A0,#1E,30,timed,,,,,,,,
+578360,call,5782A0,#1,1,pass,loop,,578350,,,,,
+578480,call,578400,#1,1,pass,loop,,578470,,,,,
+5784A1,call,578400,#3C,60,timed,,,,,,,,
+57858F,call,578570,#1E,30,timed,,,,,,,,
+5786D0,call,578570,#1,1,pass,loop,,5786C0,,,,,
+5786F1,call,578570,#A,10,timed,,,,,,,,
+57885B,call,578800,#3C,60,timed,,,,,,,,
+5788B0,call,578800,#1,1,pass,loop,,5788A0,,,,,
+5789D0,call,578800,#1,1,pass,loop,,5789C0,,,,,
+578CCC,call,578C00,#F,15,timed,,,,,,,,
+578D10,call,578C00,#1,1,pass,loop,,578D00,,,,,218D10
+578D31,call,578C00,#F,15,timed,,,,,,,,
+580014,call,580000,#1E,30,timed,,,,,,,,
+580070,call,580000,#1,1,pass,loop,,580060,,,,,
+5801D4,call,5801C0,#1E,30,timed,,,,,,,,
+580230,call,5801C0,#1,1,pass,loop,,580220,,,,,
+580394,call,580380,#1E,30,timed,,,,,,,,
+580464,call,580450,#1E,30,timed,,,,,,,,
+580520,call,580450,#1E,30,timed,,,,,,,,
+580580,call,580450,#1,1,pass,loop,,580570,,,,,
+5805A1,call,580450,#1E,30,timed,,,,,,,,
+580754,call,580740,#1E,30,timed,,,,,,,,
+580850,call,580740,#1,1,pass,loop,,580840,,,,,
+580871,call,580740,#1E,30,timed,,,,,,,,
+5808E5,call,580740,#1E,30,timed,,,,,,,,
+580A1A,call,580A00,#1E,30,timed,,,,,,,,
+580AAE,call,580A00,leacalc@580AA7,30,timed,,,,,,,,
+580AF0,call,580A00,#1,1,pass,loop,,580AE0,,,,,
+580B9B,call,580B80,#1E,30,timed,,,,,,,,
+580C20,call,580B80,#1,1,pass,loop,,580C10,,,,,
+580CB0,call,580B80,#1,1,pass,loop,,580CA0,,,,,
+580DF4,call,580DE0,#1E,30,timed,,,,,,,,
+580E80,call,580DE0,#1,1,pass,loop,,580E70,,,,,
+581366,call,581350,#1E,30,timed,,,,,,,,
+5815C0,call,581500,#1,1,pass,loop,,5815B0,,,,,
+581660,call,581500,#1,1,pass,loop,,581650,,,,,
+581700,call,581500,#1,1,pass,loop,,5816F0,,,,,
+5817CC,call,581740,#F,15,timed,,,,,,,,
+581810,call,581740,#1,1,pass,loop,,581800,,,,,218D10
+581831,call,581740,#F,15,timed,,,,,,,,
+58191C,call,581890,#F,15,timed,,,,,,,,
+581960,call,581890,#1,1,pass,loop,,581950,,,,,218D10
+581981,call,581890,#F,15,timed,,,,,,,,
+5819F4,call,5819E0,#1E,30,timed,,,,,,,,
+581B54,call,581B40,#1E,30,timed,,,,,,,,
+581CB9,call,581CA0,#1E,30,timed,,,,,,,,
+581E14,call,581E00,#1E,30,timed,,,,,,,,
+581F74,call,581F60,#1E,30,timed,,,,,,,,
+5820D4,call,5820C0,#1E,30,timed,,,,,,,,
+582239,call,582220,#1E,30,timed,,,,,,,,
+5823A0,call,582380,#1E,30,timed,,,,,,,,
+582424,call,582380,#32,50,timed,,,,,,,,
+58254B,call,582380,#1,1,pass,loop,,582450,"58246B movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 58249A movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 5824C9 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 5824F8 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 582527 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+58266E,call,582380,#1,1,pass,loop,,582590,"58259B movss dword ptr [rbx], xmm0 (read-modify-write) | 5825C2 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 5825F1 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 582620 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write) | 582652 movss dword ptr [rbx], xmm0 (read-modify-write)",,,,2DF660
+585036,call,585020,#1E,30,timed,,,,,,,,
+585680,call,585630,#1,1,pass,loop,,585670,,,,,
+5859D0,call,585630,#1,1,pass,loop,,5859C0,,,,,
+585D10,call,585AE0,#1,1,pass,loop,,585D00,585D15 inc ebx,,,,
+585EB4,call,585AE0,#1,1,pass,loop,,585DB0,"585DCB movss dword ptr [rcx + 0xd20], xmm0 (read-modify-write) | 585DEE movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 585E11 movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write) | 585E85 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+5860BF,call,585AE0,#1,1,pass,loop,,585FD0,"586035 mov dword ptr [rcx + 0x468], eax (read-modify-write)",,,,3F0650 3F3170 404760 4561C0 456520 4567B0
+5861D0,call,585AE0,#1,1,pass,loop,,5861C0,"5861F0 movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,
+58627D,call,585AE0,#1E,30,timed,,,,,,,,
+58644D,call,5863F0,#7,7,timed,,,,,,,,
+586490,call,5863F0,#1,1,pass,loop,,586480,,,,,
+586769,call,586570,leacalc@586762,71,timed,,,,,,,,
+586960,call,5868A0,#1,1,pass,loop,,586950,"58697F movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58699A movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 5869B5 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,
+586ADA,call,5868A0,#1,1,pass,loop,,586A10,"586A23 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 586A3E movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 586A59 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 586AB1 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+58742D,call,587350,#5A,90,timed,,,,,,,,
+587D0B,call,587C40,#1,1,pass,loop,,587CE2,,,,,2DF720
+587DCC,call,587D50,#1E,30,timed,,,,,,,,
+5880AE,call,587FA0,#1,1,pass,loop,,588010,,,,,44E530
+58817D,call,588110,#1E,30,timed,,,,,,,,
+588318,call,588110,#1,1,pass,loop,,588300,,,4B9C80 4B9C89 mode byte,4B9C80 4B9CA9 mode_constants.h,4B9C80
+5885F5,call,5884F0,#1,1,pass,loop,,5885E0,"5885E0 sub dword ptr [rax], 1",,,,
+5886E3,call,5884F0,#1,1,pass,loop,,5885D1,"5885E0 sub dword ptr [rax], 1 | 588625 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58863D movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 588655 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 58867B movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 588693 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 5886AB movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 588701 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58871A movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 588733 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 58877F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480
+5887A5,call,5884F0,#1,1,pass,loop,,5886F0,"588701 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58871A movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 588733 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 58877F movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+588D0F,call,5887E0,#1,1,pass,loop,,588C10,,,,,3F3BC0 404760
+588F27,call,5887E0,#A,10,timed,,,,,,,,
+588FE0,call,5887E0,#1,1,pass,loop,,588FD0,"588FFC movss dword ptr [rcx + 0xd20], xmm0 (read-modify-write) | 58901B movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 58903A movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write)",,,,
+589083,call,5887E0,#46,70,timed,,,,,,,,
+5892D8,call,5887E0,#3C,60,timed,,,,,,,,
+589340,call,5887E0,#1,1,pass,loop,,589330,,,,,
+5893C0,call,5887E0,#1,1,pass,loop,,5893B0,,,,,
+5895E0,call,5887E0,#1,1,pass,loop,,589450,,,,,133280 1690C0 169570 169EC0 3F3170 3F4900 404760 4561C0 456520 4567B0
+589640,call,5887E0,#1,1,pass,loop,,589630,,,,,44A0F0
+5897DD,call,5887E0,#3C,60,timed,,,,,,,,
+589817,call,5887E0,#3C,60,timed,,,,,,,,
+58A8F0,call,58A870,#1,1,pass,loop,,58A8E0,,,,,
+58A920,call,58A870,#1,1,pass,loop,,58A910,,,,,
+58ABA1,call,58A870,#1,1,pass,loop,,58AB80,,,,,169040 3F3220 404760
+58AC52,call,58A870,#A,10,timed,,,,,,,,
+58AC94,call,58A870,#28,40,timed,,,,,,,,
+58AF4C,call,58AD10,#1E,30,timed,,,,,,,,
+58B3A0,call,58B270,leacalc@58B399,10,timed,,,,,,,,
+58B3C2,call,58B270,#F,15,timed,,,,,,,,
+58B40E,call,58B270,#28,40,timed,,,,,,,,
+58B652,call,58B550,#28,40,timed,,,,,,,,
+58BD24,call,58BD10,#1E,30,timed,,,,,,,,
+58BDC0,call,58BD10,#1,1,pass,loop,,58BDB0,,,,,
+58BE64,call,58BE50,#1E,30,timed,,,,,,,,
+58BEC0,call,58BE50,#1,1,pass,loop,,58BEB0,,,,,
+58C013,call,58BF90,#1E,30,timed,,,,,,,,
+58C204,call,58C1E0,#1E,30,timed,,,,,,,,
+58C404,call,58C3F0,#3C,60,timed,,,,,,,,
+58C504,call,58C4F0,#1E,30,timed,,,,,,,,
+58C654,call,58C640,#1E,30,timed,,,,,,,,
+58C704,call,58C6F0,#1E,30,timed,,,,,,,,
+58C760,call,58C6F0,#1,1,pass,loop,,58C750,,,,,
+58C85D,call,58C7E0,#B4,180,timed,,,,,,,,
+58C959,call,58C7E0,#1,1,pass,loop,,58C930,,,,,
+58C96D,call,58C7E0,#A,10,timed,,,,,,,,
+58C9F0,call,58C7E0,#1,1,pass,loop,,58C9E0,"58CA0D movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58CA21 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 58CA35 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+58CB07,call,58C7E0,#1,1,pass,loop,,58CA71,"58CAA5 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 58CAAD movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 58CAB5 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 58CAED movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+58CE90,call,58CD50,#1,1,pass,loop,,58CE80,"58CEB0 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+58CED4,call,58CD50,#1E,30,timed,,,,,,,,
+58D250,call,58D1C0,#1,1,pass,loop,,58D240,,,,,
+58D2D0,call,58D1C0,#1,1,pass,loop,,58D2C0,"58D2ED movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58D301 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 58D315 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,2DF660
+58D3D7,call,58D1C0,#1,1,pass,loop,,58D340,"58D374 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 58D37C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 58D384 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 58D3BD movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,2DF660
+58D441,call,58D1C0,#1,1,pass,loop,,58D220,"58D2A6 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 58D2AE movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 58D2B6 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 58D2ED movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 58D301 movss dword ptr [rax + 0xd24], xmm1 (read-modify-write) | 58D315 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 58D374 movss dword ptr [rax + 0xd20], xmm2 (read-modify-write) | 58D37C movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 58D384 movss dword ptr [rax + 0xd28], xmm1 (read-modify-write) | 58D3BD movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480 2DF660
+58D464,call,58D450,#1E,30,timed,,,,,,,,
+58D4C0,call,58D450,#1,1,pass,loop,,58D4B0,,,,,
+58DD8C,call,58DD00,#F,15,timed,,,,,,,,
+58DDD0,call,58DD00,#1,1,pass,loop,,58DDC0,,,,,218D10
+58DDF1,call,58DD00,#F,15,timed,,,,,,,,
+58DEC4,call,58DEB0,#1E,30,timed,,,,,,,,
+58DF50,call,58DEB0,#1,1,pass,loop,,58DF40,,,,,
+58DFE4,call,58DFD0,#1E,30,timed,,,,,,,,
+58E070,call,58DFD0,#1,1,pass,loop,,58E060,,,,,
+58E104,call,58E0F0,#1E,30,timed,,,,,,,,
+58E190,call,58E0F0,#1,1,pass,loop,,58E180,,,,,
+58E234,call,58E220,#1E,30,timed,,,,,,,,
+58E2C0,call,58E220,#1,1,pass,loop,,58E2B0,,,,,
+58E35A,call,58E340,#1E,30,timed,,,,,,,,
+58E418,call,58E340,#3,3,timed,,,,,,,,
+58E450,call,58E340,#1,1,pass,loop,,58E440,,,,,
+58E4F4,call,58E4E0,#1E,30,timed,,,,,,,,
+58E654,call,58E640,#1E,30,timed,,,,,,,,
+58E7EB,call,58E7A0,#3C,60,timed,,,,,,,,
+58E93C,call,58E7A0,#DC,220,timed,,,,,,,,
+58F734,call,58F720,#1E,30,timed,,,,,,,,
+58F823,call,58F720,#1E,30,timed,,,,,,,,
+58F890,call,58F720,#1,1,pass,loop,,58F880,,,,,
+58F8F4,call,58F8E0,#1E,30,timed,,,,,,,,
+5903E0,call,5902D0,#1,1,pass,loop,,5903D0,,,,,1C8A20
+5904C0,call,5902D0,#1,1,pass,loop,,5904B0,,,,,
+590515,call,5902D0,#1,1,pass,,,,,,,,
+590565,call,5902D0,#1,1,pass,,,,,,,,
+5905B0,call,5902D0,#1,1,pass,loop,,5905A0,,,,,
+590609,call,5902D0,#F,15,timed,,,,,,,,
+590700,call,590650,#1,1,pass,loop,,5906F0,,,,,1C8A20
+590770,call,590650,#1,1,pass,loop,,590760,,,,,
+590792,call,590650,#F,15,timed,,,,,,,,
+5912C0,call,5911C0,#1,1,pass,loop,,5912B0,,,,,
+5913C0,call,5911C0,#1,1,pass,loop,,5913B0,,,,,
+592237,call,592070,leacalc@59222F,1,pass,,,,,,,,
+592390,call,592070,#1,1,pass,loop,,592380,,,,,
+592460,call,592070,#1,1,pass,loop,,592450,,,,,
+5925C0,call,5924F0,#1,1,pass,loop,,5925B0,,,,,3055A0
+592770,call,5924F0,#1,1,pass,loop,,592760,,,,,
+59281A,call,5924F0,#3C,60,timed,,,,,,,,
+59296A,call,592910,#1E,30,timed,,,,,,,,
+592A0A,call,592910,#1E,30,timed,,,,,,,,
+592A60,call,592910,#1,1,pass,loop,,592A50,,,,,1C8A20
+592AEF,call,592910,leacalc@592AE1,15,timed,,,,,,,,
+592CA7,call,592BC0,#32,50,timed,,,,,,,,
+592CE0,call,592BC0,#1,1,pass,loop,,592CD0,,,,,
+592EFB,call,592EC0,#1E,30,timed,,,,,,,,
+592FE0,call,592EC0,#1,1,pass,loop,,592FD0,,,,,3055A0
+5949D0,call,5949A0,#1E,30,timed,,,,,,,,
+594B20,call,594AF0,#1E,30,timed,,,,,,,,
+594D6F,call,594D40,#1E,30,timed,,,,,,,,
+594F80,call,594F50,#1,1,pass,loop,,594F70,,,,,
+595170,call,595040,#1,1,pass,loop,,595160,,,,,
+595688,call,595470,#1E,30,timed,,,,,,,,
+5958CE,call,595470,#A,10,timed,,,,,,,,
+595910,call,595470,#1E,30,timed,,,,,,,,
+595E0D,call,595B10,leacalc@595DFF,90,timed,,,,,,,,
+596000,call,595FD0,#1,1,pass,loop,,595FF0,,,,,
+5960B0,call,595FD0,#1,1,pass,loop,,5960A0,,,,,
+596940,call,596860,#1,1,pass,loop,,596930,,,,,
+596CE0,call,596C80,#1,1,pass,loop,,596CD0,,,,,
+596D60,call,596C80,#1,1,pass,loop,,596D50,,,,,
+596DC0,call,596C80,#1,1,pass,loop,,596DB0,,,,,
+596E60,call,596C80,#1,1,pass,loop,,596E50,,,,,
+596FB3,call,596C80,#D,13,timed,,,,,,,,
+5972C0,call,597200,#1,1,pass,loop,,5972B0,,,,,
+59737B,call,597200,#1E,30,timed,,,,,,,,
+5973E0,call,597200,#1,1,pass,loop,,5973D0,,,,,1C8A20
+5976DE,call,597590,#1,1,pass,loop,,5975B0,,,,,3EEC80 3F0110 446490 5976F0
+597BA4,call,597B30,#28,40,timed,,,,,,,,
+597D7F,call,597CB0,leacalc@597D78,1,pass,,,,,,,,
+597DE0,call,597CB0,#1,1,pass,loop,,597DD0,,,,,
+597E60,call,597CB0,#1,1,pass,loop,,597E50,,,,,
+597F00,call,597CB0,#1,1,pass,loop,,597EF0,,,,,
+597FD0,call,597CB0,#2D,45,timed,,,,,,,,
+598080,call,597CB0,#1,1,pass,loop,,598070,,,,,
+599A7E,call,5999E0,#2D,45,timed,,,,,,,,
+59C4C6,call,59C4A0,#1E,30,timed,,,,,,,,
+59C58B,call,59C4A0,leacalc@59C584,35,timed,,,,,,,,
+59C5F2,call,59C4A0,leacalc@59C5EB,5,timed,,,,,,,,
+59C621,call,59C4A0,leacalc@59C61A,55,timed,,,,,,,,
+59C650,call,59C4A0,#1,1,pass,loop,,59C640,,,,,
+59C671,call,59C4A0,#5A,90,timed,,,,,,,,
+59CC2A,call,59CBF0,#1E,30,timed,,,,,,,,
+59CC70,call,59CBF0,#1,1,pass,loop,,59CC60,,,,,
+59CD25,call,59CCE0,#1E,30,timed,,,,,,,,
+59CD71,call,59CCE0,#2D,45,timed,,,,,,,,
+59CDD0,call,59CCE0,#1,1,pass,loop,,59CDC0,,,,,
+59CE57,call,59CE30,#1E,30,timed,,,,,,,,
+59CE9C,call,59CE30,#1,1,pass,,,,,,,,
+59CF00,call,59CE30,#1,1,pass,loop,,59CEF0,,,,,
+59CF90,call,59CE30,#1E,30,timed,loop,,59CF80,"59CFFA sub rsi, 1",,,,5ABDA0 5AC910
+59D030,call,59CE30,#1,1,pass,loop,,59D020,,,,,
+59D130,call,59D070,#1,1,pass,loop,,59D120,,,,,
+59D1A0,call,59D070,#1,1,pass,loop,,59D190,,,,,
+59D2C5,call,59D230,leacalc@59D2AD,30,timed,,,,,,,,
+59D35C,call,59D230,#1E,30,timed,,,,,,,,
+59D4DA,call,59D230,#1,1,pass,loop,,59D490,,,,,404760
+59D680,call,59D230,#1,1,pass,loop,,59D670,"59D68D movss dword ptr [rdi], xmm0 (read-modify-write) | 59D69D movss dword ptr [rbx + 0xd24], xmm1 (read-modify-write) | 59D6B1 movss dword ptr [rbx + 0xd28], xmm0 (read-modify-write)",,,,
+59D6F4,call,59D230,#1E,30,timed,,,,,,,,
+59D840,call,59D230,#1,1,pass,loop,,59D830,,,,,43B0E0
+59D900,call,59D230,#1,1,pass,loop,,59D8F0,,,,,1C8A20
+59D970,call,59D230,#1,1,pass,loop,,59D960,,,,,
+59DA40,call,59DA00,#1,1,pass,loop,,59DA30,,,,,22F550
+59DA9C,call,59DA00,#1E,30,timed,,,,,,,,
+59DC0C,call,59DAC0,leacalc@59DC05,1,pass,,,,,,,,
+59DC98,call,59DAC0,#1,1,pass,loop,,59DC20,"59DC37 addss xmm6, xmm7 (carried)",,,,22F550 2DBAC0 3F3BC0
+59DCFF,call,59DAC0,#1E,30,timed,,,,,,,,
+59DF50,call,59DEA0,#1,1,pass,loop,,59DF40,,,,,22F560
+59DFA7,call,59DEA0,#4,4,timed,,,,,,,,
+59E061,call,59DEA0,#1,1,pass,loop,,59DFE0,59E066 inc sil,,439D60 439D6A frame counter,,2DBAC0 3F3BC0 439D60
+59E601,call,59E580,leacalc@59E5F1,1,pass,,,,,,,,
+59E7C5,call,59E580,#1,1,pass,loop,,59E700,,,,,168D70 3F0650 3F3170 404760 4561C0 456520 4567B0
+59E830,call,59E580,#1,1,pass,loop,,59E820,"59E841 sub rbx, 1",,,,3F4900
+59EBB2,call,59EB80,#1E,30,timed,,,,,,,,
+59EF6D,call,59EE70,#1,1,pass,loop,,59EF22,"59EF72 sub rbx, 1",,,,2DBAC0 3F3BC0
+59F06B,call,59EE70,#1,1,pass,loop,,59F020,"59F070 sub rbx, 1",,,,2DBAC0 3F3BC0
+59F0B0,call,59EE70,#1,1,pass,loop,,59F0A0,,,,,
+59F0D1,call,59EE70,#1E,30,timed,,,,,,,,
+59F10F,call,59EE70,#1E,30,timed,,,,,,,,
+59F13D,call,59EE70,#78,120,timed,,,,,,,,
+59F252,call,59F230,#1E,30,timed,,,,,,,,
+59F280,call,59F230,#1,1,pass,loop,,59F270,,,,,
+59F340,call,59F230,#1,1,pass,loop,,59F330,,,,,3F31F0
+59F570,call,59F540,#1,1,pass,loop,,59F560,,,,,
+59F658,call,59F540,leacalc@59F651,60,timed,,,,,,,,
+59F6D6,call,59F540,leacalc@59F6CF,20,timed,,,,,,,,
+59F6FB,call,59F540,leacalc@59F6F4,40,timed,,,,,,,,
+59F720,call,59F540,#1,1,pass,loop,,59F710,,,,,
+59F8A0,call,59F780,#1,1,pass,loop,,59F890,,,,,218D10
+59F95F,call,59F780,#F,15,timed,,,,,,,,
+59FA40,call,59F9D0,#1,1,pass,loop,,59FA30,,,,,
+59FAB0,call,59FA70,#1,1,pass,loop,,59FAA0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+59FB90,call,59FB00,#1,1,pass,loop,,59FB80,,,,,
+59FC40,call,59FC20,#1E,30,timed,,,,,,,,
+59FCC0,call,59FC20,#1,1,pass,loop,,59FCB0,,,,,
+59FDC5,call,59FD10,#1,1,pass,loop,,59FDB0,"59FDB0 sub dword ptr [rax], 1",,,,
+59FE88,call,59FD10,#1,1,pass,loop,,59FDE0,"59FE08 movss dword ptr [rdi + 0xd20], xmm0 (read-modify-write) | 59FE1C movss dword ptr [rdi + 0xd28], xmm1 (read-modify-write) | 59FE24 movss dword ptr [rdi + 0xd24], xmm0 (read-modify-write) | 59FE5E movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 59FE66 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 59FE6E movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write)",,,,
+59FF2B,call,59FD10,#1,1,pass,loop,,59FEA0,"59FEC8 movss dword ptr [rbx + 0xd20], xmm2 (read-modify-write) | 59FED0 movss dword ptr [rbx + 0xd24], xmm0 (read-modify-write) | 59FED8 movss dword ptr [rbx + 0xd28], xmm1 (read-modify-write) | 59FF11 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write)",,,,
+59FFF0,call,59FFD0,#1E,30,timed,,,,,,,,
+5A0070,call,59FFD0,#1,1,pass,loop,,5A0060,,,,,
+5A0112,call,5A00F0,#1E,30,timed,,,,,,,,
+5A01E0,call,5A00F0,#1,1,pass,loop,,5A01D0,,,,,
+5A0290,call,5A00F0,#1,1,pass,loop,,5A0280,,,,,1C8A20
+5A03A8,call,5A0380,#1E,30,timed,,,,,,,,
+5A0430,call,5A0380,#1,1,pass,loop,,5A0420,,,,,1C8A20
+5A04B0,call,5A0380,#1,1,pass,loop,,5A04A0,,,,,
+5A0590,call,5A0530,#1,1,pass,loop,,5A0580,,,,,
+5A05F2,call,5A0530,#1,1,pass,,,,,,,,
+5A0670,call,5A0530,#1,1,pass,loop,,5A0660,,,,,
+5A06F9,call,5A06A0,leacalc@5A06F2,30,timed,,,,,,,,
+5A078A,call,5A06A0,leacalc@5A0783,15,timed,,,,,,,,
+5A0867,call,5A06A0,#1,1,pass,loop,,5A07D0,"5A07E3 movss dword ptr [rbx + 0xd2c], xmm0 (read-modify-write) | 5A0815 movss dword ptr [rbx + 0xd20], xmm0 (read-modify-write) | 5A0833 movss dword ptr [rbx + 0xd20], xmm0 (read-modify-write) | 5A0847 movss dword ptr [rbx + 0xd28], xmm0 (read-modify-write) | 5A0854 movss dword ptr [rbx + 0xd24], xmm1 (read-modify-write) | 5A086C inc sil",,,,
+5A08A2,call,5A06A0,#5A,90,timed,,,,,,,,
+5A0940,call,5A08F0,#1,1,pass,loop,,5A0930,,,,,
+5A09B0,call,5A08F0,#1,1,pass,loop,,5A09A0,,,,,
+5A09DE,call,5A08F0,#3C,60,timed,,,,,,,,
+5A0A68,call,5A08F0,leacalc@5A0A5F,90,timed,,,,,,,,
+5A0AA0,call,5A08F0,#1,1,pass,loop,,5A0A90,,,,,
+5A0D30,call,5A0CC0,#1,1,pass,loop,,5A0D20,,,,,
+5A0DA0,call,5A0CC0,#1,1,pass,loop,,5A0D90,,,,,
+5A0DCE,call,5A0CC0,#3C,60,timed,,,,,,,,
+5A0E58,call,5A0CC0,leacalc@5A0E4F,90,timed,,,,,,,,
+5A0E90,call,5A0CC0,#1,1,pass,loop,,5A0E80,,,,,
+5A10FD,call,5A10B0,#1E,30,timed,,,,,,,,
+5A1200,call,5A11E0,#2,2,timed,,,,,,,,
+5AD9EC,call,5AD8F0,#1E,30,timed,,,,,,,,
+5ADA90,call,5AD8F0,#1,1,pass,loop,,5ADA80,"5ADAA5 movss dword ptr [rax + 4], xmm0 (read-modify-write) | 5ADADC inc di",,439D60 439D6A frame counter,,439D60
+5ADC1C,call,5ADBD0,#1E,30,timed,,,,,,,,
+5ADC68,call,5ADBD0,#1,1,pass,,,,,,,,
+5ADCD3,call,5ADBD0,#1E,30,timed,,,,,,,,
+5ADD10,call,5ADBD0,#1,1,pass,loop,,5ADD00,,,,,
+5ADD31,call,5ADBD0,#46,70,timed,,,,,,,,
+5ADDF0,call,5ADDA0,#1,1,pass,loop,,5ADDE0,,,,,
+5ADE90,call,5ADDA0,#1,1,pass,loop,,5ADE80,,,,,
+5AE880,call,5AE7D0,#1,1,pass,loop,,5AE870,,,,,1C8A20
+5AECDE,call,5AEB10,#F,15,timed,,,,,,,,
+5AFAB8,call,5AFA20,#F,15,timed,,,,,,,,
+5AFB10,call,5AFA20,#1,1,pass,loop,,5AFB00,,,,,1C8A20
+5AFC36,call,5AFBA0,#F,15,timed,,,,,,,,
+5AFD75,call,5AFCA0,#F,15,timed,,,,,,,,
+5AFE42,call,5AFE00,#1E,30,timed,,,,,,,,
+5AFE5F,call,5AFE00,#3C,60,timed,,,,,,,,
+5B0180,call,5B0120,#1,1,pass,loop,,5B0170,,,,,1C8A20
+5B02A0,call,5B0120,#1,1,pass,loop,,5B0290,,,,,1C8A20
+5B2CF9,call,5B2CC0,#1E,30,timed,,,,,,,,
+5B2DF0,call,5B2D50,#1,1,pass,loop,,5B2DE0,,,,,
+5B2F4A,call,5B2D50,#1,1,pass,loop,,5B2F20,5B325B inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 1C8770 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+5B3024,call,5B2D50,#1,1,pass,loop,,5B2F20,5B325B inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 1C8770 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+5B30FE,call,5B2D50,#96,150,timed,loop,,5B2F20,5B325B inc esi,,,,168EF0 169060 1690C0 169EC0 198670 1989F0 1C8770 3F0650 3F35F0 3F3640 3F4730 3F4900 404760 4561C0 456520 456750
+5B32E0,call,5B32A0,#1,1,pass,loop,,5B32D0,,,,,
+5B34FA,call,5B33F0,#1,1,pass,loop,,5B34C3,,,,,
+5B3856,call,5B3640,#1,1,pass,loop,,5B36D0,,,,,2DBAC0 5B2BE0
+5B3D21,call,5B3920,#1,1,pass,loop,,5B39D4,"5B3A82 mulss xmm6, xmm8 (carried) | 5B3D2D dec dword ptr [rax + 8] | 5B3D30 dec dword ptr [rax + 0xc] | 5B3D33 dec dword ptr [rax + 0x10]",,,,1BD240 1BD590 279DB0 2DA050 2DBAC0 3CEA70
+5B3D5A,call,5B3D40,#1E,30,timed,,,,,,,,
+5B3E07,call,5B3D40,leacalc@5B3E00,40,timed,,,,,,,,
+5B480D,call,5B47C0,#1E,30,timed,,,,,,,,
+5B5CA0,call,5B5BF0,#1,1,pass,loop,,5B5C90,"5B5CC8 movss dword ptr [rbx + r8], xmm0 (read-modify-write) | 5B5CE6 mov dword ptr [rbx + r8 - 0x24], eax (read-modify-write) | 5B5CF5 mov dword ptr [rbx + r8 - 0x24], eax (read-modify-write) | 5B5D09 movss dword ptr [rbx + r8], xmm0 (read-modify-write)",,,,1BD480 4BBDD0
+5B5FD0,call,5B5F20,#1,1,pass,loop,,5B5FC0,,,,,
+5B60F3,call,5B5F20,leacalc@5B60EC,,data,,,,,,,,
+5B612A,call,5B5F20,#1E,30,timed,,,,,,,,
+5B6358,call,5B6220,leacalc@5B6351,,data,,,,,,,,
+5B639A,call,5B6220,#1E,30,timed,,,,,,,,
+5B65CA,call,5B6490,leacalc@5B65C3,,data,,,,,,,,
+5B660A,call,5B6490,#1E,30,timed,,,,,,,,
+5B6691,call,5B6650,#1E,30,timed,,,,,,,,
+5B67AD,call,5B6650,#1E,30,timed,,,,,,,,
+5B68C4,call,5B6650,leacalc@5B68BD,,data,,,,,,,,
+5B68FA,call,5B6650,#1E,30,timed,,,,,,,,
+5B693F,call,5B6650,#1E,30,timed,,,,,,,,
+5B832A,call,5B8220,#1,1,pass,loop,,5B82F3,,,,,
+5B85A6,call,5B8390,#1,1,pass,loop,,5B8420,,,,,2DBAC0 5B8140
+5BA352,call,5BA290,#1E,30,timed,,,,,,,,
+5BA5BA,call,5BA3D0,#1E,30,timed,,,,,,,,
+5BA9A5,call,5BA830,#1,1,pass,loop,,5BA980,,,,,169040 404760
+5BA9F5,call,5BA830,#A,10,timed,,,,,,,,
+5BAA37,call,5BA830,#28,40,timed,,,,,,,,
+5BAB4D,call,5BA830,#1E,30,timed,,,,,,,,
+5BAB62,call,5BA830,#A,10,timed,,,,,,,,
+5BACAA,call,5BABC0,leacalc@5BACA3,10,timed,,,,,,,,
+5BACD0,call,5BABC0,leacalc@5BACC9,20,timed,,,,,,,,
+5BB8C0,call,5BB6D0,#1,1,pass,loop,,5BB8B0,,,,,3055A0
+5BD2E2,call,5BD280,#1,1,pass,,,,,,,,
+5BDFF0,call,5BDFA0,#1,1,pass,loop,,5BDFE0,,,,,3CE890
+5BE1B0,call,5BE130,#1,1,pass,loop,,5BE1A0,,,,,3CE890
+5BE2F0,call,5BE270,#1,1,pass,loop,,5BE2E0,,,,,3CE890
+5BE3B0,call,5BE330,#1,1,pass,loop,,5BE3A0,,,,,3CE890
+5BE480,call,5BE400,#1,1,pass,loop,,5BE470,,,,,3CE890
+5BE570,call,5BE4D0,#1,1,pass,loop,,5BE560,,,,,3CE890
+5BE68F,call,5BE5C0,#3C,60,timed,,,,,,,,
+5BE830,call,5BE6C0,#1,1,pass,loop,,5BE820,,,,,1C8A20
+5BE8A0,call,5BE6C0,#1,1,pass,loop,,5BE890,,,,,5BB3C0
+5BE8CC,call,5BE6C0,#1E,30,timed,,,,,,,,
+5BE91D,call,5BE6C0,#1E,30,timed,,,,,,,,
+5BE9B6,call,5BE960,#1,1,pass,,,,,,,,
+5BED10,call,5BEBF0,#1,1,pass,loop,,5BED00,,,,,
+5BEF20,call,5BEDD0,#1,1,pass,loop,,5BEF10,,,,,
+5BF050,call,5BEDD0,#1,1,pass,loop,,5BF040,,,,,
+5BF0C3,call,5BEDD0,#A,10,timed,,,,,,,,
+5BF0F0,call,5BEDD0,#1,1,pass,loop,,5BF0E0,,,,,3055A0
+5BF400,call,5BF3B0,#1,1,pass,loop,,5BF3F0,,,,,3CE890
+5BF440,call,5BF3B0,#1,1,pass,loop,,5BF430,,,,,
+5BF4A0,call,5BF3B0,#1,1,pass,loop,,5BF490,,,,,
+5BF560,call,5BF510,#1,1,pass,loop,,5BF550,,,,,
+5BF850,call,5BF790,#1,1,pass,loop,,5BF840,,,,,
+5BF919,call,5BF790,#1E,30,timed,,,,,,,,
+5BF950,call,5BF790,#1,1,pass,loop,,5BF940,,,,,3055A0
+5BFAE0,call,5BFA20,#1,1,pass,loop,,5BFAD0,,,,,
+5BFB70,call,5BFA20,#1,1,pass,loop,,5BFB60,,,,,
+5BFB91,call,5BFA20,#3C,60,timed,,,,,,,,
+5BFBB4,call,5BFA20,#F,15,timed,,,,,,,,
+5BFBF0,call,5BFA20,#1,1,pass,loop,,5BFBE0,,,,,3055A0
+5BFD50,call,5BFC40,#1,1,pass,loop,,5BFD40,,,,,
+5BFE37,call,5BFC40,#1E,30,timed,,,,,,,,
+5BFE70,call,5BFC40,#1,1,pass,loop,,5BFE60,,,,,3055A0
+5BFF20,call,5BFED0,#1,1,pass,loop,,5BFF10,,,,,
+5C0010,call,5BFED0,#1,1,pass,loop,,5C0000,,,,,
+5C01C0,call,5C00E0,#1,1,pass,loop,,5C01B0,,,,,3055A0
+5C0340,call,5C02E0,#1,1,pass,loop,,5C0330,,,,,3E2B50
+5C03A0,call,5C02E0,#1,1,pass,loop,,5C0390,,,,,
+5C04E0,call,5C02E0,#1,1,pass,loop,,5C04D0,,,,,
+5C0620,call,5C05E0,#1,1,pass,loop,,5C05F0,,,,,
+5C08EC,call,5C0890,leacalc@5C08E5,15,timed,,,,,,,,
+5C0933,call,5C0890,leacalc@5C0929,60,timed,,,,,,,,
+5C0960,call,5C0890,#1,1,pass,loop,,5C0950,,,,,1C8A20
+5C0AC0,call,5C0890,#1,1,pass,loop,,5C0AB0,,,,,
+5C0B96,jmp,5C0890,#3C,60,timed,,,,,,,,
+5C0F10,call,5C0E90,#1,1,pass,loop,,5C0F00,,,,,3CE890
+5C0FE0,call,5C0F50,#1,1,pass,loop,,5C0FD0,,,,,3CE890
+5C1060,call,5C0F50,#1,1,pass,loop,,5C1050,,,,,1C8A20
+5C108A,call,5C0F50,#1,1,pass,,,,,,,,
+5C2DB0,call,5C2CE0,#1,1,pass,loop,,5C2DA0,,,,,
+5C2EC0,call,5C2CE0,#1,1,pass,loop,,5C2EB0,,,,,
+5C2EE1,call,5C2CE0,#F,15,timed,,,,,,,,
+5C2FD0,call,5C2CE0,#1,1,pass,loop,,5C2FC0,,,,,
+5C3050,call,5C3000,#1,1,pass,loop,,5C3040,,,,,
+5C30C0,call,5C3000,#1,1,pass,loop,,5C30B0,,,,,
+5C3190,call,5C3130,#1,1,pass,loop,,5C3180,,,,,3CE890
+5C33A0,call,5C3350,#1,1,pass,loop,,5C3390,,,,,
+5C3440,call,5C3350,#1,1,pass,loop,,5C3430,,,,,
+5C34A0,call,5C3350,#1,1,pass,loop,,5C3490,,,,,
+5C34C1,call,5C3350,#1E,30,timed,,,,,,,,
+5C34E4,call,5C3350,#F,15,timed,,,,,,,,
+5C3580,call,5C3350,#1,1,pass,loop,,5C3570,,,,,
+5C35A1,call,5C3350,#1E,30,timed,,,,,,,,
+5C3980,call,5C3930,#1,1,pass,loop,,5C3970,,,,,3CE890
+5C3A70,call,5C39D0,#1,1,pass,loop,,5C3A60,,,,,3CE890
+5C3CB0,call,5C3C50,#1,1,pass,loop,,5C3CA0,,,,,3E2B50
+5C3D10,call,5C3C50,#1,1,pass,loop,,5C3D00,,,,,
+5C3DA0,call,5C3C50,#1,1,pass,loop,,5C3D90,,,,,
+5C3F20,call,5C3EE0,#1,1,pass,loop,,5C3EF0,,,,,
+5F7060,call,5F6FD0,#1,1,pass,loop,,5F7050,,,,,189170
+5F70F0,call,5F6FD0,#1,1,pass,loop,,5F70E0,,,,,403CF0
+5F7160,call,5F6FD0,#1,1,pass,loop,,5F7150,,,,,
+5F719B,call,5F6FD0,#F,15,timed,,,,,,,,
+5F71F0,call,5F6FD0,#1,1,pass,loop,,5F71E0,,,,,403CF0
+5F7246,call,5F6FD0,#F,15,timed,,,,,,,,
+5F72E0,call,5F6FD0,#1,1,pass,loop,,5F72C8,,,,,
+5F7350,call,5F6FD0,#F,15,timed,,,,,,,,
+5F73A0,call,5F6FD0,#1,1,pass,loop,,5F7390,,,,,403CF0
+5F73EA,call,5F6FD0,#F,15,timed,,,,,,,,
+5F7410,call,5F6FD0,#1E,30,timed,,,,,,,,
+5F74D0,call,5F6FD0,#1,1,pass,loop,,5F74C0,,,,,
+5F7510,call,5F6FD0,#1,1,pass,loop,,5F7500,,,,,
+5F75D0,call,5F6FD0,#1,1,pass,loop,,5F75C0,,,,,3E2B50
+5F7606,call,5F6FD0,#F,15,timed,,,,,,,,
+5F77C0,call,5F76E0,#1,1,pass,loop,,5F77B0,,,,,
+5F820B,call,5F8190,#1,1,pass,loop,,5F81E0,,,,,
+5F8341,call,5F8250,#1,1,pass,loop,,5F8310,,,,,
+5F83D0,call,5F8390,#1,1,pass,loop,,5F83C0,,,,,
+5F84C0,call,5F8390,#1,1,pass,loop,,5F84B0,,,,,3F2E00
+5F8B0A,call,5F8600,#1,1,pass,loop,,5F8A67,5F8B0F inc ebx,,4B9C80 4B9C89 mode byte,4B9C80 4B9CA9 mode_constants.h,198670 1989F0 44E3C0 4B9C80
+5F90F2,call,5F8C10,#1,1,pass,loop,,5F8DB0,"5F8E5F subss xmm8, xmm0 (carried) | 5F8E7E subss xmm7, xmm0 (carried)",,,,3E0260 3E21E0 4A36B0
+5F91C0,call,5F9180,#1,1,pass,loop,,5F91B0,,,,,
+5F9290,call,5F9180,#1,1,pass,loop,,5F9280,,,,,
+5F96C0,call,5F9340,#1,1,pass,loop,,5F96B0,,,,,23E520
+5F96F0,call,5F9340,#1,1,pass,loop,,5F96E0,,,,,
+5F9770,call,5F9340,#1,1,pass,loop,,5F9760,,,,,
+5FD020,call,5FCE90,#1,1,pass,loop,,5FD010,,,,,
+5FD0B0,call,5FCE90,#1,1,pass,loop,,5FD0A0,,,,,
+5FD1E0,call,5FD140,#1,1,pass,loop,,5FD1D0,,,,,
+5FE678,call,5FE630,#1,1,pass,,,,,,,,
+5FE702,call,5FE690,#1,1,pass,,,,,,,,
+5FE82F,call,5FE690,#1,1,pass,,,,,,,,
+5FE926,call,5FE8C0,#1,1,pass,,,,,,,,
+5FEA6E,call,5FE8C0,#1,1,pass,,,,,,,,
+603F30,call,603AB0,#1,1,pass,loop,,603F20,,,,,1AF560
+6097A2,call,609520,#1,1,pass,loop,,609530,,602F90 6059A0 > 3F1830 > 13A7D0 > 13A841,602F90 6033A1 mode byte,602F90 6033A1 shadow_mode.h,2DBAC0 4B6EA0 602F90
+60A712,call,60A650,#A,10,timed,,,,,,,,
+60A759,call,60A650,#A,10,timed,,,,,,,,
+60A7A0,call,60A650,#14,20,timed,,,,,,,,
+60A9AC,call,60A7D0,#1,1,pass,loop,,60A820,60A8AE inc dword ptr [rax + 0xc],,,,2DF660 3F1790 437870
+60B0C0,call,60B090,#1,1,pass,loop,,60B0B0,,,,,
+60B100,call,60B090,#1,1,pass,loop,,60B0F0,,,,,
+60B2A0,call,60B090,#1,1,pass,loop,,60B290,,,,,
+60B2D0,call,60B090,#1,1,pass,loop,,60B2C0,,,,,
+60B4FB,call,60B4D0,#32,50,timed,,,,,,,,
+60B5C0,call,60B4D0,#1,1,pass,loop,,60B5B0,,,,,1C8A20
+60B630,call,60B4D0,#1,1,pass,loop,,60B620,,,,,
+60B680,call,60B4D0,#1,1,pass,loop,,60B670,,,,,1C8A20
+60B6F0,call,60B4D0,#1,1,pass,loop,,60B6E0,,,,,
+60B740,call,60B4D0,#1,1,pass,loop,,60B730,,,,,1C8A20
+60B7B0,call,60B4D0,#1,1,pass,loop,,60B7A0,,,,,
+60B813,call,60B4D0,#2D,45,timed,,,,,,,,
+60B894,call,60B880,#3C,60,timed,,,,,,,,
+60B9F0,call,60B930,#1,1,pass,loop,,60B9E0,,,,,
+60C4A0,call,60C0E0,#1,1,pass,loop,,60C490,,,,,1C8A20
+60C500,call,60C0E0,#1,1,pass,loop,,60C4F0,,,,,1C8A20
+60C589,call,60C0E0,#2D,45,timed,,,,,,,,
+60C625,call,60C0E0,#C,12,timed,,,,,,,,
+60C790,call,60C0E0,#1,1,pass,loop,,60C780,,,,,1C8A20
+60CBBB,call,60CAB0,#A,10,timed,,,,,,,,
+60CD20,call,60CBD0,#1,1,pass,loop,,60CD10,,,,,
+60D090,call,60CFA0,#1,1,pass,loop,,60D080,,,,,1C8A20
+60D130,call,60CFA0,#1,1,pass,loop,,60D120,,,,,1C8A20
+60D1A0,call,60CFA0,#1,1,pass,loop,,60D190,,,,,
+60D1C1,call,60CFA0,#5A,90,timed,,,,,,,,
+60D230,call,60CFA0,#1,1,pass,loop,,60D220,,,,,1C8A20
+60D290,call,60CFA0,#1,1,pass,loop,,60D280,,,,,1C8A20
+60D3E0,call,60CFA0,#1,1,pass,loop,,60D3D0,,,,,44A0F0
+60D542,call,60CFA0,#1,1,pass,loop,,60D4E0,,,,,
+60D580,call,60CFA0,#1,1,pass,loop,,60D570,"60D585 sub rbx, 1",,,,
+60D710,call,60D620,#1,1,pass,loop,,60D700,,,,,1C8A20
+60D870,call,60D620,#1,1,pass,loop,,60D860,,,,,44A0F0
+60D9D2,call,60D620,#1,1,pass,loop,,60D970,,,,,
+60DA00,call,60D620,#1,1,pass,loop,,60D9F0,"60DA05 sub rbx, 1",,,,
+60DA64,call,60D620,#3C,60,timed,,,,,,,,
+60DB18,call,60D620,#32,50,timed,,,,,,,,
+60DCDA,call,60D620,#1,1,pass,loop,,60DC10,"60DCDF add esi, -1",,,,3F33A0
+60DD4C,call,60D620,#1,1,pass,loop,,60DCF0,,,,,
+60DD67,call,60D620,#1E,30,timed,,,,,,,,
+60E3B0,call,60E370,#1,1,pass,loop,,60E3A0,,,,,
+60E41C,call,60E370,#1,1,pass,,,,,,,,
+60E442,call,60E370,#1,1,pass,,,,,,,,
+60E4FD,call,60E370,#1,1,pass,,,,,,,,
+60E610,call,60E370,#1,1,pass,loop,,60E600,,,,,1C8A20
+60E6D0,call,60E370,#1,1,pass,loop,,60E6C0,,,,,44A0F0
+60E70E,call,60E370,#1E,30,timed,,,,,,,,
+60E74A,call,60E370,#5A,90,timed,,,,,,,,
+60EE32,call,60ED70,#A,10,timed,,,,,,,,
+60EE79,call,60ED70,#A,10,timed,,,,,,,,
+60EEC0,call,60ED70,#1E,30,timed,,,,,,,,
+60EFB2,call,60EEF0,#A,10,timed,,,,,,,,
+60EFF9,call,60EEF0,#A,10,timed,,,,,,,,
+60F040,call,60EEF0,#1E,30,timed,,,,,,,,
+60F27B,call,60F070,#1,1,pass,loop,,60F0E0,60F174 inc dword ptr [rax + 0x294],,,,2DF660 3F1790 437870
+610292,call,610220,#1,1,pass,loop,,610270,,,,,3F3190 3F31F0
+610480,call,610400,#1,1,pass,loop,,610470,,,,,
+6104CD,call,610400,#1,1,pass,,,,,,,,
+6104EC,call,610400,#1,1,pass,,,,,,,,
+6106D9,call,610400,#1,1,pass,,,,,,,,
+610715,call,610400,#1,1,pass,,,,,,,,
+610800,call,610400,#1,1,pass,loop,,6107F0,,,,,1C8A20
+6108ED,call,6108B0,#14,20,timed,,,,,,,,
+610980,call,6108B0,#1,1,pass,loop,,610970,,,,,1C8A20
+6109EF,call,6108B0,#A,10,timed,,,,,,,,
+610A18,call,6108B0,#5A,90,timed,,,,,,,,
+610AF6,call,6108B0,#1,1,pass,loop,,610AA0,"610AC6 movss dword ptr [rsp + 0x34], xmm0 (read-modify-write) | 610AFB sub rdi, 1",,,,481570
+610B90,call,610B50,#1,1,pass,loop,,610B80,,,,,
+6115E9,call,6114F0,#78,120,timed,,,,,,,,
+611610,call,6114F0,#1,1,pass,loop,,611600,,,,,
+611B00,call,611AD0,#1,1,pass,loop,,611AF0,,,,,3CEAF0
+611DC4,call,611D40,#1E,30,timed,,,,,,,,
+613300,call,6130A0,#1,1,pass,loop,,6132F0,,,,,
+613BBA,call,613B70,#1E,30,timed,,,,,,,,
+613F30,call,613EA0,#1,1,pass,loop,,613F20,,,,,
+613F98,call,613EA0,#1E,30,timed,,,,,,,,
+613FC0,call,613EA0,#1,1,pass,loop,,613FB0,,,,,
+6141ED,call,613EA0,#1E,30,timed,,,,,,,,
+614235,call,613EA0,#1,1,pass,,,,,,,,
+614300,call,613EA0,#1,1,pass,loop,,6142F0,,,,,
+614430,call,613EA0,#1,1,pass,loop,,614420,,,,,
+61451A,call,613EA0,#1E,30,timed,,,,,,,,
+614550,call,613EA0,#1,1,pass,loop,,614540,,,,,
+614580,call,613EA0,#1,1,pass,loop,,614570,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+614CB0,call,614C80,#1,1,pass,loop,,614CA0,,,,,
+614CD8,call,614C80,#14,20,timed,,,,,,,,
+614D26,call,614D10,#3C,60,timed,,,,,,,,
+614DCA,call,614D10,leacalc@614DC3,30,timed,,,,,,,,
+614E10,call,614D10,#1,1,pass,loop,,614E00,,,,,
+614ED7,call,614E80,#1,1,pass,loop,,614EA0,,,,,3F3380
+614FDC,call,614F30,#1E,30,timed,,,,,,,,
+615060,call,614F30,#1,1,pass,loop,,615050,,,,,1C8A20
+615240,call,615180,#1,1,pass,loop,,615230,,,,,
+615588,call,615180,#1,1,pass,loop,,615314,"615478 subss xmm6, xmm0 (carried) | 6154BA movss dword ptr [rbp - 0x7c], xmm0 (read-modify-write) | 61556E movss dword ptr [rbp - 0x4c], xmm0 (read-modify-write)",,,,1989F0 1BD580 2DBAC0 459C10 49F1D0 65D72A
+615660,call,615180,#1,1,pass,loop,,615650,,,,,
+615889,call,6157B0,#A,10,timed,,,,,,,,
+615910,call,6158A0,#1,1,pass,loop,,615900,,,,,
+615BF8,call,615B00,#1,1,pass,loop,,615B44,,,,,3F3380 3F4900
+615C65,call,615B00,#1E,30,timed,,,,,,,,
+615D0C,call,615B00,leacalc@615D05,,data,,,,,,,,
+615D70,call,615B00,#1,1,pass,loop,,615D60,,,,,44A0F0
+615E28,call,615B00,#1,1,pass,loop,,615DC0,"615E2D add esi, -1",,,,1BD580 1BD590 20C9D0
+615F53,call,615B00,#1,1,pass,loop,,615E70,"615E81 movss dword ptr [rbx + 0xb4], xmm0 (read-modify-write) | 615EC1 movss dword ptr [rbp + 0xb4], xmm0 (read-modify-write) | 615F0A addss xmm10, xmm7 (carried) | 615EA6 inc edi",,,44A160 443C40 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,13F2E0 1BD580 1BD590 20C9D0 44A160
+615F80,call,615B00,#1,1,pass,loop,,615F70,,,,,
+61615C,call,616100,#1E,30,timed,,,,,,,,
+616210,call,616100,#1,1,pass,loop,,616200,,,,,3F31F0
+616330,call,616250,#1,1,pass,loop,,616320,,,,,
+6164A0,call,616250,#1,1,pass,loop,,616490,,,,,1C8A20
+616528,call,616250,#A,10,timed,,,,,,,,
+616723,call,616250,#D,13,timed,,,,,,,,
+616850,call,616810,#1,1,pass,loop,,616840,,,,,
+616BE0,call,616980,#1,1,pass,loop,,616BD0,,,,,
+616CFA,call,616980,#3C,60,timed,,,,,,,,
+616D50,call,616980,#1,1,pass,loop,,616D40,,,,,
+616E82,call,616E60,#2D,45,timed,,,,,,,,
+616EF0,call,616E60,#1,1,pass,loop,,616EE0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+61700D,call,616F90,#1,1,pass,loop,,616FA0,,,,,3F3190 3F31F0 4561D0
+617070,call,616F90,#1,1,pass,loop,,617060,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+6171D0,call,617190,#1E,30,timed,,,,,,,,
+617260,call,617190,#1,1,pass,loop,,617250,,,,,
+617290,call,617190,#1,1,pass,loop,,617280,,,,,
+6172AF,call,617190,phi(#1E | #3C),,timed,,,,,,,,
+617350,call,617190,#1,1,pass,loop,,617340,,,,,
+617610,call,617570,#1,1,pass,loop,,617600,,,,,
+61776E,call,617570,#5A,90,timed,,,,,,,,
+6177C0,call,617570,#1,1,pass,loop,,6177B0,,,,,
+6177FD,call,617570,#3C,60,timed,,,,,,,,
+6178E0,call,6178A0,#1,1,pass,loop,,6178D0,,,,,23C130
+617920,call,6178A0,#1,1,pass,loop,,617910,,,,,
+617984,call,6178A0,#1E,30,timed,,,,,,,,
+617A40,call,6178A0,#1,1,pass,loop,,617A30,,,,,
+617DCA,call,617AC0,#1,1,pass,loop,,617C30,"617CA6 inc byte ptr [rax + 0xd8] | 617D07 mov dword ptr [rcx + 0xd4], eax (read-modify-write)",,,,1690C0 169BA0 169EC0 3F0650 3F3170 3F35F0 3F4730 3F4900 404760 4561C0 456520 4567B0
+617F30,call,617E70,#1,1,pass,loop,,617F20,"617F4F movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 617F6A movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 617F85 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write)",,,,
+6180AA,call,617E70,#1,1,pass,loop,,617FE0,"617FF3 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 61800E movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 618029 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 618081 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+618367,call,618110,#1E,30,timed,,,,,,,,
+618488,call,618110,leacalc@61847F,80,timed,,,,,,,,
+6184DD,call,618110,#3C,60,timed,,,,,,,,
+618526,call,618110,#5A,90,timed,,,,,,,,
+6188B0,call,618800,#1,1,pass,loop,,6188A0,,,,,
+6188E0,call,618800,#1,1,pass,loop,,6188D0,,,,,
+6188FF,call,618800,#1E,30,timed,,,,,,,,
+618950,call,618800,#1,1,pass,loop,,618940,,,,,3F31F0
+618AB0,call,618A00,#1,1,pass,loop,,618AA0,"618ACF movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,
+618B13,call,618A00,#A,10,timed,,,,,,,,
+618B48,call,618A00,#A,10,timed,,,,,,,,
+618C84,call,618C70,#A,10,timed,,,,,,,,
+618EA4,call,618E90,#B4,180,timed,,,,,,,,
+619130,call,6190B0,#1,1,pass,loop,,619120,,,,,1C8A20
+61946C,call,6190B0,#1,1,pass,loop,,6192B0,,,,,1690C0 169EC0 3EF3C0 3F0650 3F3170 3F3220 3F4900 404760 4561C0 456520 4567B0
+6195BD,call,619550,#1E,30,timed,,,,,,,,
+6196B9,call,6196A0,#1E,30,timed,,,,,,,,
+61997D,call,619940,#1E,30,timed,,,,,,,,
+619A70,call,619940,#1,1,pass,loop,,619A60,,,,,
+619AED,call,619940,#5A,90,timed,,,,,,,,
+619CE8,call,619BA0,leacalc@619CE0,30,timed,,,,,,,,
+619E0B,call,619BA0,leacalc@619E02,50,timed,,,,,,,,
+619FCA,call,619BA0,#1,1,pass,loop,,619F00,"619FCF add esi, -1",,,,3F33A0
+61A04C,call,619BA0,#1,1,pass,loop,,619FF0,,,,,
+61A066,call,619BA0,#1E,30,timed,,,,,,,,
+61A140,call,619BA0,#1,1,pass,loop,,61A130,,,,,1C8A20
+61A19C,call,619BA0,#14,20,timed,,,,,,,,
+61A290,call,619BA0,#1,1,pass,loop,,61A280,,,,,
+61A891,call,61A550,leacalc@61A88A,60,timed,,,,,,,,
+61A8CC,call,61A550,leacalc@61A8C5,1,pass,,,,,,,,
+61AB50,call,61A550,#1,1,pass,loop,,61AB40,61AB5C inc dword ptr [rax + 0xd0],,,,
+61AD11,call,61A550,#1,1,pass,loop,,61AC10,"61AC10 inc dword ptr [rax + 0xd0] | 61AC29 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 61AC4B movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 61AC6D movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write) | 61ACE1 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+61B013,call,61ADD0,#1,1,pass,loop,,61AEA0,"61AF21 sub dword ptr [rax + 0xd0], 1",,,,133280 3F3170 404760 4561C0 456520 4567B0
+61B110,call,61B0C0,#1,1,pass,loop,,61B100,,,,,
+61B3C8,call,61B230,#28,40,timed,,,,,,,,
+61B480,call,61B230,#1,1,pass,loop,,61B470,,,,,
+61B554,call,61B540,#1E,30,timed,,,,,,,,
+61C420,call,61C2E0,#1,1,pass,loop,,61C410,"61C42D movss dword ptr [rbx], xmm0 (read-modify-write) | 61C43A movss dword ptr [rdi + 0x5c], xmm1 (read-modify-write) | 61C448 movss dword ptr [rsi + 0x5c], xmm0 (read-modify-write)",,,,
+61CCC0,call,61CC90,#1,1,pass,loop,,61CCB0,,,,,
+61CD00,call,61CC90,#1,1,pass,loop,,61CCF0,,,,,
+61CEA0,call,61CC90,#1,1,pass,loop,,61CE90,,,,,
+61CED0,call,61CC90,#1,1,pass,loop,,61CEC0,,,,,
+61D0EC,call,61D0B0,#1E,30,timed,,,,,,,,
+61D1D4,call,61D1B0,#1E,30,timed,,,,,,,,
+61D255,call,61D1B0,#3C,60,timed,,,,,,,,
+61D2D9,call,61D1B0,#1E,30,timed,,,,,,,,
+6202C0,call,6201D0,#1,1,pass,loop,,6202B0,,,,,1C8A20
+621930,call,621830,#78,120,timed,,,,,,,,
+621960,call,621830,#1,1,pass,loop,,621950,,,,,
+621D64,call,621D50,#1E,30,timed,,,,,,,,
+6247B1,call,624680,#1E,30,timed,,,,,,,,
+6248E2,call,6247E0,#1E,30,timed,,,,,,,,
+62495B,call,624910,#1E,30,timed,loop,,624920,,,,,44E470
+624A00,call,624970,#1,1,pass,loop,,6249F0,,,,,
+624E10,call,624D60,#1,1,pass,loop,,624E00,,,,,
+6250C0,call,624D60,#1,1,pass,loop,,6250B0,,,,,44A0F0
+625190,call,624D60,#1,1,pass,loop,,625180,,,,,
+6252DE,call,624D60,#12,18,timed,,,,,,,,
+62532B,call,624D60,#3,3,timed,,,,,,,,
+625400,call,624D60,#1,1,pass,loop,,6253F0,,,,,2F5850
+6255B0,call,624D60,#1,1,pass,loop,,6255A0,,,,,
+625617,call,624D60,#5A,90,timed,,,,,,,,
+6256AD,call,625680,#1,1,pass,loop,,625690,,,,,3EF3C0 3F3170 3F4900
+62576C,call,625680,#1E,30,timed,,,,,,,,
+6257B0,call,625680,#1,1,pass,loop,,6257A0,,,,,44A0F0
+62584A,call,625680,#96,150,timed,,,,,,,,
+6259EC,call,6259C0,#1E,30,timed,,,,,,,,
+625B20,call,625AF0,#1,1,pass,loop,,625B10,,,,,49D8F0
+625C40,call,625BB0,#1,1,pass,loop,,625C30,,,,,3F0650 3F3170 3F3380 3F4900 404760 4561C0 456520 4567B0 49D8F0
+625FFE,call,625FD0,#1E,30,timed,,,,,,,,
+62605F,call,625FD0,#3C,60,timed,,,,,,,,
+62671D,call,6262D0,#1,1,pass,loop,,626390,"6263C9 movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 6263EE movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 6264EB dec byte ptr [rcx + 0x14f] | 626518 mov byte ptr [rax + 0x150], cl (read-modify-write) | 626524 add byte ptr [rax + 0x14f], 5 | 62668E mov byte ptr [rcx + 0x155], al (read-modify-write)",,61F070 1B54E0 > 1B2A50 > 1B2AA7 mode byte,622870 622933 phase_steps.h | 61F070 1B54E0 > 1B2A50 > 1B2AC3 world_anims.h,1690C0 1B19E0 3EF3C0 3F0650 3F3170 3F4900 403D40 4049B0 404A00 4561C0 4561D0 456520 4567B0 481A10 61EFC0 61F070 61F080 61F0C0 61F530 622870 623000 623540
+6268BA,call,6267A0,#1E,30,timed,,,,,,,,
+626956,call,6267A0,#2D,45,timed,,,,,,,,
+626CD1,call,626A00,#1,1,pass,loop,,626B32,"626BA8 movss dword ptr [rdx + 0x144], xmm1 (read-modify-write) | 626BB2 movss dword ptr [rdx + 0x144], xmm2 (read-modify-write) | 626BE8 movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 626C14 movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 626C47 movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 626C8C movss dword ptr [rcx + 8], xmm0 (read-modify-write) | 626C0E inc bl",,,,1B19E0 481A10 623000 623540
+626D70,call,626A00,#1,1,pass,loop,,626D50,,,,,3E2B50
+626E1D,call,626A00,#3C,60,timed,,,,,,,,
+626E39,call,626A00,#1E,30,timed,,,,,,,,
+626E8D,call,626A00,#1E,30,timed,,,,,,,,
+626EF0,call,626A00,#1,1,pass,loop,,626ED0,,,,,3E2B50
+626FB2,call,626A00,#2D,45,timed,,,,,,,,
+62709D,call,627070,#3C,60,timed,,,,,,,,
+6270D0,call,627070,#1,1,pass,loop,,6270C0,,,,,
+62736C,call,627070,#5A,90,timed,,,,,,,,
+6273C0,call,627390,#1,1,pass,loop,,6273B0,,,,,49D860
+627400,call,627390,#1,1,pass,loop,,6273F0,,,,,
+62746A,call,627390,#1E,30,timed,,,,,,,,
+627490,call,627390,#1,1,pass,loop,,627480,,,,,
+627550,call,627390,#1,1,pass,loop,,627540,,,,,
+6275C2,call,6275A0,#2D,45,timed,,,,,,,,
+627630,call,6275A0,#1,1,pass,loop,,627620,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+62774D,call,6276D0,#1,1,pass,loop,,6276E0,,,,,3F3190 3F31F0 4561D0
+6277B0,call,6276D0,#1,1,pass,loop,,6277A0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+627930,call,627870,#1,1,pass,loop,,627920,,,,,
+627B68,call,6279F0,#1,1,pass,loop,,627A60,627B2C inc ebx,,3E2A90 3E2ABB 60 fps flag,,3E2A90 3E2B50 3F3BC0 481570
+627B82,call,6279F0,#14,20,timed,,,,,,,,
+627BEA,call,6279F0,#1E,30,timed,,,,,,,,
+627D45,call,627C20,#1,1,pass,loop,,627D30,"627D30 sub dword ptr [rax], 1",,,,
+627E4E,call,627C20,#1,1,pass,loop,,627D20,"627D30 sub dword ptr [rax], 1 | 627D78 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 627D93 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 627DAE movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 627DDA movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 627DF5 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 627E10 movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 627E74 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 627E90 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 627EAC movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 627F04 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,1BD480
+627F2D,call,627C20,#1,1,pass,loop,,627E60,"627E74 movss dword ptr [rax + 0xd20], xmm0 (read-modify-write) | 627E90 movss dword ptr [rax + 0xd24], xmm0 (read-modify-write) | 627EAC movss dword ptr [rax + 0xd28], xmm0 (read-modify-write) | 627F04 movss dword ptr [rax + 0xd2c], xmm0 (read-modify-write)",,,,
+6283B4,call,627F70,#1,1,pass,loop,,6282D1,,,,,1690C0 169BA0 3F35F0 3F4730 3F4900 404760
+628577,call,627F70,#A,10,timed,,,,,,,,
+628640,call,627F70,#1,1,pass,loop,,628630,"62865F movss dword ptr [rcx + 0xd20], xmm0 (read-modify-write) | 628681 movss dword ptr [rcx + 0xd24], xmm0 (read-modify-write) | 6286A3 movss dword ptr [rcx + 0xd28], xmm0 (read-modify-write)",,,,
+6286F2,call,627F70,#46,70,timed,,,,,,,,
+6289F0,call,627F70,#1,1,pass,loop,,6289E0,,,,,
+628C13,call,627F70,#1,1,pass,loop,,628AC4,,,,,133280 1690C0 169EC0 3F3170 3F4900 404760 4561C0 456520 4567B0
+628C70,call,627F70,#1,1,pass,loop,,628C60,,,,,44A0F0
+628E21,call,627F70,#3C,60,timed,,,,,,,,
+628EA9,call,627F70,leacalc@628EA1,30,timed,,,,,,,,
+628F88,call,627F70,#A,10,timed,,,,,,,,
+629047,call,627F70,#32,50,timed,,,,,,,,
+6290E0,call,627F70,#3,3,timed,,,,,,,,
+6291DE,call,627F70,#D,13,timed,,,,,,,,
+629227,call,627F70,#19,25,timed,,,,,,,,
+629270,call,627F70,#1E,30,timed,,,,,,,,
+6293B0,call,627F70,#1,1,pass,loop,,6293A0,,,,,1C8A20
+629410,call,627F70,#1,1,pass,loop,,629400,,,,,1C8A20
+629502,call,627F70,#3C,60,timed,,,,,,,,
+629710,call,629610,#1,1,pass,loop,,629700,,,,,1C8A20
+62983D,call,6297D0,#1,1,pass,,,,,,,,
+629910,call,6298B0,#1,1,pass,loop,,629900,,,,,
+6299A0,call,6298B0,#1,1,pass,loop,,629990,,,,,
+629D24,call,629D10,#1,1,pass,,,,,,,,
+62A0F1,call,62A0B0,#1E,30,timed,,,,,,,,
+62A32A,call,62A2C0,#1E,30,timed,,,,,,,,
+62A360,call,62A2C0,#1,1,pass,loop,,62A350,,,,,
+62A431,call,62A2C0,leacalc@62A428,60,timed,,,,,,,,
+62A501,call,62A2C0,#1,1,pass,loop,,62A4B8,"62A506 sub rsi, 1",,219220 4B9C80 > 4B9C89 mode byte,219220 4B9C80 > 4B9CA9 mode_constants.h,219130 219220
+62A60C,call,62A2C0,leacalc@62A605,,data,,,,,,,,
+62A640,call,62A2C0,#1,1,pass,loop,,62A630,,,,,44A0F0
+62A6AD,call,62A2C0,#1,1,pass,loop,,62A680,,,,,219130 219160
+62A6E0,call,62A2C0,#1,1,pass,loop,,62A6D0,,,,,
+62AA10,call,62A850,#1,1,pass,loop,,62AA00,,,,,
+62AA70,call,62A850,#1,1,pass,loop,,62AA60,,,,,3F31F0
+62AAB0,call,62A850,#1,1,pass,loop,,62AAA0,,,,,
+62AAF8,call,62A850,#3C,60,timed,,,,,,,,
+62AB40,call,62A850,#1,1,pass,loop,,62AB30,,,,,
+62AE00,call,62A850,#1,1,pass,loop,,62ADF0,,,,,
+62B270,call,62B180,#1,1,pass,loop,,62B260,,,,,
+62B480,call,62B430,#1,1,pass,loop,,62B470,,,,,
+62B616,call,62B540,#1,1,pass,loop,,62B5A2,,,,,3CEA70 3F3360 3F3380
+62B64D,call,62B540,#1E,30,timed,,,,,,,,
+62B680,call,62B540,#1,1,pass,loop,,62B670,,,,,44A0F0
+62B6F3,call,62B540,#D2,210,timed,,,,,,,,
+62B800,call,62B540,#1,1,pass,loop,,62B7F0,,,,,
+62D110,call,62CFE0,#1,1,pass,loop,,62D100,,,,,
+62D140,call,62CFE0,#1,1,pass,loop,,62D130,,,,,
+635ED3,call,635DC0,#A,10,timed,,,,,,,,
+636520,call,636490,#1,1,pass,loop,,636510,,,,,
+636600,call,636580,#1,1,pass,loop,,6365F0,,,,,
+636BD0,call,636B20,#1,1,pass,loop,,636BC0,,,,,
+636C85,call,636B20,#F,15,timed,,,,,,,,
+636DE0,call,636CF0,#1,1,pass,loop,,636DD0,,,,,
+63715A,call,637110,#1,1,pass,loop,,637130,637154 inc edi,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,446490 4A0900
+6372E0,call,637200,#1,1,pass,loop,,6372D0,,,,,
+6374E0,call,637340,#1,1,pass,loop,6373F1 60 fps flag 637411 60 fps flag,6374D0,,,,,639420
+6374FE,call,637340,#5,5,timed,,6373F1 60 fps flag 637411 60 fps flag,,,,,,
+63754E,call,637340,#A,10,timed,,6373F1 60 fps flag 637411 60 fps flag,,,,,,
+63765A,call,6375D0,#A,10,timed,,,,,,,,
+637720,call,637690,#1,1,pass,loop,,637710,,,,,639440
+637749,call,637690,#5,5,timed,,,,,,,,
+63777A,call,637690,#A,10,timed,,,,,,,,
+637940,call,637690,#1,1,pass,loop,,637930,,,,,1C8A20
+637A5E,call,637980,#5,5,timed,,,,,,,,
+637AE4,call,637980,#5A,90,timed,,,,,,,,
+637BFB,call,637B00,#14,20,timed,,,,,,,,
+637CFE,call,637B00,#5,5,timed,,,,,,,,
+637D39,call,637B00,#3C,60,timed,,,,,,,,
+637DE0,call,637D60,#1,1,pass,loop,,637DD0,,,,,639420
+637E01,call,637D60,#5,5,timed,,,,,,,,
+637E4A,call,637D60,#A,10,timed,,,,,,,,
+638001,call,637F90,#1E,30,timed,,,,,,,,
+63817A,call,638050,#1E,30,timed,,,,,,,,
+6384D0,call,638050,#1,1,pass,loop,,6384C0,,,,,1C8A20
+6386E6,call,6385F0,#5,5,timed,,,,,,,,
+6387F0,call,638730,#1,1,pass,loop,,6387E0,,,,,
+6388E9,call,638730,#1,1,pass,,,,,,,,
+638940,call,638730,#1,1,pass,loop,,638930,,,,,
+6389C5,call,638730,#1E,30,timed,,,,,,,,
+6389F0,call,638730,#1,1,pass,loop,,6389E0,,,,,
+638A11,call,638730,#5A,90,timed,,,,,,,,
+638AA4,call,638730,#F,15,timed,,,,,,,,
+638B60,call,638730,#1,1,pass,loop,,638B50,,,,,1C8A20
+638C80,call,638730,#1,1,pass,loop,,638C70,,,,,
+638EA0,call,638730,#1,1,pass,loop,,638E90,,,,,
+638EE7,call,638730,#14,20,timed,,,,,,,,
+638FBA,call,638730,#3C,60,timed,,,,,,,,
+639EF0,call,639EC0,#1,1,pass,loop,,639EE0,,,,,
+639F30,call,639EC0,#1,1,pass,loop,,639F20,,,,,
+63A0D0,call,639EC0,#1,1,pass,loop,,63A0C0,,,,,
+63A100,call,639EC0,#1,1,pass,loop,,63A0F0,,,,,
+63A348,call,63A2C0,#1E,30,timed,,,,,,,,
+63A3F0,call,63A2C0,#1,1,pass,loop,,63A3E0,,,,,3F31F0
+63A450,call,63A430,#1E,30,timed,,,,,,,,
+63A4D0,call,63A430,#1,1,pass,loop,,63A4C0,,,,,
+63A5FE,call,63A550,#1,1,pass,loop,,63A580,,,,,166F40 3F3380
+63A6D0,call,63A670,#1,1,pass,loop,,63A6C0,,,,,44A0F0
+63A6FA,call,63A670,#14,20,timed,,,,,,,,
+63A7D8,call,63A670,#1,1,pass,loop,,63A7B0,63A7B6 inc ebx,,,,2DF720
+63A800,call,63A670,#1,1,pass,loop,,63A7F0,,,,,
+63ABBC,call,63AA00,#1,1,pass,loop,,63AB80,63AB80 inc ebx,,,,
+63ACCB,call,63AA00,#A,10,timed,,,,,,,,
+63BA70,call,63BA20,#1,1,pass,loop,,63BA60,,,,,
+63BADC,call,63BA20,#1,1,pass,,,,,,,,
+63BB02,call,63BA20,#1,1,pass,,,,,,,,
+63BBBD,call,63BA20,#1,1,pass,,,,,,,,
+63BCC0,call,63BA20,#1,1,pass,loop,,63BCB0,,,,,1C8A20
+63BD40,call,63BA20,#1,1,pass,loop,,63BD30,,,,,44A0F0
+63BD7E,call,63BA20,#1E,30,timed,,,,,,,,
+63BDB7,call,63BA20,#5A,90,timed,,,,,,,,
+63D4B0,call,63D430,#1,1,pass,loop,,63D4A0,,,,,
+63D4FD,call,63D430,#1,1,pass,,,,,,,,
+63D51C,call,63D430,#1,1,pass,,,,,,,,
+63D709,call,63D430,#1,1,pass,,,,,,,,
+63D745,call,63D430,#1,1,pass,,,,,,,,
+63D830,call,63D430,#1,1,pass,loop,,63D820,,,,,1C8A20
+63DD8C,call,63DC80,#78,120,timed,,,,,,,,
+63DDB0,call,63DC80,#1,1,pass,loop,,63DDA0,,,,,
+63E174,call,63E150,#1E,30,timed,,,,,,,,
+63E1C0,call,63E150,#3C,60,timed,,,,,,,,
+63E1F0,call,63E150,#1,1,pass,loop,,63E1E0,,,,,
+63E220,call,63E150,#1,1,pass,loop,,63E210,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+63FDD9,call,63FAD0,#1,1,pass,loop,,63FD40,"63FD4B movss dword ptr [rax + 4], xmm0 (read-modify-write)",,,,20C9D0 2DF720
+63FE41,call,63FAD0,#1,1,pass,loop,,63FE20,,,,,
+63FF7D,call,63FAD0,#78,120,timed,,,,,,,,
+63FFEC,call,63FAD0,#104,260,timed,,,,,,,,
+640040,call,63FAD0,#1,1,pass,loop,,640030,,,,,
+640188,call,63FAD0,#1,1,pass,loop,,640100,"64010B movss dword ptr [rax + 4], xmm0 (read-modify-write)",,,,20C9D0 2DF720
+6401E0,call,63FAD0,#1,1,pass,loop,,6401D0,,,,,
+640210,call,63FAD0,#1,1,pass,loop,,640200,,,,,
+640417,call,6403D0,#1E,30,timed,,,,,,,,
+640860,call,6407D0,#1,1,pass,loop,,640850,,,,,
+6408C8,call,6407D0,#1E,30,timed,,,,,,,,
+6408F0,call,6407D0,#1,1,pass,loop,,6408E0,,,,,
+640B1A,call,6407D0,#1E,30,timed,,,,,,,,
+640B5F,call,6407D0,#1,1,pass,,,,,,,,
+640C20,call,6407D0,#1,1,pass,loop,,640C10,,,,,
+640D60,call,6407D0,#1,1,pass,loop,,640D50,,,,,
+640E4A,call,6407D0,#1E,30,timed,,,,,,,,
+640E80,call,6407D0,#1,1,pass,loop,,640E70,,,,,
+640EB0,call,6407D0,#1,1,pass,loop,,640EA0,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+64143D,call,641340,#1E,30,timed,,,,,,,,
+6415AE,call,641540,#1E,30,timed,,,,,,,,
+6416EC,call,641670,#1E,30,timed,,,,,,,,
+641790,call,641670,#1,1,pass,loop,,641780,,,,,3F31F0
+641805,call,6417D0,#1E,30,timed,,,,,,,,
+641921,call,6417D0,#1,1,pass,loop,,641890,,,,,20F0E0 2DBAC0 3F3380
+641A65,call,6417D0,#1E,30,timed,,,,,,,,
+641AD0,call,6417D0,#1,1,pass,loop,,641AB0,,,,,3E2B50
+641AF5,call,6417D0,#1E,30,timed,,,,,,,,
+641BB3,call,6417D0,#14,20,timed,,,,,,,,
+641CBB,call,6417D0,leacalc@641CB4,80,timed,,,,,,,,
+641D80,call,641D40,#1,1,pass,loop,,641D70,,,,,
+64207A,call,641FE0,#1E,30,timed,,,,,,,,
+6422C0,call,6421F0,#1,1,pass,loop,,6422B0,,,,,
+642607,call,6421F0,#1,1,pass,loop,,6423A0,"6424F7 subss xmm6, xmm0 (carried) | 642539 movss dword ptr [rbp - 0x7c], xmm0 (read-modify-write) | 6425ED movss dword ptr [rbp - 0x4c], xmm0 (read-modify-write)",,,,1989F0 1BD580 2DBAC0 459C10 49F1D0 65D72A
+6426E0,call,6421F0,#1,1,pass,loop,,6426D0,,,,,
+64282D,call,642810,#1E,30,timed,,,,,,,,
+642922,call,642900,#2D,45,timed,,,,,,,,
+642990,call,642900,#1,1,pass,loop,,642980,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+642AAD,call,642A30,#1,1,pass,loop,,642A40,,,,,3F3190 3F31F0 4561D0
+642B10,call,642A30,#1,1,pass,loop,,642B00,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+642CD9,call,642C10,#3C,60,timed,,,,,,,,
+642D40,call,642C10,#1,1,pass,loop,,642D30,,,,,44A0F0
+6430FB,call,642C10,#1E,30,timed,,,,,,,,
+643161,call,642C10,#1,1,pass,loop,,643120,"643166 sub rdi, 1",,,,
+64329E,call,642C10,#1E,30,timed,,,,,,,,
+6432B3,call,642C10,#32,50,timed,,,,,,,,
+6432E0,call,642C10,#1,1,pass,loop,,6432D0,,,,,
+6436DA,call,643460,#1,1,pass,loop,,643540,,,,,44BA00 44BAB0 44C200 44C220 4561D0
+643869,call,643710,#1E,30,timed,,,,,,,,
+643892,call,643710,#5A,90,timed,,,,,,,,
+643909,call,6438F0,#1E,30,timed,,,,,,,,
+643D64,call,643D50,#1E,30,timed,,,,,,,,
+643E40,call,643D50,#1,1,pass,loop,,643E30,,,,,
+6440C0,call,644070,#1,1,pass,loop,,644080,,,,,
+6440E3,call,644070,#1E,30,timed,,,,,,,,
+6441F3,call,644140,#1,1,pass,loop,,6441D3,,,,,3E2B50
+644218,call,644140,#1E,30,timed,,,,,,,,
+6442C7,call,644140,#5,5,timed,,,,,,,,
+644350,call,644140,#1,1,pass,loop,,644330,,,,,3E2B50
+6458D2,call,6457D0,#1,1,pass,loop,,6458C0,6458CC inc edi,,,,
+645E60,call,645D30,#1,1,pass,loop,,645E50,,,,,1C8A20
+645E8A,call,645D30,#41,65,timed,,,,,,,,
+645EF2,call,645D30,#F,15,timed,,,,,,,,
+64603A,call,646000,#1E,30,timed,,,,,,,,
+646070,call,646000,#1,1,pass,loop,,646060,,,,,
+646240,call,646000,#1,1,pass,loop,,646230,,,,,1C8A20
+646330,call,646000,#1,1,pass,loop,,646320,,,,,1C8A20
+6463C0,call,646000,#1,1,pass,loop,,6463B0,,,,,
+64656D,call,646420,#A,10,timed,,,,,,,,
+6465F0,call,646420,#1,1,pass,loop,,6465E0,,,,,1C8A20
+64692E,call,646420,#5A,90,timed,,,,,,,,
+646E5C,call,646CA0,#1E,30,timed,,,,,,,,
+647008,call,646CA0,#1,1,pass,loop,,646FD0,"64700D sub rsi, 1",,,,
+6470F1,call,6470B0,#1E,30,timed,,,,,,,,
+64A5A0,call,64A2E0,#1,1,pass,loop,,64A590,,,,,1C8A20
+64A620,call,64A2E0,#1,1,pass,loop,,64A610,,,,,
+64A9CF,call,64A710,#1D6,470,timed,,,,,,,,
+64AA00,call,64A710,#1,1,pass,loop,,64A9F0,,,,,
+64AA35,call,64A710,#A,10,timed,,,,,,,,
+64AC07,call,64A710,#5A,90,timed,,,,,,,,
+64ACB0,call,64A710,#1,1,pass,loop,,64ACA0,,493840 437130 > 437197,493840 4376C0 > 4376E8 mode byte,493840 4376C0 > 4376F1 frame_clocks.h,493840
+64AD71,call,64A710,#5A,90,timed,,,,,,,,
+64B4D0,call,64B480,#1,1,pass,loop,,64B4C0,,,,,
+64B790,call,64B590,#1,1,pass,loop,,64B780,,,,,
+64B960,call,64B900,#1,1,pass,loop,,64B950,,,,,
+64BFE6,call,64BF00,#1E,30,timed,,,,,,,,
+64C080,call,64BF00,#1,1,pass,loop,,64C070,,,,,3F31F0
+64C0D0,call,64BF00,#1,1,pass,loop,,64C0C0,,,,,
+64C0FE,call,64BF00,#1E,30,timed,,,,,,,,
+64C187,call,64BF00,leacalc@64C17D,1,pass,,,,,,,,
+64C200,call,64BF00,leacalc@64C1F9,20,timed,,,,,,,,
+64C300,call,64C290,#1,1,pass,loop,,64C2F0,,,,,44A0F0
+64C33D,call,64C290,#78,120,timed,,,,,,,,
+64C400,call,64C290,#1,1,pass,loop,,64C3F0,,,,,
+64C462,call,64C290,#3C,60,timed,,,,,,,,
+64C627,call,64C600,#1E,30,timed,,,,,,,,
+64C6A0,call,64C600,#1,1,pass,loop,,64C690,,,,,1C8A20
+64C750,call,64C600,#1,1,pass,loop,,64C740,,,,,
+64CA60,call,64CA10,#1,1,pass,loop,,64CA50,,,,,
+64CC70,call,64CA10,#1,1,pass,loop,,64CC60,,,,,1C8A20
+64CC9A,call,64CA10,#A,10,timed,,,,,,,,
+64CDE0,call,64CA10,#1,1,pass,loop,,64CDD0,,,,,1C8A20
+64CF4A,call,64CA10,#28,40,timed,,,,,,,,
+64CFA0,call,64CA10,#1,1,pass,loop,,64CF90,,,,,1C8A20
+64D060,call,64CA10,#1,1,pass,loop,,64D050,,,,,1C8A20
+64D204,call,64CA10,#3C,60,timed,,,,,,,,
+64D31B,call,64D2F0,#1E,30,timed,,,,,,,,
+64D390,call,64D2F0,#1,1,pass,loop,,64D380,,,,,1C8A20
+64D617,call,64D4F0,#1,1,pass,loop,,64D552,,,,,3F3380 44E530
+64D680,call,64D630,#1,1,pass,loop,,64D670,,,,,
+64D761,call,64D740,#1E,30,timed,,,,,,,,
+64D7EC,call,64D740,#1,1,pass,,,,,,,,
+64D87E,call,64D740,#1E,30,timed,,,,,,,,
+64D930,call,64D740,#1,1,pass,loop,,64D920,,,,,
+64D9A0,call,64D740,#1,1,pass,loop,,64D990,,,,,1C8A20
+64DA20,call,64D740,#1,1,pass,loop,,64DA10,,,,,
+64DA60,call,64D740,#1,1,pass,loop,,64DA50,,,,,1C8A20
+64DB10,call,64D740,#1,1,pass,loop,,64DB00,,,,,
+64DBDA,call,64D740,#3C,60,timed,,,,,,,,
+64DD9D,call,64DD20,#1,1,pass,loop,,64DD30,,,,,3F3190 3F31F0 4561D0
+64DE00,call,64DD20,#1,1,pass,loop,,64DDF0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+64DF2C,call,64DEA0,#1E,30,timed,,,,,,,,
+64DFC1,call,64DEA0,#1,1,pass,loop,,64DFA1,,,,,3E2B50
+64E277,call,64E0B0,#1,1,pass,,,,,,,,
+64E391,call,64E340,#1E,30,timed,,,,,,,,
+64E54D,call,64E450,leacalc@64E53F,120,timed,,,,,,,,
+64E627,call,64E450,leacalc@64E620,20,timed,,,,,,,,
+64E690,call,64E450,#1,1,pass,loop,,64E680,"64E6AC movss dword ptr [rcx + 0xd2c], xmm0 (read-modify-write)",,,,
+64E700,call,64E450,#1,1,pass,loop,,64E6F0,,,,,
+64E72F,call,64E450,#1,1,pass,,,,,,,,
+64E786,call,64E450,#5A,90,timed,,,,,,,,
+64EB08,call,64E840,#1,1,pass,loop,,64EA50,"64EA91 sub dword ptr [rax + 0x68], 1",,,,1690C0 169EC0 404760
+64EE2E,call,64EBA0,#1,1,pass,loop,,64EC60,,,,,44BA00 44BAB0 44C200 44C220 652150
+64F155,call,64F000,#1E,30,timed,,,,,,,,
+64F1C1,call,64F000,#1,1,pass,loop,,64F1A1,,,,,3E2B50
+64F300,call,64F2C0,#1,1,pass,loop,,64F2F0,,,,,
+64F31F,call,64F2C0,#1E,30,timed,,,,,,,,
+64F390,call,64F2C0,#1,1,pass,loop,,64F380,,,,,
+64F479,call,64F460,#1E,30,timed,,,,,,,,
+64F650,call,64F500,#1,1,pass,loop,,64F640,,,,,
+64F990,call,64F930,#1,1,pass,loop,,64F980,,,,,
+64FA70,call,64F930,#1,1,pass,loop,,64FA60,,,,,44A0F0
+64FC10,call,64F930,#1,1,pass,loop,,64FC00,,,,,
+64FD9C,call,64FCF0,#1,1,pass,,,,,,,,
+64FE2A,call,64FCF0,#1E,30,timed,,,,,,,,
+64FF0A,call,64FCF0,#3C,60,timed,,,,,,,,
+6500C2,call,650060,#1E,30,timed,,,,,,,,
+650160,call,650060,#1,1,pass,loop,,650150,,,,,
+650213,call,650060,#1E,30,timed,,,,,,,,
+650250,call,650060,#1,1,pass,loop,,650240,,,,,44A0F0
+65028D,call,650060,#1E,30,timed,,,,,,,,
+6502B7,call,650060,#5A,90,timed,,,,,,,,
+6504AA,call,650060,#1,1,pass,loop,,6503D0,"6503F9 movss dword ptr [rsp + 0x44], xmm0 (read-modify-write) | 6503DC inc ebx",,,,13F2E0 1BD580 1BD590 481570 4971C0
+650620,call,650520,#1,1,pass,loop,,650610,,,,,
+6506A4,call,650660,#1,1,pass,loop,,650670,,,,,
+6506C7,call,650660,#1E,30,timed,,,,,,,,
+6507D3,call,650720,#1,1,pass,loop,,6507B3,,,,,3E2B50
+6507F8,call,650720,#1E,30,timed,,,,,,,,
+6508B4,call,650720,#5,5,timed,,,,,,,,
+650950,call,650720,#1,1,pass,loop,,650930,,,,,3E2B50
+650F10,call,650E80,#1E,30,timed,,,,,,,,
+652F03,call,652DE0,#1,1,pass,loop,,652EC3,,,,,1C8A20
+652F0F,call,652DE0,#41,65,timed,,,,,,,,
+652F78,call,652DE0,#F,15,timed,,,,,,,,
+654160,call,654130,#1,1,pass,loop,,654150,,,,,
+6541A0,call,654130,#1,1,pass,loop,,654190,,,,,
+654340,call,654130,#1,1,pass,loop,,654330,,,,,
+654370,call,654130,#1,1,pass,loop,,654360,,,,,
+654500,call,654480,#5A,90,timed,,,,,,,,
+6545A0,call,654480,#1,1,pass,loop,,654590,,,,,
+654634,call,654620,#1E,30,timed,,,,,,,,
+654720,call,6546A0,#1,1,pass,loop,,654710,,,,,
+654782,call,6546A0,#1,1,pass,,,,,,,,
+654870,call,6547F0,#1,1,pass,loop,,654860,,,,,
+6548D2,call,6547F0,#1,1,pass,,,,,,,,
+654AF3,call,654990,#1,1,pass,loop,,654AD0,,,,,3F31F0
+654BA9,call,654990,#2,2,timed,,,,,,,,
+654C53,call,654C10,#1E,30,timed,,,,,,,,
+654D50,call,654C10,#1,1,pass,loop,,654D40,,,,,
+654DD0,call,654C10,#5A,90,timed,,,,,,,,
+654E27,call,654C10,#3C,60,timed,,,,,,,,
+654E64,call,654C10,#1E,30,timed,,,,,,,,
+655135,call,654C10,#1,1,pass,loop,,6550D0,65513A inc edi,,,,13F2E0 4971C0
+655510,call,655440,#1,1,pass,loop,,655500,,,,,
+6566E7,call,6566A0,#1E,30,timed,,,,,,,,
+656A20,call,656990,#1,1,pass,loop,,656A10,,,,,
+656A88,call,656990,#1E,30,timed,,,,,,,,
+656AB0,call,656990,#1,1,pass,loop,,656AA0,,,,,
+656C8F,call,656990,#1E,30,timed,,,,,,,,
+656CD4,call,656990,#1,1,pass,,,,,,,,
+656D90,call,656990,#1,1,pass,loop,,656D80,,,,,
+656ED0,call,656990,#1,1,pass,loop,,656EC0,,,,,
+656FBA,call,656990,#1E,30,timed,,,,,,,,
+656FF0,call,656990,#1,1,pass,loop,,656FE0,,,,,
+657020,call,656990,#1,1,pass,loop,,657010,,,345A80 4B9C80 > 4B9C89 mode byte,345A80 4B9C80 > 4B9CA9 mode_constants.h,345A80
+657C49,call,657B80,#78,120,timed,,,,,,,,
+657C70,call,657B80,#1,1,pass,loop,,657C60,,,,,
+657CD4,call,657CC0,#1E,30,timed,,,,,,,,
+657D54,call,657D40,#1E,30,timed,,,,,,,,
+657DD4,call,657DC0,#3C,60,timed,,,,,,,,
+657EC0,call,657E60,#1,1,pass,loop,,657EB0,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+657EF0,call,657E60,#3C,60,timed,,,,,,,,
+657F80,call,657F20,#1,1,pass,loop,,657F70,,4A0900 13A7D0 > 13A841,4A0900 4763F0 > 4769E3 mode byte,4A0900 44A000 > 443710 > 443AF0 > 4437A0 > 4442A0 > 444190 > 4518E0 > 453620 > D720 > F2A8 > 52898 > 53194 > 1E69C > 4B9A8 > 4C2E0 > 1E2E0 > 1D8B8 > 1E2B0 > 1D1F4 > 1D601 phase_steps.h,4A0900
+657FB0,call,657F20,#3C,60,timed,,,,,,,,
+658082,call,658000,#1E,30,timed,,,,,,,,
+658F90,call,658F50,#1,1,pass,loop,,658F80,,,,,
+659806,call,659700,#3C,60,timed,,,,,,,,
+6598AF,call,659880,#1E,30,timed,,,,,,,,
+6598E0,call,659880,#1,1,pass,loop,,6598D0,,,,,
+659A6D,call,659880,leacalc@659A65,1,pass,,,,,,,,
+659D60,call,659880,#1,1,pass,loop,,659D50,,,,,
+659E50,call,659880,#1,1,pass,loop,,659E40,,,,,
+659ED0,call,659880,#1,1,pass,loop,,659EC0,,,,,
+659F0F,call,659880,#3C,60,timed,,,,,,,,
+659F70,call,659F50,#1E,30,timed,,,,,,,,
+65A1E4,call,65A1D0,#1E,30,timed,,,,,,,,
+65A290,call,65A270,#3C,60,timed,,,,,,,,
+65A334,call,65A320,#3C,60,timed,,,,,,,,
+65A96C,call,65A8F0,#1E,30,timed,,,,,,,,
+65AA10,call,65A8F0,#1,1,pass,loop,,65AA00,,,,,3F31F0
+65B0C4,call,65B0B0,#1E,30,timed,,,,,,,,

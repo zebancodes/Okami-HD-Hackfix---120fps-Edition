@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "clang",
+      "displayName": "clang + Ninja (LLVM for Windows, MSVC target)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/.build",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "clang-trace",
+      "displayName": "clang + Ninja, tracing variant",
+      "inherits": "clang",
+      "binaryDir": "${sourceDir}/.build-trace",
+      "cacheVariables": {
+        "OKAMI_TRACE": "ON"
+      }
+    },
+    {
+      "name": "clang-diag",
+      "displayName": "clang + Ninja, game-speed diagnostics variant",
+      "inherits": "clang",
+      "binaryDir": "${sourceDir}/.build-diag",
+      "cacheVariables": {
+        "OKAMI_DIAG": "ON"
+      }
+    },
+    {
+      "name": "clang-tracer",
+      "displayName": "clang + Ninja, animation tracer (always Passthrough)",
+      "inherits": "clang",
+      "binaryDir": "${sourceDir}/.build-tracer",
+      "cacheVariables": {
+        "OKAMI_TRACER": "ON"
+      }
+    },
+    {
+      "name": "mingw",
+      "displayName": "MinGW gcc + Ninja (pixi build env)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/.build",
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "x86_64-w64-mingw32-gcc",
+        "CMAKE_CXX_COMPILER": "x86_64-w64-mingw32-g++",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "mingw-trace",
+      "displayName": "MinGW gcc + Ninja, tracing variant",
+      "inherits": "mingw",
+      "binaryDir": "${sourceDir}/.build-trace",
+      "cacheVariables": {
+        "OKAMI_TRACE": "ON"
+      }
+    },
+    {
+      "name": "msvc",
+      "displayName": "Visual Studio 2026 (cl.exe)",
+      "generator": "Visual Studio 18 2026",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/.build-msvc"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "clang",
+      "configurePreset": "clang"
+    },
+    {
+      "name": "clang-trace",
+      "configurePreset": "clang-trace"
+    },
+    {
+      "name": "clang-diag",
+      "configurePreset": "clang-diag"
+    },
+    {
+      "name": "clang-tracer",
+      "configurePreset": "clang-tracer"
+    },
+    {
+      "name": "mingw",
+      "configurePreset": "mingw"
+    },
+    {
+      "name": "mingw-trace",
+      "configurePreset": "mingw-trace"
+    },
+    {
+      "name": "msvc",
+      "configurePreset": "msvc",
+      "configuration": "Release"
+    }
+  ]
+}

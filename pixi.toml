@@ -24,23 +24,18 @@ libgcc = "13.2.0.*"
 libstdcxx = "13.2.0.*"
 
 [feature.build.tasks.configure]
-cmd = [
-  "cmake",
-  "-GNinja",
-  "-S.",
-  "-B.build",
-]
+cmd = ["cmake", "--preset", "mingw"]
 # conda-forge's gcc_win-64 only ships .sh activation scripts, so pixi never
 # exports CC/CXX on Windows. Point CMake at the MinGW compilers directly.
 env = {
   CC = "x86_64-w64-mingw32-gcc.exe",
   CXX = "x86_64-w64-mingw32-g++.exe",
 }
-inputs = ["CMakeLists.txt"]
+inputs = ["CMakeLists.txt", "CMakePresets.json"]
 outputs = [".build/CMakeFiles/"]
 
 [feature.build.tasks.build]
-cmd = ["cmake", "--build", ".build"]
+cmd = ["cmake", "--build", "--preset", "mingw"]
 depends-on = ["configure"]
 inputs = ["CMakeLists.txt", "src/*", "okami.ini"]
 outputs = [".build/bin/dinput8*"]

@@ -1,0 +1,1 @@
+stock | 19C380: when the array entry is nonnull and the age test matches, +12 is incremented and immediately decremented on the same pointer with no intervening call or use; its value after the pair is unchanged | 19C3F2 19C402

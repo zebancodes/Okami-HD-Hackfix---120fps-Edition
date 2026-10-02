@@ -1,0 +1,2 @@
+stock | UI companion placement helper 499DD0: E10/E54/E18 are rebuilt by 1BE000 from a fresh rotation each call, then translated by the actor position minus its stored reference position; these additions place the result in world coordinates | 499EB1 499ED5 499EF9
+once | UI sub-screen stage helper 415C50: +9A advances from state zero after the stage-entry sound and callback; +99 advances after state two is completed, resets +9A to zero, and pushes the saved row | 415CA4 415D0C

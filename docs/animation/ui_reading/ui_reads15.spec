@@ -1,0 +1,2 @@
+stock | UI global save/restore helpers 1B1F90/1B1FB0/1B1FD0/1B2020: these fields are stack depths for the global color/alpha override arrays; each increment or decrement indexes the next saved slot immediately | 1B1F90 1B1FB0 1B1FD7 1B2026
+fixed | UI element helpers 1B2530/1B26E0/1B2840/1B2940: their individual +8E/+88/+8C/+8A frame counters now increment only on stock ticks | 1B2587 1B2736 1B2897 1B2997

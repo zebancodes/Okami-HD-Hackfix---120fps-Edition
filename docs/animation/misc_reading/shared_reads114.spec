@@ -1,0 +1,5 @@
+stock | 5898F0 counts scripted event requests: 38 is the total, 3C and 40 are category totals used to choose alternate message IDs for the first two occurrences. Each invocation installs the requested message sequence; these totals count requests rather than elapsed ticks. | 58996D 589994 589997
+once | 48FAA0 increments inner phase 159 only on phase-zero setup. E0 counts failed completed attempts only after 48D710 reports completion, then the 156 dispatcher state is changed to 202 or 3. | 48FC5D 48FCE1
+once | Scene teardown increments B661D1 from phase zero after setup and from phase two only after every resource readiness check succeeds. The empty phase-three/four barriers are separately paced. | 49415F
+stock | Script callback 4F3CA0 counts attempts at the scripted action; the count chooses first-three versus later message IDs and initializes the player's motion afresh. Data pointer 7B43E0 selects the callback, not a frame clock. | 4F3CD1
+once | 491800 changes dialogue phase 159 from one to two only after the request completion byte 1A becomes nonzero, then starts the next dialogue request. | 491851

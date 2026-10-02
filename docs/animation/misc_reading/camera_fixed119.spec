@@ -1,0 +1,3 @@
+stock | Two-player camera 477130 computes the fresh player midpoint minus the previous view, then adds that offset to view and eye together; view becomes the current midpoint and the relative eye offset is preserved. This is a geometry translation, independent of elapsed time. | 4772F6 47730A 47730F 477326 47732E 477336
+fixed | Whole-function cadence gate 476030 paces each coupled camera shake amplitude, phase, wrap, and duration; all callers discard its result. | 476059 476079 476081 4760A4 4760C4 4760CC
+fixed | Shared capped approach weight at 477CE9 is compounded once and reused by all six eye/view coordinates and field of view; the byte ramp at 477CC1 is paced separately. | 477D20 477D41 477D65 477D83 477DA4 477DC8 477DE4

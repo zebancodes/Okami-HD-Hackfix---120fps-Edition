@@ -1,0 +1,1 @@
+stock | 3FA2F0: +16C +17C and +180 are cleared at function entry, then these five checks tally matching records into those fields during this one pass; the increments and sums are counts of records, not elapsed ticks | 3FA3DE 3FA42C 3FA433 3FA44A 3FA498 3FA49F 3FA4B6 3FA506 3FA50D 3FA524 3FA576 3FA57D 3FA590 3FA5D6 3FA5DD

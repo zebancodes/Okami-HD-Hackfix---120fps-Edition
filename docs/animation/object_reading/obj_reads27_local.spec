@@ -1,0 +1,6 @@
+once | ut51 21D230: +10F0 counts a hit in idle/active phases only after E58 bit 25 is set. The branch switches E35 to phase two and clears bit 25 before returning to dispatch, so one hit is recorded per flag event. | 21D2CD
+once | utbb 22C000/22C1A0/22C2F0: +E36 advances from zero to one only in the initial motion setup branch. Subsequent updates enter phase one directly. | 22C0A0 22C267 22C362
+once | utcb 22F230: detection of the selected story trigger advances +E36 out of the zero phase, saves the trigger index and starts a five-tick wait. Both parent dispatchers call this helper only in phase zero. | 22F2E3
+stock | et26 61FB30: +B8 is reloaded from the attached parent's Euler angle by cVec assignment at 61FB72, then +114C is added as a fixed orientation offset. It does not accumulate from the child's preceding frame. | 61FB88
+once | ut3f 5572C0: +10E0 is the remaining count of scripted actions. It decrements after model-motion completion and immediately changes +E35 from phase three to zero or six. | 5573FF
+fixed | gtff: identical physical update 2FEAF0 is already patched by memory_timers.h for the unattributed copy of the inventory row. Its counter reaches zero and immediately changes E35 out of phase one before another update can replay completion. | 2FEAF0

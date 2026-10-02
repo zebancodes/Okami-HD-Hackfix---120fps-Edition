@@ -1,0 +1,14 @@
+what,where,evidence
+clock,main+B20830,"adder main+4AED90: mov r8d,[clock]; add r8d,edx; store; imul 1800000"
+day counter,main+B20834,inc word in the adder on a day boundary
+controller,main+B6A9B0,lea rcx before the dispatcher's call main+4BA589
+dispatcher call,main+4BA589,only reference to the thunk main+4AF770
+update,main+4AF780,only reference: the thunk's jmp
+advance,main+4AF800,only reference: tail jump main+4AF7F2; adder call main+4AF8D3; delay +0x34 at main+4AF8C0; step 100 at main+4AF8CB
+transition,main+4AF910,"only reference: tail jump main+4AF7E8; adder call main+4AF9AF; delay +0x34 at main+4AF98F; count +0x28 (dec main+4AF9B9), target +0x24"
+requested jump,main+4AF7CD,"the update's one call, to the setter main+4AFBE0 (stores edx to the clock) when +0x30 is set, time +0x2C; flags dead at the setter"
+time-lapse,main+4B0010,"loop setting +0x30 and +0x2C each pass, waiting through main+4567C0; lerps on the playhead main+B66528, leaves on bit 1 of main+B66574"
+time-lapse,main+4B0190,"loop setting +0x30 and +0x2C each pass, waiting through main+4567C0; lerps on the playhead main+B66528, leaves on bit 1 of main+B66574"
+time-lapse,main+4B0430,"loop setting +0x30 and +0x2C each pass, waiting through main+4567C0; lerps on its own count (inc; cmp; jl)"
+time-lapse,main+4B0550,"loop setting +0x30 and +0x2C each pass, waiting through main+4567C0; lerps on the playhead main+B66528, leaves on bit 1 of main+B66574"
+event player,main+B661E0,"integrator main+476A16: +0x348 += mode * [+0x2D4] * 0.5, done bit 2 in +0x394; start main+481A10 (called after lea rcx at main+134DF1)"

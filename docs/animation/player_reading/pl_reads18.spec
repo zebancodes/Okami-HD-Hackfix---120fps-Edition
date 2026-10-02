@@ -1,0 +1,5 @@
+stock | pl00 states 6-8 (3B6090/3B6630/3B6BF0): +B8 damping uses port mode table 7A8240, already rewritten for the current rate by mode_constants.h | 3B60C0 3B6670 3B6C30
+stock | pl00 states 6-8 (3B6090/3B6630/3B6BF0): +EC0/+EC8 are fresh root-motion components already produced for the current-rate motion step; branch factors 0.6 (state 6) or 0.8 (states 7/8), followed by 0.2 on the other condition, spatially shape that one step immediately before 2DA3D0 applies it and are not persistent decay | 3B629E 3B62B6 3B62DA 3B62F2 3B6853 3B685B 3B687F 3B6897 3B6E1A 3B6E22 3B6E46 3B6E5E
+once | pl00 state 48 (3C70C0, state-start path): the 30-degree 2DDF90 turn runs only while +E36 is zero and the same path sets +E36 to 1 | 3C71CB
+fixed | pl00 state 48 (3C70C0, continuous path): +B4's 8-degree per-tick turn limit is s-scaled at the 2DDF90 call 3C72F9 | 3C731F
+stock | pl00 state 48 (3C70C0): position.x/z gain the rotated +10E8 step, already a current-rate displacement through mode table 7A81B8 and the existing kStickDriftSites correction | 3C732B 3C7340

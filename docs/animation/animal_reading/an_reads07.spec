@@ -1,0 +1,2 @@
+# Each store follows a call to main+2DA510, a converter audited in turn_callers.csv.
+fixed | Animal heading approach: each angle store takes the result of its immediately preceding FixTurnRate call, whose per-tick blend is converted at entry and whose caller is audited in turn_callers.csv | 1D73FF 1D791E 1DA882 1DAD9A 1DEB47 1DEFD2 1E218F 1E267D 1E6243 1F3FCB 1F8CD1 1FC1AA 1FC6E7 1FFB8A 20005C 205CB2 205CCF 48616A 4868EA 48782B 48783C 487898 4884FB

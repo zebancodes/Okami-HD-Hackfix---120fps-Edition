@@ -1,0 +1,3 @@
+stock | 20C9D0 wraps each existing submodel Euler angle without adding any phase; the original angle is loaded and passed directly to 13F2E0, so this is normalization rather than a clock | 20CA50 20CA65 20CA83
+once | utcb 22F820 reaches the target height and increments E36 from phase two to phase three; both dispatchers 22F1C0 and the separate 22F600 leaf dispatch this helper only in phase two, so reaching either height branch exits that phase | 22F8CF 22F8F1
+stock | utd7 230E20 writes a sampled player position into its sixty-entry path ring only after the player has moved more than one unit from the preceding sample, then advances and wraps the index; this counts accepted spatial samples rather than elapsed updates | 230F35

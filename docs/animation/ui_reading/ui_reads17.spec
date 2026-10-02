@@ -1,0 +1,3 @@
+once | HUD widgets cCockCombo/cCockEmLifeGauge/cCockLoading: each sprite Y offset changes once when the global mode byte differs from the widget's cached copy, then the copy is updated | 3FAA23 3FAA40 3FC12F 3FC14C 400824 400846
+fixed | cCockSgStmcGauge and cCockStomachGauge: one scaled 0.5 angle step advances both +68 and +6C phases in each helper, retaining their angle thresholds | 405EF8 405F21 407188 4071B1
+fixed | UI opening drop 415B30: menu_transitions.h already gates the complete +90 acceleration and +8C displacement helper on stock UI ticks; the distant sites escaped the coverage report's eight-byte check | 415BB3 415BCA

@@ -1,0 +1,3 @@
+once | an00 1D63F0: in its two motion-start branches, the random heading is written to +B4 before an optional sign reversal and addition of the parent heading; +E37 guards reinitialization and motion advance handles subsequent ticks | 1D668A 1D66A7 1D6787 1D67A4
+once | an01 1D9770 is the sibling motion-start state machine: it writes a fresh random heading to +B4 before optional sign reversal and addition of the parent heading in both branches, with +E37 guarding reinitialization | 1D9A0A 1D9A27 1D9B07 1D9B24
+once | an06/an08 1E11B0 is the sibling motion-start state machine: it writes a fresh random heading to +B4 before optional sign reversal and addition of the parent heading in both branches, with +E37 guarding reinitialization | 1E147D 1E149A 1E15AD 1E15CA

@@ -1,0 +1,6 @@
+stock | 40BFF0 input handler: +AA and +AB are bounded row/column selection indices in a five-by-three grid; arrow actions move them and the bounded reverse scan skips disabled cells | 40C0C3 40C197 40C27F 40C2F7 40C400
+stock | 440DE0 input handler: +8A is the list offset and +8B the visible selected row, clamped to the item count +88 and displayed-row count +89; they advance only on directional actions | 440E7C 440E8A 44109F 4410AA 441114
+once | 1617F0 gallery state two: add the initial layout offset to all seven gallery images after initializing their positions and starting the transition; +3A immediately becomes three | 161BDD 161BF9 161C15 161C31 161C4D 161C69 161C7C
+stock | 1617F0 gallery: +54 is a zero-through-two action selection state changed by the JOY action mask; an unavailable choice advances it again immediately, without a timed wait | 1620AC 1620F7
+stock | 160D80 gallery: +55 names the selected artwork and advances when continuous scroll crosses the item extent; it controls the filename/table index and is not an autonomous timer | 1612A1 161490
+stock | 453F30: +354 counts streamed-audio loops when the sample playhead read through 451640/009724 crosses the stream's next loop boundary; duration and position are derived from backend samples and sample rate, not update count | 454013

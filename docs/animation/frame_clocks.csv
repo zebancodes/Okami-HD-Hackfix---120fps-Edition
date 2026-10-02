@@ -1,0 +1,134 @@
+site,function,instruction,class,slot,evidence
+148B25,148A40,"mov eax, dword ptr [rip + 0xa220f5]",covered,,frame_phases.h
+14CED0,14CA40,"mov eax, dword ptr [rip + 0xa1dd4a]",covered,,frame_phases.h
+1553D2,155342,"mov eax, dword ptr [rip + 0xa15848]",covered,,frame_phases.h
+157ED6,157B20,"mov eax, dword ptr [rip + 0xa12d44]",covered,,frame_phases.h
+159E37,159DAB,"mov eax, dword ptr [rip + 0xa10de3]",covered,,frame_phases.h
+15CABC,15C8B1,"mov eax, dword ptr [rip + 0xa0e15e]",covered,,frame_phases.h
+15E9D4,15E95A,"mov eax, dword ptr [rip + 0xa0c246]",covered,,frame_phases.h
+16074A,160506,"mov eax, dword ptr [rip + 0xa0a4d0]",retarget S,S,"phase: callarg 1, cvt 1, div 1, op 1"
+1607AA,160506,"mov eax, dword ptr [rip + 0xa0a470]",retarget S,S,"phase: callarg 1, cvt 1, div 1, op 1"
+18E217,18E1A0,"mov eax, dword ptr [rip + 0x9dca03]",debug divider,,"counter % main+978F50, which nothing writes (a stripped debug divider that is always 0 and skipped)"
+1A3CE1,1A3CC4,"mov eax, dword ptr [rip + 0x9c6f39]",snapshot,,"compared with a stored copy at 1A3CED and stored: 'already ran this frame' (flag 1, op 1, store 1)"
+1AC262,1AC250,"mov eax, dword ptr [rip + 0x9be9b8]",snapshot,,"compared with a stored copy at 1AC26B and stored: 'already ran this frame' (flag 1, op 1, store 1)"
+1B2AB5,1B2AAE,"mov eax, dword ptr [rip + 0x9b8165]",mode parity (F6),,"(counter & 1) in mode 1 only: the layout flipbook's parity gate, family F6 (flag 1, op 2)"
+1B5430,1B5380,"movzx eax, byte ptr [rip + 0x9b57e9]",mode parity (F6),,"(counter & 1) in mode 1 only: the layout flipbook's parity gate, family F6 (op 1, store 1)"
+1C587C,1C5870,"mov eax, dword ptr [rip + 0x9a539e]",covered,,frame_phases.h
+1CD651,1CD64D,"mov ebx, dword ptr [rip + 0x99d5c9]",retarget S,S,"cycle: (counter >> s) & m at 1CD6A1/1CD6A4, then flag 12, op 16"
+1CDD96,1CDD1F,"mov esi, dword ptr [rip + 0x99ce84]",retarget S,S,"cycle: (counter >> s) & m at 1CDDBF/1CDDC2, then flag 3, index 2, op 7"
+20C2C2,20C240,"movzx eax, word ptr [rip + 0x95e957]",retarget S,S,phase: cvt 1
+211212,2111D0,"mov eax, dword ptr [rip + 0x959a08]",retarget S,S,"phase: cvt 1, op 1"
+2119F5,2119A0,"test byte ptr [rip + 0x959224], 1",covered,,frame_gates.h
+22E335,22E320,"test byte ptr [rip + 0x93c8e4], 1",widen,,"test [counter], 0x1 -> jne at 22E33F (a gate every 2 ticks)"
+232070,232000,"test byte ptr [rip + 0x938ba9], 7",covered,,frame_gates.h
+287892,287830,"test byte ptr [rip + 0x8e3387], 1",covered,,frame_gates.h
+287AA4,287A50,"test byte ptr [rip + 0x8e3175], 1",covered,,frame_gates.h
+287B8E,287B60,"test byte ptr [rip + 0x8e308b], 1",covered,,frame_gates.h
+2BD8AE,2BD880,"lea r12, [rip + 0x8ad36b]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+2E3152,2E2FA0,"add eax, dword ptr [rip + 0x887ac8]",widen,,"value -> test al, 0x7 -> jne at 2E315A (a gate every 8 ticks)"
+2E318D,2E2FA0,"add eax, dword ptr [rip + 0x887a8d]",widen,,"value -> test al, 0xF -> jne at 2E3195 (a gate every 16 ticks)"
+2F1974,2F1909,"test byte ptr [rip + 0x8792a5], 7",covered,,frame_gates.h
+3406CB,3404E4,"mov ecx, dword ptr [rip + 0x82a54f]",covered,,frame_phases.h
+34075C,3404E4,"mov ecx, dword ptr [rip + 0x82a4be]",retarget S,S,"phase: callarg 1, cvt 1, op 9"
+3407CC,3404E4,"mov ecx, dword ptr [rip + 0x82a44e]",retarget S,S,"phase: callarg 1, cvt 1, op 9"
+341CA0,341BE0,"mov ecx, dword ptr [rip + 0x828f7a]",covered,,frame_phases.h
+34216F,341F10,"mov ecx, dword ptr [rip + 0x828aab]",covered,,frame_phases.h
+3424DD,34246C,"mov ecx, dword ptr [rip + 0x82873d]",covered,,frame_phases.h
+35B2C8,35B1E0,"mov eax, dword ptr [rip + 0x80f952]",writer,,read-increment-store of the counter (objScroll's init bump)
+35B2D2,35B1E0,"mov dword ptr [rip + 0x80f948], eax",writer,,writes the counter (objScroll's init bumps it by one and back around a loop that does not read it)
+35B2FD,35B1E0,"mov eax, dword ptr [rip + 0x80f91d]",writer,,read-increment-store of the counter (objScroll's init bump)
+35B308,35B1E0,"mov dword ptr [rip + 0x80f912], eax",writer,,writes the counter (objScroll's init bumps it by one and back around a loop that does not read it)
+35C02A,35BEA4,"mov eax, dword ptr [rip + 0x80ebf0]",retarget S,S,"phase: callarg 1, cvt 1, op 1"
+35CAC6,35CAC0,"mov r8d, dword ptr [rip + 0x80e153]",retarget S,S,"phase: callarg 1, cvt 1, op 9"
+35D6FA,35D635,"mov ecx, dword ptr [rip + 0x80d520]",retarget S,S,"phase: callarg 1, cvt 1, op 5"
+35D7AD,35D635,"mov ecx, dword ptr [rip + 0x80d46d]",retarget S,S,"phase: callarg 1, cvt 1, op 6"
+360491,360470,"test byte ptr [rip + 0x80a788], 1",covered,,frame_gates.h
+36541E,36537F,"mov edi, dword ptr [rip + 0x8057fc]",covered,,frame_phases.h
+365727,3656A7,"mov edi, dword ptr [rip + 0x8054f3]",covered,,frame_phases.h
+365FCE,365F2F,"mov edi, dword ptr [rip + 0x804c4c]",covered,,frame_phases.h
+36626E,3661CF,"mov edi, dword ptr [rip + 0x8049ac]",covered,,frame_phases.h
+36E1C7,36E147,"mov edi, dword ptr [rip + 0x7fca53]",covered,,frame_phases.h
+37186C,37177B,"mov edi, dword ptr [rip + 0x7f93ae]",covered,,frame_phases.h
+37294E,3728AF,"mov edi, dword ptr [rip + 0x7f82cc]",covered,,frame_phases.h
+3730DE,37303F,"mov edi, dword ptr [rip + 0x7f7b3c]",covered,,frame_phases.h
+3A2CC9,3A2C70,"test byte ptr [rip + 0x7c7f50], 0xf",covered,,frame_gates.h
+3A3606,3A355F,"test byte ptr [rip + 0x7c7613], 0xf",covered,,frame_gates.h
+3A3847,3A355F,"test byte ptr [rip + 0x7c73d2], 0xf",covered,,frame_gates.h
+3A3C30,3A3A60,"test byte ptr [rip + 0x7c6fe9], 0xf",covered,,frame_gates.h
+3A3CBA,3A3CA0,"test byte ptr [rip + 0x7c6f5f], 1",widen,,"test [counter], 0x1 -> jne at 3A3CC4 (a gate every 2 ticks)"
+3A5BD1,3A5B50,"test byte ptr [rip + 0x7c5048], 0xf",covered,,frame_gates.h
+3A6BF1,3A6B70,"test byte ptr [rip + 0x7c4028], 0xf",covered,,frame_gates.h
+3A7511,3A7490,"test byte ptr [rip + 0x7c3708], 0xf",covered,,frame_gates.h
+3A820A,3A810A,"mov r8d, dword ptr [rip + 0x7c2a0f]",covered,,frame_phases.h
+3A8509,3A8409,"test byte ptr [rip + 0x7c2710], 0xf",covered,,frame_gates.h
+3AA391,3A9B8C,"test byte ptr [rip + 0x7c0888], 3",covered,,frame_gates.h
+3AA4BB,3A9B8C,"test byte ptr [rip + 0x7c075e], 7",covered,,frame_gates.h
+3AAA26,3A9B8C,"test byte ptr [rip + 0x7c01f3], 1",covered,,frame_gates.h
+3AC30F,3AC0A8,"test byte ptr [rip + 0x7be90a], 1",covered,,frame_gates.h
+3B1E3B,3B1916,"test byte ptr [rip + 0x7b8dde], 0xf",covered,,frame_gates.h
+3B1F88,3B1916,"test byte ptr [rip + 0x7b8c91], 0xf",covered,,frame_gates.h
+3B230E,3B21F3,mul dword ptr [rip + 0x7b890c],retarget H,"H(15,0)",x % 15 == 0: jne at 3B2320 falls through (measured over 2160 values)
+3B231A,3B21F3,"cmp dword ptr [rip + 0x7b8900], eax",retarget H,"H(15,0)",second read of the modulo gate at 3B230E: x % 15 == 0: jne at 3B2320 falls through (measured over 2160 values)
+3B325F,3B2D55,"test byte ptr [rip + 0x7b79ba], 7",covered,,frame_gates.h
+3B35CD,3B2D55,"mov eax, dword ptr [rip + 0x7b764d]",widen,,"value -> test al, 0x7 -> jne at 3B35D5 (a gate every 8 ticks); on the other path the value also reaches a div by the fps byte, which widening the test does not touch"
+3B35E4,3B2D55,"mov eax, dword ptr [rip + 0x7b7636]",fps throttle,,"counter % (fps / 2): real time already (callarg 3, div 1, flag 1, op 3)"
+3B3926,3B2D55,"mov eax, dword ptr [rip + 0x7b72f4]",widen,,"value -> test al, 0x7 -> jne at 3B392E (a gate every 8 ticks); on the other path the value also reaches a div by the fps byte, which widening the test does not touch"
+3B393D,3B2D55,"mov eax, dword ptr [rip + 0x7b72dd]",fps throttle,,"counter % (fps / 2): real time already (callarg 3, div 1, flag 1, op 3)"
+3B5ABD,3B5789,"test byte ptr [rip + 0x7b515c], 3",covered,,frame_gates.h
+3B6004,3B6004,"test byte ptr [rip + 0x7b4c15], 3",covered,,frame_gates.h
+3B654F,3B654F,"test byte ptr [rip + 0x7b46ca], 3",covered,,frame_gates.h
+3B6B02,3B6B02,"test byte ptr [rip + 0x7b4117], 3",covered,,frame_gates.h
+3B70C2,3B70C2,"test byte ptr [rip + 0x7b3b57], 3",covered,,frame_gates.h
+3C3DA2,3C3C70,mul dword ptr [rip + 0x7a6e78],retarget H,"H(15,0)",x % 15 == 0: jne at 3C3DB4 falls through (measured over 2160 values)
+3C3DAE,3C3C70,"cmp dword ptr [rip + 0x7a6e6c], eax",retarget H,"H(15,0)",second read of the modulo gate at 3C3DA2: x % 15 == 0: jne at 3C3DB4 falls through (measured over 2160 values)
+3C41AD,3C3C70,mul dword ptr [rip + 0x7a6a6d],retarget H,"H(15,0)",x % 15 == 0: jne at 3C41BF falls through (measured over 2160 values)
+3C41B9,3C3C70,"cmp dword ptr [rip + 0x7a6a61], eax",retarget H,"H(15,0)",second read of the modulo gate at 3C41AD: x % 15 == 0: jne at 3C41BF falls through (measured over 2160 values)
+3C451E,3C43C0,mul dword ptr [rip + 0x7a66fc],retarget H,"H(15,0)",x % 15 == 0: jne at 3C4530 falls through (measured over 2160 values)
+3C452A,3C43C0,"cmp dword ptr [rip + 0x7a66f0], eax",retarget H,"H(15,0)",second read of the modulo gate at 3C451E: x % 15 == 0: jne at 3C4530 falls through (measured over 2160 values)
+3C46E9,3C43C0,"mov ecx, dword ptr [rip + 0x7a6531]",retarget H,"H(15,8)",x % 15 == 8: jne at 3C4701 falls through (measured over 2160 values)
+3CAFC4,3CAE60,"test byte ptr [rip + 0x79fc55], 7",covered,,frame_gates.h
+3D48E3,3D48DB,"mov esi, dword ptr [rip + 0x796337]",retarget H,"H(180,0)","mixed: screen wobble 3D4830: phases fc*2, fc*4 and a formula toggle"
+3D4AE5,3D4A40,"mov edi, dword ptr [rip + 0x796135]",retarget H,"H(360,0)",mixed: screen wobble 3D4A40 (one branch)
+3D4B19,3D4A40,"mov edi, dword ptr [rip + 0x796101]",retarget H,"H(360,0)",mixed: screen wobble 3D4A40 (other branch)
+3E6AB0,000000,"mov eax, dword ptr [rip + 0x78416a]",buffer parity,,"counter & 1 picks one of two per-frame buffers (flag 1, op 5)"
+3EA230,000000,"mov eax, dword ptr [rip + 0x7809ea]",buffer parity,,"counter & 1 picks one of two per-frame buffers (flag 1, op 5)"
+3EA270,000000,"mov eax, dword ptr [rip + 0x7809aa]",buffer parity,,"counter & 1 picks one of two per-frame buffers (flag 1, op 6)"
+3EA2B0,000000,"mov rcx, qword ptr [rip + 0x780969]",buffer parity,,"counter & 1 picks one of two per-frame buffers (op 6, return 1, store 2)"
+3EA2F0,000000,"mov rcx, qword ptr [rip + 0x780929]",buffer parity,,"counter & 1 picks one of two per-frame buffers (op 6, return 1, store 2)"
+3F2CB4,3F2C50,"lea rax, [rip + 0x777f65]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+4003E0,4003D6,"mov esi, dword ptr [rip + 0x76a83a]",retarget H,"H(10,0)",mixed: cCockLoading: loading-screen dots and rhythm window
+40B03C,40AFB4,"mov eax, dword ptr [rip + 0x75fbde]",covered,,frame_phases.h
+432D49,432B19,"mov eax, dword ptr [rip + 0x737ed1]",retarget S,S,"phase: callarg 1, cvt 1, div 1, op 1"
+432DA8,432B19,"mov eax, dword ptr [rip + 0x737e72]",retarget S,S,"phase: callarg 1, cvt 1, div 1, op 1"
+437120,000000,"mov eax, dword ptr [rip + 0x733afa]",retarget U,U,"elapsed-time family of main+B31984: return 1, sub_mem 1"
+437164,437130,"mov r8d, dword ptr [rip + 0x733ab5]",retarget U,U,"elapsed-time family of main+B31988: callarg 1, flag 1, op 1, sub_mem 1"
+437364,437360,"mov eax, dword ptr [rip + 0x7338b6]",retarget U,U,elapsed-time family of main+B31988: store 1
+4376F1,000000,"mov r9d, dword ptr [rip + 0x733528]",retarget U,U,"elapsed-time family of main+B31984,main+B31988: flag 1, op 2, store 1, sub_mem 1"
+4398AF,000000,"mov eax, dword ptr [rip + 0x73136b]",stamp,,stored to [rcx+0x30] and nothing else; no read of the counter subtracts it
+439D6A,439D60,"mov eax, dword ptr [rip + 0x730eb0]",stamp,,stored to [rcx+0x2C] and nothing else; no read of the counter subtracts it
+439E90,000000,"mov eax, dword ptr [rip + 0x730d8a]",stamp,,stored to [rcx+0x30] and nothing else; no read of the counter subtracts it
+4919DD,4919B0,"lea rdi, [rip + 0x6d923c]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+4A4113,4A4100,"lea rsi, [rip + 0x6c6b06]",address,,base of the flag block; r8 left over at a call to one-parameter FUN_180481b20 (gen_shadow_mode.py)
+4A42DE,4A4280,"lea rsi, [rip + 0x6c693b]",address,,base of the flag block; r8 left over at a tail jump to one-parameter FUN_1804561d0 (gen_shadow_mode.py)
+4A4BE5,4A4730,"lea rcx, [rip + 0x6c6034]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+4A509E,4A5081,"lea rsi, [rip + 0x6c5b7b]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+4B63ED,4B63B0,"lea r12, [rip + 0x6b482c]",address,,"flower_tick passes &frameCounter to GXPacket::update for its pacing callback 4B52B0, which reads [arg+0x25] (the mode byte), not the counter"
+4B651E,4B63B0,inc dword ptr [rip + 0x6b46fc],tick,,"flower_tick's own increment: the per-tick hook goes here; 6 bytes, nothing branches into it, rsp 16-aligned (the call at 4B652B)"
+4B6869,4B6850,"lea rcx, [rip + 0x6b43b0]",address,,"flower_startup's memset(&frameCounter, 0, 0x700) of the frame block (the counter restarts at 0; the counters here rebase when it runs backwards)"
+4CD7EE,4CD7A0,"mov ecx, dword ptr [rip + 0x69d42c]",retarget H,"H(90,0)",x % 90 == 0: jne at 4CD80B falls through (measured over 2160 values)
+4F1E81,4F194E,"test byte ptr [rip + 0x678d98], 7",covered,,frame_gates.h
+4F2184,4F194E,"test byte ptr [rip + 0x678a95], 7",covered,,frame_gates.h
+50B286,50B27B,"lea rdi, [rip + 0x65f993]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+50B97A,50B8B0,"lea rbx, [rip + 0x65f29f]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond
+551CEA,551CE0,"mov eax, dword ptr [rip + 0x618f30]",snapshot,,"compared with a stored copy at 551CF3 and stored: 'already ran this frame' (flag 1, op 2, store 1)"
+551D56,551D50,"mov eax, dword ptr [rip + 0x618ec4]",snapshot,,"compared with a stored copy at 551D5F and stored: 'already ran this frame' (flag 1, op 1, return 2, store 1)"
+551E36,551E18,"mov eax, dword ptr [rip + 0x618de4]",snapshot,,"compared with a stored copy at 551E3C and stored: 'already ran this frame' (flag 1, op 1, store 1)"
+55763D,5572C0,"test byte ptr [rip + 0x6135dc], 0x3f",widen,,"test [counter], 0x3F -> jne at 557656 (a gate every 64 ticks)"
+557646,5572C0,"test byte ptr [rip + 0x6135d3], 0x1f",widen,,"test [counter], 0x1F -> jne at 557656 (a gate every 32 ticks)"
+55764F,5572C0,"test byte ptr [rip + 0x6135ca], 0xf",covered,,frame_gates.h
+5EB5F8,5EB440,mul dword ptr [rip + 0x57f622],retarget H,"H(60,0)",x % 60 == 0: jne at 5EB60A falls through (measured over 2160 values)
+5EB604,5EB440,"cmp dword ptr [rip + 0x57f616], eax",retarget H,"H(60,0)",second read of the modulo gate at 5EB5F8: x % 60 == 0: jne at 5EB60A falls through (measured over 2160 values)
+5F09F8,5F08E0,"test byte ptr [rip + 0x57a221], 3",covered,,frame_gates.h
+5F1868,5F1750,"test byte ptr [rip + 0x5793b1], 3",covered,,frame_gates.h
+5F68AB,5F66DA,"test byte ptr [rip + 0x57436e], 1",widen,,"test [counter], 0x1 -> jne at 5F68C2 (a gate every 2 ticks)"
+66F1A0,000000,"lea rcx, [rip + 0x4fba79]",address,,base of the flag block after the counter: every dereference is at +0x680 or beyond

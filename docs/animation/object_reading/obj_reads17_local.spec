@@ -1,0 +1,2 @@
+once | 33C290 +E54 is a one-time impulse in state one which immediately becomes state two; +E10/+E18 multiplication and +E20/+E28 additions occur only in state zero after it sets +E36 to one and derive the initial horizontal impulse from the owner's submodel and heading | 33C305 33C527 33C53B 33C543 33C54B
+stock | 229060 adds the result of 2294A0 to +1190; that helper multiplies the computed displacement magnitude by zero before dividing by C0, so this term has no temporal advancement | 2290B4

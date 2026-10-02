@@ -1,0 +1,2 @@
+fixed | pl00 ground offsets (3A75C0): +10A0/+10A8/+10A4 approach the rotated +E48 target with rate-correct blend factors (blend 3A766F, 3A7695, 3A76C4, 3A76EA, 3A7716) | 3A7683 3A76A1 3A76D8 3A76F6 3A7722
+stock | pl00 ground offsets (3A75C0): +10A0/+10A8 are per-tick displacements at the current rate because their target is rotated +E48, which already carries timeScale; adding them, or 0.1 of them, straight to the transform needs no second scale | 3A7788 3A77A8 3A77CC 3A77E4 3A783B 3A7857

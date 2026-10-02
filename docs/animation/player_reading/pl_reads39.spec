@@ -1,0 +1,1 @@
+fixed | pl00 update (3A9630): after a lock-on change resets +1140 to 1, its 0.97-per-update fade is now converted to 0.97^s by the narrowly opted-in decay_factors.h site 3AAE2C; the long load-to-store path remains the same | 3AAE43

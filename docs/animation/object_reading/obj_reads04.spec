@@ -1,0 +1,1 @@
+fixed | cBallObj update 33BB20: the ulast row at 33C0F4 changes the shared +1128 factor to 1 between stock-period ends; the movaps at 33C101 copies it to xmm3, and the two mulss instructions at 33C10B and 33C117 therefore leave +E20/+E28 unchanged between stock ticks and apply drag to both after their final move | 33C11F 33C12E

@@ -1,0 +1,1 @@
+once | Animal slot-36 action starters: E10 and E18 are multiplied by 3, 4 or 5 once for a new movement stage, and the same branch increments +E36 so it cannot repeat that multiplier on the next tick | 1D58DA 1D58FC 1D8BFD 1D8C15 1E082D 1E0845 1E9C2A 1E9C4C 1ED07A 1ED09C 1EF841 1EF859 1F08D9 1F08F1 1FA464 1FA47C 1FDDC4 1FDDDC 1FE39D 1FE3B5

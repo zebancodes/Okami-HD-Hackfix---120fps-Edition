@@ -1,0 +1,3 @@
+fixed | Camera mode 4797A0: +1D0 and +200 approach by the constants 0.2 and 0.1 (blend rows 47983D, 479A1B); the yaw and pitch steps from 9C8718/9C8714 are dst rows 479C99 and 479D2A; the wraps follow. | 479849 479A27 479CB1 479D46
+fixed | Camera mode 4797A0: +1FC approaches by the 7A82C0 mode-table value minus one, which mode_constants.h rewrites for the running rate. | 479A06
+follows | Camera modes 4697B0/46A090/46BCD0/46C370: yaw and pitch are recomputed from the eye and view points (atan2) and wrapped to +-pi; the wrap adds or removes whole turns. | 469D40 469D87 46A699 46A6AE 46C043 46C08A 46C8E8 46C902
