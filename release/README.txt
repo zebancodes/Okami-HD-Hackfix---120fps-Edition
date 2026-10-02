@@ -1,4 +1,4 @@
-Okami HD High-FPS Patch 1.0.0
+Okami HD High-FPS Patch 1.0.1
 =============================
 
 Runs the Steam version of Okami HD at 60 or 120 fps instead of its fixed
@@ -26,24 +26,24 @@ setting; the patch works the same without it.
 In game
 -------
 
-F9 cycles the frame rate: 30 -> 60 -> 120 -> 30. A notice shows the new
-rate for a moment. The game starts at the rate you last picked; the patch
-saves it in okami_hackfix.ini, which it creates in the game folder if it is
-not there.
+The game starts at 120 fps. F9 cycles the frame rate: 30 -> 60 -> 120 ->
+30. A notice shows the new rate for a moment. After that the game starts at
+the rate you last picked; the patch saves it in okami_hackfix.ini, which it
+creates in the game folder if it is not there.
 
 30 fps is the game as shipped.
 
 Pick a rate your PC can hold steadily. The game advances one step per frame,
 so if it drops below the rate you picked, the whole game runs in slow
-motion (at 120, 90 fps is 75% speed). If that happens, press F9 to go down
-a step.
+motion (at 120, 90 fps is 75% speed). If that happens, press F9 for a
+lower rate: from 120, one press gives 30 and a second press 60.
 
 - Turn off frame generation (for example NVIDIA Smooth Motion) and any frame
   limiter set below the rate you picked. Either one slows the game down.
 - A G-Sync / FreeSync / VRR display gives the smoothest result. 120 fps
   needs a display that refreshes at 120 Hz or more to look smooth.
 - 120 is only offered when the game's code matches what the patch expects.
-  Otherwise F9 switches between 30 and 60.
+  Otherwise the game starts at 60 and F9 switches between 30 and 60.
 
 
 Settings (okami_hackfix.ini)
@@ -51,7 +51,8 @@ Settings (okami_hackfix.ini)
 
 The file in this zip lists the settings, with their defaults:
 
-  DefaultFps     the rate the game starts at: 30, 60 or 120 (F9 updates it)
+  DefaultFps     the rate the game starts at: 30, 60 or 120 (default 120;
+                 F9 updates it)
   ToggleKey      the key that cycles the rate (F9; None turns it off)
   RequireFocus   the key only works while the game window is in front
   Beep           a system beep when the rate changes

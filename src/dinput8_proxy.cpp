@@ -46,7 +46,7 @@
 #include <cstring>
 #include <initializer_list>
 
-#define OKAMI_HACKFIX_VERSION "1.0.0"
+#define OKAMI_HACKFIX_VERSION "1.0.1"
 
 static bool readableRange(const void* p, size_t n);  // defined with the probes
 static uint8_t* allocNear(uint8_t* nearTo, size_t size);  // defined with the patch helpers
@@ -247,7 +247,7 @@ struct Config {
     bool iniFound = false;
     bool iniLegacy = false;     // the config came from okami.ini
     bool developer = false;     // A/B keys, harness, watches, status lines
-    int defaultFps = 60;        // 30, 60 or 120 (the rate the game starts at)
+    int defaultFps = 120;       // 30, 60 or 120 (the rate the game starts at)
     UINT toggleVk = VK_F9;      // 0 = disabled
     char toggleName[32] = "F9";
     bool requireFocus = true;
@@ -441,8 +441,8 @@ static void loadConfig() {
     logf("config: %s%s, Developer=%d", ini, g_cfg.iniLegacy ? " (the development-era name)" : "",
          (int)g_cfg.developer);
     {
-        int fps = GetPrivateProfileIntA(sec, "DefaultFps", 60, ini);
-        g_cfg.defaultFps = fps == 30 ? 30 : fps == 120 ? 120 : 60;
+        int fps = GetPrivateProfileIntA(sec, "DefaultFps", 120, ini);
+        g_cfg.defaultFps = fps == 30 ? 30 : fps == 60 ? 60 : 120;
     }
     GetPrivateProfileStringA(sec, "ToggleKey", "F9", g_cfg.toggleName,
                              sizeof(g_cfg.toggleName), ini);

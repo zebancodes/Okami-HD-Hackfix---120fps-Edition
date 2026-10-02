@@ -12,6 +12,13 @@ Nothing on disk is changed. Made for Steam build 6990973.
 [release/README.txt](release/README.txt) covers settings, other mods and
 Steam Deck / Proton.
 
+**NOTICES:** if Microsoft Defender detects it as a virus, it is a false positive, you may need to restore the DLL if Defender quarantines it.
+The .ini also has some features that may not work, that are a side WIP, like draw distance etc...
+
+☕Like the work? Consider buying me a coffee! ko-fi.com/zebancodes ☕
+
+**Bugs:** If you happen to notice any bugs, please report them in the issues tab and I'll take a look when I can!
+
 ## Design strategy
 
 The engine has a 60 fps mode of its own, which the stock game uses briefly

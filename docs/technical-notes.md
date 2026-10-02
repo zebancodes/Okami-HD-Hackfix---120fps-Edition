@@ -1260,7 +1260,7 @@ Usage
    (the player's keys, `release/okami_hackfix.ini`), or the development-era
    `okami.ini` (every key, this folder's), read when `okami_hackfix.ini` is
    absent.
-2. Start the game from Steam. It boots at `DefaultFps` (60 by default) with
+2. Start the game from Steam. It boots at `DefaultFps` (120 by default) with
    every fix applied, and a notice at the top left shows the rate.
 3. **F9** cycles 30 -> 60 -> 120 -> 30 (120 only where `checkFpsImms` passes),
    with a notice and a beep each press. The choice is saved as `DefaultFps`
@@ -1299,7 +1299,7 @@ the defaults apply with `Developer=0`.
 | Key | Default | Meaning |
 |-----|---------|---------|
 | `Developer` | `0` (`1` in `okami.ini`) | The development features' defaults: the A/B keys F4..F8 and F10, the harness and F3, `BrushWatch`, `EnemyWatch`, `StatusInterval=5`. Each key below still overrides. |
-| `DefaultFps` | `60` | Rate the game starts at: `30` (stock), `60` or `120`. F9 saves it in `okami_hackfix.ini`. |
+| `DefaultFps` | `120` | Rate the game starts at: `30` (stock), `60` or `120` (60 where 120 is not offered). F9 saves it in `okami_hackfix.ini`. |
 | `ToggleKey` | `F9` | Hotkey: `F1`..`F24`, a letter/digit, `Home`, `End`, `Insert`, `Delete`, `Pause`, `ScrollLock`, `Numpad0`..`Numpad9`, a hex virtual-key code (`0x78`), or `None` to disable. |
 | `RequireFocus` | `1` | Only react to the hotkey while the game window is in the foreground. |
 | `Beep` | `1` | System beep on each switch. |
@@ -1660,6 +1660,11 @@ Project layout
 
 Changelog
 ---------
+
+**1.0.1**
+- The game starts at 120 fps by default (it was 60), with or without
+  `okami_hackfix.ini`; where 120 is not offered it starts at 60. A saved
+  `DefaultFps` still wins.
 
 **1.0.0** - the first public release.
 - 30, 60 and 120 fps, cycled in game with F9; the choice is kept for the next
